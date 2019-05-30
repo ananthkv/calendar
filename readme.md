@@ -1,4 +1,3 @@
 # Calendar
-Use link to subscribe:
-https://ananthkv.github.io/calendar/SampleCalendar.ics
+[Click here](https://ananthkv.github.io/calendar/SampleCalendar.ics) to subscribe/download calendar.
 
