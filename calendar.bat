@@ -8,3 +8,4 @@ git add SampleCalendar.ics calendar.bat readme.md
 git commit -m 'Commit-%RANDOM%'
 git push
 
+pause
