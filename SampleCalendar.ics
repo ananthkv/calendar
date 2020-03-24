@@ -54,65 +54,6 @@ TZOFFSETTO:+0200
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-ATTENDEE;CN="VC India-Bangalore-E4-TajMahal";CUTYPE=RESOURCE;ROLE=NON-PARTI
-	CIPANT;RSVP=TRUE:mailto:VC_India-Bangalore-E4-TajMahal@amat.com
-CATEGORIES:Calendar
-CLASS:PUBLIC
-CREATED:20191031T053741Z
-DESCRIPTION: \n\n
-DTEND;TZID="India Standard Time":20200324T143000
-DTSTAMP:20191031T053851Z
-DTSTART;TZID="India Standard Time":20200324T133000
-LAST-MODIFIED:20200323T134046Z
-LOCATION:VC India-Bangalore-E4-TajMahal
-ORGANIZER;CN="Ananth Venugopal":mailto:Ananth_Venugopal@amat.com
-PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=1;INTERVAL=3;BYDAY=TU;WKST=SU
-SEQUENCE:1
-SUMMARY;LANGUAGE=en-us:ProWiz Demo Room Booking
-TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E0080000000070E1E21FDB8FD501000000000000000
-	01000000090D598F164D35847957BEF9768A52E94
-X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
-	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
-	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
-	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv=Co
-	ntent-Type content="text/html\; charset=us-ascii"><meta name=Generator con
-	tent="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font Definition
-	s */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 
-	3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 2 4 3 
-	2 4\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, div.MsoNorma
-	l\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-size:11.0pt\;\n	font-fa
-	mily:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyperlink\n	{mso-style-pri
-	ority:99\;\n	color:#0563C1\;\n	text-decoration:underline\;}\na:visited\, s
-	pan.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n	color:#954F72\;\n	te
-	xt-decoration:underline\;}\np.msonormal0\, li.msonormal0\, div.msonormal0\
-	n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:auto\;\n	margin-right:0
-	in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;\n	font-size:11.0pt
-	\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.EmailStyle18\n	{mso-style-
-	type:personal-compose\;\n	font-family:"Calibri"\,sans-serif\;\n	color:wind
-	owtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	font-size:10.0
-	pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in 1.0in 1.0i
-	n 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></style><!--[if g
-	te mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />\n</xml><!
-	[endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:idmap
-	 v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]--></head><body 
-	lang=EN-US link="#0563C1" vlink="#954F72"><div class=WordSection1><p class
-	=MsoNormal><o:p>&nbsp\;</o:p></p></div></body></html>
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-APPTLASTSEQUENCE:9
-X-MS-OLK-APPTSEQTIME:20191031T053851Z
-X-MS-OLK-AUTOFILLLOCATION:TRUE
-X-MS-OLK-CONFTYPE:0
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 ATTENDEE;CN="PRV ProWiz Scrum Team";RSVP=TRUE:mailto:PRV.ProWiz.Scrum.Team@
 	amat.com
 ATTENDEE;CN="Ashutosh Chaurasia";RSVP=TRUE:mailto:Ashutosh_Chaurasia@amat.c
@@ -387,7 +328,7 @@ CATEGORIES:Holiday
 CLASS:PUBLIC
 CREATED:20200106T042928Z
 DTEND;VALUE=DATE:20200326
-DTSTAMP:20200324T025222Z
+DTSTAMP:20200324T045202Z
 DTSTART;VALUE=DATE:20200325
 LAST-MODIFIED:20200323T134030Z
 LOCATION:AMIND Holiday 2020
@@ -13733,6 +13674,10 @@ ATTENDEE;CN="Artyom Merkovich";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
 	PTED:mailto:Artyom_Merkovich@amat.com
 ATTENDEE;CN="Anna Smelyansky";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTA
 	TIVE:mailto:Anna_Smelyansky@amat.com
+ATTENDEE;CN="Gilad Kotler";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+	:mailto:Gilad_Kotler@amat.com
+ATTENDEE;CN="Eran Reuven";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:
+	mailto:Eran_Reuven@amat.com
 CLASS:PUBLIC
 CREATED:20200319T123456Z
 DESCRIPTION:Hi All\,\n\nIn this meeting I’d like to go over SLA (Service 
@@ -13779,7 +13724,7 @@ DESCRIPTION:Hi All\,\n\nIn this meeting I’d like to go over SLA (Service
 DTEND;TZID="Israel Standard Time":20200330T120000
 DTSTAMP:20200319T123447Z
 DTSTART;TZID="Israel Standard Time":20200330T110000
-LAST-MODIFIED:20200323T182343Z
+LAST-MODIFIED:20200324T021856Z
 LOCATION:WebEx
 ORGANIZER;CN="Maor Keinan":mailto:Maor_Keinan@amat.com
 PRIORITY:5
@@ -14001,7 +13946,7 @@ CLASS:PUBLIC
 CREATED:20200323T045326Z
 DESCRIPTION:Export Calendar \n\n
 DTEND;TZID="India Standard Time":20200324T102300
-DTSTAMP:20200324T025223Z
+DTSTAMP:20200324T045202Z
 DTSTART;TZID="India Standard Time":20200324T102300
 LAST-MODIFIED:20200323T193901Z
 PRIORITY:5
@@ -14303,7 +14248,7 @@ BEGIN:VEVENT
 CLASS:PUBLIC
 CREATED:20200323T045507Z
 DTEND:20200325T100000Z
-DTSTAMP:20200324T025223Z
+DTSTAMP:20200324T045202Z
 DTSTART:20200325T090000Z
 LAST-MODIFIED:20200323T173706Z
 PRIORITY:5
