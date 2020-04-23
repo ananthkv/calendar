@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
 METHOD:PUBLISH
-X-CALSTART:20200422T050100Z
-X-CALSTART:20200422T000000
-X-CALEND:20200430T080000Z
-X-CLIPSTART:20200421T183000Z
-X-CLIPEND:20200430T183000Z
+X-CALSTART:20200423T050000Z
+X-CALEND:20200501T080000Z
+X-CALEND:20200502T000000
+X-CLIPSTART:20200422T183000Z
+X-CLIPEND:20200501T183000Z
 X-WR-RELCALID:{0000002E-6E92-3A34-C16A-6DFCF7CB3C3E}
 X-WR-CALNAME:Ananth Venugopal Calendar
 X-PRIMARY-CALENDAR:TRUE
@@ -69,28 +69,6 @@ TZOFFSETTO:+0200
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CATEGORIES:Holiday
-CLASS:PUBLIC
-CREATED:20161104T070853Z
-DTEND;VALUE=DATE:20200423
-DTSTAMP:20200422T050000Z
-DTSTART;VALUE=DATE:20200422
-LAST-MODIFIED:20200422T013915Z
-LOCATION:United States
-PRIORITY:5
-SEQUENCE:0
-SUMMARY;LANGUAGE=en-us:Administrative Professionals Day
-TRANSP:TRANSPARENT
-UID:040000008200E00074C5B7101A82E008000000008069A3669836D201000000000000000
-	010000000339ED6859310D6438EDCE1A704A199A7
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-AUTOFILLLOCATION:FALSE
-X-MS-OLK-AUTOSTARTCHECK:FALSE
-X-MS-OLK-CONFTYPE:0
-END:VEVENT
-BEGIN:VEVENT
 ATTENDEE;CN="PRV ProWiz Scrum Team";RSVP=TRUE:mailto:PRV.ProWiz.Scrum.Team@
 	amat.com
 ATTENDEE;CN="Ananth Venugopal";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
@@ -152,7 +130,7 @@ DESCRIPTION:  \n-- Do not delete or change any of the following text. --
 DTEND;TZID="India Standard Time":20200429T143000
 DTSTAMP:20191031T052145Z
 DTSTART;TZID="India Standard Time":20200429T133000
-LAST-MODIFIED:20200422T013930Z
+LAST-MODIFIED:20200423T033837Z
 LOCATION:tbd
 ORGANIZER;CN="Suchitra Gupta":mailto:Suchitra_Gupta@amat.com
 PRIORITY:5
@@ -446,7 +424,7 @@ DESCRIPTION:  \n-- Do not delete or change any of the following text. --
 DTEND;TZID="Israel Standard Time":20200427T120000
 DTSTAMP:20200310T210039Z
 DTSTART;TZID="(UTC+02:00) Jerusalem":20200427T110000
-LAST-MODIFIED:20200422T013931Z
+LAST-MODIFIED:20200423T033838Z
 LOCATION:VC Israel-Rehovot-PDC3-Discovery4161(15) + WebEx
 ORGANIZER;CN="Maor Keinan":mailto:Maor_Keinan@amat.com
 PRIORITY:5
@@ -655,6 +633,28 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+CATEGORIES:Holiday
+CLASS:PUBLIC
+CREATED:20200106T042929Z
+DTEND;VALUE=DATE:20200502
+DTSTAMP:20200423T050226Z
+DTSTART;VALUE=DATE:20200501
+LAST-MODIFIED:20200423T033823Z
+LOCATION:AMIND Holiday 2020
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:May Day
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000E0004CF177C4D501000000000000000
+	01000000002AEEF9DB00FC54681488FB1F5924808
+X-MICROSOFT-CDO-BUSYSTATUS:OOF
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-AUTOSTARTCHECK:FALSE
+X-MS-OLK-CONFTYPE:0
+END:VEVENT
+BEGIN:VEVENT
 ATTENDEE;CN="Suchitra Gupta";RSVP=TRUE:mailto:Suchitra_Gupta@amat.com
 ATTENDEE;CN="Ananth Venugopal";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ananth_Ve
 	nugopal@amat.com
@@ -687,15 +687,15 @@ DESCRIPTION: \n\n__________________________________________________________
 	this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intende
 	d recipient\, please notify me\, delete this email and do not use or distr
 	ibute this email. \n\n
-DTEND;TZID="Unnamed Time Zone 1":20200420T113000
+DTEND;TZID="Unnamed Time Zone 1":20200427T113000
 DTSTAMP:20200416T113243Z
-DTSTART;TZID="India Standard Time":20200420T110000
-LAST-MODIFIED:20200422T013928Z
+DTSTART;TZID="India Standard Time":20200427T110000
+LAST-MODIFIED:20200423T033835Z
 LOCATION:Microsoft Teams Meeting 
 ORGANIZER;CN="Balaji Chithugnanamoorthy":mailto:Balaji_Chithugnanamoorthy@a
 	mat.com
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=2;BYDAY=MO
+RRULE:FREQ=WEEKLY;COUNT=1;BYDAY=MO
 SEQUENCE:9
 SUMMARY:ProWiz - Weekly Meeting
 TRANSP:OPAQUE
@@ -767,29 +767,6 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-CLASS:PUBLIC
-CREATED:20200420T105242Z
-DTEND:20200422T113000Z
-DTSTAMP:20200420T105214Z
-DTSTART:20200422T110000Z
-LAST-MODIFIED:20200422T013925Z
-LOCATION:Microsoft Teams Meeting 
-PRIORITY:5
-RECURRENCE-ID:20200420T053000Z
-SEQUENCE:13
-TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000D00331A358D7D501000000000000000
-	0100000006CD37D0689F97A489878F710CBEA0666
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MS-OLK-APPTSEQTIME:20200416T113243Z
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 ATTENDEE;CN="PDC PROVision Revenue SW";RSVP=TRUE:mailto:PDC-PROVision-Reven
 	ue-SW@amat.com
 ATTENDEE;CN="Eti Abel";RSVP=TRUE:mailto:Eti_Abel@amat.com
@@ -849,7 +826,7 @@ DESCRIPTION:Agenda:\n\n*	First hour pre-planning as usual by PO\n*	Later
 DTEND;TZID="Israel Standard Time":20200428T123000
 DTSTAMP:20200308T073612Z
 DTSTART;TZID="Israel Standard Time":20200428T110000
-LAST-MODIFIED:20200422T013927Z
+LAST-MODIFIED:20200423T033833Z
 LOCATION:Israel-Rehovot-PDC3-Empowerment5126(7) + WebEx
 ORGANIZER;CN="Maor Keinan":mailto:Maor_Keinan@amat.com
 PRIORITY:5
@@ -1169,7 +1146,7 @@ DESCRIPTION:Moving due to AMIL holiday\n \nAgenda:\n*	First hour pre-planni
 DTEND:20200427T080000Z
 DTSTAMP:20200406T093953Z
 DTSTART:20200427T070000Z
-LAST-MODIFIED:20200422T013920Z
+LAST-MODIFIED:20200423T033826Z
 LOCATION:Israel-Rehovot-PDC3- Excellence 5128(7) + WebEx
 PRIORITY:5
 RECURRENCE-ID:20200428T080000Z
@@ -2034,14 +2011,14 @@ DESCRIPTION:Hi\n\n \n\nhttp://dcilpa317:8090/display/PDC/PROVision+Revenue+
 	ntent of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not th
 	e intended recipient\, please notify me\, delete this email and do not use
 	 or distribute this email. \n\n
-DTEND;TZID="Israel Standard Time":20200422T120000
+DTEND;TZID="Israel Standard Time":20200429T120000
 DTSTAMP:20200326T084347Z
-DTSTART;TZID="Unnamed Time Zone 2":20200422T110000
-LAST-MODIFIED:20200422T013928Z
+DTSTART;TZID="Unnamed Time Zone 2":20200429T110000
+LAST-MODIFIED:20200423T033835Z
 LOCATION:Israel-Rehovot-PDC3-Equality5121(4)
 ORGANIZER;CN="Eran Reuven":mailto:Eran_Reuven@amat.com
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=2;BYDAY=WE
+RRULE:FREQ=WEEKLY;COUNT=1;BYDAY=WE
 SEQUENCE:15
 SUMMARY:PROVision Revenue WorkGroup
 TRANSP:OPAQUE
@@ -2253,17 +2230,780 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20200416T100441Z
-DTEND:20200429T100000Z
-DTSTAMP:20200422T050001Z
-DTSTART:20200429T090000Z
-LAST-MODIFIED:20200422T013923Z
+CREATED:20200422T110045Z
+DESCRIPTION:Hi\n \nhttp://dcilpa317:8090/display/PDC/PROVision+Revenue+SW+W
+	orkGroup+Tasks\n  \n-- Do not delete or change any of the following text. 
+	--   \n  \n  \n\nWelcome to new eMeeting\, powered by Cisco WebEx \nClick 
+	here to join the meeting <https://applied-materials.webex.com/applied-mate
+	rials/j.php?MTID=m365c42344b130b08c70a44573119b5e6>    \nMeeting number (a
+	ccess code): 967 309 718 Meeting password: m3qMWpyJg63    \nJoin from a vi
+	deo system or application\nDial 967309718@applied-materials.webex.com <sip
+	:967309718@applied-materials.webex.com>   \n  \nCall Using Computer \n    
+	 VOIP/Call Over Internet. This is the preferred option\, but a PC Headset 
+	is required to connect.\nCall Me \n     Dial back to an Applied Materials 
+	extension.\n     Select US and enter 555 + interoffice/country tie-line + 
+	your extension. \n          Examples: (X is your 4 or 5-digit extension de
+	pending on region). \n                   SCLA       555 + 20 + XXXXX\n    
+	               Austin     555 + 22 + XXXXX\n                   Germany 555
+	 + 420 + XXXX\n                   Israel       555 + 55 + XXXXX\n         
+	          Taiwan    555 + 750 + XXXX\n          (Click here for a list of 
+	all interoffice/country tie-lines) (Global Tie-line format) <https://amat.
+	service-now.com/AMAT3/knowledge_view.do?sysparm_document_key=kb_knowledge\
+	,5d284a22db2d474c6deb5887dc96194e>    \n\nI Will Call In from an Applied M
+	aterials Cisco Phone:\n           Dial 1+20+77777  \n           Enter the 
+	meeting number to connect.\n\nI Will Call In from an External Phone (non A
+	pplied Materials):\nJoin by phone  \nTap to call in from a mobile device (
+	attendees only)  \n+1-669-234-1708 <tel:%2B1-669-234-1708\,\,*01*967309718
+	%23%23*01*>  United States of America Toll  \nGlobal call-in numbers <http
+	s://applied-materials.webex.com/applied-materials/globalcallin.php?MTID=m7
+	ed5f7b75a12d822d744ceaaea6f8f3f>   |  Toll-free calling restrictions <http
+	s://www.webex.com/pdf/tollfree_restrictions.pdf>    \n  \nCan't join the m
+	eeting? <https://help.webex.com/docs/DOC-5412>  \n  \nIf you are a host\, 
+	go here <https://applied-materials.webex.com/applied-materials/j.php?MTID=
+	m67ae6f7241c4a4e7b66cd631998dcbf5>  to view host information. IMPORTANT NO
+	TICE: Please note that this Webex service allows audio and other informati
+	on sent during the session to be recorded\, which may be discoverable in a
+	 legal matter. By joining this session\, you automatically consent to such
+	 recordings. If you do not consent to being recorded\, discuss your concer
+	ns with the host or do not join the session. \n \nThe content of this mess
+	age is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended recipie
+	nt\, please notify me\, delete this email and do not use or distribute thi
+	s email. \n
+DTEND:20200430T120000Z
+DTSTAMP:20200422T105240Z
+DTSTART:20200430T110000Z
+LAST-MODIFIED:20200422T105718Z
+LOCATION:Israel-Rehovot-PDC3-Equality5121(4)
 PRIORITY:5
 RECURRENCE-ID:20200429T090000Z
-SEQUENCE:0
+SEQUENCE:99
+TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E008000000002028F852F2F2D501000000000000000
 	0100000005D96A5D4B31C7C4AA3A165F4D7C517FE
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
+	"Content-Type" content="text/html\; charset=us-ascii">\n<meta name="ProgId
+	" content="Word.Document">\n<meta name="Generator" content="Microsoft Word
+	 15">\n<meta name="Originator" content="Microsoft Word 15">\n<link rel="Fi
+	le-List" href="cid:filelist.xml@01D618AD.4AE48F30"><!--[if gte mso 9]><xml
+	>\n<o:OfficeDocumentSettings>\n<o:AllowPNG/>\n</o:OfficeDocumentSettings>\
+	n</xml><![endif]--><link rel="themeData" href="~~themedata~~"><link rel="c
+	olorSchemeMapping" href="~~colorschememapping~~"><!--[if gte mso 9]><xml>\
+	n<w:WordDocument>\n<w:View>Normal</w:View>\n<w:DocumentKind>DocumentEmail<
+	/w:DocumentKind>\n<w:TrackMoves/>\n<w:TrackFormatting/>\n<w:EnvelopeVis/>\
+	n<w:ValidateAgainstSchemas/>\n<w:SaveIfXMLInvalid>false</w:SaveIfXMLInvali
+	d>\n<w:IgnoreMixedContent>false</w:IgnoreMixedContent>\n<w:AlwaysShowPlace
+	holderText>false</w:AlwaysShowPlaceholderText>\n<w:DoNotPromoteQF/>\n<w:Li
+	dThemeOther>EN-US</w:LidThemeOther>\n<w:LidThemeAsian>X-NONE</w:LidThemeAs
+	ian>\n<w:LidThemeComplexScript>HE</w:LidThemeComplexScript>\n<w:Compatibil
+	ity>\n<w:DoNotExpandShiftReturn/>\n<w:BreakWrappedTables/>\n<w:SplitPgBrea
+	kAndParaMark/>\n<w:EnableOpenTypeKerning/>\n</w:Compatibility>\n<w:Browser
+	Level>MicrosoftInternetExplorer4</w:BrowserLevel>\n<m:mathPr>\n<m:mathFont
+	 m:val="Cambria Math"/>\n<m:brkBin m:val="before"/>\n<m:brkBinSub m:val="&
+	#45\;-"/>\n<m:smallFrac m:val="off"/>\n<m:dispDef/>\n<m:lMargin m:val="0"/
+	>\n<m:rMargin m:val="0"/>\n<m:defJc m:val="centerGroup"/>\n<m:wrapIndent m
+	:val="1440"/>\n<m:intLim m:val="subSup"/>\n<m:naryLim m:val="undOvr"/>\n</
+	m:mathPr></w:WordDocument>\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<w
+	:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false" DefSemiHidd
+	en="false" DefQFormat="false" DefPriority="99" LatentStyleCount="375">\n<w
+	:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>\n
+	<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1
+	"/>\n<w:LsdException Locked="false" Priority="9" SemiHidden="true" UnhideW
+	henUsed="true" QFormat="true" Name="heading 2"/>\n<w:LsdException Locked="
+	false" Priority="9" SemiHidden="true" UnhideWhenUsed="true" QFormat="true"
+	 Name="heading 3"/>\n<w:LsdException Locked="false" Priority="9" SemiHidde
+	n="true" UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>\n<w:LsdEx
+	ception Locked="false" Priority="9" SemiHidden="true" UnhideWhenUsed="true
+	" QFormat="true" Name="heading 5"/>\n<w:LsdException Locked="false" Priori
+	ty="9" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name="headin
+	g 6"/>\n<w:LsdException Locked="false" Priority="9" SemiHidden="true" Unhi
+	deWhenUsed="true" QFormat="true" Name="heading 7"/>\n<w:LsdException Locke
+	d="false" Priority="9" SemiHidden="true" UnhideWhenUsed="true" QFormat="tr
+	ue" Name="heading 8"/>\n<w:LsdException Locked="false" Priority="9" SemiHi
+	dden="true" UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>\n<w:Ls
+	dException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="in
+	dex 1"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed=
+	"true" Name="index 2"/>\n<w:LsdException Locked="false" SemiHidden="true" 
+	UnhideWhenUsed="true" Name="index 3"/>\n<w:LsdException Locked="false" Sem
+	iHidden="true" UnhideWhenUsed="true" Name="index 4"/>\n<w:LsdException Loc
+	ked="false" SemiHidden="true" UnhideWhenUsed="true" Name="index 5"/>\n<w:L
+	sdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="i
+	ndex 6"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed
+	="true" Name="index 7"/>\n<w:LsdException Locked="false" SemiHidden="true"
+	 UnhideWhenUsed="true" Name="index 8"/>\n<w:LsdException Locked="false" Se
+	miHidden="true" UnhideWhenUsed="true" Name="index 9"/>\n<w:LsdException Lo
+	cked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name="t
+	oc 1"/>\n<w:LsdException Locked="false" Priority="39" SemiHidden="true" Un
+	hideWhenUsed="true" Name="toc 2"/>\n<w:LsdException Locked="false" Priorit
+	y="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 3"/>\n<w:LsdExcep
+	tion Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" 
+	Name="toc 4"/>\n<w:LsdException Locked="false" Priority="39" SemiHidden="t
+	rue" UnhideWhenUsed="true" Name="toc 5"/>\n<w:LsdException Locked="false" 
+	Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 6"/>\n<w:L
+	sdException Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed=
+	"true" Name="toc 7"/>\n<w:LsdException Locked="false" Priority="39" SemiHi
+	dden="true" UnhideWhenUsed="true" Name="toc 8"/>\n<w:LsdException Locked="
+	false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 9"/
+	>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" 
+	Name="Normal Indent"/>\n<w:LsdException Locked="false" SemiHidden="true" U
+	nhideWhenUsed="true" Name="footnote text"/>\n<w:LsdException Locked="false
+	" SemiHidden="true" UnhideWhenUsed="true" Name="annotation text"/>\n<w:Lsd
+	Exception Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="hea
+	der"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="t
+	rue" Name="footer"/>\n<w:LsdException Locked="false" SemiHidden="true" Unh
+	ideWhenUsed="true" Name="index heading"/>\n<w:LsdException Locked="false" 
+	Priority="35" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name=
+	"caption"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUs
+	ed="true" Name="table of figures"/>\n<w:LsdException Locked="false" SemiHi
+	dden="true" UnhideWhenUsed="true" Name="envelope address"/>\n<w:LsdExcepti
+	on Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="envelope r
+	eturn"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed=
+	"true" Name="footnote reference"/>\n<w:LsdException Locked="false" SemiHid
+	den="true" UnhideWhenUsed="true" Name="annotation reference"/>\n<w:LsdExce
+	ption Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="line nu
+	mber"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="
+	true" Name="page number"/>\n<w:LsdException Locked="false" SemiHidden="tru
+	e" UnhideWhenUsed="true" Name="endnote reference"/>\n<w:LsdException Locke
+	d="false" SemiHidden="true" UnhideWhenUsed="true" Name="endnote text"/>\n<
+	w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name
+	="table of authorities"/>\n<w:LsdException Locked="false" SemiHidden="true
+	" UnhideWhenUsed="true" Name="macro"/>\n<w:LsdException Locked="false" Sem
+	iHidden="true" UnhideWhenUsed="true" Name="toa heading"/>\n<w:LsdException
+	 Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List"/>\n<w:
+	LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="
+	List Bullet"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhe
+	nUsed="true" Name="List Number"/>\n<w:LsdException Locked="false" SemiHidd
+	en="true" UnhideWhenUsed="true" Name="List 2"/>\n<w:LsdException Locked="f
+	alse" SemiHidden="true" UnhideWhenUsed="true" Name="List 3"/>\n<w:LsdExcep
+	tion Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List 4"/
+	>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" 
+	Name="List 5"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWh
+	enUsed="true" Name="List Bullet 2"/>\n<w:LsdException Locked="false" SemiH
+	idden="true" UnhideWhenUsed="true" Name="List Bullet 3"/>\n<w:LsdException
+	 Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Bullet 
+	4"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="tru
+	e" Name="List Bullet 5"/>\n<w:LsdException Locked="false" SemiHidden="true
+	" UnhideWhenUsed="true" Name="List Number 2"/>\n<w:LsdException Locked="fa
+	lse" SemiHidden="true" UnhideWhenUsed="true" Name="List Number 3"/>\n<w:Ls
+	dException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Li
+	st Number 4"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhe
+	nUsed="true" Name="List Number 5"/>\n<w:LsdException Locked="false" Priori
+	ty="10" QFormat="true" Name="Title"/>\n<w:LsdException Locked="false" Semi
+	Hidden="true" UnhideWhenUsed="true" Name="Closing"/>\n<w:LsdException Lock
+	ed="false" SemiHidden="true" UnhideWhenUsed="true" Name="Signature"/>\n<w:
+	LsdException Locked="false" Priority="1" SemiHidden="true" UnhideWhenUsed=
+	"true" Name="Default Paragraph Font"/>\n<w:LsdException Locked="false" Sem
+	iHidden="true" UnhideWhenUsed="true" Name="Body Text"/>\n<w:LsdException L
+	ocked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text Inde
+	nt"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="tr
+	ue" Name="List Continue"/>\n<w:LsdException Locked="false" SemiHidden="tru
+	e" UnhideWhenUsed="true" Name="List Continue 2"/>\n<w:LsdException Locked=
+	"false" SemiHidden="true" UnhideWhenUsed="true" Name="List Continue 3"/>\n
+	<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Nam
+	e="List Continue 4"/>\n<w:LsdException Locked="false" SemiHidden="true" Un
+	hideWhenUsed="true" Name="List Continue 5"/>\n<w:LsdException Locked="fals
+	e" SemiHidden="true" UnhideWhenUsed="true" Name="Message Header"/>\n<w:Lsd
+	Exception Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>\n<
+	w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name
+	="Salutation"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWh
+	enUsed="true" Name="Date"/>\n<w:LsdException Locked="false" SemiHidden="tr
+	ue" UnhideWhenUsed="true" Name="Body Text First Indent"/>\n<w:LsdException
+	 Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text Fi
+	rst Indent 2"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWh
+	enUsed="true" Name="Note Heading"/>\n<w:LsdException Locked="false" SemiHi
+	dden="true" UnhideWhenUsed="true" Name="Body Text 2"/>\n<w:LsdException Lo
+	cked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text 3"/>\
+	n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Na
+	me="Body Text Indent 2"/>\n<w:LsdException Locked="false" SemiHidden="true
+	" UnhideWhenUsed="true" Name="Body Text Indent 3"/>\n<w:LsdException Locke
+	d="false" SemiHidden="true" UnhideWhenUsed="true" Name="Block Text"/>\n<w:
+	LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="
+	Hyperlink"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenU
+	sed="true" Name="FollowedHyperlink"/>\n<w:LsdException Locked="false" Prio
+	rity="22" QFormat="true" Name="Strong"/>\n<w:LsdException Locked="false" P
+	riority="20" QFormat="true" Name="Emphasis"/>\n<w:LsdException Locked="fal
+	se" SemiHidden="true" UnhideWhenUsed="true" Name="Document Map"/>\n<w:LsdE
+	xception Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Plai
+	n Text"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed
+	="true" Name="E-mail Signature"/>\n<w:LsdException Locked="false" SemiHidd
+	en="true" UnhideWhenUsed="true" Name="HTML Top of Form"/>\n<w:LsdException
+	 Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Bottom 
+	of Form"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUse
+	d="true" Name="Normal (Web)"/>\n<w:LsdException Locked="false" SemiHidden=
+	"true" UnhideWhenUsed="true" Name="HTML Acronym"/>\n<w:LsdException Locked
+	="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Address"/>\n<w
+	:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name=
+	"HTML Cite"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhen
+	Used="true" Name="HTML Code"/>\n<w:LsdException Locked="false" SemiHidden=
+	"true" UnhideWhenUsed="true" Name="HTML Definition"/>\n<w:LsdException Loc
+	ked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Keyboard"/>
+	\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" N
+	ame="HTML Preformatted"/>\n<w:LsdException Locked="false" SemiHidden="true
+	" UnhideWhenUsed="true" Name="HTML Sample"/>\n<w:LsdException Locked="fals
+	e" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Typewriter"/>\n<w:Ls
+	dException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HT
+	ML Variable"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhe
+	nUsed="true" Name="Normal Table"/>\n<w:LsdException Locked="false" SemiHid
+	den="true" UnhideWhenUsed="true" Name="annotation subject"/>\n<w:LsdExcept
+	ion Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="No List"/
+	>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" 
+	Name="Outline List 1"/>\n<w:LsdException Locked="false" SemiHidden="true" 
+	UnhideWhenUsed="true" Name="Outline List 2"/>\n<w:LsdException Locked="fal
+	se" SemiHidden="true" UnhideWhenUsed="true" Name="Outline List 3"/>\n<w:Ls
+	dException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Ta
+	ble Simple 1"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWh
+	enUsed="true" Name="Table Simple 2"/>\n<w:LsdException Locked="false" Semi
+	Hidden="true" UnhideWhenUsed="true" Name="Table Simple 3"/>\n<w:LsdExcepti
+	on Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Clas
+	sic 1"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed=
+	"true" Name="Table Classic 2"/>\n<w:LsdException Locked="false" SemiHidden
+	="true" UnhideWhenUsed="true" Name="Table Classic 3"/>\n<w:LsdException Lo
+	cked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Classic 4
+	"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true
+	" Name="Table Colorful 1"/>\n<w:LsdException Locked="false" SemiHidden="tr
+	ue" UnhideWhenUsed="true" Name="Table Colorful 2"/>\n<w:LsdException Locke
+	d="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Colorful 3"/
+	>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" 
+	Name="Table Columns 1"/>\n<w:LsdException Locked="false" SemiHidden="true"
+	 UnhideWhenUsed="true" Name="Table Columns 2"/>\n<w:LsdException Locked="f
+	alse" SemiHidden="true" UnhideWhenUsed="true" Name="Table Columns 3"/>\n<w
+	:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name=
+	"Table Columns 4"/>\n<w:LsdException Locked="false" SemiHidden="true" Unhi
+	deWhenUsed="true" Name="Table Columns 5"/>\n<w:LsdException Locked="false"
+	 SemiHidden="true" UnhideWhenUsed="true" Name="Table Grid 1"/>\n<w:LsdExce
+	ption Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table G
+	rid 2"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed=
+	"true" Name="Table Grid 3"/>\n<w:LsdException Locked="false" SemiHidden="t
+	rue" UnhideWhenUsed="true" Name="Table Grid 4"/>\n<w:LsdException Locked="
+	false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Grid 5"/>\n<w:L
+	sdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="T
+	able Grid 6"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhe
+	nUsed="true" Name="Table Grid 7"/>\n<w:LsdException Locked="false" SemiHid
+	den="true" UnhideWhenUsed="true" Name="Table Grid 8"/>\n<w:LsdException Lo
+	cked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table List 1"/>
+	\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" N
+	ame="Table List 2"/>\n<w:LsdException Locked="false" SemiHidden="true" Unh
+	ideWhenUsed="true" Name="Table List 3"/>\n<w:LsdException Locked="false" S
+	emiHidden="true" UnhideWhenUsed="true" Name="Table List 4"/>\n<w:LsdExcept
+	ion Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Lis
+	t 5"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="t
+	rue" Name="Table List 6"/>\n<w:LsdException Locked="false" SemiHidden="tru
+	e" UnhideWhenUsed="true" Name="Table List 7"/>\n<w:LsdException Locked="fa
+	lse" SemiHidden="true" UnhideWhenUsed="true" Name="Table List 8"/>\n<w:Lsd
+	Exception Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Tab
+	le 3D effects 1"/>\n<w:LsdException Locked="false" SemiHidden="true" Unhid
+	eWhenUsed="true" Name="Table 3D effects 2"/>\n<w:LsdException Locked="fals
+	e" SemiHidden="true" UnhideWhenUsed="true" Name="Table 3D effects 3"/>\n<w
+	:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name=
+	"Table Contemporary"/>\n<w:LsdException Locked="false" SemiHidden="true" U
+	nhideWhenUsed="true" Name="Table Elegant"/>\n<w:LsdException Locked="false
+	" SemiHidden="true" UnhideWhenUsed="true" Name="Table Professional"/>\n<w:
+	LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="
+	Table Subtle 1"/>\n<w:LsdException Locked="false" SemiHidden="true" Unhide
+	WhenUsed="true" Name="Table Subtle 2"/>\n<w:LsdException Locked="false" Se
+	miHidden="true" UnhideWhenUsed="true" Name="Table Web 1"/>\n<w:LsdExceptio
+	n Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Web 2
+	"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true
+	" Name="Table Web 3"/>\n<w:LsdException Locked="false" SemiHidden="true" U
+	nhideWhenUsed="true" Name="Balloon Text"/>\n<w:LsdException Locked="false"
+	 Priority="39" Name="Table Grid"/>\n<w:LsdException Locked="false" SemiHid
+	den="true" UnhideWhenUsed="true" Name="Table Theme"/>\n<w:LsdException Loc
+	ked="false" SemiHidden="true" Name="Placeholder Text"/>\n<w:LsdException L
+	ocked="false" Priority="1" QFormat="true" Name="No Spacing"/>\n<w:LsdExcep
+	tion Locked="false" Priority="60" Name="Light Shading"/>\n<w:LsdException 
+	Locked="false" Priority="61" Name="Light List"/>\n<w:LsdException Locked="
+	false" Priority="62" Name="Light Grid"/>\n<w:LsdException Locked="false" P
+	riority="63" Name="Medium Shading 1"/>\n<w:LsdException Locked="false" Pri
+	ority="64" Name="Medium Shading 2"/>\n<w:LsdException Locked="false" Prior
+	ity="65" Name="Medium List 1"/>\n<w:LsdException Locked="false" Priority="
+	66" Name="Medium List 2"/>\n<w:LsdException Locked="false" Priority="67" N
+	ame="Medium Grid 1"/>\n<w:LsdException Locked="false" Priority="68" Name="
+	Medium Grid 2"/>\n<w:LsdException Locked="false" Priority="69" Name="Mediu
+	m Grid 3"/>\n<w:LsdException Locked="false" Priority="70" Name="Dark List"
+	/>\n<w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+	\n<w:LsdException Locked="false" Priority="72" Name="Colorful List"/>\n<w:
+	LsdException Locked="false" Priority="73" Name="Colorful Grid"/>\n<w:LsdEx
+	ception Locked="false" Priority="60" Name="Light Shading Accent 1"/>\n<w:L
+	sdException Locked="false" Priority="61" Name="Light List Accent 1"/>\n<w:
+	LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>\n<w
+	:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1
+	"/>\n<w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 A
+	ccent 1"/>\n<w:LsdException Locked="false" Priority="65" Name="Medium List
+	 1 Accent 1"/>\n<w:LsdException Locked="false" SemiHidden="true" Name="Rev
+	ision"/>\n<w:LsdException Locked="false" Priority="34" QFormat="true" Name
+	="List Paragraph"/>\n<w:LsdException Locked="false" Priority="29" QFormat=
+	"true" Name="Quote"/>\n<w:LsdException Locked="false" Priority="30" QForma
+	t="true" Name="Intense Quote"/>\n<w:LsdException Locked="false" Priority="
+	66" Name="Medium List 2 Accent 1"/>\n<w:LsdException Locked="false" Priori
+	ty="67" Name="Medium Grid 1 Accent 1"/>\n<w:LsdException Locked="false" Pr
+	iority="68" Name="Medium Grid 2 Accent 1"/>\n<w:LsdException Locked="false
+	" Priority="69" Name="Medium Grid 3 Accent 1"/>\n<w:LsdException Locked="f
+	alse" Priority="70" Name="Dark List Accent 1"/>\n<w:LsdException Locked="f
+	alse" Priority="71" Name="Colorful Shading Accent 1"/>\n<w:LsdException Lo
+	cked="false" Priority="72" Name="Colorful List Accent 1"/>\n<w:LsdExceptio
+	n Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>\n<w:LsdExce
+	ption Locked="false" Priority="60" Name="Light Shading Accent 2"/>\n<w:Lsd
+	Exception Locked="false" Priority="61" Name="Light List Accent 2"/>\n<w:Ls
+	dException Locked="false" Priority="62" Name="Light Grid Accent 2"/>\n<w:L
+	sdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/
+	>\n<w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Acc
+	ent 2"/>\n<w:LsdException Locked="false" Priority="65" Name="Medium List 1
+	 Accent 2"/>\n<w:LsdException Locked="false" Priority="66" Name="Medium Li
+	st 2 Accent 2"/>\n<w:LsdException Locked="false" Priority="67" Name="Mediu
+	m Grid 1 Accent 2"/>\n<w:LsdException Locked="false" Priority="68" Name="M
+	edium Grid 2 Accent 2"/>\n<w:LsdException Locked="false" Priority="69" Nam
+	e="Medium Grid 3 Accent 2"/>\n<w:LsdException Locked="false" Priority="70"
+	 Name="Dark List Accent 2"/>\n<w:LsdException Locked="false" Priority="71"
+	 Name="Colorful Shading Accent 2"/>\n<w:LsdException Locked="false" Priori
+	ty="72" Name="Colorful List Accent 2"/>\n<w:LsdException Locked="false" Pr
+	iority="73" Name="Colorful Grid Accent 2"/>\n<w:LsdException Locked="false
+	" Priority="60" Name="Light Shading Accent 3"/>\n<w:LsdException Locked="f
+	alse" Priority="61" Name="Light List Accent 3"/>\n<w:LsdException Locked="
+	false" Priority="62" Name="Light Grid Accent 3"/>\n<w:LsdException Locked=
+	"false" Priority="63" Name="Medium Shading 1 Accent 3"/>\n<w:LsdException 
+	Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>\n<w:LsdExc
+	eption Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>\n<w:Ls
+	dException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>\n<
+	w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/
+	>\n<w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent
+	 3"/>\n<w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Ac
+	cent 3"/>\n<w:LsdException Locked="false" Priority="70" Name="Dark List Ac
+	cent 3"/>\n<w:LsdException Locked="false" Priority="71" Name="Colorful Sha
+	ding Accent 3"/>\n<w:LsdException Locked="false" Priority="72" Name="Color
+	ful List Accent 3"/>\n<w:LsdException Locked="false" Priority="73" Name="C
+	olorful Grid Accent 3"/>\n<w:LsdException Locked="false" Priority="60" Nam
+	e="Light Shading Accent 4"/>\n<w:LsdException Locked="false" Priority="61"
+	 Name="Light List Accent 4"/>\n<w:LsdException Locked="false" Priority="62
+	" Name="Light Grid Accent 4"/>\n<w:LsdException Locked="false" Priority="6
+	3" Name="Medium Shading 1 Accent 4"/>\n<w:LsdException Locked="false" Prio
+	rity="64" Name="Medium Shading 2 Accent 4"/>\n<w:LsdException Locked="fals
+	e" Priority="65" Name="Medium List 1 Accent 4"/>\n<w:LsdException Locked="
+	false" Priority="66" Name="Medium List 2 Accent 4"/>\n<w:LsdException Lock
+	ed="false" Priority="67" Name="Medium Grid 1 Accent 4"/>\n<w:LsdException 
+	Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>\n<w:LsdExcept
+	ion Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>\n<w:LsdEx
+	ception Locked="false" Priority="70" Name="Dark List Accent 4"/>\n<w:LsdEx
+	ception Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>\n<
+	w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/
+	>\n<w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent
+	 4"/>\n<w:LsdException Locked="false" Priority="60" Name="Light Shading Ac
+	cent 5"/>\n<w:LsdException Locked="false" Priority="61" Name="Light List A
+	ccent 5"/>\n<w:LsdException Locked="false" Priority="62" Name="Light Grid 
+	Accent 5"/>\n<w:LsdException Locked="false" Priority="63" Name="Medium Sha
+	ding 1 Accent 5"/>\n<w:LsdException Locked="false" Priority="64" Name="Med
+	ium Shading 2 Accent 5"/>\n<w:LsdException Locked="false" Priority="65" Na
+	me="Medium List 1 Accent 5"/>\n<w:LsdException Locked="false" Priority="66
+	" Name="Medium List 2 Accent 5"/>\n<w:LsdException Locked="false" Priority
+	="67" Name="Medium Grid 1 Accent 5"/>\n<w:LsdException Locked="false" Prio
+	rity="68" Name="Medium Grid 2 Accent 5"/>\n<w:LsdException Locked="false" 
+	Priority="69" Name="Medium Grid 3 Accent 5"/>\n<w:LsdException Locked="fal
+	se" Priority="70" Name="Dark List Accent 5"/>\n<w:LsdException Locked="fal
+	se" Priority="71" Name="Colorful Shading Accent 5"/>\n<w:LsdException Lock
+	ed="false" Priority="72" Name="Colorful List Accent 5"/>\n<w:LsdException 
+	Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>\n<w:LsdExcept
+	ion Locked="false" Priority="60" Name="Light Shading Accent 6"/>\n<w:LsdEx
+	ception Locked="false" Priority="61" Name="Light List Accent 6"/>\n<w:LsdE
+	xception Locked="false" Priority="62" Name="Light Grid Accent 6"/>\n<w:Lsd
+	Exception Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>\
+	n<w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accen
+	t 6"/>\n<w:LsdException Locked="false" Priority="65" Name="Medium List 1 A
+	ccent 6"/>\n<w:LsdException Locked="false" Priority="66" Name="Medium List
+	 2 Accent 6"/>\n<w:LsdException Locked="false" Priority="67" Name="Medium 
+	Grid 1 Accent 6"/>\n<w:LsdException Locked="false" Priority="68" Name="Med
+	ium Grid 2 Accent 6"/>\n<w:LsdException Locked="false" Priority="69" Name=
+	"Medium Grid 3 Accent 6"/>\n<w:LsdException Locked="false" Priority="70" N
+	ame="Dark List Accent 6"/>\n<w:LsdException Locked="false" Priority="71" N
+	ame="Colorful Shading Accent 6"/>\n<w:LsdException Locked="false" Priority
+	="72" Name="Colorful List Accent 6"/>\n<w:LsdException Locked="false" Prio
+	rity="73" Name="Colorful Grid Accent 6"/>\n<w:LsdException Locked="false" 
+	Priority="19" QFormat="true" Name="Subtle Emphasis"/>\n<w:LsdException Loc
+	ked="false" Priority="21" QFormat="true" Name="Intense Emphasis"/>\n<w:Lsd
+	Exception Locked="false" Priority="31" QFormat="true" Name="Subtle Referen
+	ce"/>\n<w:LsdException Locked="false" Priority="32" QFormat="true" Name="I
+	ntense Reference"/>\n<w:LsdException Locked="false" Priority="33" QFormat=
+	"true" Name="Book Title"/>\n<w:LsdException Locked="false" Priority="37" S
+	emiHidden="true" UnhideWhenUsed="true" Name="Bibliography"/>\n<w:LsdExcept
+	ion Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Q
+	Format="true" Name="TOC Heading"/>\n<w:LsdException Locked="false" Priorit
+	y="41" Name="Plain Table 1"/>\n<w:LsdException Locked="false" Priority="42
+	" Name="Plain Table 2"/>\n<w:LsdException Locked="false" Priority="43" Nam
+	e="Plain Table 3"/>\n<w:LsdException Locked="false" Priority="44" Name="Pl
+	ain Table 4"/>\n<w:LsdException Locked="false" Priority="45" Name="Plain T
+	able 5"/>\n<w:LsdException Locked="false" Priority="40" Name="Grid Table L
+	ight"/>\n<w:LsdException Locked="false" Priority="46" Name="Grid Table 1 L
+	ight"/>\n<w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/
+	>\n<w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>\n<w:
+	LsdException Locked="false" Priority="49" Name="Grid Table 4"/>\n<w:LsdExc
+	eption Locked="false" Priority="50" Name="Grid Table 5 Dark"/>\n<w:LsdExce
+	ption Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>\n<w:LsdE
+	xception Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>\n<w:L
+	sdException Locked="false" Priority="46" Name="Grid Table 1 Light Accent 1
+	"/>\n<w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accen
+	t 1"/>\n<w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Ac
+	cent 1"/>\n<w:LsdException Locked="false" Priority="49" Name="Grid Table 4
+	 Accent 1"/>\n<w:LsdException Locked="false" Priority="50" Name="Grid Tabl
+	e 5 Dark Accent 1"/>\n<w:LsdException Locked="false" Priority="51" Name="G
+	rid Table 6 Colorful Accent 1"/>\n<w:LsdException Locked="false" Priority=
+	"52" Name="Grid Table 7 Colorful Accent 1"/>\n<w:LsdException Locked="fals
+	e" Priority="46" Name="Grid Table 1 Light Accent 2"/>\n<w:LsdException Loc
+	ked="false" Priority="47" Name="Grid Table 2 Accent 2"/>\n<w:LsdException 
+	Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>\n<w:LsdExcepti
+	on Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>\n<w:LsdExce
+	ption Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>\n<w
+	:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful Acc
+	ent 2"/>\n<w:LsdException Locked="false" Priority="52" Name="Grid Table 7 
+	Colorful Accent 2"/>\n<w:LsdException Locked="false" Priority="46" Name="G
+	rid Table 1 Light Accent 3"/>\n<w:LsdException Locked="false" Priority="47
+	" Name="Grid Table 2 Accent 3"/>\n<w:LsdException Locked="false" Priority=
+	"48" Name="Grid Table 3 Accent 3"/>\n<w:LsdException Locked="false" Priori
+	ty="49" Name="Grid Table 4 Accent 3"/>\n<w:LsdException Locked="false" Pri
+	ority="50" Name="Grid Table 5 Dark Accent 3"/>\n<w:LsdException Locked="fa
+	lse" Priority="51" Name="Grid Table 6 Colorful Accent 3"/>\n<w:LsdExceptio
+	n Locked="false" Priority="52" Name="Grid Table 7 Colorful Accent 3"/>\n<w
+	:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light Accent
+	 4"/>\n<w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Acc
+	ent 4"/>\n<w:LsdException Locked="false" Priority="48" Name="Grid Table 3 
+	Accent 4"/>\n<w:LsdException Locked="false" Priority="49" Name="Grid Table
+	 4 Accent 4"/>\n<w:LsdException Locked="false" Priority="50" Name="Grid Ta
+	ble 5 Dark Accent 4"/>\n<w:LsdException Locked="false" Priority="51" Name=
+	"Grid Table 6 Colorful Accent 4"/>\n<w:LsdException Locked="false" Priorit
+	y="52" Name="Grid Table 7 Colorful Accent 4"/>\n<w:LsdException Locked="fa
+	lse" Priority="46" Name="Grid Table 1 Light Accent 5"/>\n<w:LsdException L
+	ocked="false" Priority="47" Name="Grid Table 2 Accent 5"/>\n<w:LsdExceptio
+	n Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>\n<w:LsdExcep
+	tion Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>\n<w:LsdEx
+	ception Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>\n
+	<w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful A
+	ccent 5"/>\n<w:LsdException Locked="false" Priority="52" Name="Grid Table 
+	7 Colorful Accent 5"/>\n<w:LsdException Locked="false" Priority="46" Name=
+	"Grid Table 1 Light Accent 6"/>\n<w:LsdException Locked="false" Priority="
+	47" Name="Grid Table 2 Accent 6"/>\n<w:LsdException Locked="false" Priorit
+	y="48" Name="Grid Table 3 Accent 6"/>\n<w:LsdException Locked="false" Prio
+	rity="49" Name="Grid Table 4 Accent 6"/>\n<w:LsdException Locked="false" P
+	riority="50" Name="Grid Table 5 Dark Accent 6"/>\n<w:LsdException Locked="
+	false" Priority="51" Name="Grid Table 6 Colorful Accent 6"/>\n<w:LsdExcept
+	ion Locked="false" Priority="52" Name="Grid Table 7 Colorful Accent 6"/>\n
+	<w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>\n
+	<w:LsdException Locked="false" Priority="47" Name="List Table 2"/>\n<w:Lsd
+	Exception Locked="false" Priority="48" Name="List Table 3"/>\n<w:LsdExcept
+	ion Locked="false" Priority="49" Name="List Table 4"/>\n<w:LsdException Lo
+	cked="false" Priority="50" Name="List Table 5 Dark"/>\n<w:LsdException Loc
+	ked="false" Priority="51" Name="List Table 6 Colorful"/>\n<w:LsdException 
+	Locked="false" Priority="52" Name="List Table 7 Colorful"/>\n<w:LsdExcepti
+	on Locked="false" Priority="46" Name="List Table 1 Light Accent 1"/>\n<w:L
+	sdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>\n<
+	w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+	\n<w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1
+	"/>\n<w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark 
+	Accent 1"/>\n<w:LsdException Locked="false" Priority="51" Name="List Table
+	 6 Colorful Accent 1"/>\n<w:LsdException Locked="false" Priority="52" Name
+	="List Table 7 Colorful Accent 1"/>\n<w:LsdException Locked="false" Priori
+	ty="46" Name="List Table 1 Light Accent 2"/>\n<w:LsdException Locked="fals
+	e" Priority="47" Name="List Table 2 Accent 2"/>\n<w:LsdException Locked="f
+	alse" Priority="48" Name="List Table 3 Accent 2"/>\n<w:LsdException Locked
+	="false" Priority="49" Name="List Table 4 Accent 2"/>\n<w:LsdException Loc
+	ked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>\n<w:LsdExcep
+	tion Locked="false" Priority="51" Name="List Table 6 Colorful Accent 2"/>\
+	n<w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful 
+	Accent 2"/>\n<w:LsdException Locked="false" Priority="46" Name="List Table
+	 1 Light Accent 3"/>\n<w:LsdException Locked="false" Priority="47" Name="L
+	ist Table 2 Accent 3"/>\n<w:LsdException Locked="false" Priority="48" Name
+	="List Table 3 Accent 3"/>\n<w:LsdException Locked="false" Priority="49" N
+	ame="List Table 4 Accent 3"/>\n<w:LsdException Locked="false" Priority="50
+	" Name="List Table 5 Dark Accent 3"/>\n<w:LsdException Locked="false" Prio
+	rity="51" Name="List Table 6 Colorful Accent 3"/>\n<w:LsdException Locked=
+	"false" Priority="52" Name="List Table 7 Colorful Accent 3"/>\n<w:LsdExcep
+	tion Locked="false" Priority="46" Name="List Table 1 Light Accent 4"/>\n<w
+	:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>\
+	n<w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"
+	/>\n<w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent
+	 4"/>\n<w:LsdException Locked="false" Priority="50" Name="List Table 5 Dar
+	k Accent 4"/>\n<w:LsdException Locked="false" Priority="51" Name="List Tab
+	le 6 Colorful Accent 4"/>\n<w:LsdException Locked="false" Priority="52" Na
+	me="List Table 7 Colorful Accent 4"/>\n<w:LsdException Locked="false" Prio
+	rity="46" Name="List Table 1 Light Accent 5"/>\n<w:LsdException Locked="fa
+	lse" Priority="47" Name="List Table 2 Accent 5"/>\n<w:LsdException Locked=
+	"false" Priority="48" Name="List Table 3 Accent 5"/>\n<w:LsdException Lock
+	ed="false" Priority="49" Name="List Table 4 Accent 5"/>\n<w:LsdException L
+	ocked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>\n<w:LsdExc
+	eption Locked="false" Priority="51" Name="List Table 6 Colorful Accent 5"/
+	>\n<w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorfu
+	l Accent 5"/>\n<w:LsdException Locked="false" Priority="46" Name="List Tab
+	le 1 Light Accent 6"/>\n<w:LsdException Locked="false" Priority="47" Name=
+	"List Table 2 Accent 6"/>\n<w:LsdException Locked="false" Priority="48" Na
+	me="List Table 3 Accent 6"/>\n<w:LsdException Locked="false" Priority="49"
+	 Name="List Table 4 Accent 6"/>\n<w:LsdException Locked="false" Priority="
+	50" Name="List Table 5 Dark Accent 6"/>\n<w:LsdException Locked="false" Pr
+	iority="51" Name="List Table 6 Colorful Accent 6"/>\n<w:LsdException Locke
+	d="false" Priority="52" Name="List Table 7 Colorful Accent 6"/>\n<w:LsdExc
+	eption Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Mentio
+	n"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="tru
+	e" Name="Smart Hyperlink"/>\n<w:LsdException Locked="false" SemiHidden="tr
+	ue" UnhideWhenUsed="true" Name="Hashtag"/>\n<w:LsdException Locked="false"
+	 SemiHidden="true" UnhideWhenUsed="true" Name="Unresolved Mention"/>\n</w:
+	LatentStyles>\n</xml><![endif]--><style><!--\n/* Font Definitions */\n@fon
+	t-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 3 2 4\;\n	
+	mso-font-alt:"Calisto MT"\;\n	mso-font-charset:0\;\n	mso-generic-font-fami
+	ly:roman\;\n	mso-font-pitch:variable\;\n	mso-font-signature:-536869121 110
+	7305727 33554432 0 415 0\;}\n@font-face\n	{font-family:Calibri\;\n	panose-
+	1:2 15 5 2 2 2 4 3 2 4\;\n	mso-font-alt:Calibri\;\n	mso-font-charset:0\;\n
+		mso-generic-font-family:swiss\;\n	mso-font-pitch:variable\;\n	mso-font-si
+	gnature:-536858881 -1073732485 9 0 511 0\;}\n@font-face\n	{font-family:"Se
+	goe UI"\;\n	panose-1:2 11 5 2 4 2 4 2 2 3\;\n	mso-font-alt:"Century Gothic
+	"\;\n	mso-font-charset:0\;\n	mso-generic-font-family:swiss\;\n	mso-font-pi
+	tch:variable\;\n	mso-font-signature:-469750017 -1073683329 9 0 511 0\;}\n/
+	* Style Definitions */\np.MsoNormal\, li.MsoNormal\, div.MsoNormal\n	{mso-
+	style-unhide:no\;\n	mso-style-qformat:yes\;\n	mso-style-parent:""\;\n	marg
+	in:0in\;\n	margin-bottom:.0001pt\;\n	mso-pagination:widow-orphan\;\n	font-
+	size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;\n	mso-fareast-font-fam
+	ily:Calibri\;\n	mso-fareast-theme-font:minor-latin\;}\na:link\, span.MsoHy
+	perlink\n	{mso-style-noshow:yes\;\n	mso-style-priority:99\;\n	color:#0563C
+	1\;\n	text-decoration:underline\;\n	text-underline:single\;}\na:visited\, 
+	span.MsoHyperlinkFollowed\n	{mso-style-noshow:yes\;\n	mso-style-priority:9
+	9\;\n	color:#954F72\;\n	text-decoration:underline\;\n	text-underline:singl
+	e\;}\np.msonormal0\, li.msonormal0\, div.msonormal0\n	{mso-style-name:mson
+	ormal\;\n	mso-style-unhide:no\;\n	mso-margin-top-alt:auto\;\n	margin-right
+	:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;\n	mso-pagination
+	:widow-orphan\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;
+	\n	mso-fareast-font-family:Calibri\;\n	mso-fareast-theme-font:minor-latin\
+	;}\nspan.EmailStyle18\n	{mso-style-type:personal-compose\;\n	mso-style-nos
+	how:yes\;\n	mso-style-unhide:no\;\n	font-family:"Calibri"\,sans-serif\;\n	
+	mso-ascii-font-family:Calibri\;\n	mso-hansi-font-family:Calibri\;\n	mso-bi
+	di-font-family:Calibri\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-styl
+	e-type:export-only\;\n	mso-default-props:yes\;\n	font-size:10.0pt\;\n	mso-
+	ansi-font-size:10.0pt\;\n	mso-bidi-font-size:10.0pt\;}\n@page WordSection1
+	\n	{size:8.5in 11.0in\;\n	margin:1.0in 1.0in 1.0in 1.0in\;\n	mso-header-ma
+	rgin:.5in\;\n	mso-footer-margin:.5in\;\n	mso-paper-source:0\;}\ndiv.WordSe
+	ction1\n	{page:WordSection1\;}\n--></style><!--[if gte mso 10]><style>/* S
+	tyle Definitions */\ntable.MsoNormalTable\n	{mso-style-name:"Table Normal"
+	\;\n	mso-tstyle-rowband-size:0\;\n	mso-tstyle-colband-size:0\;\n	mso-style
+	-noshow:yes\;\n	mso-style-priority:99\;\n	mso-style-parent:""\;\n	mso-padd
+	ing-alt:0in 5.4pt 0in 5.4pt\;\n	mso-para-margin:0in\;\n	mso-para-margin-bo
+	ttom:.0001pt\;\n	mso-pagination:widow-orphan\;\n	font-size:10.0pt\;\n	font
+	-family:"Times New Roman"\,serif\;}\n</style><![endif]--><!--[if gte mso 9
+	]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />\n</xml><![endif]-
+	-><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:idmap v:ext="
+	edit" data="1" />\n</o:shapelayout></xml><![endif]-->\n</head>\n<body lang
+	="EN-US" link="#0563C1" vlink="#954F72" style="tab-interval:.5in">\n<div c
+	lass="WordSection1">\n<p class="MsoNormal">Hi<o:p></o:p></p>\n<p class="Ms
+	oNormal"><o:p>&nbsp\;</o:p></p>\n<p class="MsoNormal"><span style="font-fa
+	mily:&quot\;Segoe UI&quot\;\,sans-serif"><a href="http://dcilpa317:8090/di
+	splay/PDC/PROVision&#43\;Revenue&#43\;SW&#43\;WorkGroup&#43\;Tasks">http:/
+	/dcilpa317:8090/display/PDC/PROVision&#43\;Revenue&#43\;SW&#43\;WorkGroup&
+	#43\;Tasks</a><o:p></o:p></span></p>\n<div>\n<p class="MsoNormal"><span st
+	yle="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareast-font-fami
+	ly:&quot\;Times New Roman&quot\;">&nbsp\;\n<br>\n</span><span style="font-
+	size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareast-f
+	ont-family:&quot\;Times New Roman&quot\;\;color:#A0A0A0">-<a name="WBX7585
+	6">- Do not delete or change any of the following text. --</a></span><span
+	 style="mso-bookmark:WBX75856"><span style="font-size:10.0pt\;font-family:
+	&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times N
+	ew Roman&quot\;">\n &nbsp\; <br>\n&nbsp\; <br>\n&nbsp\; <br>\n<br>\n</span
+	></span><span style="mso-bookmark:WBX75856"><span style="font-size:13.5pt\
+	;font-family:&quot\;Arial&quot\;\,sans-serif\;mso-fareast-font-family:&quo
+	t\;Times New Roman&quot\;\;color:#E87722">Welcome to new eMeeting\, powere
+	d by Cisco WebEx</span></span><span style="mso-bookmark:WBX75856"><span st
+	yle="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;mso
+	-fareast-font-family:&quot\;Times New Roman&quot\;">\n<br>\n</span></span>
+	<span style="mso-bookmark:WBX75856"></span><a href="https://applied-materi
+	als.webex.com/applied-materials/j.php?MTID=m365c42344b130b08c70a44573119b5
+	e6"><span style="mso-bookmark:WBX75856"><span style="font-size:13.5pt\;fon
+	t-family:&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot
+	\;Times New Roman&quot\;\;color:#00AFF9">Click\n here to join the meeting<
+	/span></span><span style="mso-bookmark:WBX75856"></span></a><span style="m
+	so-bookmark:WBX75856"><span style="font-size:13.5pt\;font-family:&quot\;Se
+	goe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&
+	quot\;"> &nbsp\;\n<br>\n</span></span><span style="mso-bookmark:WBX75856">
+	<span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-se
+	rif\;mso-fareast-font-family:&quot\;Times New Roman&quot\;\;color:#666666"
+	>Meeting number (access code): 967 309 718</span></span><span style="mso-b
+	ookmark:WBX75856"><span style="font-size:13.5pt\;font-family:&quot\;Segoe 
+	UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&quot
+	\;">\n</span></span><span style="mso-bookmark:WBX75856"><span style="font-
+	size:12.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;mso-fareast-font
+	-family:&quot\;Times New Roman&quot\;\;color:black">Meeting password:</spa
+	n></span><span style="mso-bookmark:WBX75856"><span style="font-size:10.0pt
+	\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareast-font-family:
+	&quot\;Times New Roman&quot\;\;color:#666666">\n</span></span><span style=
+	"mso-bookmark:WBX75856"><span style="font-size:12.0pt\;font-family:&quot\;
+	Arial&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&q
+	uot\;\;color:black">m3qMWpyJg63</span></span><span style="mso-bookmark:WBX
+	75856"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,
+	sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&quot\;\;color:#
+	666666">&nbsp\;\n</span></span><span style="mso-bookmark:WBX75856"><span s
+	tyle="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;ms
+	o-fareast-font-family:&quot\;Times New Roman&quot\;">&nbsp\;\n<br>\n</span
+	></span><span style="mso-bookmark:WBX75856"><b><span style="font-size:9.0p
+	t\;font-family:&quot\;Arial&quot\;\,sans-serif\;mso-fareast-font-family:&q
+	uot\;Times New Roman&quot\;\;color:black">Join from a video system or appl
+	ication</span></b></span><span style="mso-bookmark:WBX75856"><span style="
+	font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;mso-fareast
+	-font-family:&quot\;Times New Roman&quot\;"><br>\n</span></span><span styl
+	e="mso-bookmark:WBX75856"><span style="font-size:10.5pt\;font-family:&quot
+	\;Arial&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman
+	&quot\;\;color:#333333">Dial</span></span><span style="mso-bookmark:WBX758
+	56"><span style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-s
+	erif\;mso-fareast-font-family:&quot\;Times New Roman&quot\;">\n</span></sp
+	an><a href="sip:967309718@applied-materials.webex.com"><span style="mso-bo
+	okmark:WBX75856"><span style="font-size:10.5pt\;font-family:&quot\;Arial&q
+	uot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&quot\;\;
+	color:#049FD9">967309718@applied-materials.webex.com</span></span><span st
+	yle="mso-bookmark:WBX75856"></span></a><span style="mso-bookmark:WBX75856"
+	><span style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-seri
+	f\;mso-fareast-font-family:&quot\;Times New Roman&quot\;">&nbsp\;\n<br>\n<
+	/span></span><span style="mso-bookmark:WBX75856"><span style="font-size:10
+	.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareast-font-fam
+	ily:&quot\;Times New Roman&quot\;">&nbsp\;\n<span style="color:#666666"><o
+	:p></o:p></span></span></span></p>\n<p><span style="mso-bookmark:WBX75856"
+	><span style="font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-s
+	erif\;color:#666666">Call Using Computer\n</span></span><span style="mso-b
+	ookmark:WBX75856"><span style="font-size:10.0pt\;font-family:&quot\;Segoe 
+	UI&quot\;\,sans-serif\;color:#666666"><br>\n&nbsp\; &nbsp\; &nbsp\;VOIP/Ca
+	ll Over Internet. This is the preferred option\, but a PC Headset is requi
+	red to connect.</span></span><span style="mso-bookmark:WBX75856"><span sty
+	le="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;mso-
+	fareast-font-family:&quot\;Times New Roman&quot\;\;mso-fareast-theme-font:
+	minor-fareast\;color:#666666"><o:p></o:p></span></span></p>\n<p class="Mso
+	Normal"><span style="mso-bookmark:WBX75856"><span style="font-size:13.5pt\
+	;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareast-font-family:&
+	quot\;Times New Roman&quot\;\;color:#666666">Call Me\n<br>\n</span></span>
+	<span style="mso-bookmark:WBX75856"><span style="font-size:10.0pt\;font-fa
+	mily:&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Ti
+	mes New Roman&quot\;\;color:#666666">&nbsp\; &nbsp\; &nbsp\;Dial back to a
+	n Applied Materials extension.<br>\n&nbsp\; &nbsp\; &nbsp\;Select US and e
+	nter 555 &#43\; interoffice/country tie-line &#43\; your extension. <br>\n
+	&nbsp\; &nbsp\; &nbsp\;&nbsp\; &nbsp\; &nbsp\;Examples: (X is your 4 or 5-
+	digit extension depending on region). <br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\
+	; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;SCLA&nbsp\; &nbsp\; &nbsp
+	\; &nbsp\;555 &#43\; 20 &#43\; XXXXX<br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; 
+	&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Austin&nbsp\; &nbsp\; &nbsp
+	\;555 &#43\; 22 &#43\; XXXXX<br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; 
+	&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Germany 555 &#43\; 420 &#43\; XXXX<
+	br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp
+	\; &nbsp\;Israel&nbsp\; &nbsp\; &nbsp\; &nbsp\;555 &#43\; 55 &#43\; XXXXX<
+	br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp
+	\; &nbsp\;Taiwan&nbsp\; &nbsp\; 555 &#43\; 750 &#43\; XXXX<br>\n&nbsp\; &n
+	bsp\; &nbsp\;&nbsp\; &nbsp\; &nbsp\;(Click here for a list of all interoff
+	ice/country tie-lines</span></span><span style="mso-bookmark:WBX75856"><sp
+	an style="font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif
+	\;mso-fareast-font-family:&quot\;Times New Roman&quot\;\;color:#666666">)\
+	n</span></span><a href="https://amat.service-now.com/AMAT3/knowledge_view.
+	do?sysparm_document_key=kb_knowledge\,5d284a22db2d474c6deb5887dc96194e"><s
+	pan style="mso-bookmark:WBX75856"><span style="font-size:10.0pt\;font-fami
+	ly:&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Time
+	s New Roman&quot\;\;color:#00AFF9">(Global\n Tie-line format)</span></span
+	><span style="mso-bookmark:WBX75856"></span></a><span style="mso-bookmark:
+	WBX75856"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\
+	;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&quot\;\;colo
+	r:#00AFF9"> &nbsp\;&nbsp\;<o:p></o:p></span></span></p>\n<p class="MsoNorm
+	al"><span style="mso-bookmark:WBX75856"><span style="font-size:10.0pt\;fon
+	t-family:&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot
+	\;Times New Roman&quot\;\;color:#00AFF9"><br>\n</span></span><span style="
+	mso-bookmark:WBX75856"><span style="font-size:13.5pt\;font-family:&quot\;S
+	egoe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman
+	&quot\;\;color:#666666">I Will Call In from an Applied Materials Cisco Pho
+	ne:<br>\n</span></span><span style="mso-bookmark:WBX75856"><span style="fo
+	nt-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareas
+	t-font-family:&quot\;Times New Roman&quot\;\;color:#666666">&nbsp\; &nbsp\
+	; &nbsp\;&nbsp\; &nbsp\; &nbsp\; Dial\n<strong><span style="font-family:&q
+	uot\;Segoe UI&quot\;\,sans-serif">1&#43\;20&#43\;77777&nbsp\;</span></stro
+	ng>\n<br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Enter the meetin
+	g number to connect.<o:p></o:p></span></span></p>\n<p class="MsoNormal"><s
+	pan style="mso-bookmark:WBX75856"><span style="font-size:10.0pt\;font-fami
+	ly:&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Time
+	s New Roman&quot\;\;color:#666666"><br>\n</span></span><span style="mso-bo
+	okmark:WBX75856"><span style="font-size:13.5pt\;font-family:&quot\;Segoe U
+	I&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&quot\
+	;\;color:#666666">I Will Call In from an External Phone (non Applied Mater
+	ials):<br>\n</span></span><span style="mso-bookmark:WBX75856"><b><span sty
+	le="font-size:9.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;mso-fare
+	ast-font-family:&quot\;Times New Roman&quot\;\;color:black">Join by phone<
+	/span></b></span><span style="mso-bookmark:WBX75856"><span style="font-siz
+	e:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;mso-fareast-font-fa
+	mily:&quot\;Times New Roman&quot\;\;color:#666666">&nbsp\;\n<br>\n</span><
+	/span><span style="mso-bookmark:WBX75856"><span style="font-size:9.0pt\;fo
+	nt-family:&quot\;Arial&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;
+	Times New Roman&quot\;\;color:#666666">Tap to call in from a mobile device
+	 (attendees only)</span></span><span style="mso-bookmark:WBX75856"><span s
+	tyle="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;mso-f
+	areast-font-family:&quot\;Times New Roman&quot\;\;color:#666666">&nbsp\;\n
+	<br>\n</span></span><span style="mso-bookmark:WBX75856"></span><a href="te
+	l:%2B1-669-234-1708\,\,*01*967309718%23%23*01*"><span style="mso-bookmark:
+	WBX75856"><span style="font-size:10.5pt\;font-family:&quot\;Arial&quot\;\,
+	sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&quot\;\;color:#
+	049FD9\;text-decoration:none\;text-underline:none">&#43\;1-669-234-1708</s
+	pan></span><span style="mso-bookmark:WBX75856"></span></a><span style="mso
+	-bookmark:WBX75856"><span style="font-size:10.5pt\;font-family:&quot\;Aria
+	l&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&quot\
+	;\;color:#333333">&nbsp\;United\n States of America Toll</span></span><spa
+	n style="mso-bookmark:WBX75856"><span style="font-size:10.0pt\;font-family
+	:&quot\;Arial&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New
+	 Roman&quot\;\;color:#666666">&nbsp\;\n<br>\n</span></span><a href="https:
+	//applied-materials.webex.com/applied-materials/globalcallin.php?MTID=m7ed
+	5f7b75a12d822d744ceaaea6f8f3f"><span style="mso-bookmark:WBX75856"><span s
+	tyle="font-size:10.5pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;mso-f
+	areast-font-family:&quot\;Times New Roman&quot\;\;color:#049FD9\;text-deco
+	ration:none\;text-underline:none">Global\n call-in numbers</span></span><s
+	pan style="mso-bookmark:WBX75856"></span></a><span style="mso-bookmark:WBX
+	75856"><span style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,san
+	s-serif\;mso-fareast-font-family:&quot\;Times New Roman&quot\;\;color:#666
+	666">&nbsp\;&nbsp\;|&nbsp\;&nbsp\;</span></span><a href="https://www.webex
+	.com/pdf/tollfree_restrictions.pdf"><span style="mso-bookmark:WBX75856"><s
+	pan style="font-size:10.5pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;
+	mso-fareast-font-family:&quot\;Times New Roman&quot\;\;color:#049FD9\;text
+	-decoration:none\;text-underline:none">Toll-free\n calling restrictions</s
+	pan></span><span style="mso-bookmark:WBX75856"></span></a><span style="mso
+	-bookmark:WBX75856"><span style="font-size:10.0pt\;font-family:&quot\;Aria
+	l&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&quot\
+	;\;color:#666666"> &nbsp\;\n<br>\n</span></span><span style="mso-bookmark:
+	WBX75856"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\
+	;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&quot\;\;colo
+	r:#666666">&nbsp\;\n<br>\n</span></span><a href="https://help.webex.com/do
+	cs/DOC-5412"><span style="mso-bookmark:WBX75856"><span style="font-size:10
+	.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareast-font-fam
+	ily:&quot\;Times New Roman&quot\;\;color:#00AFF9">Can't join the meeting?<
+	/span></span><span style="mso-bookmark:WBX75856"></span></a><span style="m
+	so-bookmark:WBX75856"><span style="font-size:10.0pt\;font-family:&quot\;Se
+	goe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&
+	quot\;\;color:#666666">\n<br>\n&nbsp\; <br>\n</span></span><span style="ms
+	o-bookmark:WBX75856"><span style="font-size:12.0pt\;font-family:&quot\;Seg
+	oe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&q
+	uot\;\;color:black">If you are a host\,\n</span></span><span style="mso-bo
+	okmark:WBX75856"></span><a href="https://applied-materials.webex.com/appli
+	ed-materials/j.php?MTID=m67ae6f7241c4a4e7b66cd631998dcbf5"><span style="ms
+	o-bookmark:WBX75856"><span style="font-size:12.0pt\;font-family:&quot\;Seg
+	oe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman&q
+	uot\;\;color:#049FD9\;text-decoration:none\;text-underline:none">go\n here
+	</span></span><span style="mso-bookmark:WBX75856"></span></a><span style="
+	mso-bookmark:WBX75856"><span style="font-size:12.0pt\;font-family:&quot\;S
+	egoe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roman
+	&quot\;\;color:black"> to view host information.</span></span><span style=
+	"mso-bookmark:WBX75856"><span style="font-size:10.0pt\;font-family:&quot\;
+	Segoe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;Times New Roma
+	n&quot\;\;color:#666666">\n</span></span><span style="mso-bookmark:WBX7585
+	6"><span style="font-size:7.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-
+	serif\;mso-fareast-font-family:&quot\;Times New Roman&quot\;\;color:#A0A0A
+	0">IMPORTANT NOTICE: Please note that this Webex service allows audio and 
+	other information\n sent during the session to be recorded\, which may be 
+	discoverable in a legal matter. By joining this session\, you automaticall
+	y consent to such recordings. If you do not consent to being recorded\, di
+	scuss your concerns with the host or do not join the session.</span></span
+	><span style="mso-bookmark:WBX75856"><span style="font-size:10.0pt\;font-f
+	amily:&quot\;Segoe UI&quot\;\,sans-serif\;mso-fareast-font-family:&quot\;T
+	imes New Roman&quot\;\;color:#666666">\n</span></span><span style="mso-boo
+	kmark:WBX75856"></span><span style="mso-fareast-font-family:&quot\;Times N
+	ew Roman&quot\;"><o:p></o:p></span></p>\n</div>\n<p class="MsoNormal"><spa
+	n style="font-family:&quot\;Arial&quot\;\,sans-serif"><o:p>&nbsp\;</o:p></
+	span></p>\n</div>\n<p><span style="font-size: 11pt\; font-family: Calibri\
+	, sans-serif\; color: #000000\;">The content of this message is APPLIED MA
+	TERIALS CONFIDENTIAL. If you are not the intended recipient\, please notif
+	y me\, delete this email and do not use or distribute this email.\n</span>
+	</p>\n</body>\n</html>\n
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-APPTSEQTIME:20200326T084347Z
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -2329,10 +3069,10 @@ DESCRIPTION:Sunday – AMIL only\n\nFriday – AMIND only\n\n  \n-- Do not
 	 not join the session. \n\n \n\nThe content of this message is APPLIED MAT
 	ERIALS CONFIDENTIAL. If you are not the intended recipient\, please notify
 	 me\, delete this email and do not use or distribute this email. \n\n
-DTEND;TZID="India Standard Time":20200422T123000
+DTEND;TZID="India Standard Time":20200423T123000
 DTSTAMP:20200326T121905Z
-DTSTART;TZID="India Standard Time":20200422T120000
-LAST-MODIFIED:20200422T013926Z
+DTSTART;TZID="India Standard Time":20200423T120000
+LAST-MODIFIED:20200423T033833Z
 LOCATION:WebEx
 ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
 PRIORITY:5
@@ -2542,25 +3282,6 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-CLASS:PUBLIC
-CREATED:20200421T102950Z
-DTEND:20200422T070000Z
-DTSTAMP:20200422T050001Z
-DTSTART:20200422T063000Z
-LAST-MODIFIED:20200422T013918Z
-PRIORITY:5
-RECURRENCE-ID:20200422T063000Z
-SEQUENCE:0
-UID:040000008200E00074C5B7101A82E00800000000C0CB89559603D601000000000000000
-	0100000003BEE6513F8DE0F4BB963798A26D1E0D1
-X-MICROSOFT-CDO-IMPORTANCE:1
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 ATTENDEE;CN="Tsvi Goren";RSVP=TRUE:mailto:Zvi_Goren@amat.com
 ATTENDEE;CN="Eran Blum";RSVP=TRUE:mailto:Eran_Blum@amat.com
 ATTENDEE;CN="Limor Drori";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Limor_Drori@am
@@ -2621,7 +3342,7 @@ DESCRIPTION:We have a new Jira project called PROVision Field (PF).\n\nI’
 DTEND;TZID="Israel Standard Time":20200427T100000
 DTSTAMP:20200331T094529Z
 DTSTART;TZID="Israel Standard Time":20200427T090000
-LAST-MODIFIED:20200422T013916Z
+LAST-MODIFIED:20200423T033823Z
 LOCATION:WebEx
 ORGANIZER;CN="Maor Keinan":mailto:Maor_Keinan@amat.com
 PRIORITY:5
@@ -2859,6 +3580,8 @@ ATTENDEE;CN="Noam Paz";RSVP=TRUE:mailto:Noam_Paz@amat.com
 ATTENDEE;CN="SW Infra Calendar";RSVP=TRUE:mailto:SW_Infra_Calendar@amat.com
 ATTENDEE;CN="DevOps Builds";RSVP=TRUE:mailto:DevOps_Builds@amat.com
 ATTENDEE;CN="Yevgeni Gelfgat";RSVP=TRUE:mailto:Yevgeni_Gelfgat@amat.com
+ATTENDEE;CN="Avi Aboody";RSVP=TRUE:mailto:Avi_Aboody@amat.com
+ATTENDEE;CN="Hadas Ben Yehuda";RSVP=TRUE:mailto:Hadas_BenYehuda@amat.com
 ATTENDEE;CN="Amiran Abayev";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTE
 	D:mailto:Amiran_Abayev@amat.com
 ATTENDEE;CN="Valentine Bainov";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
@@ -2933,8 +3656,8 @@ ATTENDEE;CN="Chaya Gutfroind --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PART
 	STAT=ACCEPTED:mailto:Chaya_Gutfroind@contractor.amat.com
 ATTENDEE;CN="Inbal Aharonson";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTA
 	TIVE:mailto:Inbal_Aharonson@amat.com
-ATTENDEE;CN="Nir Sagiv";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:ma
-	ilto:Nir_Sagiv@amat.com
+ATTENDEE;CN="Nir Sagiv";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTATIVE:m
+	ailto:Nir_Sagiv@amat.com
 ATTENDEE;CN="Avi Dery --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
 	CEPTED:mailto:Avi_Dery@contractor.amat.com
 ATTENDEE;CN="Evgeny Lahav";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTATIV
@@ -2959,8 +3682,8 @@ ATTENDEE;CN="Anatoli Elman";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTATI
 	VE:mailto:Anatoli_Elman@amat.com
 ATTENDEE;CN="Avi Shem Tov";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
 	:mailto:Avi_ShemTov@amat.com
-ATTENDEE;CN="Gangadhar Ramapur";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TEN
-	TATIVE:mailto:Gangadhar_Ramapur@amat.com
+ATTENDEE;CN="Gangadhar Ramapur";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACC
+	EPTED:mailto:Gangadhar_Ramapur@amat.com
 ATTENDEE;CN="Yarden Galili";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTE
 	D:mailto:Yarden_Galili@amat.com
 ATTENDEE;CN="Ella Shechter";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTE
@@ -3071,8 +3794,6 @@ ATTENDEE;CN="Gilad Kotler";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTATIV
 	E:mailto:Gilad_Kotler@amat.com
 ATTENDEE;CN="Lena Solodkin";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTE
 	D:mailto:Lena_Solodkin@amat.com
-ATTENDEE;CN="Lucy Pavlenko";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTE
-	D:mailto:Lucy_Pavlenko@amat.com
 ATTENDEE;CN="Sreenath Kummari";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
 	PTED:mailto:Sreenath_Kummari@amat.com
 ATTENDEE;CN="Ariel Miller";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTATIV
@@ -3097,6 +3818,18 @@ ATTENDEE;CN="Margaret Reznikov";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACC
 	EPTED:mailto:Margaret_Reznikov@amat.com
 ATTENDEE;CN="Neta Hemyan";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:
 	mailto:Neta_Hemyan@amat.com
+ATTENDEE;CN="Idan Shimoni";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+	:mailto:Idan_Shimoni@amat.com
+ATTENDEE;CN="shira salomon --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
+	AT=ACCEPTED:mailto:shira_salomon@contractor.amat.com
+ATTENDEE;CN="Limor Alon";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:m
+	ailto:Limor_Alon@amat.com
+ATTENDEE;CN="Leonid Gilovoy";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPT
+	ED:mailto:Leonid_Gilovoy@amat.com
+ATTENDEE;CN="Kiril Perman";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+	:mailto:Kiril_Perman@amat.com
+ATTENDEE;CN="Mila Raygor --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
+	=ACCEPTED:mailto:Mila_Raygor@contractor.amat.com
 ATTENDEE;CN="Assaf Waizman";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=DECLINE
 	D:mailto:Assaf_Waizman@amat.com
 ATTENDEE;CN="Alexander A Feldman";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=D
@@ -3109,12 +3842,16 @@ ATTENDEE;CN="Artyom Tseitlin";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=DECLI
 	NED:mailto:Artyom_Tseitlin@amat.com
 ATTENDEE;CN="Denis Simakov";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=DECLINE
 	D:mailto:Denis_Simakov@amat.com
+ATTENDEE;CN="Lucy Pavlenko";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=DECLINE
+	D:mailto:Lucy_Pavlenko@amat.com
 ATTENDEE;CN="Marcelo Bacher";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=DECLIN
 	ED:mailto:Marcelo_Bacher@amat.com
 ATTENDEE;CN="Sambit Rath";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=DECLINED:
 	mailto:Sambit_Rath@amat.com
 ATTENDEE;CN="Lior Kessel";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=DECLINED:
 	mailto:Lior_Kessel@amat.com
+ATTENDEE;CN="Nirel Shaashua";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=DECLIN
+	ED:mailto:Nirel_Shaashua@amat.com
 CLASS:PUBLIC
 CREATED:20200420T043248Z
 DESCRIPTION:  Demo Agenda:\n\n1.	Devops\n\n	*	OneVersion \n	*	Clone-sb impr
@@ -3167,7 +3904,7 @@ DESCRIPTION:  Demo Agenda:\n\n1.	Devops\n\n	*	OneVersion \n	*	Clone-sb impr
 DTEND;TZID="Israel Standard Time":20200423T110000
 DTSTAMP:20200421T115203Z
 DTSTART;TZID="Israel Standard Time":20200423T093000
-LAST-MODIFIED:20200422T014523Z
+LAST-MODIFIED:20200423T041607Z
 LOCATION:Webex
 ORGANIZER;CN="Amir Avrahami":mailto:Amir_Avrahami@amat.com
 PRIORITY:5
@@ -3526,44 +4263,13 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Run Export Calendar
-CLASS:PUBLIC
-CREATED:20200421T050128Z
-DESCRIPTION:Export Calendar \n\n
-DTEND;TZID="India Standard Time":20200422T103100
-DTSTAMP:20200422T050001Z
-DTSTART;TZID="India Standard Time":20200422T103100
-LAST-MODIFIED:20200421T091658Z
-PRIORITY:5
-SEQUENCE:0
-SUMMARY;LANGUAGE=en-us:Export Calendar
-TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000808071E5C717D601000000000000000
-	0100000007918469FB2469C4E84D897B739770A1C
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
-	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
-	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
-	sion 16.0.11328.20390">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
-	from text/rtf format -->\n\n<P><FONT FACE="Calibri">Export Calendar</FONT>
-	\n</P>\n\n</BODY>\n</HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-CONFTYPE:0
-BEGIN:VALARM
-TRIGGER:-PT1M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 CLASS:PRIVATE
 CREATED:20200421T060607Z
 DESCRIPTION: \n
-DTEND;TZID="India Standard Time":20200422T133000
-DTSTAMP:20200422T050001Z
-DTSTART;TZID="India Standard Time":20200422T130000
-LAST-MODIFIED:20200421T060608Z
+DTEND;TZID="India Standard Time":20200423T133000
+DTSTAMP:20200423T050226Z
+DTSTART;TZID="India Standard Time":20200423T130000
+LAST-MODIFIED:20200422T111749Z
 PRIORITY:5
 RRULE:FREQ=WEEKLY;COUNT=7;BYDAY=MO,TU,WE,TH,FR
 SEQUENCE:0
@@ -4079,281 +4785,166 @@ X-MS-OLK-AUTOSTARTCHECK:FALSE
 X-MS-OLK-CONFTYPE:0
 END:VEVENT
 BEGIN:VEVENT
-ATTENDEE;CN="PRV ProWiz Scrum Team";RSVP=TRUE:mailto:PRV.ProWiz.Scrum.Team@
-	amat.com
-ATTENDEE;CN="Howard Schiffmiller";RSVP=TRUE:mailto:Howard_Schiffmiller@amat
-	.com
-ATTENDEE;CN="Brenda Dana Zon";RSVP=TRUE:mailto:BrendaDana_Zon@amat.com
-ATTENDEE;CN="Eti Abel";RSVP=TRUE:mailto:Eti_Abel@amat.com
-ATTENDEE;CN="Ziv Gordin";RSVP=TRUE:mailto:Ziv_Gordin@amat.com
-ATTENDEE;CN="Tsvi Goren";RSVP=TRUE:mailto:Zvi_Goren@amat.com
+CATEGORIES:Run Export Calendar
+CLASS:PUBLIC
+CREATED:20200422T050011Z
+DESCRIPTION:Export Calendar \n\n
+DTEND;TZID="India Standard Time":20200423T103000
+DTSTAMP:20200423T050226Z
+DTSTART;TZID="India Standard Time":20200423T103000
+LAST-MODIFIED:20200422T111749Z
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Export Calendar
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000D05A72FF9018D601000000000000000
+	01000000075FF7777C89B1E43B0624E8E25943AC4
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
+	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
+	sion 16.0.11328.20390">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
+	from text/rtf format -->\n\n<P><FONT FACE="Calibri">Export Calendar</FONT>
+	\n</P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT1M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="Yair Goldenberg";RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Yair_Gold
+	enberg@amat.com
+ATTENDEE;CN="Ganesh Kumar M R";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:ganesh_mr
+	@amat.com
+ATTENDEE;CN="Ubhay Kumar";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ubhay_Kumar@am
+	at.com
+ATTENDEE;CN="Ashutosh Shukla";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ashutosh_S
+	hukla@amat.com
+ATTENDEE;CN="Shradha Sahay";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Shradha_Saha
+	y@amat.com
 ATTENDEE;CN="Maor Keinan";RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Maor_Keinan@a
 	mat.com
-ATTENDEE;CN="Rohit Kumar Singh";RSVP=TRUE:mailto:RohitKumar_Singh@amat.com
-ATTENDEE;CN="Ananth Venugopal";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
-	PTED:mailto:Ananth_Venugopal@amat.com
+ATTENDEE;CN="Oleg Nepomnyaschy";RSVP=TRUE:mailto:Oleg_Nepomnyashchiy@amat.c
+	om
+ATTENDEE;CN="Hanan Kavitz";RSVP=TRUE:mailto:Hanan_Kavitz@amat.com
+ATTENDEE;CN="Maria Antokolsky --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mai
+	lto:Maria_Antokolsky@contractor.amat.com
+ATTENDEE;CN="Vadim Tanel --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:V
+	adim_Tanel@contractor.amat.com
 ATTENDEE;CN="Gangadhar Ramapur";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACC
 	EPTED:mailto:Gangadhar_Ramapur@amat.com
-ATTENDEE;CN="Shai Nissim";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Shai_Nissim
-	@amat.com
-ATTENDEE;CN="Itai Buks";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Itai_Buks@ama
-	t.com
-ATTENDEE;CN="Eran Blum";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Eran_Blum@ama
-	t.com
-ATTENDEE;CN="Binyamin Bejell";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Binyami
-	n_Bejell@amat.com
-ATTENDEE;CN="Tali Bachar";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTATIVE
-	:mailto:Tali_Bachar@amat.com
+ATTENDEE;CN="Ananth Venugopal";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
+	PTED:mailto:Ananth_Venugopal@amat.com
+ATTENDEE;CN="Suchitra Gupta";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Suchitra
+	_Gupta@amat.com
 CLASS:PUBLIC
-CREATED:20200421T083438Z
-DESCRIPTION:Early to meet feature DD in version.\n\n  Rescheduling as April
-	 28 is a PDC shutdown.\n\n  \n-- Do not delete or change any of the follow
-	ing text. --   \n  \n  \n\nWelcome to new eMeeting\, powered by Cisco WebE
-	x \nClick here to join the meeting <https://applied-materials.webex.com/ap
-	plied-materials/j.php?MTID=md7c5a0ebd65b5f523a1b6c6500fc7772>    \nMeeting
-	 number (access code): 960 844 187 Meeting password: xkNmEMFF672    \nJoin
-	 from a video system or application\nDial 960844187@applied-materials.webe
-	x.com <sip:960844187@applied-materials.webex.com>   \n  \n\nCall Using Com
-	puter \n     VOIP/Call Over Internet. This is the preferred option\, but a
-	 PC Headset is required to connect.\n\nCall Me \n     Dial back to an Appl
-	ied Materials extension.\n     Select US and enter 555 + interoffice/count
-	ry tie-line + your extension. \n          Examples: (X is your 4 or 5-digi
-	t extension depending on region). \n                   SCLA       555 + 20
-	 + XXXXX\n                   Austin     555 + 22 + XXXXX\n                
-	   Germany 555 + 420 + XXXX\n                   Israel       555 + 55 + XX
-	XXX\n                   Taiwan    555 + 750 + XXXX\n          (Click here 
-	for a list of all interoffice/country tie-lines) (Global Tie-line format) 
-	<https://amat.service-now.com/AMAT3/knowledge_view.do?sysparm_document_key
-	=kb_knowledge\,5d284a22db2d474c6deb5887dc96194e>    \n\n\nI Will Call In f
-	rom an Applied Materials Cisco Phone:\n           Dial 1+20+77777  \n     
-	      Enter the meeting number to connect.\n\n\nI Will Call In from an Ext
-	ernal Phone (non Applied Materials):\nJoin by phone  \nTap to call in from
-	 a mobile device (attendees only)  \n+1-669-234-1708 <tel:%2B1-669-234-170
-	8\,\,*01*960844187%23%23*01*>  United States of America Toll  \nGlobal cal
-	l-in numbers <https://applied-materials.webex.com/applied-materials/global
-	callin.php?MTID=mca06d45f58c4f48394d58fb32ff45dd4>   |  Toll-free calling 
-	restrictions <https://www.webex.com/pdf/tollfree_restrictions.pdf>    \n  
-	\nCan't join the meeting? <https://help.webex.com/docs/DOC-5412>  \n  \nIf
-	 you are a host\, go here <https://applied-materials.webex.com/applied-mat
-	erials/j.php?MTID=m2f6969ba57f3a1e39980aa1b8abd3965>  to view host informa
-	tion. IMPORTANT NOTICE: Please note that this Webex service allows audio a
-	nd other information sent during the session to be recorded\, which may be
-	 discoverable in a legal matter. By joining this session\, you automatical
-	ly consent to such recordings. If you do not consent to being recorded\, d
-	iscuss your concerns with the host or do not join the session. \n\n \n\nTh
-	e content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are no
-	t the intended recipient\, please notify me\, delete this email and do not
-	 use or distribute this email. \n\n
-DTEND;TZID="Israel Standard Time":20200422T093000
-DTSTAMP:20200421T081420Z
-DTSTART;TZID="Israel Standard Time":20200422T090000
-LAST-MODIFIED:20200422T013914Z
-LOCATION:webex
-ORGANIZER;CN="Ofer Zvuluny":mailto:Ofer_Zvuluny@amat.com
+CREATED:20200423T044958Z
+DESCRIPTION: \n\n \n\n-----Original Appointment-----\nFrom: Balaji Chithugn
+	anamoorthy <Balaji_Chithugnanamoorthy@amat.com> \nSent: Tuesday\, April 21
+	\, 2020 6:49 PM\nTo: Balaji Chithugnanamoorthy\; Yair Goldenberg\; Ganesh 
+	Kumar M R\; Ubhay Kumar\; Ashutosh Shukla\; Shradha Sahay\; Maor Keinan\; 
+	Oleg Nepomnyaschy\; Hanan Kavitz\nCc: Maria Antokolsky --TR-CNTR\; Vadim T
+	anel --TR-CNTR\nSubject: IMS power up issue\nWhen: Thursday\, April 23\, 2
+	020 5:00 PM-5:30 PM (UTC+05:30) Chennai\, Kolkata\, Mumbai\, New Delhi.\nW
+	here: Microsoft Teams Meeting\n\n \n\n \n\n_______________________________
+	_________________________________________________ \n\nJoin Microsoft Teams
+	 Meeting <https://teams.microsoft.com/l/meetup-join/19%3ameeting_Nzc0N2IzM
+	zUtYjVjNi00MGY1LTk4NzEtZjgxNmQ2MWJlOGEy%40thread.v2/0?context=%7b%22Tid%22
+	%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%22%3a%22e706ee8f-8f
+	78-44af-9501-0cdf0d9a9753%22%7d>  \n\nLearn more about Teams <https://aka.
+	ms/JoinTeamsMeeting>  | Meeting options <https://teams.microsoft.com/meeti
+	ngOptions/?organizerId=e706ee8f-8f78-44af-9501-0cdf0d9a9753&tenantId=709c2
+	643-b1a9-4415-ad0f-521cfa6ba3f5&threadId=19_meeting_Nzc0N2IzMzUtYjVjNi00MG
+	Y1LTk4NzEtZjgxNmQ2MWJlOGEy@thread.v2&messageId=0&language=en-US>  \n\n____
+	__________________________________________________________________________
+	__ \n\n \n\nThe content of this message is APPLIED MATERIALS CONFIDENTIAL.
+	 If you are not the intended recipient\, please notify me\, delete this em
+	ail and do not use or distribute this email. \n\n
+DTEND;TZID="Unnamed Time Zone 1":20200423T173000
+DTSTAMP:20200421T131918Z
+DTSTART;TZID="Unnamed Time Zone 1":20200423T170000
+LAST-MODIFIED:20200423T045530Z
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN="Balaji Chithugnanamoorthy":mailto:Balaji_Chithugnanamoorthy@a
+	mat.com
 PRIORITY:5
-SEQUENCE:2
-SUMMARY:Reducing OM light - STP Review
+SEQUENCE:0
+SUMMARY:IMS power up issue
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000F012A2265E12D601000000000000000
-	0100000002D4012AC117CF34C80E2CCC3951068F7
+UID:040000008200E00074C5B7101A82E0080000000020B2782B0D18D601000000000000000
+	010000000D515ED8E9AAC3F42B279F6FFCBA65D24
 X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
 	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
 	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
 	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
-	"Content-Type" content="text/html\; charset=us-ascii">\n<meta name="Genera
-	tor" content="Microsoft Word 15 (filtered medium)">\n<style><!--\n/* Font 
-	Definitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 
-	5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 
-	2 2 2 4 3 2 4\;}\n@font-face\n	{font-family:Tahoma\;\n	panose-1:2 11 6 4 3
-	 5 4 4 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5 2 
-	4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, div.
-	MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-size:11.0pt\;\n
-		font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyperlink\n	{mso-s
-	tyle-priority:99\;\n	color:#0563C1\;\n	text-decoration:underline\;}\na:vis
-	ited\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n	color:#954F7
-	2\;\n	text-decoration:underline\;}\np.msonormal0\, li.msonormal0\, div.mso
-	normal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:auto\;\n	margin
-	-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;\n	font-siz
-	e:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.EmailStyle18\n	{ms
-	o-style-type:personal-compose\;\n	font-family:"Tahoma"\,sans-serif\;\n	col
-	or:#002060\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	font-size:
-	10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in 1.0in 
-	1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></style><!--[
-	if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />\n</xm
-	l><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:i
-	dmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]-->\n</head>
-	\n<body lang="EN-US" link="#0563C1" vlink="#954F72">\n<div class="WordSect
-	ion1">\n<p class="MsoNormal"><span style="font-family:&quot\;Segoe UI&quot
-	\;\,sans-serif">Early to meet feature DD in version.<o:p></o:p></span></p>
-	\n<p class="MsoNormal"><s><span style="font-family:&quot\;Segoe UI&quot\;\
-	,sans-serif">&nbsp\; Rescheduling as April 28 is a PDC shutdown.<o:p></o:p
-	></span></s></p>\n<div>\n<p class="MsoNormal"><span style="font-family:&qu
-	ot\;Segoe UI&quot\;\,sans-serif">&nbsp\; <br>\n</span><span style="font-si
-	ze:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#A0A0A0">
-	-<a name="WBX57843">- Do not delete or change any of the following text. -
-	-</a></span><span style="mso-bookmark:WBX57843"><span style="font-size:10.
-	0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif">\n &nbsp\; <br>\n&nbs
-	p\; <br>\n&nbsp\; <br>\n<br>\n</span></span><span style="mso-bookmark:WBX5
-	7843"><span style="font-size:13.5pt\;font-family:&quot\;Arial&quot\;\,sans
-	-serif\;color:#E87722">Welcome to new eMeeting\, powered by Cisco WebEx</s
-	pan></span><span style="mso-bookmark:WBX57843"><span style="font-size:10.0
-	pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif">\n<br>\n</span></span>
-	<a href="https://applied-materials.webex.com/applied-materials/j.php?MTID=
-	md7c5a0ebd65b5f523a1b6c6500fc7772"><span style="mso-bookmark:WBX57843"><sp
-	an style="font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif
-	\;color:#00AFF9">Click here to join\n the meeting</span></span><span style
-	="mso-bookmark:WBX57843"></span></a><span style="mso-bookmark:WBX57843"><s
-	pan style="font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-seri
-	f"> &nbsp\;\n<br>\n</span></span><span style="mso-bookmark:WBX57843"><span
-	 style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;
-	color:#666666">Meeting number (access code): 960 844 187</span></span><spa
-	n style="mso-bookmark:WBX57843"><span style="font-size:13.5pt\;font-family
-	:&quot\;Segoe UI&quot\;\,sans-serif">\n</span></span><span style="mso-book
-	mark:WBX57843"><span style="font-size:12.0pt\;font-family:&quot\;Arial&quo
-	t\;\,sans-serif\;color:black">Meeting password:</span></span><span style="
-	mso-bookmark:WBX57843"><span style="font-size:10.0pt\;font-family:&quot\;S
-	egoe UI&quot\;\,sans-serif\;color:#666666">\n</span></span><span style="ms
-	o-bookmark:WBX57843"><span style="font-size:12.0pt\;font-family:&quot\;Ari
-	al&quot\;\,sans-serif\;color:black">xkNmEMFF672</span></span><span style="
-	mso-bookmark:WBX57843"><span style="font-size:10.0pt\;font-family:&quot\;S
-	egoe UI&quot\;\,sans-serif\;color:#666666">&nbsp\;\n</span></span><span st
-	yle="mso-bookmark:WBX57843"><span style="font-size:10.0pt\;font-family:&qu
-	ot\;Segoe UI&quot\;\,sans-serif">&nbsp\;\n<br>\n</span></span><span style=
-	"mso-bookmark:WBX57843"><b><span style="font-size:9.0pt\;font-family:&quot
-	\;Arial&quot\;\,sans-serif\;color:black">Join from a video system or appli
-	cation</span></b></span><span style="mso-bookmark:WBX57843"><span style="f
-	ont-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif"><br>\n</span
-	></span><span style="mso-bookmark:WBX57843"><span style="font-size:10.5pt\
-	;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#333333">Dial</span></
-	span><span style="mso-bookmark:WBX57843"><span style="font-size:10.0pt\;fo
-	nt-family:&quot\;Arial&quot\;\,sans-serif">\n</span></span><a href="sip:96
-	0844187@applied-materials.webex.com"><span style="mso-bookmark:WBX57843"><
-	span style="font-size:10.5pt\;font-family:&quot\;Arial&quot\;\,sans-serif\
-	;color:#049FD9">960844187@applied-materials.webex.com</span></span><span s
-	tyle="mso-bookmark:WBX57843"></span></a><span style="mso-bookmark:WBX57843
-	"><span style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-ser
-	if">&nbsp\;\n<br>\n</span></span><span style="mso-bookmark:WBX57843"><span
-	 style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif">
-	&nbsp\;\n<span style="color:#666666"><o:p></o:p></span></span></span></p>\
-	n<p><span style="mso-bookmark:WBX57843"><span style="font-size:13.5pt\;fon
-	t-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666">Call Using Com
-	puter\n</span></span><span style="mso-bookmark:WBX57843"><span style="font
-	-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#66666
-	6"><br>\n&nbsp\; &nbsp\; &nbsp\;VOIP/Call Over Internet. This is the prefe
-	rred option\, but a PC Headset is required to connect.<o:p></o:p></span></
-	span></p>\n<p class="MsoNormal"><span style="mso-bookmark:WBX57843"><span 
-	style="font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;c
-	olor:#666666">Call Me\n<br>\n</span></span><span style="mso-bookmark:WBX57
-	843"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sa
-	ns-serif\;color:#666666">&nbsp\; &nbsp\; &nbsp\;Dial back to an Applied Ma
-	terials extension.<br>\n&nbsp\; &nbsp\; &nbsp\;Select US and enter 555 &#4
-	3\; interoffice/country tie-line &#43\; your extension. <br>\n&nbsp\; &nbs
-	p\; &nbsp\;&nbsp\; &nbsp\; &nbsp\;Examples: (X is your 4 or 5-digit extens
-	ion depending on region). <br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &n
-	bsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;SCLA&nbsp\; &nbsp\; &nbsp\; &nbsp\;55
-	5 &#43\; 20 &#43\; XXXXX<br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbs
-	p\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Austin&nbsp\; &nbsp\; &nbsp\;555 &#43\;
-	 22 &#43\; XXXXX<br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbs
-	p\; &nbsp\; &nbsp\; &nbsp\;Germany 555 &#43\; 420 &#43\; XXXX<br>\n&nbsp\;
-	 &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Is
-	rael&nbsp\; &nbsp\; &nbsp\; &nbsp\;555 &#43\; 55 &#43\; XXXXX<br>\n&nbsp\;
-	 &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Ta
-	iwan&nbsp\; &nbsp\; 555 &#43\; 750 &#43\; XXXX<br>\n&nbsp\; &nbsp\; &nbsp\
-	;&nbsp\; &nbsp\; &nbsp\;(Click here for a list of all interoffice/country 
-	tie-lines</span></span><span style="mso-bookmark:WBX57843"><span style="fo
-	nt-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666
-	666">)\n</span></span><a href="https://amat.service-now.com/AMAT3/knowledg
-	e_view.do?sysparm_document_key=kb_knowledge\,5d284a22db2d474c6deb5887dc961
-	94e"><span style="mso-bookmark:WBX57843"><span style="font-size:10.0pt\;fo
-	nt-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#00AFF9">(Global\n Tie
-	-line format)</span></span><span style="mso-bookmark:WBX57843"></span></a>
-	<span style="mso-bookmark:WBX57843"><span style="font-size:10.0pt\;font-fa
-	mily:&quot\;Segoe UI&quot\;\,sans-serif\;color:#00AFF9"> &nbsp\;&nbsp\;<o:
-	p></o:p></span></span></p>\n<p class="MsoNormal"><span style="mso-bookmark
-	:WBX57843"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot
-	\;\,sans-serif\;color:#00AFF9"><br>\n</span></span><span style="mso-bookma
-	rk:WBX57843"><span style="font-size:13.5pt\;font-family:&quot\;Segoe UI&qu
-	ot\;\,sans-serif\;color:#666666">I Will Call In from an Applied Materials 
-	Cisco Phone:<br>\n</span></span><span style="mso-bookmark:WBX57843"><span 
-	style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;c
-	olor:#666666">&nbsp\; &nbsp\; &nbsp\;&nbsp\; &nbsp\; &nbsp\; Dial\n<strong
-	><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif">1&#43\;20&#4
-	3\;77777&nbsp\;</span></strong>\n<br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nb
-	sp\; &nbsp\;Enter the meeting number to connect.<o:p></o:p></span></span><
-	/p>\n<p class="MsoNormal"><span style="mso-bookmark:WBX57843"><span style=
-	"font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#
-	666666"><br>\n</span></span><span style="mso-bookmark:WBX57843"><span styl
-	e="font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color
-	:#666666">I Will Call In from an External Phone (non Applied Materials):<b
-	r>\n</span></span><span style="mso-bookmark:WBX57843"><b><span style="font
-	-size:9.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:black">Joi
-	n by phone</span></b></span><span style="mso-bookmark:WBX57843"><span styl
-	e="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#6
-	66666">&nbsp\;\n<br>\n</span></span><span style="mso-bookmark:WBX57843"><s
-	pan style="font-size:9.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;c
-	olor:#666666">Tap to call in from a mobile device (attendees only)</span><
-	/span><span style="mso-bookmark:WBX57843"><span style="font-size:10.0pt\;f
-	ont-family:&quot\;Arial&quot\;\,sans-serif\;color:#666666">&nbsp\;\n<br>\n
-	</span></span><a href="tel:%2B1-669-234-1708\,\,*01*960844187%23%23*01*"><
-	span style="mso-bookmark:WBX57843"><span style="font-size:10.5pt\;font-fam
-	ily:&quot\;Arial&quot\;\,sans-serif\;color:#049FD9\;text-decoration:none">
-	&#43\;1-669-234-1708</span></span><span style="mso-bookmark:WBX57843"></sp
-	an></a><span style="mso-bookmark:WBX57843"><span style="font-size:10.5pt\;
-	font-family:&quot\;Arial&quot\;\,sans-serif\;color:#333333">&nbsp\;United\
-	n States of America Toll</span></span><span style="mso-bookmark:WBX57843">
-	<span style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif
-	\;color:#666666">&nbsp\;\n<br>\n</span></span><a href="https://applied-mat
-	erials.webex.com/applied-materials/globalcallin.php?MTID=mca06d45f58c4f483
-	94d58fb32ff45dd4"><span style="mso-bookmark:WBX57843"><span style="font-si
-	ze:10.5pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#049FD9\;tex
-	t-decoration:none">Global\n call-in numbers</span></span><span style="mso-
-	bookmark:WBX57843"></span></a><span style="mso-bookmark:WBX57843"><span st
-	yle="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:
-	#666666">&nbsp\;&nbsp\;|&nbsp\;&nbsp\;</span></span><a href="https://www.w
-	ebex.com/pdf/tollfree_restrictions.pdf"><span style="mso-bookmark:WBX57843
-	"><span style="font-size:10.5pt\;font-family:&quot\;Arial&quot\;\,sans-ser
-	if\;color:#049FD9\;text-decoration:none">Toll-free\n calling restrictions<
-	/span></span><span style="mso-bookmark:WBX57843"></span></a><span style="m
-	so-bookmark:WBX57843"><span style="font-size:10.0pt\;font-family:&quot\;Ar
-	ial&quot\;\,sans-serif\;color:#666666"> &nbsp\;\n<br>\n</span></span><span
-	 style="mso-bookmark:WBX57843"><span style="font-size:10.0pt\;font-family:
-	&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666">&nbsp\;\n<br>\n</span><
-	/span><a href="https://help.webex.com/docs/DOC-5412"><span style="mso-book
-	mark:WBX57843"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&
-	quot\;\,sans-serif\;color:#00AFF9">Can't join the meeting?</span></span><s
-	pan style="mso-bookmark:WBX57843"></span></a><span style="mso-bookmark:WBX
-	57843"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,
-	sans-serif\;color:#666666">\n<br>\n&nbsp\; <br>\n</span></span><span style
-	="mso-bookmark:WBX57843"><span style="font-size:12.0pt\;font-family:&quot\
-	;Segoe UI&quot\;\,sans-serif\;color:black">If you are a host\,\n</span></s
-	pan><a href="https://applied-materials.webex.com/applied-materials/j.php?M
-	TID=m2f6969ba57f3a1e39980aa1b8abd3965"><span style="mso-bookmark:WBX57843"
-	><span style="font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-s
-	erif\;color:#049FD9\;text-decoration:none">go\n here</span></span><span st
-	yle="mso-bookmark:WBX57843"></span></a><span style="mso-bookmark:WBX57843"
-	><span style="font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-s
-	erif\;color:black"> to view host information.</span></span><span style="ms
-	o-bookmark:WBX57843"><span style="font-size:10.0pt\;font-family:&quot\;Seg
-	oe UI&quot\;\,sans-serif\;color:#666666">\n</span></span><span style="mso-
-	bookmark:WBX57843"><span style="font-size:7.5pt\;font-family:&quot\;Segoe 
-	UI&quot\;\,sans-serif\;color:#A0A0A0">IMPORTANT NOTICE: Please note that t
-	his Webex service allows audio and other information sent during the sessi
-	on to be recorded\,\n which may be discoverable in a legal matter. By join
-	ing this session\, you automatically consent to such recordings. If you do
-	 not consent to being recorded\, discuss your concerns with the host or do
-	 not join the session.</span></span><span style="mso-bookmark:WBX57843"><s
-	pan style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-seri
-	f\;color:#666666">\n</span></span><o:p></o:p></p>\n</div>\n<p class="MsoNo
-	rmal"><span style="font-family:&quot\;Tahoma&quot\;\,sans-serif\;color:#00
-	2060"><o:p>&nbsp\;</o:p></span></p>\n</div>\n<p><span style="font-size: 11
-	pt\; font-family: Calibri\, sans-serif\; color: #000000\;">The content of 
-	this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intende
-	d recipient\, please notify me\, delete this email and do not use or distr
-	ibute this email.\n</span></p>\n</body>\n</html>\n
+	"Content-Type" content="text/html\; charset=us-ascii"><meta name="Generato
+	r" content="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font Defi
+	nitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 
+	5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 
+	2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5 2 4
+	 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	panose-1:
+	2 11 7 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNorm
+	al\, div.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-size:1
+	1.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyperlink
+	\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underline\
+	;}\na:visited\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n	col
+	or:#954F72\;\n	text-decoration:underline\;}\np.msonormal0\, li.msonormal0\
+	, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:auto\;
+	\n	margin-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;\n
+		font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.EmailStyl
+	e18\n	{mso-style-type:personal\;\n	font-family:"Calibri"\,sans-serif\;\n	c
+	olor:windowtext\;}\nspan.EmailStyle19\n	{mso-style-type:personal-reply\;\n
+		font-family:"Calibri"\,sans-serif\;\n	color:windowtext\;}\n.MsoChpDefault
+	\n	{mso-style-type:export-only\;\n	font-size:10.0pt\;}\n@page WordSection1
+	\n	{size:8.5in 11.0in\;\n	margin:1.0in 1.0in 1.0in 1.0in\;}\ndiv.WordSecti
+	on1\n	{page:WordSection1\;}\n--></style><!--[if gte mso 9]><xml>\n<o:shape
+	defaults v:ext="edit" spidmax="1026" />\n</xml><![endif]--><!--[if gte mso
+	 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:idmap v:ext="edit" data="1" />
+	\n</o:shapelayout></xml><![endif]--></head><body lang="EN-US" link="#0563C
+	1" vlink="#954F72"><div class="WordSection1"><p class="MsoNormal"><o:p>&nb
+	sp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><div><p class="Ms
+	oNormal">-----Original Appointment-----<br><b>From:</b> Balaji Chithugnana
+	moorthy &lt\;Balaji_Chithugnanamoorthy@amat.com&gt\; <br><b>Sent:</b> Tues
+	day\, April 21\, 2020 6:49 PM<br><b>To:</b> Balaji Chithugnanamoorthy\; Ya
+	ir Goldenberg\; Ganesh Kumar M R\; Ubhay Kumar\; Ashutosh Shukla\; Shradha
+	 Sahay\; Maor Keinan\; Oleg Nepomnyaschy\; Hanan Kavitz<br><b>Cc:</b> Mari
+	a Antokolsky --TR-CNTR\; Vadim Tanel --TR-CNTR<br><b>Subject:</b> IMS powe
+	r up issue<br><b>When:</b> Thursday\, April 23\, 2020 5:00 PM-5:30 PM (UTC
+	&#43\;05:30) Chennai\, Kolkata\, Mumbai\, New Delhi.<br><b>Where:</b> Micr
+	osoft Teams Meeting<o:p></o:p></p></div><p class="MsoNormal"><o:p>&nbsp\;<
+	/o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><
+	span style="color:gray">__________________________________________________
+	______________________________</span> <o:p></o:p></p><div><div style="marg
+	in-top:.25in\;margin-bottom:7.5pt"><p class="MsoNormal"><span style="font-
+	family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a href="https:/
+	/teams.microsoft.com/l/meetup-join/19%3ameeting_Nzc0N2IzMzUtYjVjNi00MGY1LT
+	k4NzEtZjgxNmQ2MWJlOGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22709c2643-b1
+	a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%22%3a%22e706ee8f-8f78-44af-9501-0cdf
+	0d9a9753%22%7d" target="_blank"><span style="font-size:13.5pt\;font-family
+	:&quot\;Segoe UI Semibold&quot\;\,sans-serif\;color:#6264A7">Join Microsof
+	t Teams Meeting</span></a> <o:p></o:p></span></p></div><p class="MsoNormal
+	"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#2524
+	24"><a href="https://aka.ms/JoinTeamsMeeting" target="_blank"><span style=
+	"font-size:9.0pt\;color:#6264A7\;text-decoration:none">Learn more about Te
+	ams</span></a> | <a href="https://teams.microsoft.com/meetingOptions/?orga
+	nizerId=e706ee8f-8f78-44af-9501-0cdf0d9a9753&amp\;tenantId=709c2643-b1a9-4
+	415-ad0f-521cfa6ba3f5&amp\;threadId=19_meeting_Nzc0N2IzMzUtYjVjNi00MGY1LTk
+	4NzEtZjgxNmQ2MWJlOGEy@thread.v2&amp\;messageId=0&amp\;language=en-US" targ
+	et="_blank"><span style="font-size:9.0pt\;color:#6264A7\;text-decoration:n
+	one">Meeting options</span></a> <o:p></o:p></span></p></div><div><p class=
+	"MsoNormal"><span style="color:gray">_____________________________________
+	___________________________________________</span> <o:p></o:p></p></div><p
+	 class="MsoNormal"><o:p>&nbsp\;</o:p></p><p><span style="color:black">The 
+	content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not 
+	the intended recipient\, please notify me\, delete this email and do not u
+	se or distribute this email. </span><o:p></o:p></p></div></body></html>
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-APPTSEQTIME:20200414T104512Z
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
