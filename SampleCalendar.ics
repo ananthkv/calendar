@@ -2,11 +2,10 @@ BEGIN:VCALENDAR
 PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
 METHOD:PUBLISH
-X-CALSTART:20200625T041600Z
-X-CALEND:20200703T080000Z
-X-CALEND:20200704T000000
-X-CLIPSTART:20200624T183000Z
-X-CLIPEND:20200703T183000Z
+X-CALSTART:20200626T041500Z
+X-CALEND:20200705T000000
+X-CLIPSTART:20200625T183000Z
+X-CLIPEND:20200704T183000Z
 X-WR-RELCALID:{0000002E-6E92-3A34-C16A-6DFCF7CB3C3E}
 X-WR-CALNAME:Ananth Venugopal Calendar
 X-PRIMARY-CALENDAR:TRUE
@@ -52,6 +51,28 @@ TZOFFSETFROM:+0530
 TZOFFSETTO:+0530
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+CATEGORIES:Holiday
+CLASS:PUBLIC
+CREATED:20161104T070852Z
+DTEND;VALUE=DATE:20200705
+DTSTAMP:20200626T041422Z
+DTSTART;VALUE=DATE:20200704
+LAST-MODIFIED:20200623T142042Z
+LOCATION:United States
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Independence Day
+TRANSP:TRANSPARENT
+UID:040000008200E00074C5B7101A82E00800000000D03825669836D201000000000000000
+	0100000004371CCB48CD12A4EB4086F831C7896BB
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-AUTOSTARTCHECK:FALSE
+X-MS-OLK-CONFTYPE:0
+END:VEVENT
 BEGIN:VEVENT
 ATTENDEE;CN="PDC PROVision Revenue SW";RSVP=TRUE:mailto:PDC-PROVision-Reven
 	ue-SW@amat.com
@@ -129,12 +150,18 @@ ATTENDEE;CN="Michael Polishuk";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Michae
 	l_Polishuk@amat.com
 ATTENDEE;CN="Avi Dery --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
 	CEPTED:mailto:Avi_Dery@contractor.amat.com
-ATTENDEE;CN="Vadim Tanel --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
-	=ACCEPTED:mailto:Vadim_Tanel@contractor.amat.com
 ATTENDEE;CN="Shira Salomon --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
 	AT=ACCEPTED:mailto:shira_salomon@contractor.amat.com
 ATTENDEE;CN="Lea Heller --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=
 	ACCEPTED:mailto:Lea_Heller@contractor.amat.com
+ATTENDEE;CN="Guy Ezra Wajnbaum";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Guy_E
+	zraWajnbaum@amat.com
+ATTENDEE;CN="Efrat Meir";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Efrat_Meir@a
+	mat.com
+ATTENDEE;CN="Shmuel Coyas";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Shmuel_Coy
+	as@amat.com
+ATTENDEE;CN="Elran Duek";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Elran_Duek@a
+	mat.com
 CLASS:PUBLIC
 CREATED:20191107T083912Z
 DESCRIPTION:  \n-- Do not delete or change any of the following text. --   
@@ -164,25 +191,25 @@ DESCRIPTION:  \n-- Do not delete or change any of the following text. --
 	2655bcd8538ca0a16509da778c08685>   |  Toll-free calling restrictions <http
 	s://www.webex.com/pdf/tollfree_restrictions.pdf>    \n  \nCan't join the m
 	eeting? <https://help.webex.com/docs/DOC-5412>  \n  \nIf you are a host\, 
-	go here <https://applied-materials.webex.com/applied-materials/j.php?MTID=
-	m0eeba8681d8bf53e98de28e64f728ce0>  to view host information. IMPORTANT NO
-	TICE: Please note that this Webex service allows audio and other informati
-	on sent during the session to be recorded\, which may be discoverable in a
-	 legal matter. By joining this session\, you automatically consent to such
-	 recordings. If you do not consent to being recorded\, discuss your concer
-	ns with the host or do not join the session. \n\n \n\nThe content of this 
-	message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended rec
-	ipient\, please notify me\, delete this email and do not use or distribute
-	 this email. \n\n
+	click here <https://applied-materials.webex.com/applied-materials/j.php?MT
+	ID=m0eeba8681d8bf53e98de28e64f728ce0>  to view host information. IMPORTANT
+	 NOTICE: Please note that this Webex service allows audio and other inform
+	ation sent during the session to be recorded\, which may be discoverable i
+	n a legal matter. By joining this session\, you automatically consent to s
+	uch recordings. If you do not consent to being recorded\, discuss your con
+	cerns with the host or do not join the session. \n\n \n\nThe content of th
+	is message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended 
+	recipient\, please notify me\, delete this email and do not use or distrib
+	ute this email. \n\n
 DTEND;TZID="Israel Standard Time":20200629T120000
-DTSTAMP:20200424T091822Z
+DTSTAMP:20200625T151004Z
 DTSTART;TZID="(UTC+02:00) Jerusalem":20200629T110000
-LAST-MODIFIED:20200623T142054Z
+LAST-MODIFIED:20200625T151019Z
 LOCATION:VC Israel-Rehovot-PDC3-Discovery4161(15) + WebEx
 ORGANIZER;CN="Maor Keinan":mailto:Maor_Keinan@amat.com
 PRIORITY:5
 RRULE:FREQ=WEEKLY;COUNT=1;INTERVAL=3;BYDAY=MO;WKST=SU
-SEQUENCE:1038
+SEQUENCE:1060
 SUMMARY:PROVision MC SW group meeting
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000A0E1332FE37FD401000000000000000
@@ -355,30 +382,30 @@ X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"
 	https://applied-materials.webex.com/applied-materials/j.php?MTID=m0eeba868
 	1d8bf53e98de28e64f728ce0"><span style="mso-bookmark:WBXE9203"><span style=
 	"font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#
-	049FD9\;text-decoration:none">go\n here</span></span><span style="mso-book
-	mark:WBXE9203"></span></a><span style="mso-bookmark:WBXE9203"><span style=
-	"font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:b
-	lack"> to view host information.</span></span><span style="mso-bookmark:WB
-	XE9203"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\
-	,sans-serif\;color:#666666">\n</span></span><span style="mso-bookmark:WBXE
-	9203"><span style="font-size:7.5pt\;font-family:&quot\;Segoe UI&quot\;\,sa
-	ns-serif\;color:#A0A0A0">IMPORTANT NOTICE: Please note that this Webex ser
-	vice allows audio and other information sent during the session to be reco
-	rded\,\n which may be discoverable in a legal matter. By joining this sess
-	ion\, you automatically consent to such recordings. If you do not consent 
-	to being recorded\, discuss your concerns with the host or do not join the
-	 session.</span></span><span style="mso-bookmark:WBXE9203"><span style="fo
-	nt-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666
-	666">\n</span></span><o:p></o:p></p>\n<p class="MsoNormal"><o:p>&nbsp\;</o
-	:p></p>\n</div>\n<p><span style="font-size: 11pt\; font-family: Calibri\, 
-	sans-serif\; color: #000000\;">The content of this message is APPLIED MATE
-	RIALS CONFIDENTIAL. If you are not the intended recipient\, please notify 
-	me\, delete this email and do not use or distribute this email.\n</span></
-	p>\n</body>\n</html>\n
+	049FD9\;text-decoration:none">click\n here</span></span><span style="mso-b
+	ookmark:WBXE9203"></span></a><span style="mso-bookmark:WBXE9203"><span sty
+	le="font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;colo
+	r:black"> to view host information.</span></span><span style="mso-bookmark
+	:WBXE9203"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot
+	\;\,sans-serif\;color:#666666">\n</span></span><span style="mso-bookmark:W
+	BXE9203"><span style="font-size:7.5pt\;font-family:&quot\;Segoe UI&quot\;\
+	,sans-serif\;color:#A0A0A0">IMPORTANT NOTICE: Please note that this Webex 
+	service allows audio and other information sent during the session to be r
+	ecorded\,\n which may be discoverable in a legal matter. By joining this s
+	ession\, you automatically consent to such recordings. If you do not conse
+	nt to being recorded\, discuss your concerns with the host or do not join 
+	the session.</span></span><span style="mso-bookmark:WBXE9203"><span style=
+	"font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#
+	666666">\n</span></span><o:p></o:p></p>\n<p class="MsoNormal"><o:p>&nbsp\;
+	</o:p></p>\n</div>\n<p><span style="font-size: 11pt\; font-family: Calibri
+	\, sans-serif\; color: #000000\;">The content of this message is APPLIED M
+	ATERIALS CONFIDENTIAL. If you are not the intended recipient\, please noti
+	fy me\, delete this email and do not use or distribute this email.\n</span
+	></p>\n</body>\n</html>\n
 X-MICROSOFT-CDO-BUSYSTATUS:OOF
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-APPTSEQTIME:20200310T210039Z
+X-MS-OLK-APPTSEQTIME:20200424T091822Z
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -444,14 +471,14 @@ DESCRIPTION:Sunday – AMIL only\n\nFriday – AMIND only\n\n  \n-- Do not
 	 not join the session. \n\n \n\nThe content of this message is APPLIED MAT
 	ERIALS CONFIDENTIAL. If you are not the intended recipient\, please notify
 	 me\, delete this email and do not use or distribute this email. \n\n
-DTEND;TZID="India Standard Time":20200625T123000
+DTEND;TZID="India Standard Time":20200626T123000
 DTSTAMP:20200326T121905Z
-DTSTART;TZID="India Standard Time":20200625T120000
-LAST-MODIFIED:20200624T061503Z
+DTSTART;TZID="India Standard Time":20200626T120000
+LAST-MODIFIED:20200625T063326Z
 LOCATION:WebEx
 ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=2;BYDAY=SU,MO,TU,WE,TH,FR
+RRULE:FREQ=WEEKLY;COUNT=1;BYDAY=SU,MO,TU,WE,TH,FR
 SEQUENCE:0
 SUMMARY:ProWiz Daily Meeting
 TRANSP:OPAQUE
@@ -660,12 +687,12 @@ BEGIN:VEVENT
 CLASS:PRIVATE
 CREATED:20200421T060607Z
 DESCRIPTION: \n
-DTEND;TZID="India Standard Time":20200625T133000
-DTSTAMP:20200625T041502Z
-DTSTART;TZID="India Standard Time":20200625T130000
+DTEND;TZID="India Standard Time":20200626T133000
+DTSTAMP:20200626T041422Z
+DTSTART;TZID="India Standard Time":20200626T130000
 LAST-MODIFIED:20200521T060249Z
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=7;BYDAY=MO,TU,WE,TH,FR
+RRULE:FREQ=WEEKLY;COUNT=6;BYDAY=MO,TU,WE,TH,FR
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:LunchTimeAwayFromWork
 TRANSP:OPAQUE
@@ -2890,6 +2917,8 @@ ATTENDEE;CN="Suchitra Gupta";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPT
 	ED:mailto:Suchitra_Gupta@amat.com
 ATTENDEE;CN="Sudarshan Kumar Mishra";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTA
 	T=ACCEPTED:mailto:SudarshanKumar_Mishra@amat.com
+ATTENDEE;CN="Roja Chekyal --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=A
+	CCEPTED:mailto:Roja_Chekyal@contractor.amat.com
 CLASS:PUBLIC
 CREATED:20200609T120236Z
 DESCRIPTION:  \n-- Do not delete or change any of the following text. --   
@@ -2932,7 +2961,7 @@ DESCRIPTION:  \n-- Do not delete or change any of the following text. --
 DTEND;TZID="India Standard Time":20200701T163000
 DTSTAMP:20200609T114104Z
 DTSTART;TZID="India Standard Time":20200701T153000
-LAST-MODIFIED:20200625T004436Z
+LAST-MODIFIED:20200625T060433Z
 LOCATION:WebEx
 ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
 PRIORITY:5
@@ -3256,6 +3285,36 @@ ATTENDEE;CN="Vinay V Aggarwal";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
 	PTED:mailto:Vinay_V_Aggarwal@amat.com
 ATTENDEE;CN="Ishan Tiwari";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
 	:mailto:Ishan_Tiwari@amat.com
+ATTENDEE;CN="Bhagyalakshmi Vasudev";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
+	=ACCEPTED:mailto:Bhagyalakshmi_Vasudev@amat.com
+ATTENDEE;CN="Roja Chekyal --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=A
+	CCEPTED:mailto:Roja_Chekyal@contractor.amat.com
+ATTENDEE;CN="Padmini Nanjundaswamy";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
+	=ACCEPTED:mailto:Padmini_Nanjundaswamy@amat.com
+ATTENDEE;CN="Vinay Hegde";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:
+	mailto:Vinay_V_Hegde@amat.com
+ATTENDEE;CN="Ruthusena Mohan";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEP
+	TED:mailto:Ruthusena_Mohan@amat.com
+ATTENDEE;CN="Shipra Patel";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+	:mailto:Shipra_Patel@amat.com
+ATTENDEE;CN="Arihant Bapna";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTE
+	D:mailto:Arihant_Bapna@amat.com
+ATTENDEE;CN="Visali Mai Loddia --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTS
+	TAT=ACCEPTED:mailto:VisaliMai_Loddia@contractor.amat.com
+ATTENDEE;CN="Rahul Suman";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:
+	mailto:Rahul_Suman@amat.com
+ATTENDEE;CN="Radhika Bhat";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+	:mailto:Radhika_Bhat@amat.com
+ATTENDEE;CN="Ashutosh Shukla";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEP
+	TED:mailto:Ashutosh_Shukla@amat.com
+ATTENDEE;CN="Tausif Mohammad";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEP
+	TED:mailto:Tausif_Mohammad@amat.com
+ATTENDEE;CN="Jyothi Mallanayak --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTS
+	TAT=ACCEPTED:mailto:Jyothi_Mallanayak@contractor.amat.com
+ATTENDEE;CN="Suchitra Gupta";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPT
+	ED:mailto:Suchitra_Gupta@amat.com
+ATTENDEE;CN="Bhagyashree Upadhyay --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PA
+	RTSTAT=ACCEPTED:mailto:Bhagyashree_Upadhyay@contractor.amat.com
 CLASS:PUBLIC
 CREATED:20200616T101904Z
 DESCRIPTION:Team\,\n\n \n\nThis meeting is ONLY on webex and a LIVE meeting
@@ -3296,7 +3355,7 @@ DESCRIPTION:Team\,\n\n \n\nThis meeting is ONLY on webex and a LIVE meeting
 DTEND;TZID="India Standard Time":20200702T120000
 DTSTAMP:20200616T101050Z
 DTSTART;TZID="India Standard Time":20200702T103000
-LAST-MODIFIED:20200624T183407Z
+LAST-MODIFIED:20200625T223532Z
 LOCATION:Webex
 ORGANIZER;CN="Kajal Kanwar --CNTR":mailto:Kajal_Kanwar@contractor.amat.com
 PRIORITY:5
@@ -3538,7 +3597,7 @@ BEGIN:VEVENT
 CLASS:PUBLIC
 CREATED:20200617T150216Z
 DTEND;VALUE=DATE:20200704
-DTSTAMP:20200625T041502Z
+DTSTAMP:20200626T041422Z
 DTSTART;VALUE=DATE:20200701
 LAST-MODIFIED:20200617T181832Z
 PRIORITY:5
@@ -3947,18 +4006,18 @@ END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Run Export Calendar
 CLASS:PUBLIC
-CREATED:20200624T041614Z
+CREATED:20200625T041746Z
 DESCRIPTION:Export Calendar \n\n
-DTEND;TZID="India Standard Time":20200625T094600
-DTSTAMP:20200625T041502Z
-DTSTART;TZID="India Standard Time":20200625T094600
-LAST-MODIFIED:20200624T041919Z
+DTEND;TZID="India Standard Time":20200626T094500
+DTSTAMP:20200626T041422Z
+DTSTART;TZID="India Standard Time":20200626T094500
+LAST-MODIFIED:20200625T041747Z
 PRIORITY:5
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:Export Calendar
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000D0FBD3540C4AD601000000000000000
-	010000000B1C1A4EF10865541A5C976E012E5D035
+UID:040000008200E00074C5B7101A82E0080000000030AA8151D54AD601000000000000000
+	010000000BA8B82C2A6A5464783EC9D07C2947E6E
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
 	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
 	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
