@@ -2,10 +2,10 @@ BEGIN:VCALENDAR
 PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
 METHOD:PUBLISH
-X-CALSTART:20200809T042700Z
-X-CALEND:20200817T080000Z
-X-CLIPSTART:20200808T183000Z
-X-CLIPEND:20200817T183000Z
+X-CALSTART:20200810T060000Z
+X-CALEND:20200818T130000Z
+X-CLIPSTART:20200809T183000Z
+X-CLIPEND:20200818T183000Z
 X-WR-RELCALID:{0000002E-6E92-3A34-C16A-6DFCF7CB3C3E}
 X-WR-CALNAME:Ananth Venugopal Calendar
 X-PRIMARY-CALENDAR:TRUE
@@ -65,9 +65,9 @@ CATEGORIES:Holiday
 CLASS:PUBLIC
 CREATED:20161104T070851Z
 DTEND;VALUE=DATE:20200816
-DTSTAMP:20200809T060956Z
+DTSTAMP:20200810T060900Z
 DTSTART;VALUE=DATE:20200815
-LAST-MODIFIED:20200808T021801Z
+LAST-MODIFIED:20200809T042927Z
 LOCATION:India
 PRIORITY:5
 SEQUENCE:0
@@ -93,7 +93,7 @@ DESCRIPTION: \n\nThe content of this message is APPLIED MATERIALS CONFIDENT
 DTEND;TZID="Unnamed Time Zone 1":20200813T113000
 DTSTAMP:20191031T095319Z
 DTSTART;TZID="India Standard Time":20200813T110000
-LAST-MODIFIED:20200808T021812Z
+LAST-MODIFIED:20200809T042936Z
 LOCATION:TBD
 ORGANIZER;CN="Balaji Chithugnanamoorthy":mailto:Balaji_Chithugnanamoorthy@a
 	mat.com
@@ -148,11 +148,11 @@ CLASS:PRIVATE
 CREATED:20200421T060607Z
 DESCRIPTION: \n
 DTEND;TZID="India Standard Time":20200810T133000
-DTSTAMP:20200809T060956Z
+DTSTAMP:20200810T060900Z
 DTSTART;TZID="India Standard Time":20200810T130000
 LAST-MODIFIED:20200731T093708Z
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=6;BYDAY=MO,TU,WE,TH,FR
+RRULE:FREQ=WEEKLY;COUNT=7;BYDAY=MO,TU,WE,TH,FR
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:LunchTimeAwayFromWork
 TRANSP:OPAQUE
@@ -749,11 +749,11 @@ DESCRIPTION:Hi All\n\n \n\nThe main purpose is to discuss open issues and s
 DTEND;TZID="Israel Standard Time":20200811T160000
 DTSTAMP:20200519T112232Z
 DTSTART;TZID="Israel Standard Time":20200811T150000
-LAST-MODIFIED:20200808T021808Z
+LAST-MODIFIED:20200809T042933Z
 LOCATION:WEBEX
 ORGANIZER;CN="Artyom Merkovich":mailto:Artyom_Merkovich@amat.com
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=1;BYDAY=TU
+RRULE:FREQ=WEEKLY;COUNT=2;BYDAY=TU
 SEQUENCE:4
 SUMMARY:PRV Weekly field issue alignment 
 TRANSP:OPAQUE
@@ -1024,7 +1024,7 @@ DESCRIPTION:Hi\n\n \n\nhttp://dcilpa317:8090/display/PDC/PROVision+Revenue+
 DTEND;TZID="Israel Standard Time":20200812T120000
 DTSTAMP:20200518T064039Z
 DTSTART;TZID="Israel Standard Time":20200812T110000
-LAST-MODIFIED:20200808T021811Z
+LAST-MODIFIED:20200810T050519Z
 LOCATION:Israel-Rehovot-PDC3- Excellence 5128(7)
 ORGANIZER;CN="Eran Reuven":mailto:Eran_Reuven@amat.com
 PRIORITY:5
@@ -1311,7 +1311,7 @@ DESCRIPTION:Agenda:\n\n*	First hour pre-planning as usual by PO\n*	Later
 DTEND;TZID="Israel Standard Time":20200811T113000
 DTSTAMP:20200518T122953Z
 DTSTART;TZID="Israel Standard Time":20200811T100000
-LAST-MODIFIED:20200808T021809Z
+LAST-MODIFIED:20200809T042934Z
 LOCATION:WebEx
 ORGANIZER;CN="Maor Keinan":mailto:Maor_Keinan@amat.com
 PRIORITY:5
@@ -1647,7 +1647,7 @@ DESCRIPTION:  \n-- Do not delete or change any of the following text. --
 DTEND;TZID="India Standard Time":20200812T163000
 DTSTAMP:20200609T114104Z
 DTSTART;TZID="India Standard Time":20200812T153000
-LAST-MODIFIED:20200808T021808Z
+LAST-MODIFIED:20200809T042933Z
 LOCATION:WebEx
 ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
 PRIORITY:5
@@ -1856,6 +1856,346 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+ATTENDEE;CN="AMIL Atlas Team";RSVP=TRUE:mailto:Atlas@amat.com
+ATTENDEE;CN="PRV ProWiz Scrum Team";RSVP=TRUE:mailto:PRV.ProWiz.Scrum.Team@
+	amat.com
+ATTENDEE;CN="Tsvi Goren";RSVP=TRUE:mailto:Zvi_Goren@amat.com
+ATTENDEE;CN="Limor Drori";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Limor_Drori@am
+	at.com
+ATTENDEE;CN="Maor Keinan";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Maor_Keinan@am
+	at.com
+ATTENDEE;CN="Ziv Gordin";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ziv_Gordin@amat
+	.com
+ATTENDEE;CN="Eti Abel";RSVP=TRUE:mailto:Eti_Abel@amat.com
+ATTENDEE;CN="Balaji Chithugnanamoorthy";RSVP=TRUE:mailto:Balaji_Chithugnana
+	moorthy@amat.com
+ATTENDEE;CN="Noam Shaham";RSVP=TRUE:mailto:Noam_Shaham@amat.com
+ATTENDEE;CN="Oleg Nepomnyaschy";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Oleg_Nep
+	omnyashchiy@amat.com
+ATTENDEE;CN="Ariel Miller";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTATIV
+	E:mailto:Ariel_Miller@amat.com
+ATTENDEE;CN="Uri Smolyan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Uri_Smolyan
+	@amat.com
+ATTENDEE;CN="Yair Goldenberg";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Yair_Go
+	ldenberg@amat.com
+ATTENDEE;CN="Adi Yakir --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Adi
+	_A_Yakir@contractor.amat.com
+ATTENDEE;CN="Ami Weiss --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ami
+	_Weiss@contractor.amat.com
+ATTENDEE;CN="Ananth Venugopal";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
+	PTED:mailto:Ananth_Venugopal@amat.com
+ATTENDEE;CN="Gangadhar Ramapur";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACC
+	EPTED:mailto:Gangadhar_Ramapur@amat.com
+ATTENDEE;CN="Gilad Kotler";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+	:mailto:Gilad_Kotler@amat.com
+ATTENDEE;CN="Ofer Zvuluny";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ofer_Zvulu
+	ny@amat.com
+ATTENDEE;CN="Rotem Elisadeh";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPT
+	ED:mailto:Rotem_Elisadeh@amat.com
+ATTENDEE;CN="Tali Bachar";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:
+	mailto:Tali_Bachar@amat.com
+ATTENDEE;CN=Provision_IP_AMIND;ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Provis
+	ion_IP_AMIND@amat.com
+ATTENDEE;CN="Michel Keselbrener";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
+	CEPTED:mailto:Michel_Keselbrener@amat.com
+ATTENDEE;CN="Shradha Sahay";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Shradha_S
+	ahay@amat.com
+ATTENDEE;CN="Ganesh Kumar M R";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
+	PTED:mailto:ganesh_mr@amat.com
+ATTENDEE;CN="Sharmistha Mohapatra";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=
+	ACCEPTED:mailto:Sharmistha_Mohapatra@amat.com
+ATTENDEE;CN="Scott Kang";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:m
+	ailto:Scott_Kang@amat.com
+ATTENDEE;CN="Hanan Nahmani --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto
+	:Hanan_Nahmani@contractor.amat.com
+ATTENDEE;CN="Miriam Alter --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTA
+	T=ACCEPTED:mailto:Miriam_Alter@contractor.amat.com
+ATTENDEE;CN="Avi Dery --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
+	CEPTED:mailto:Avi_Dery@contractor.amat.com
+ATTENDEE;CN="Ariel Lieberman";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEP
+	TED:mailto:Ariel_Lieberman@amat.com
+ATTENDEE;CN="Alex Brikker";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+	:mailto:Alex_Brikker@amat.com
+ATTENDEE;CN="Omer Kahan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Omer_Kahan@a
+	mat.com
+ATTENDEE;CN="Rajat Arora";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Rajat_Arora
+	@amat.com
+ATTENDEE;CN="Amit Fatal";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Amit_Fatal@a
+	mat.com
+ATTENDEE;CN="Omer Peer";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Omer_Peer@ama
+	t.com
+ATTENDEE;CN="Tal Ayzik";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Tal_Ayzik@ama
+	t.com
+ATTENDEE;CN="Dror Alumot";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Dror_Alumot
+	@amat.com
+ATTENDEE;CN="Doron Girmonsky";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEP
+	TED:mailto:Doron_Girmonsky@amat.com
+ATTENDEE;CN="Lior Givon";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Lior_Givon@a
+	mat.com
+ATTENDEE;CN="Aarnav Gupta";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTATIV
+	E:mailto:Aarnav_Gupta@amat.com
+ATTENDEE;CN="Yoav Harari";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Yoav_Harari
+	@amat.com
+ATTENDEE;CN="Ronnie Porat";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ronnie_Por
+	at@amat.com
+ATTENDEE;CN="Yuval Yahav";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Yuval_Yahav
+	@amat.com
+ATTENDEE;CN="Itai Buks";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=DECLINED:ma
+	ilto:Itai_Buks@amat.com
+ATTENDEE;CN="Gadi Greenberg";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=DECLIN
+	ED:mailto:Gadi_Greenberg@amat.com
+CLASS:PUBLIC
+CREATED:20200610T073354Z
+DESCRIPTION:  \n-- Do not delete or change any of the following text. --   
+	\n  \n  \n\nWelcome to new eMeeting\, powered by Cisco WebEx \nClick here 
+	to join the meeting <https://applied-materials.webex.com/applied-materials
+	/j.php?MTID=mea2240f153f7732384efcca873dd8e70>    \nMeeting number (access
+	 code): 968 507 978 Meeting password: Ef8SYVmRf45    \nJoin from a video s
+	ystem or application\nDial 968507978@applied-materials.webex.com <sip:9685
+	07978@applied-materials.webex.com>   \n  \n\nCall Using Computer \n     VO
+	IP/Call Over Internet. This is the preferred option\, but a PC Headset is 
+	required to connect.\n\nCall Me \n     Dial back to an Applied Materials e
+	xtension.\n     Select US and enter 555 + interoffice/country tie-line + y
+	our extension. \n          Examples: (X is your 4 or 5-digit extension dep
+	ending on region). \n                   SCLA       555 + 20 + XXXXX\n     
+	              Austin     555 + 22 + XXXXX\n                   Germany 555 
+	+ 420 + XXXX\n                   Israel       555 + 55 + XXXXX\n          
+	         Taiwan    555 + 750 + XXXX\n          (Click here for a list of a
+	ll interoffice/country tie-lines) (Global Tie-line format) <https://amat.s
+	ervice-now.com/AMAT3/knowledge_view.do?sysparm_document_key=kb_knowledge\,
+	5d284a22db2d474c6deb5887dc96194e>    \n\n\nI Will Call In from an Applied 
+	Materials Cisco Phone:\n           Dial 1+20+77777  \n           Enter the
+	 meeting number to connect.\n\n\nI Will Call In from an External Phone (no
+	n Applied Materials):\nJoin by phone  \nTap to call in from a mobile devic
+	e (attendees only)  \n+1-669-234-1708 <tel:%2B1-669-234-1708\,\,*01*968507
+	978%23%23*01*>  United States of America Toll  \nGlobal call-in numbers <h
+	ttps://applied-materials.webex.com/applied-materials/globalcallin.php?MTID
+	=m03465771c2410fdaba747d5f55e2573f>   |  Toll-free calling restrictions <h
+	ttps://www.webex.com/pdf/tollfree_restrictions.pdf>    \n  \nCan't join th
+	e meeting? <https://help.webex.com/docs/DOC-5412>  \n  \nIf you are a host
+	\, click here <https://applied-materials.webex.com/applied-materials/j.php
+	?MTID=m061beb3c696da215fa2136c5a637e16d>  to view host information. IMPORT
+	ANT NOTICE: Please note that this Webex service allows audio and other inf
+	ormation sent during the session to be recorded\, which may be discoverabl
+	e in a legal matter. By joining this session\, you automatically consent t
+	o such recordings. If you do not consent to being recorded\, discuss your 
+	concerns with the host or do not join the session. \n\n \n\nThe content of
+	 this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intend
+	ed recipient\, please notify me\, delete this email and do not use or dist
+	ribute this email. \n\n
+DTEND;TZID="Israel Standard Time":20200818T120000
+DTSTAMP:20200609T172359Z
+DTSTART;TZID="Israel Standard Time":20200818T103000
+LAST-MODIFIED:20200809T042935Z
+LOCATION:VC India-Bangalore-EGF-MOIDAMS\; VC Israel-Rehovot-PDC3-Dynamics 4
+	128(3)
+ORGANIZER;CN="Eran Reuven":mailto:Eran_Reuven@amat.com
+PRIORITY:5
+RRULE:FREQ=WEEKLY;COUNT=1;INTERVAL=3;BYDAY=TU;WKST=SU
+SEQUENCE:329
+SUMMARY:PROVision Revenue Sprint Demo
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000E0640B8703F3D501000000000000000
+	0100000001C359638F94F274496B9F5A711E1C476
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
+	"Content-Type" content="text/html\; charset=us-ascii">\n<meta name="Genera
+	tor" content="Microsoft Word 15 (filtered medium)">\n<style><!--\n/* Font 
+	Definitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 
+	5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 
+	2 2 2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5
+	 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, d
+	iv.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-size:11.0pt\
+	;\n	font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyperlink\n	{ms
+	o-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underline\;}\na:
+	visited\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n	color:#95
+	4F72\;\n	text-decoration:underline\;}\np.msonormal0\, li.msonormal0\, div.
+	msonormal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:auto\;\n	mar
+	gin-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;\n	font-
+	size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.EmailStyle18\n	
+	{mso-style-type:personal-compose\;\n	font-family:"Calibri"\,sans-serif\;\n
+		color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	fon
+	t-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in
+	 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></styl
+	e><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" /
+	>\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit"
+	>\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]-->\n
+	</head>\n<body lang="EN-US" link="#0563C1" vlink="#954F72">\n<div class="W
+	ordSection1">\n<p class="MsoNormal"><span style="font-family:&quot\;Segoe 
+	UI&quot\;\,sans-serif">&nbsp\; <br>\n</span><span style="font-size:10.0pt\
+	;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#A0A0A0">-<a name="
+	WBX1E7D1">- Do not delete or change any of the following text. --</a></spa
+	n><span style="mso-bookmark:WBX1E7D1"><span style="font-size:10.0pt\;font-
+	family:&quot\;Segoe UI&quot\;\,sans-serif">\n &nbsp\; <br>\n&nbsp\; <br>\n
+	&nbsp\; <br>\n<br>\n</span></span><span style="mso-bookmark:WBX1E7D1"><spa
+	n style="font-size:13.5pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;co
+	lor:#E87722">Welcome to new eMeeting\, powered by Cisco WebEx</span></span
+	><span style="mso-bookmark:WBX1E7D1"><span style="font-size:10.0pt\;font-f
+	amily:&quot\;Segoe UI&quot\;\,sans-serif">\n<br>\n</span></span><a href="h
+	ttps://applied-materials.webex.com/applied-materials/j.php?MTID=mea2240f15
+	3f7732384efcca873dd8e70"><span style="mso-bookmark:WBX1E7D1"><span style="
+	font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#0
+	0AFF9">Click here to join\n the meeting</span></span><span style="mso-book
+	mark:WBX1E7D1"></span></a><span style="mso-bookmark:WBX1E7D1"><span style=
+	"font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif"> &nbsp\
+	;\n<br>\n</span></span><span style="mso-bookmark:WBX1E7D1"><span style="fo
+	nt-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666
+	666">Meeting number (access code): 968 507 978</span></span><span style="m
+	so-bookmark:WBX1E7D1"><span style="font-size:13.5pt\;font-family:&quot\;Se
+	goe UI&quot\;\,sans-serif">\n</span></span><span style="mso-bookmark:WBX1E
+	7D1"><span style="font-size:12.0pt\;font-family:&quot\;Arial&quot\;\,sans-
+	serif\;color:black">Meeting password:</span></span><span style="mso-bookma
+	rk:WBX1E7D1"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&qu
+	ot\;\,sans-serif\;color:#666666">\n</span></span><span style="mso-bookmark
+	:WBX1E7D1"><span style="font-size:12.0pt\;font-family:&quot\;Arial&quot\;\
+	,sans-serif\;color:black">Ef8SYVmRf45</span></span><span style="mso-bookma
+	rk:WBX1E7D1"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&qu
+	ot\;\,sans-serif\;color:#666666">&nbsp\;\n</span></span><span style="mso-b
+	ookmark:WBX1E7D1"><span style="font-size:10.0pt\;font-family:&quot\;Segoe 
+	UI&quot\;\,sans-serif">&nbsp\;\n<br>\n</span></span><span style="mso-bookm
+	ark:WBX1E7D1"><b><span style="font-size:9.0pt\;font-family:&quot\;Arial&qu
+	ot\;\,sans-serif\;color:black">Join from a video system or application</sp
+	an></b></span><span style="mso-bookmark:WBX1E7D1"><span style="font-size:1
+	0.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif"><br>\n</span></span><s
+	pan style="mso-bookmark:WBX1E7D1"><span style="font-size:10.5pt\;font-fami
+	ly:&quot\;Arial&quot\;\,sans-serif\;color:#333333">Dial</span></span><span
+	 style="mso-bookmark:WBX1E7D1"><span style="font-size:10.0pt\;font-family:
+	&quot\;Arial&quot\;\,sans-serif">\n</span></span><a href="sip:968507978@ap
+	plied-materials.webex.com"><span style="mso-bookmark:WBX1E7D1"><span style
+	="font-size:10.5pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#04
+	9FD9">968507978@applied-materials.webex.com</span></span><span style="mso-
+	bookmark:WBX1E7D1"></span></a><span style="mso-bookmark:WBX1E7D1"><span st
+	yle="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif">&nbsp\
+	;\n<br>\n</span></span><span style="mso-bookmark:WBX1E7D1"><span style="fo
+	nt-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif">&nbsp\;\n<
+	span style="color:#666666"><o:p></o:p></span></span></span></p>\n<p><span 
+	style="mso-bookmark:WBX1E7D1"><span style="font-size:13.5pt\;font-family:&
+	quot\;Segoe UI&quot\;\,sans-serif\;color:#666666">Call Using Computer\n</s
+	pan></span><span style="mso-bookmark:WBX1E7D1"><span style="font-size:10.0
+	pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666"><br>\n&
+	nbsp\; &nbsp\; &nbsp\;VOIP/Call Over Internet. This is the preferred optio
+	n\, but a PC Headset is required to connect.<o:p></o:p></span></span></p>\
+	n<p class="MsoNormal"><span style="mso-bookmark:WBX1E7D1"><span style="fon
+	t-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#6666
+	66">Call Me\n<br>\n</span></span><span style="mso-bookmark:WBX1E7D1"><span
+	 style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;
+	color:#666666">&nbsp\; &nbsp\; &nbsp\;Dial back to an Applied Materials ex
+	tension.<br>\n&nbsp\; &nbsp\; &nbsp\;Select US and enter 555 &#43\; intero
+	ffice/country tie-line &#43\; your extension. <br>\n&nbsp\; &nbsp\; &nbsp\
+	;&nbsp\; &nbsp\; &nbsp\;Examples: (X is your 4 or 5-digit extension depend
+	ing on region). <br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbs
+	p\; &nbsp\; &nbsp\; &nbsp\;SCLA&nbsp\; &nbsp\; &nbsp\; &nbsp\;555 &#43\; 2
+	0 &#43\; XXXXX<br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\
+	; &nbsp\; &nbsp\; &nbsp\;Austin&nbsp\; &nbsp\; &nbsp\;555 &#43\; 22 &#43\;
+	 XXXXX<br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\
+	; &nbsp\; &nbsp\;Germany 555 &#43\; 420 &#43\; XXXX<br>\n&nbsp\; &nbsp\; &
+	nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Israel&nbsp\
+	; &nbsp\; &nbsp\; &nbsp\;555 &#43\; 55 &#43\; XXXXX<br>\n&nbsp\; &nbsp\; &
+	nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Taiwan&nbsp\
+	; &nbsp\; 555 &#43\; 750 &#43\; XXXX<br>\n&nbsp\; &nbsp\; &nbsp\;&nbsp\; &
+	nbsp\; &nbsp\;(Click here for a list of all interoffice/country tie-lines<
+	/span></span><span style="mso-bookmark:WBX1E7D1"><span style="font-size:12
+	.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666">)\n</
+	span></span><a href="https://amat.service-now.com/AMAT3/knowledge_view.do?
+	sysparm_document_key=kb_knowledge\,5d284a22db2d474c6deb5887dc96194e"><span
+	 style="mso-bookmark:WBX1E7D1"><span style="font-size:10.0pt\;font-family:
+	&quot\;Segoe UI&quot\;\,sans-serif\;color:#00AFF9">(Global\n Tie-line form
+	at)</span></span><span style="mso-bookmark:WBX1E7D1"></span></a><span styl
+	e="mso-bookmark:WBX1E7D1"><span style="font-size:10.0pt\;font-family:&quot
+	\;Segoe UI&quot\;\,sans-serif\;color:#00AFF9"> &nbsp\;&nbsp\;<o:p></o:p></
+	span></span></p>\n<p class="MsoNormal"><span style="mso-bookmark:WBX1E7D1"
+	><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-s
+	erif\;color:#00AFF9"><br>\n</span></span><span style="mso-bookmark:WBX1E7D
+	1"><span style="font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans
+	-serif\;color:#666666">I Will Call In from an Applied Materials Cisco Phon
+	e:<br>\n</span></span><span style="mso-bookmark:WBX1E7D1"><span style="fon
+	t-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#6666
+	66">&nbsp\; &nbsp\; &nbsp\;&nbsp\; &nbsp\; &nbsp\; Dial\n<strong><span sty
+	le="font-family:&quot\;Segoe UI&quot\;\,sans-serif">1&#43\;20&#43\;77777&n
+	bsp\;</span></strong>\n<br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp
+	\;Enter the meeting number to connect.<o:p></o:p></span></span></p>\n<p cl
+	ass="MsoNormal"><span style="mso-bookmark:WBX1E7D1"><span style="font-size
+	:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666"><b
+	r>\n</span></span><span style="mso-bookmark:WBX1E7D1"><span style="font-si
+	ze:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666">
+	I Will Call In from an External Phone (non Applied Materials):<br>\n</span
+	></span><span style="mso-bookmark:WBX1E7D1"><b><span style="font-size:9.0p
+	t\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:black">Join by phone
+	</span></b></span><span style="mso-bookmark:WBX1E7D1"><span style="font-si
+	ze:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#666666">&nb
+	sp\;\n<br>\n</span></span><span style="mso-bookmark:WBX1E7D1"><span style=
+	"font-size:9.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#6666
+	66">Tap to call in from a mobile device (attendees only)</span></span><spa
+	n style="mso-bookmark:WBX1E7D1"><span style="font-size:10.0pt\;font-family
+	:&quot\;Arial&quot\;\,sans-serif\;color:#666666">&nbsp\;\n<br>\n</span></s
+	pan><a href="tel:%2B1-669-234-1708\,\,*01*968507978%23%23*01*"><span style
+	="mso-bookmark:WBX1E7D1"><span style="font-size:10.5pt\;font-family:&quot\
+	;Arial&quot\;\,sans-serif\;color:#049FD9\;text-decoration:none">&#43\;1-66
+	9-234-1708</span></span><span style="mso-bookmark:WBX1E7D1"></span></a><sp
+	an style="mso-bookmark:WBX1E7D1"><span style="font-size:10.5pt\;font-famil
+	y:&quot\;Arial&quot\;\,sans-serif\;color:#333333">&nbsp\;United\n States o
+	f America Toll</span></span><span style="mso-bookmark:WBX1E7D1"><span styl
+	e="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#6
+	66666">&nbsp\;\n<br>\n</span></span><a href="https://applied-materials.web
+	ex.com/applied-materials/globalcallin.php?MTID=m03465771c2410fdaba747d5f55
+	e2573f"><span style="mso-bookmark:WBX1E7D1"><span style="font-size:10.5pt\
+	;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#049FD9\;text-decorati
+	on:none">Global\n call-in numbers</span></span><span style="mso-bookmark:W
+	BX1E7D1"></span></a><span style="mso-bookmark:WBX1E7D1"><span style="font-
+	size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#666666">&
+	nbsp\;&nbsp\;|&nbsp\;&nbsp\;</span></span><a href="https://www.webex.com/p
+	df/tollfree_restrictions.pdf"><span style="mso-bookmark:WBX1E7D1"><span st
+	yle="font-size:10.5pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:
+	#049FD9\;text-decoration:none">Toll-free\n calling restrictions</span></sp
+	an><span style="mso-bookmark:WBX1E7D1"></span></a><span style="mso-bookmar
+	k:WBX1E7D1"><span style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;
+	\,sans-serif\;color:#666666"> &nbsp\;\n<br>\n</span></span><span style="ms
+	o-bookmark:WBX1E7D1"><span style="font-size:10.0pt\;font-family:&quot\;Seg
+	oe UI&quot\;\,sans-serif\;color:#666666">&nbsp\;\n<br>\n</span></span><a h
+	ref="https://help.webex.com/docs/DOC-5412"><span style="mso-bookmark:WBX1E
+	7D1"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sa
+	ns-serif\;color:#00AFF9">Can't join the meeting?</span></span><span style=
+	"mso-bookmark:WBX1E7D1"></span></a><span style="mso-bookmark:WBX1E7D1"><sp
+	an style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif
+	\;color:#666666">\n<br>\n&nbsp\; <br>\n</span></span><span style="mso-book
+	mark:WBX1E7D1"><span style="font-size:12.0pt\;font-family:&quot\;Segoe UI&
+	quot\;\,sans-serif\;color:black">If you are a host\,\n</span></span><a hre
+	f="https://applied-materials.webex.com/applied-materials/j.php?MTID=m061be
+	b3c696da215fa2136c5a637e16d"><span style="mso-bookmark:WBX1E7D1"><span sty
+	le="font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;colo
+	r:#049FD9\;text-decoration:none">click\n here</span></span><span style="ms
+	o-bookmark:WBX1E7D1"></span></a><span style="mso-bookmark:WBX1E7D1"><span 
+	style="font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;c
+	olor:black"> to view host information.</span></span><span style="mso-bookm
+	ark:WBX1E7D1"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&q
+	uot\;\,sans-serif\;color:#666666">\n</span></span><span style="mso-bookmar
+	k:WBX1E7D1"><span style="font-size:7.5pt\;font-family:&quot\;Segoe UI&quot
+	\;\,sans-serif\;color:#A0A0A0">IMPORTANT NOTICE: Please note that this Web
+	ex service allows audio and other information sent during the session to b
+	e recorded\,\n which may be discoverable in a legal matter. By joining thi
+	s session\, you automatically consent to such recordings. If you do not co
+	nsent to being recorded\, discuss your concerns with the host or do not jo
+	in the session.</span></span><span style="mso-bookmark:WBX1E7D1"><span sty
+	le="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;colo
+	r:#666666">\n</span></span><o:p></o:p></p>\n<p class="MsoNormal"><o:p>&nbs
+	p\;</o:p></p>\n</div>\n<p><span style="font-size: 11pt\; font-family: Cali
+	bri\, sans-serif\; color: #000000\;">The content of this message is APPLIE
+	D MATERIALS CONFIDENTIAL. If you are not the intended recipient\, please n
+	otify me\, delete this email and do not use or distribute this email.\n</s
+	pan></p>\n</body>\n</html>\n
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTSEQTIME:20200526T124134Z
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 ATTENDEE;CN="PRV ProWiz Scrum Team";RSVP=TRUE:mailto:PRV.ProWiz.Scrum.Team@
 	amat.com
 ATTENDEE;CN="Maor Keinan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Maor_Keinan
@@ -1912,10 +2252,10 @@ DESCRIPTION:Sunday – AMIL only\n\nFriday – AMIND only\n\n  \n-- Do not
 	IED MATERIALS CONFIDENTIAL. If you are not the intended recipient\, please
 	 notify me\, delete this email and do not use or distribute this email. \n
 	\n
-DTEND;TZID="India Standard Time":20200809T123000
+DTEND;TZID="India Standard Time":20200810T123000
 DTSTAMP:20200626T042019Z
-DTSTART;TZID="India Standard Time":20200809T120000
-LAST-MODIFIED:20200808T021808Z
+DTSTART;TZID="India Standard Time":20200810T120000
+LAST-MODIFIED:20200809T062610Z
 LOCATION:WebEx
 ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
 PRIORITY:5
@@ -2125,6 +2465,269 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+ATTENDEE;CN="PRV ProWiz Scrum Team";RSVP=TRUE:mailto:PRV.ProWiz.Scrum.Team@
+	amat.com
+ATTENDEE;CN="Gangadhar Ramapur";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TEN
+	TATIVE:mailto:Gangadhar_Ramapur@amat.com
+ATTENDEE;CN="Ananth Venugopal";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
+	PTED:mailto:Ananth_Venugopal@amat.com
+ATTENDEE;CN="Tali Bachar";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:
+	mailto:Tali_Bachar@amat.com
+ATTENDEE;CN="Ofer Zvuluny";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+	:mailto:Ofer_Zvuluny@amat.com
+CLASS:PUBLIC
+CREATED:20200724T142228Z
+DESCRIPTION:  \n-- Do not delete or change any of the following text. --   
+	\n  \n  \n\nWelcome to new eMeeting\, powered by Cisco WebEx \nClick here 
+	to join the meeting <https://applied-materials.webex.com/applied-materials
+	/j.php?MTID=mb815bdaf11388a492144d397a0f290db>    \nMeeting number (access
+	 code): 146 094 5431 Meeting password: EXkQJPim436    \nJoin from a video 
+	system or application\nDial 1460945431@applied-materials.webex.com <sip:14
+	60945431@applied-materials.webex.com>   \n  \n\nCall Using Computer \n    
+	 VOIP/Call Over Internet. This is the preferred option\, but a PC Headset 
+	is required to connect.\n\nCall Me \n     Dial back to an Applied Material
+	s extension.\n     Select US and enter 555 + interoffice/country tie-line 
+	+ your extension. \n          Examples: (X is your 4 or 5-digit extension 
+	depending on region). \n                   SCLA       555 + 20 + XXXXX\n  
+	                 Austin     555 + 22 + XXXXX\n                   Germany 5
+	55 + 420 + XXXX\n                   Israel       555 + 55 + XXXXX\n       
+	            Taiwan    555 + 750 + XXXX\n          (Click here for a list o
+	f all interoffice/country tie-lines) (Global Tie-line format) <https://ama
+	t.service-now.com/AMAT3/knowledge_view.do?sysparm_document_key=kb_knowledg
+	e\,5d284a22db2d474c6deb5887dc96194e>    \n\n\nI Will Call In from an Appli
+	ed Materials Cisco Phone:\n           Dial 1+20+77777  \n           Enter 
+	the meeting number to connect.\n\n\nI Will Call In from an External Phone 
+	(non Applied Materials):\nTap to join from a mobile device (attendees only
+	)  \n+1-669-234-1708\,\,1460945431## <tel:%2B1-669-234-1708\,\,*01*1460945
+	431%23%23*01*>  United States of America Toll  \n\nJoin by phone  \n+1-669
+	-234-1708 United States of America Toll  \nGlobal call-in numbers <https:/
+	/applied-materials.webex.com/applied-materials/globalcallin.php?MTID=me785
+	c0eb841a18e6e262d039f4996a9f>   |  Toll-free calling restrictions <https:/
+	/www.webex.com/pdf/tollfree_restrictions.pdf>    \n  \nCan't join the meet
+	ing? <https://help.webex.com/docs/DOC-5412>  \n  \nIf you are a host\, cli
+	ck here <https://applied-materials.webex.com/applied-materials/j.php?MTID=
+	m330a7058e650191cdabd4119d23e6817>  to view host information. IMPORTANT NO
+	TICE: Please note that this Webex service allows audio and other informati
+	on sent during the session to be recorded\, which may be discoverable in a
+	 legal matter. By joining this session\, you automatically consent to such
+	 recordings. If you do not consent to being recorded\, discuss your concer
+	ns with the host or do not join the session. \n\n \n\nThe content of this 
+	message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended rec
+	ipient\, please notify me\, delete this email and do not use or distribute
+	 this email. \n\n
+DTEND;TZID="India Standard Time":20200818T173000
+DTSTAMP:20200724T111910Z
+DTSTART;TZID="India Standard Time":20200818T163000
+LAST-MODIFIED:20200809T042927Z
+LOCATION:WebEx
+ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY:Planning:: Sprint 76
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000203B9537DA61D601000000000000000
+	0100000000EFD344BFF346D48A1CB42DB0ACF5E61
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
+	"Content-Type" content="text/html\; charset=us-ascii">\n<meta name="Genera
+	tor" content="Microsoft Word 15 (filtered medium)">\n<style><!--\n/* Font 
+	Definitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 
+	5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 
+	2 2 2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5
+	 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, d
+	iv.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-size:11.0pt\
+	;\n	font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyperlink\n	{ms
+	o-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underline\;}\na:
+	visited\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n	color:#95
+	4F72\;\n	text-decoration:underline\;}\np.msonormal0\, li.msonormal0\, div.
+	msonormal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:auto\;\n	mar
+	gin-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;\n	font-
+	size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.EmailStyle18\n	
+	{mso-style-type:personal-compose\;\n	font-family:"Calibri"\,sans-serif\;\n
+		color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	fon
+	t-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in
+	 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></styl
+	e><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" /
+	>\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit"
+	>\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]-->\n
+	</head>\n<body lang="EN-US" link="#0563C1" vlink="#954F72">\n<div class="W
+	ordSection1">\n<p class="MsoNormal"><span style="font-family:&quot\;Segoe 
+	UI&quot\;\,sans-serif">&nbsp\; <br>\n</span><span style="font-size:10.0pt\
+	;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#A0A0A0">-<a name="
+	WBX2BEF9">- Do not delete or change any of the following text. --</a></spa
+	n><span style="mso-bookmark:WBX2BEF9"><span style="font-size:10.0pt\;font-
+	family:&quot\;Segoe UI&quot\;\,sans-serif">\n &nbsp\; <br>\n&nbsp\; <br>\n
+	&nbsp\; <br>\n<br>\n</span></span><span style="mso-bookmark:WBX2BEF9"><spa
+	n style="font-size:13.5pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;co
+	lor:#E87722">Welcome to new eMeeting\, powered by Cisco WebEx</span></span
+	><span style="mso-bookmark:WBX2BEF9"><span style="font-size:10.0pt\;font-f
+	amily:&quot\;Segoe UI&quot\;\,sans-serif">\n<br>\n</span></span><a href="h
+	ttps://applied-materials.webex.com/applied-materials/j.php?MTID=mb815bdaf1
+	1388a492144d397a0f290db"><span style="mso-bookmark:WBX2BEF9"><span style="
+	font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#0
+	0AFF9">Click here to join\n the meeting</span></span><span style="mso-book
+	mark:WBX2BEF9"></span></a><span style="mso-bookmark:WBX2BEF9"><span style=
+	"font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif"> &nbsp\
+	;\n<br>\n</span></span><span style="mso-bookmark:WBX2BEF9"><span style="fo
+	nt-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666
+	666">Meeting number (access code): 146 094 5431</span></span><span style="
+	mso-bookmark:WBX2BEF9"><span style="font-size:13.5pt\;font-family:&quot\;S
+	egoe UI&quot\;\,sans-serif">\n</span></span><span style="mso-bookmark:WBX2
+	BEF9"><span style="font-size:12.0pt\;font-family:&quot\;Arial&quot\;\,sans
+	-serif\;color:black">Meeting password:</span></span><span style="mso-bookm
+	ark:WBX2BEF9"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&q
+	uot\;\,sans-serif\;color:#666666">\n</span></span><span style="mso-bookmar
+	k:WBX2BEF9"><span style="font-size:12.0pt\;font-family:&quot\;Arial&quot\;
+	\,sans-serif\;color:black">EXkQJPim436</span></span><span style="mso-bookm
+	ark:WBX2BEF9"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&q
+	uot\;\,sans-serif\;color:#666666">&nbsp\;\n</span></span><span style="mso-
+	bookmark:WBX2BEF9"><span style="font-size:10.0pt\;font-family:&quot\;Segoe
+	 UI&quot\;\,sans-serif">&nbsp\;\n<br>\n</span></span><span style="mso-book
+	mark:WBX2BEF9"><b><span style="font-size:9.0pt\;font-family:&quot\;Arial&q
+	uot\;\,sans-serif\;color:black">Join from a video system or application</s
+	pan></b></span><span style="mso-bookmark:WBX2BEF9"><span style="font-size:
+	10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif"><br>\n</span></span><
+	span style="mso-bookmark:WBX2BEF9"><span style="font-size:10.5pt\;font-fam
+	ily:&quot\;Arial&quot\;\,sans-serif\;color:#333333">Dial</span></span><spa
+	n style="mso-bookmark:WBX2BEF9"><span style="font-size:10.0pt\;font-family
+	:&quot\;Arial&quot\;\,sans-serif">\n</span></span><a href="sip:1460945431@
+	applied-materials.webex.com"><span style="mso-bookmark:WBX2BEF9"><span sty
+	le="font-size:10.5pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#
+	049FD9">1460945431@applied-materials.webex.com</span></span><span style="m
+	so-bookmark:WBX2BEF9"></span></a><span style="mso-bookmark:WBX2BEF9"><span
+	 style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif">&nb
+	sp\;\n<br>\n</span></span><span style="mso-bookmark:WBX2BEF9"><span style=
+	"font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif">&nbsp\;
+	\n<span style="color:#666666"><o:p></o:p></span></span></span></p>\n<p><sp
+	an style="mso-bookmark:WBX2BEF9"><span style="font-size:13.5pt\;font-famil
+	y:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666">Call Using Computer\n
+	</span></span><span style="mso-bookmark:WBX2BEF9"><span style="font-size:1
+	0.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666"><br>
+	\n&nbsp\; &nbsp\; &nbsp\;VOIP/Call Over Internet. This is the preferred op
+	tion\, but a PC Headset is required to connect.<o:p></o:p></span></span></
+	p>\n<p class="MsoNormal"><span style="mso-bookmark:WBX2BEF9"><span style="
+	font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#6
+	66666">Call Me\n<br>\n</span></span><span style="mso-bookmark:WBX2BEF9"><s
+	pan style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-seri
+	f\;color:#666666">&nbsp\; &nbsp\; &nbsp\;Dial back to an Applied Materials
+	 extension.<br>\n&nbsp\; &nbsp\; &nbsp\;Select US and enter 555 &#43\; int
+	eroffice/country tie-line &#43\; your extension. <br>\n&nbsp\; &nbsp\; &nb
+	sp\;&nbsp\; &nbsp\; &nbsp\;Examples: (X is your 4 or 5-digit extension dep
+	ending on region). <br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &
+	nbsp\; &nbsp\; &nbsp\; &nbsp\;SCLA&nbsp\; &nbsp\; &nbsp\; &nbsp\;555 &#43\
+	; 20 &#43\; XXXXX<br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nb
+	sp\; &nbsp\; &nbsp\; &nbsp\;Austin&nbsp\; &nbsp\; &nbsp\;555 &#43\; 22 &#4
+	3\; XXXXX<br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nb
+	sp\; &nbsp\; &nbsp\;Germany 555 &#43\; 420 &#43\; XXXX<br>\n&nbsp\; &nbsp\
+	; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Israel&nb
+	sp\; &nbsp\; &nbsp\; &nbsp\;555 &#43\; 55 &#43\; XXXXX<br>\n&nbsp\; &nbsp\
+	; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Taiwan&nb
+	sp\; &nbsp\; 555 &#43\; 750 &#43\; XXXX<br>\n&nbsp\; &nbsp\; &nbsp\;&nbsp\
+	; &nbsp\; &nbsp\;(Click here for a list of all interoffice/country tie-lin
+	es</span></span><span style="mso-bookmark:WBX2BEF9"><span style="font-size
+	:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666">)\
+	n</span></span><a href="https://amat.service-now.com/AMAT3/knowledge_view.
+	do?sysparm_document_key=kb_knowledge\,5d284a22db2d474c6deb5887dc96194e"><s
+	pan style="mso-bookmark:WBX2BEF9"><span style="font-size:10.0pt\;font-fami
+	ly:&quot\;Segoe UI&quot\;\,sans-serif\;color:#00AFF9">(Global\n Tie-line f
+	ormat)</span></span><span style="mso-bookmark:WBX2BEF9"></span></a><span s
+	tyle="mso-bookmark:WBX2BEF9"><span style="font-size:10.0pt\;font-family:&q
+	uot\;Segoe UI&quot\;\,sans-serif\;color:#00AFF9"> &nbsp\;&nbsp\;<o:p></o:p
+	></span></span></p>\n<p class="MsoNormal"><span style="mso-bookmark:WBX2BE
+	F9"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,san
+	s-serif\;color:#00AFF9"><br>\n</span></span><span style="mso-bookmark:WBX2
+	BEF9"><span style="font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,s
+	ans-serif\;color:#666666">I Will Call In from an Applied Materials Cisco P
+	hone:<br>\n</span></span><span style="mso-bookmark:WBX2BEF9"><span style="
+	font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#6
+	66666">&nbsp\; &nbsp\; &nbsp\;&nbsp\; &nbsp\; &nbsp\; Dial\n<strong><span 
+	style="font-family:&quot\;Segoe UI&quot\;\,sans-serif">1&#43\;20&#43\;7777
+	7&nbsp\;</span></strong>\n<br>\n&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &n
+	bsp\;Enter the meeting number to connect.<o:p></o:p></span></span></p>\n<p
+	 class="MsoNormal"><span style="mso-bookmark:WBX2BEF9"><span style="font-s
+	ize:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666"
+	><br>\n</span></span><span style="mso-bookmark:WBX2BEF9"><span style="font
+	-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#66666
+	6">I Will Call In from an External Phone (non Applied Materials):<br>\n</s
+	pan></span><span style="mso-bookmark:WBX2BEF9"><b><span style="font-size:9
+	.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:black">Tap to joi
+	n from a mobile device (attendees only)</span></b></span><span style="mso-
+	bookmark:WBX2BEF9"><span style="font-size:10.0pt\;font-family:&quot\;Arial
+	&quot\;\,sans-serif\;color:#666666">&nbsp\;\n<br>\n</span></span><a href="
+	tel:%2B1-669-234-1708\,\,*01*1460945431%23%23*01*"><span style="mso-bookma
+	rk:WBX2BEF9"><span style="font-size:10.5pt\;font-family:&quot\;Arial&quot\
+	;\,sans-serif\;color:#049FD9\;text-decoration:none">&#43\;1-669-234-1708\,
+	\,1460945431##</span></span><span style="mso-bookmark:WBX2BEF9"></span></a
+	><span style="mso-bookmark:WBX2BEF9"><span style="font-size:10.5pt\;font-f
+	amily:&quot\;Arial&quot\;\,sans-serif\;color:#333333">&nbsp\;United\n Stat
+	es of America Toll</span></span><span style="mso-bookmark:WBX2BEF9"><span 
+	style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;colo
+	r:#666666">&nbsp\;\n<br>\n<br>\n</span></span><span style="mso-bookmark:WB
+	X2BEF9"><b><span style="font-size:9.0pt\;font-family:&quot\;Arial&quot\;\,
+	sans-serif\;color:black">Join by phone</span></b></span><span style="mso-b
+	ookmark:WBX2BEF9"><span style="font-size:10.0pt\;font-family:&quot\;Arial&
+	quot\;\,sans-serif\;color:#666666">&nbsp\;\n<br>\n</span></span><span styl
+	e="mso-bookmark:WBX2BEF9"><span style="font-size:10.5pt\;font-family:&quot
+	\;Arial&quot\;\,sans-serif\;color:#333333">&#43\;1-669-234-1708&nbsp\;Unit
+	ed States of America Toll</span></span><span style="mso-bookmark:WBX2BEF9"
+	><span style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-seri
+	f\;color:#666666">&nbsp\;\n<br>\n</span></span><a href="https://applied-ma
+	terials.webex.com/applied-materials/globalcallin.php?MTID=me785c0eb841a18e
+	6e262d039f4996a9f"><span style="mso-bookmark:WBX2BEF9"><span style="font-s
+	ize:10.5pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#049FD9\;te
+	xt-decoration:none">Global\n call-in numbers</span></span><span style="mso
+	-bookmark:WBX2BEF9"></span></a><span style="mso-bookmark:WBX2BEF9"><span s
+	tyle="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color
+	:#666666">&nbsp\;&nbsp\;|&nbsp\;&nbsp\;</span></span><a href="https://www.
+	webex.com/pdf/tollfree_restrictions.pdf"><span style="mso-bookmark:WBX2BEF
+	9"><span style="font-size:10.5pt\;font-family:&quot\;Arial&quot\;\,sans-se
+	rif\;color:#049FD9\;text-decoration:none">Toll-free\n calling restrictions
+	</span></span><span style="mso-bookmark:WBX2BEF9"></span></a><span style="
+	mso-bookmark:WBX2BEF9"><span style="font-size:10.0pt\;font-family:&quot\;A
+	rial&quot\;\,sans-serif\;color:#666666"> &nbsp\;\n<br>\n&nbsp\; <br>\n</sp
+	an></span><a href="https://help.webex.com/docs/DOC-5412"><span style="mso-
+	bookmark:WBX2BEF9"><span style="font-size:10.0pt\;font-family:&quot\;Segoe
+	 UI&quot\;\,sans-serif\;color:#00AFF9">Can't join the meeting?</span></spa
+	n><span style="mso-bookmark:WBX2BEF9"></span></a><span style="mso-bookmark
+	:WBX2BEF9"><span style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\
+	,sans-serif\;color:#666666">\n<br>\n&nbsp\; <br>\n</span></span><span styl
+	e="mso-bookmark:WBX2BEF9"><span style="font-size:12.0pt\;font-family:&quot
+	\;Segoe UI&quot\;\,sans-serif\;color:black">If you are a host\,\n</span></
+	span><a href="https://applied-materials.webex.com/applied-materials/j.php?
+	MTID=m330a7058e650191cdabd4119d23e6817"><span style="mso-bookmark:WBX2BEF9
+	"><span style="font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-
+	serif\;color:#049FD9\;text-decoration:none">click\n here</span></span><spa
+	n style="mso-bookmark:WBX2BEF9"></span></a><span style="mso-bookmark:WBX2B
+	EF9"><span style="font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sa
+	ns-serif\;color:black"> to view host information.</span></span><span style
+	="mso-bookmark:WBX2BEF9"><span style="font-size:10.0pt\;font-family:&quot\
+	;Arial&quot\;\,sans-serif\;color:#666666">\n</span></span><span style="mso
+	-bookmark:WBX2BEF9"><span style="font-size:7.5pt\;font-family:&quot\;Segoe
+	 UI&quot\;\,sans-serif\;color:#A0A0A0">IMPORTANT NOTICE: Please note that 
+	this Webex service allows audio and other information sent during the sess
+	ion to be recorded\,\n which may be discoverable in a legal matter. By joi
+	ning this session\, you automatically consent to such recordings. If you d
+	o not consent to being recorded\, discuss your concerns with the host or d
+	o not join the session.</span></span><span style="mso-bookmark:WBX2BEF9"><
+	span style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\
+	;color:#666666">\n</span></span><o:p></o:p></p>\n<p class="MsoNormal"><o:p
+	>&nbsp\;</o:p></p>\n</div>\n<p><span style="font-size: 11pt\; font-family:
+	 Calibri\, sans-serif\; color: #000000\;">The content of this message is A
+	PPLIED MATERIALS CONFIDENTIAL. If you are not the intended recipient\, ple
+	ase notify me\, delete this email and do not use or distribute this email.
+	\n</span></p>\n</body>\n</html>\n
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 ATTENDEE;CN=InviteASIA;RSVP=FALSE:mailto:InviteASIA@amat.com
 CATEGORIES:Trainings & AGU
 CLASS:PUBLIC
@@ -2148,7 +2751,7 @@ DESCRIPTION:“This is not a formal event – this is to block a time for y
 DTEND;TZID="Greenwich Standard Time":20200813T110000
 DTSTAMP:20200729T183738Z
 DTSTART;TZID="China Standard Time":20200813T100000
-LAST-MODIFIED:20200808T021807Z
+LAST-MODIFIED:20200809T042932Z
 LOCATION:At your desktop
 ORGANIZER;CN="Appliedx Pathway":mailto:Appliedx_Pathway@amat.com
 PRIORITY:5
@@ -2326,7 +2929,7 @@ ATTENDEE;CN="David Tuval --TR-CNTR";RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Dav
 	id_Tuval@contractor.amat.com
 ATTENDEE;CN="Michael Polishuk";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Michael_P
 	olishuk@amat.com
-ATTENDEE;CN="Eti Abel";RSVP=TRUE:mailto:Eti_Abel@amat.com
+ATTENDEE;CN="Eti Abel";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Eti_Abel@amat.com
 ATTENDEE;CN="Provision POs";RSVP=TRUE:mailto:Provision_POs@amat.com
 ATTENDEE;CN="Provision SW Steering";RSVP=TRUE:mailto:Provision_SW_Steering@
 	amat.com
@@ -2454,6 +3057,14 @@ ATTENDEE;CN="Omer Peer";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Omer_Peer@ama
 	t.com
 ATTENDEE;CN="Gadi Greenberg";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPT
 	ED:mailto:Gadi_Greenberg@amat.com
+ATTENDEE;CN="Yana Branzburg";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPT
+	ED:mailto:Yana_Branzburg@amat.com
+ATTENDEE;CN="Shay Barazovsky";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Shay_Ba
+	razovsky@amat.com
+ATTENDEE;CN="Eyal Angel";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Eyal_Angel@a
+	mat.com
+ATTENDEE;CN="Avi Bensimhon";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Avi_Bensi
+	mhon@amat.com
 CLASS:PUBLIC
 CREATED:20200730T053244Z
 DESCRIPTION:Lavi to present an overview on Everest app/SW/IP/UX aspects.\n\
@@ -2498,7 +3109,7 @@ DESCRIPTION:Lavi to present an overview on Everest app/SW/IP/UX aspects.\n\
 DTEND;TZID="Israel Standard Time":20200811T153000
 DTSTAMP:20200729T120509Z
 DTSTART;TZID="Israel Standard Time":20200811T141000
-LAST-MODIFIED:20200808T021801Z
+LAST-MODIFIED:20200809T210515Z
 LOCATION:Webex
 ORGANIZER;CN="Limor Drori":mailto:Limor_Drori@amat.com
 PRIORITY:5
@@ -2717,10 +3328,10 @@ ATTENDEE;CN="Alex Brikker";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Alex_Brikker@
 ATTENDEE;CN="Tsvi Goren";RSVP=TRUE:mailto:Zvi_Goren@amat.com
 ATTENDEE;CN="Balaji Chithugnanamoorthy";RSVP=TRUE:mailto:Balaji_Chithugnana
 	moorthy@amat.com
-ATTENDEE;CN="Maor Keinan";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Maor_Keinan@am
-	at.com
+ATTENDEE;CN="Maor Keinan";RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Maor_Keinan@a
+	mat.com
 ATTENDEE;CN="Eran Reuven";RSVP=TRUE:mailto:Eran_Reuven@amat.com
-ATTENDEE;CN="Eti Abel";RSVP=TRUE:mailto:Eti_Abel@amat.com
+ATTENDEE;CN="Eti Abel";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Eti_Abel@amat.com
 ATTENDEE;CN="Hanan Kavitz";RSVP=TRUE:mailto:Hanan_Kavitz@amat.com
 ATTENDEE;CN="Oleg Nepomnyaschy";RSVP=TRUE:mailto:Oleg_Nepomnyashchiy@amat.c
 	om
@@ -2792,7 +3403,7 @@ DESCRIPTION:  \n-- Do not delete or change any of the following text. --
 DTEND;TZID="India Standard Time":20200810T133000
 DTSTAMP:20200729T102900Z
 DTSTART;TZID="India Standard Time":20200810T123000
-LAST-MODIFIED:20200808T021800Z
+LAST-MODIFIED:20200810T053524Z
 LOCATION:Webex
 ORGANIZER;CN="Sharmistha Mohapatra":mailto:Sharmistha_Mohapatra@amat.com
 PRIORITY:5
@@ -3012,8 +3623,13 @@ ATTENDEE;CN="Nir Sagiv";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Nir_Sagiv@amat.c
 	om
 ATTENDEE;CN="Oren Wass";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:oren_wass@amat.c
 	om
-ATTENDEE;CN="Michal Dishon";RSVP=TRUE:mailto:Michal_Dishon@amat.com
+ATTENDEE;CN="Michal Dishon";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Michal_Disho
+	n@amat.com
 ATTENDEE;CN="Assaf Ariel";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Assaf_Ariel@am
+	at.com
+ATTENDEE;CN="Michal Shahar";RSVP=TRUE;PARTSTAT=DECLINED:mailto:Michal_Shaha
+	r@amat.com
+ATTENDEE;CN="Rafi Benami";RSVP=TRUE;PARTSTAT=DECLINED:mailto:Rafi_Benami@am
 	at.com
 ATTENDEE;CN="Aayush Agrawal";RSVP=TRUE:mailto:Aayush_Agrawal@amat.com
 ATTENDEE;CN="Aayush Raina";RSVP=TRUE:mailto:Aayush_Raina@amat.com
@@ -3021,7 +3637,8 @@ ATTENDEE;CN="Abhijit Kumar Banik";RSVP=TRUE:mailto:AbhijitKumar_Banik@amat.
 	com
 ATTENDEE;CN="Adi Karol";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Adi_Karol@amat.c
 	om
-ATTENDEE;CN="Adiel Charbash";RSVP=TRUE:mailto:Adiel_Charbash@amat.com
+ATTENDEE;CN="Adiel Charbash";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Adiel_Charb
+	ash@amat.com
 ATTENDEE;CN="Aditya Kothari";RSVP=TRUE:mailto:Aditya_Kothari@amat.com
 ATTENDEE;CN="Ahmad Farhan";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ahmad_Farhan@
 	amat.com
@@ -3202,7 +3819,8 @@ ATTENDEE;CN="Limor Alon";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Limor_Alon@amat
 	.com
 ATTENDEE;CN="Limor Drori";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Limor_Drori@am
 	at.com
-ATTENDEE;CN="Lior Koren";RSVP=TRUE:mailto:Lior_Koren@amat.com
+ATTENDEE;CN="Lior Koren";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Lior_Koren@amat
+	.com
 ATTENDEE;CN="Lior Raz";RSVP=TRUE:mailto:Lior_Raz@amat.com
 ATTENDEE;CN="Lior Yehieli";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Lior_Yehieli@
 	amat.com
@@ -3446,8 +4064,6 @@ ATTENDEE;CN="Yuri Kourlyand";RSVP=TRUE:mailto:Yuri_Kourlyand@amat.com
 ATTENDEE;CN="Yuval Dolev";RSVP=TRUE:mailto:Yuval_Dolev@amat.com
 ATTENDEE;CN="CNS Group All";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:CNS_Group
 	_All@amat.com
-ATTENDEE;CN="Dmitri Deichman --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PART
-	STAT=ACCEPTED:mailto:Dmitri_Deichman@contractor.amat.com
 ATTENDEE;CN="David Tuval --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:D
 	avid_Tuval@contractor.amat.com
 ATTENDEE;CN="Bar Dubovski";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Bar_Dubovs
@@ -3468,8 +4084,6 @@ ATTENDEE;CN="Vladimir Tushko --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTA
 	T=ACCEPTED:mailto:Vladimir_V_Tushko@contractor.amat.com
 ATTENDEE;CN="Itzik Bar-el --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=A
 	CCEPTED:mailto:Itzik_Barel@contractor.amat.com
-ATTENDEE;CN="Nir Kolton --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=
-	ACCEPTED:mailto:Nir_Kolton@contractor.amat.com
 ATTENDEE;CN="Rafi Elmaliach --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
 	=ACCEPTED:mailto:Rafi_Elmaliach@contractor.amat.com
 ATTENDEE;CN="Liron Etzioni --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=
@@ -3480,16 +4094,12 @@ ATTENDEE;CN="Boris Weinstein --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTA
 	T=ACCEPTED:mailto:Boris_wainshtein@contractor.amat.com
 ATTENDEE;CN="Elad Koren --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Elad_
 	Koren@contractor.amat.com
-ATTENDEE;CN="Vitaly Saharovski --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:ma
-	ilto:Vitaly_Saharovski@contractor.amat.com
 ATTENDEE;CN="Evgeny Shastov --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:E
 	vgeny_Shastov@contractor.amat.com
 ATTENDEE;CN="Erez Bar On --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Erez
 	_BarOn@contractor.amat.com
 ATTENDEE;CN="Vitally Sushko --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
 	=ACCEPTED:mailto:Vitally_Sushko@contractor.amat.com
-ATTENDEE;CN="Shemi Akpulash --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
-	o:Shemi_Akpulash@contractor.amat.com
 ATTENDEE;CN="Kfir Itzhak Salem --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTS
 	TAT=ACCEPTED:mailto:Kfir_Salem@contractor.amat.com
 ATTENDEE;CN="Avi Sabbah --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=
@@ -3508,10 +4118,6 @@ ATTENDEE;CN="Evgeny Tihonov --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
 	=ACCEPTED:mailto:Evgeny_Tihonov@contractor.amat.com
 ATTENDEE;CN="Shai Fisher --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
 	=ACCEPTED:mailto:Shai_Fisher@contractor.amat.com
-ATTENDEE;CN="Michal Shahar";RSVP=TRUE;PARTSTAT=DECLINED:mailto:Michal_Shaha
-	r@amat.com
-ATTENDEE;CN="Rafi Benami";RSVP=TRUE;PARTSTAT=DECLINED:mailto:Rafi_Benami@am
-	at.com
 CLASS:PUBLIC
 CREATED:20200805T085049Z
 DESCRIPTION:https://appliedmaterialsevents.webex.com/appliedmaterialsevents
@@ -3520,56 +4126,57 @@ DESCRIPTION:https://appliedmaterialsevents.webex.com/appliedmaterialsevents
 	 intended recipient\, please notify me\, delete this email and do not use 
 	or distribute this email. \n\n
 DTEND;TZID="Israel Standard Time":20200812T122000
-DTSTAMP:20200806T113837Z
+DTSTAMP:20200809T134530Z
 DTSTART;TZID="Israel Standard Time":20200812T111000
-LAST-MODIFIED:20200808T021801Z
+LAST-MODIFIED:20200809T134605Z
 LOCATION:Webex
 ORGANIZER;CN="Irit Shaaya-Segal":mailto:Irit_ShaayaSegal@amat.com
 PRIORITY:5
-SEQUENCE:5
+SEQUENCE:8
 SUMMARY:SW R&D All Hands
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000A03615FF494DD601000000000000000
 	010000000D92C0FC1C2FDB74EB9C63CDC34B48252
 X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
 	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
-	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
-	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
-	"Content-Type" content="text/html\; charset=us-ascii">\n<meta name="Genera
-	tor" content="Microsoft Word 15 (filtered medium)">\n<style><!--\n/* Font 
-	Definitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 
-	5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 
-	2 2 2 4 3 2 4\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, di
-	v.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-size:11.0pt\;
-	\n	font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyperlink\n	{mso
-	-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underline\;}\na:v
-	isited\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n	color:#954
-	F72\;\n	text-decoration:underline\;}\np.msonormal0\, li.msonormal0\, div.m
-	sonormal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:auto\;\n	marg
-	in-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;\n	font-s
-	ize:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.EmailStyle18\n	{
-	mso-style-type:personal-compose\;\n	font-family:"Calibri"\,sans-serif\;\n	
-	color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	font
-	-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in 
-	1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></style
-	><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />
-	\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">
-	\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]-->\n<
-	/head>\n<body lang="EN-US" link="#0563C1" vlink="#954F72">\n<div class="Wo
-	rdSection1">\n<p class="MsoNormal"><a href="https://appliedmaterialsevents
-	.webex.com/appliedmaterialsevents/onstage/g.php?MTID=e12a1ac8ab141ba03ce4a
-	2e29b267f2d4">https://appliedmaterialsevents.webex.com/appliedmaterialseve
-	nts/onstage/g.php?MTID=e12a1ac8ab141ba03ce4a2e29b267f2d4</a><o:p></o:p></p
-	>\n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\n<p class="MsoNormal"><o:p>
-	&nbsp\;</o:p></p>\n</div>\n<p><span style="font-size: 11pt\; font-family: 
-	Calibri\, sans-serif\; color: #000000\;">The content of this message is AP
-	PLIED MATERIALS CONFIDENTIAL. If you are not the intended recipient\, plea
-	se notify me\, delete this email and do not use or distribute this email.\
-	n</span></p>\n</body>\n</html>\n
+	rosoft-com:office:word" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C1488
+	2" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http:
+	//www.w3.org/TR/REC-html40"><head>\n<meta http-equiv="Content-Type" conten
+	t="text/html\; charset=us-ascii">\n<meta name="Generator" content="Microso
+	ft Word 15 (filtered medium)">\n<style><!--\n/* Font Definitions */\n@font
+	-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 3 2 4\;}\n@
+	font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 2 4 3 2 4\;}\n/* 
+	Style Definitions */\np.MsoNormal\, li.MsoNormal\, div.MsoNormal\n	{margin
+	:0in\;\n	margin-bottom:.0001pt\;\n	font-size:11.0pt\;\n	font-family:"Calib
+	ri"\,sans-serif\;}\na:link\, span.MsoHyperlink\n	{mso-style-priority:99\;\
+	n	color:#0563C1\;\n	text-decoration:underline\;}\na:visited\, span.MsoHype
+	rlinkFollowed\n	{mso-style-priority:99\;\n	color:#954F72\;\n	text-decorati
+	on:underline\;}\np.msonormal0\, li.msonormal0\, div.msonormal0\n	{mso-styl
+	e-name:msonormal\;\n	mso-margin-top-alt:auto\;\n	margin-right:0in\;\n	mso-
+	margin-bottom-alt:auto\;\n	margin-left:0in\;\n	font-size:11.0pt\;\n	font-f
+	amily:"Calibri"\,sans-serif\;}\nspan.EmailStyle18\n	{mso-style-type:person
+	al-compose\;\n	font-family:"Calibri"\,sans-serif\;\n	color:windowtext\;}\n
+	.MsoChpDefault\n	{mso-style-type:export-only\;\n	font-size:10.0pt\;}\n@pag
+	e WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in 1.0in 1.0in 1.0in\;}\
+	ndiv.WordSection1\n	{page:WordSection1\;}\n--></style><!--[if gte mso 9]><
+	xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />\n</xml><![endif]--><
+	!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:idmap v:ext="edi
+	t" data="1" />\n</o:shapelayout></xml><![endif]-->\n</head>\n<body lang="E
+	N-US" link="#0563C1" vlink="#954F72">\n<div class="WordSection1">\n<p clas
+	s="MsoNormal"><a href="https://appliedmaterialsevents.webex.com/appliedmat
+	erialsevents/onstage/g.php?MTID=e12a1ac8ab141ba03ce4a2e29b267f2d4">https:/
+	/appliedmaterialsevents.webex.com/appliedmaterialsevents/onstage/g.php?MTI
+	D=e12a1ac8ab141ba03ce4a2e29b267f2d4</a><o:p></o:p></p>\n<p class="MsoNorma
+	l"><o:p>&nbsp\;</o:p></p>\n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\n</
+	div>\n<p><span style="font-size: 11pt\; font-family: Calibri\, sans-serif\
+	; color: #000000\;">The content of this message is APPLIED MATERIALS CONFI
+	DENTIAL. If you are not the intended recipient\, please notify me\, delete
+	 this email and do not use or distribute this email.\n</span></p>\n</body>
+	\n</html>\n
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-APPTSEQTIME:20200805T084131Z
+X-MS-OLK-APPTSEQTIME:20200806T113837Z
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -3633,7 +4240,7 @@ DESCRIPTION:Mainly for @Eran <mailto:Eran_Blum@amat.com>  and @Alex <mailto
 DTEND;TZID="India Standard Time":20200810T153000
 DTSTAMP:20200806T084357Z
 DTSTART;TZID="India Standard Time":20200810T150000
-LAST-MODIFIED:20200808T021800Z
+LAST-MODIFIED:20200809T042926Z
 LOCATION:WebEx
 ORGANIZER;CN="Ananth Venugopal":mailto:Ananth_Venugopal@amat.com
 PRIORITY:5
@@ -3845,18 +4452,18 @@ END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Run Export Calendar
 CLASS:PUBLIC
-CREATED:20200808T042711Z
+CREATED:20200809T061045Z
 DESCRIPTION:Export Calendar \n\n
-DTEND;TZID="India Standard Time":20200809T095700
-DTSTAMP:20200809T060957Z
-DTSTART;TZID="India Standard Time":20200809T095700
-LAST-MODIFIED:20200808T042713Z
+DTEND;TZID="India Standard Time":20200810T114000
+DTSTAMP:20200810T060900Z
+DTSTART;TZID="India Standard Time":20200810T114000
+LAST-MODIFIED:20200809T113644Z
 PRIORITY:5
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:Export Calendar
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E008000000006036FF466A6DD601000000000000000
-	010000000516447706F7B8A4D81AB32933E988570
+UID:040000008200E00074C5B7101A82E008000000002076B4D2416ED601000000000000000
+	010000000E89B11433236F7498E214FD28326979B
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
 	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
 	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
@@ -3872,5 +4479,534 @@ TRIGGER:-PT1M
 ACTION:DISPLAY
 DESCRIPTION:Reminder
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="Dror Zur";RSVP=TRUE:mailto:Dror_Zur@amat.com
+ATTENDEE;CN="Alon Cooper";RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Alon_Cooper@a
+	mat.com
+ATTENDEE;CN="Avner Segev";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Avner_Segev@am
+	at.com
+ATTENDEE;CN="Viki Kagarlitsky";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Viki_Kaga
+	rlitsky@amat.com
+ATTENDEE;CN="Ariel Miller";RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Ariel_Miller
+	@amat.com
+ATTENDEE;CN="Sharon Israel";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Sharon_Israe
+	l@amat.com
+ATTENDEE;CN="Lavy Shavit";RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Lavy_Shavit@a
+	mat.com
+ATTENDEE;CN="Itai Buks";RSVP=TRUE:mailto:Itai_Buks@amat.com
+ATTENDEE;CN="Sagi Ben David";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Sagi_Ben
+	David@amat.com
+ATTENDEE;CN="Eran Blum";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Eran_Blum@ama
+	t.com
+ATTENDEE;CN="Shai Nissim";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Shai_Nissim
+	@amat.com
+ATTENDEE;CN="Maor Keinan";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:
+	mailto:Maor_Keinan@amat.com
+ATTENDEE;CN="Ziv Gordin";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ziv_Gordin@a
+	mat.com
+ATTENDEE;CN="Uorya Kapach";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Uorya_Kapa
+	ch@amat.com
+ATTENDEE;CN="Ananth Venugopal";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ananth
+	_Venugopal@amat.com
+ATTENDEE;CN="Suchitra Gupta";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Suchitra
+	_Gupta@amat.com
+ATTENDEE;CN="Eran Reuven";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Eran_Reuven
+	@amat.com
+CLASS:PUBLIC
+CREATED:20200809T102908Z
+DESCRIPTION: \n\n \n\n-----Original Appointment-----\nFrom: Harel Azulay <H
+	arel_Azulay@amat.com <mailto:Harel_Azulay@amat.com> > \nSent: Sunday\, Aug
+	ust 9\, 2020 10:00 AM\nTo: Harel Azulay\; Dror Zur\; Alon Cooper\; Avner S
+	egev\; Viki Kagarlitsky\; Ariel Miller\; Sharon Israel\; Lavy Shavit\; Ita
+	i Buks\nCc: Sagi Ben David\; Eran Blum\; Shai Nissim\; Maor Keinan\; Ziv G
+	ordin\; Uorya Kapach\nSubject: New Software LL -PV Hynix Rollback after Pe
+	riodical Auto-Stig calibration failure as result od DMD interlock\nWhen: W
+	ednesday\, August 12\, 2020 3:00 PM-4:00 PM (UTC+02:00) Jerusalem.\nWhere:
+	 Israel-Rehovot-PDC1-Canada3136(6)\n\n \n\n \n\n \n\n-----Original Appoint
+	ment-----\nFrom: Harel Azulay <Harel_Azulay@amat.com <mailto:Harel_Azulay@
+	amat.com> > \nSent: Monday\, July 27\, 2020 11:23 AM\nTo: Harel Azulay\; D
+	ror Zur\; Alon Cooper\; Avner Segev\; Viki Kagarlitsky\; Ariel Miller\; Sh
+	aron Israel\; Lavy Shavit\; Itai Buks\nCc: Sagi Ben David\; Eran Blum\nSub
+	ject: New Software LL -PV Hynix Rollback after Periodical Auto-Stig calibr
+	ation failure as result od DMD interlock\nWhen: Wednesday\, August 12\, 20
+	20 3:00 PM-4:00 PM (UTC+02:00) Jerusalem.\nWhere: Israel-Rehovot-PDC1-Cana
+	da3136(6)\n\n \n\nLesson learned session for Periodical Auto-Stig calibrat
+	ion failure as result of DMD interlock\n\n \n\nViki will present her techn
+	ical perspective\, please let me know who will present SW / PS / Qual pers
+	pective.\n\n \n\nLet me know if anyone else is required\, but lets keep it
+	 relatively intimate to be effective.\n\n \n\n \n\n \n\nHarel\n\n_________
+	_______________________________________________________________________ \n
+	\nJoin Microsoft Teams Meeting <https://teams.microsoft.com/l/meetup-join/
+	19%3ameeting_MzkyNGZhNDYtNDE5NS00ZTcyLTkyYjUtZDc3Y2M1NmM2MmEz%40thread.v2/
+	0?context=%7b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22O
+	id%22%3a%220cb59a95-1ddd-44b9-9b03-bc2c724e42d5%22%7d>  \n\nLearn more abo
+	ut Teams <https://aka.ms/JoinTeamsMeeting>  | Meeting options <https://tea
+	ms.microsoft.com/meetingOptions/?organizerId=0cb59a95-1ddd-44b9-9b03-bc2c7
+	24e42d5&tenantId=709c2643-b1a9-4415-ad0f-521cfa6ba3f5&threadId=19_meeting_
+	MzkyNGZhNDYtNDE5NS00ZTcyLTkyYjUtZDc3Y2M1NmM2MmEz@thread.v2&messageId=0&lan
+	guage=en-US>  \n\n________________________________________________________
+	________________________ \n\n \n\nThe content of this message is APPLIED M
+	ATERIALS CONFIDENTIAL. If you are not the intended recipient\, please noti
+	fy me\, delete this email and do not use or distribute this email. \n\n
+DTEND;TZID="Israel Standard Time":20200812T160000
+DTSTAMP:20200727T082324Z
+DTSTART;TZID="Israel Standard Time":20200812T150000
+LAST-MODIFIED:20200809T103218Z
+LOCATION:Israel-Rehovot-PDC1-Canada3136(6)
+ORGANIZER;CN="Harel Azulay":mailto:Harel_Azulay@amat.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY:New Software LL -PV Hynix Rollback after Periodical Auto-Stig cali
+	bration failure as result od DMD interlock
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000D05E14330764D601000000000000000
+	01000000026A0E3D8493303409B00FDD64C26C49A
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
+	"Content-Type" content="text/html\; charset=iso-8859-1"><meta name="Genera
+	tor" content="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font De
+	finitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 
+	3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 
+	2 2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5 2
+	 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	panose-
+	1:2 11 7 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNo
+	rmal\, div.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-size
+	:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyperli
+	nk\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underlin
+	e\;}\na:visited\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n	c
+	olor:#954F72\;\n	text-decoration:underline\;}\np.msonormal0\, li.msonormal
+	0\, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:auto
+	\;\n	margin-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;
+	\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.EmailSt
+	yle18\n	{mso-style-type:personal\;\n	font-family:"Calibri"\,sans-serif\;\n
+		color:windowtext\;}\nspan.EmailStyle19\n	{mso-style-type:personal\;\n	fon
+	t-family:"Calibri"\,sans-serif\;\n	color:windowtext\;}\nspan.EmailStyle20\
+	n	{mso-style-type:personal-reply\;\n	font-family:"Calibri"\,sans-serif\;\n
+		color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	fon
+	t-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in
+	 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></styl
+	e><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" /
+	>\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit"
+	>\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]--></
+	head><body lang="EN-US" link="#0563C1" vlink="#954F72"><div class="WordSec
+	tion1"><p class="MsoNormal"><span style="font-size:13.0pt"><o:p>&nbsp\;</o
+	:p></span></p><p class="MsoNormal"><span style="font-size:13.0pt"><o:p>&nb
+	sp\;</o:p></span></p><div><p class="MsoNormal">-----Original Appointment--
+	---<br><b>From:</b> Harel Azulay &lt\;<a href="mailto:Harel_Azulay@amat.co
+	m">Harel_Azulay@amat.com</a>&gt\; <br><b>Sent:</b> Sunday\, August 9\, 202
+	0 10:00 AM<br><b>To:</b> Harel Azulay\; Dror Zur\; Alon Cooper\; Avner Seg
+	ev\; Viki Kagarlitsky\; Ariel Miller\; Sharon Israel\; Lavy Shavit\; Itai 
+	Buks<br><b>Cc:</b> Sagi Ben David\; Eran Blum\; Shai Nissim\; Maor Keinan\
+	; Ziv Gordin\; Uorya Kapach<br><b>Subject:</b> New&nbsp\;Software LL -PV H
+	ynix Rollback after Periodical Auto-Stig calibration failure as result od 
+	DMD interlock<br><b>When:</b> Wednesday\, August 12\, 2020 3:00 PM-4:00 PM
+	 (UTC+02:00) Jerusalem.<br><b>Where:</b> Israel-Rehovot-PDC1-Canada3136(6)
+	<o:p></o:p></p></div><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="
+	MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></
+	p><div><p class="MsoNormal">-----Original Appointment-----<br><b>From:</b>
+	 Harel Azulay &lt\;<a href="mailto:Harel_Azulay@amat.com">Harel_Azulay@ama
+	t.com</a>&gt\; <br><b>Sent:</b> Monday\, July 27\, 2020 11:23 AM<br><b>To:
+	</b> Harel Azulay\; Dror Zur\; Alon Cooper\; Avner Segev\; Viki Kagarlitsk
+	y\; Ariel Miller\; Sharon Israel\; Lavy Shavit\; Itai Buks<br><b>Cc:</b> S
+	agi Ben David\; Eran Blum<br><b>Subject:</b> New&nbsp\;Software LL -PV Hyn
+	ix Rollback after Periodical Auto-Stig calibration failure as result od DM
+	D interlock<br><b>When:</b> Wednesday\, August 12\, 2020 3:00 PM-4:00 PM (
+	UTC+02:00) Jerusalem.<br><b>Where:</b> Israel-Rehovot-PDC1-Canada3136(6)<o
+	:p></o:p></p></div><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="Ms
+	oNormal">Lesson learned session for Periodical Auto-Stig calibration failu
+	re as result of DMD interlock<o:p></o:p></p><p class="MsoNormal"><o:p>&nbs
+	p\;</o:p></p><p class="MsoNormal">Viki will present her technical perspect
+	ive\, please let me know who will present SW / PS / Qual perspective.<o:p>
+	</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal">
+	Let me know if anyone else is required\, but lets keep it relatively intim
+	ate to be effective.<o:p></o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p>
+	</p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&
+	nbsp\;</o:p></p><p class="MsoNormal">Harel<o:p></o:p></p><p class="MsoNorm
+	al"><span style="color:gray">_____________________________________________
+	___________________________________</span> <o:p></o:p></p><div><div style=
+	"margin-top:.25in\;margin-bottom:7.5pt"><p class="MsoNormal"><span style="
+	font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a href="ht
+	tps://teams.microsoft.com/l/meetup-join/19%3ameeting_MzkyNGZhNDYtNDE5NS00Z
+	TcyLTkyYjUtZDc3Y2M1NmM2MmEz%40thread.v2/0?context=%7b%22Tid%22%3a%22709c26
+	43-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%22%3a%220cb59a95-1ddd-44b9-9b03
+	-bc2c724e42d5%22%7d" target="_blank"><span style="font-size:13.5pt\;font-f
+	amily:&quot\;Segoe UI Semibold&quot\;\,sans-serif\;color:#6264A7">Join Mic
+	rosoft Teams Meeting</span></a> <o:p></o:p></span></p></div><p class="MsoN
+	ormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:
+	#252424"><a href="https://aka.ms/JoinTeamsMeeting" target="_blank"><span s
+	tyle="font-size:9.0pt\;color:#6264A7\;text-decoration:none">Learn more abo
+	ut Teams</span></a> | <a href="https://teams.microsoft.com/meetingOptions/
+	?organizerId=0cb59a95-1ddd-44b9-9b03-bc2c724e42d5&amp\;tenantId=709c2643-b
+	1a9-4415-ad0f-521cfa6ba3f5&amp\;threadId=19_meeting_MzkyNGZhNDYtNDE5NS00ZT
+	cyLTkyYjUtZDc3Y2M1NmM2MmEz@thread.v2&amp\;messageId=0&amp\;language=en-US"
+	 target="_blank"><span style="font-size:9.0pt\;color:#6264A7\;text-decorat
+	ion:none">Meeting options</span></a> <o:p></o:p></span></p></div><div><p c
+	lass="MsoNormal"><span style="color:gray">________________________________
+	________________________________________________</span> <o:p></o:p></p></d
+	iv><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p><span style="color:black"
+	>The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are
+	 not the intended recipient\, please notify me\, delete this email and do 
+	not use or distribute this email. </span><o:p></o:p></p></div></body></htm
+	l>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="Sudarshan Kumar Mishra";RSVP=TRUE:mailto:SudarshanKumar_Mishra
+	@amat.com
+ATTENDEE;CN="Maor Keinan";RSVP=TRUE:mailto:Maor_Keinan@amat.com
+ATTENDEE;CN="Balaji Chithugnanamoorthy";RSVP=TRUE:mailto:Balaji_Chithugnana
+	moorthy@amat.com
+ATTENDEE;CN="Suchitra Gupta";RSVP=TRUE:mailto:Suchitra_Gupta@amat.com
+ATTENDEE;CN="Eve Nishri-Sulimany";RSVP=TRUE:mailto:Eve_Nishri-Sulimany@amat
+	.com
+ATTENDEE;CN="Gabi Brontvein";RSVP=TRUE:mailto:Gabi_Brontvein@amat.com
+ATTENDEE;CN="Hanan Kavitz";RSVP=TRUE:mailto:Hanan_Kavitz@amat.com
+ATTENDEE;CN="Harel Azulay";RSVP=TRUE:mailto:Harel_Azulay@amat.com
+ATTENDEE;CN="Itai Buks";RSVP=TRUE:mailto:Itai_Buks@amat.com
+ATTENDEE;CN="Uorya Kapach";RSVP=TRUE:mailto:Uorya_Kapach@amat.com
+ATTENDEE;CN="Uri Smolyan";RSVP=TRUE:mailto:Uri_Smolyan@amat.com
+ATTENDEE;CN="Eran Blum";RSVP=TRUE:mailto:Eran_Blum@amat.com
+ATTENDEE;CN="Tsvi Goren";RSVP=TRUE:mailto:Zvi_Goren@amat.com
+ATTENDEE;CN="Sima Moyal --TR-CNTR";RSVP=TRUE:mailto:Sima_Moyal@contractor.a
+	mat.com
+ATTENDEE;CN="Ariel Miller";RSVP=TRUE:mailto:Ariel_Miller@amat.com
+ATTENDEE;CN="Eran Reuven";RSVP=TRUE:mailto:Eran_Reuven@amat.com
+ATTENDEE;CN="Maria Antokolsky --TR-CNTR";RSVP=TRUE:mailto:Maria_Antokolsky@
+	contractor.amat.com
+ATTENDEE;CN="Limor Drori";RSVP=TRUE:mailto:Limor_Drori@amat.com
+ATTENDEE;CN="Oleg Nepomnyaschy";RSVP=TRUE:mailto:Oleg_Nepomnyashchiy@amat.c
+	om
+ATTENDEE;CN="Gautam Yadav";RSVP=TRUE:mailto:Gautam_Yadav@amat.com
+ATTENDEE;CN="Eti Abel";RSVP=TRUE:mailto:Eti_Abel@amat.com
+ATTENDEE;CN="Yair Goldenberg";RSVP=TRUE:mailto:Yair_Goldenberg@amat.com
+ATTENDEE;CN="Gilad Kotler";RSVP=TRUE:mailto:Gilad_Kotler@amat.com
+ATTENDEE;CN="Tali Bachar";RSVP=TRUE:mailto:Tali_Bachar@amat.com
+ATTENDEE;CN="Denzil Vinod Fernandes";RSVP=TRUE:mailto:DenzilVinod_Fernandes
+	@amat.com
+ATTENDEE;CN="Rajat Arora";RSVP=TRUE:mailto:Rajat_Arora@amat.com
+ATTENDEE;CN="Noam Shaham";RSVP=TRUE:mailto:Noam_Shaham@amat.com
+ATTENDEE;CN="Tal Ayzik";RSVP=TRUE:mailto:Tal_Ayzik@amat.com
+ATTENDEE;CN="Yuval Yahav";RSVP=TRUE:mailto:Yuval_Yahav@amat.com
+ATTENDEE;CN="Shai Nissim";RSVP=TRUE:mailto:Shai_Nissim@amat.com
+ATTENDEE;CN="Noa Ben-Halevy";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Noa_Ben-Hal
+	evy@amat.com
+ATTENDEE;CN="Amit Fatal";RSVP=TRUE:mailto:Amit_Fatal@amat.com
+ATTENDEE;CN="Yoav Harari";RSVP=TRUE:mailto:Yoav_Harari@amat.com
+ATTENDEE;CN="Omer Kahan";RSVP=TRUE:mailto:Omer_Kahan@amat.com
+ATTENDEE;CN="Hanan Nahmani --TR-CNTR";RSVP=TRUE:mailto:Hanan_Nahmani@contra
+	ctor.amat.com
+ATTENDEE;CN="Adi Yakir --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Adi
+	_A_Yakir@contractor.amat.com
+ATTENDEE;CN="Alex Brikker";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Alex_Brikk
+	er@amat.com
+ATTENDEE;CN="Cindi Szeinberg --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mail
+	to:Cindi_Szeinberg@contractor.amat.com
+ATTENDEE;CN="Artyom Merkovich";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Artyom
+	_Merkovich@amat.com
+ATTENDEE;CN="Ashutosh Shukla";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ashutos
+	h_Shukla@amat.com
+ATTENDEE;CN="Avihai Danino --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
+	AT=ACCEPTED:mailto:Avihai_Danino@contractor.amat.com
+ATTENDEE;CN="Ananth Venugopal";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
+	PTED:mailto:Ananth_Venugopal@amat.com
+ATTENDEE;CN="Shalom Elkayam";RSVP=TRUE;PARTSTAT=DECLINED:mailto:Shalom_Elka
+	yam@amat.com
+ATTENDEE;CN="Asaf Golov";RSVP=TRUE;PARTSTAT=DECLINED:mailto:Asaf_Golov@amat
+	.com
+CLASS:PUBLIC
+CREATED:20200810T050110Z
+DESCRIPTION: \n\n \n\n-----Original Appointment-----\nFrom: Idan Reuven <Id
+	an_Reuven@amat.com <mailto:Idan_Reuven@amat.com> > \nSent: Wednesday\, May
+	 27\, 2020 4:26 PM\nTo: Idan Reuven\; Sudarshan Kumar Mishra\; Maor Keinan
+	\; Balaji Chithugnanamoorthy\; Suchitra Gupta\; Eve Nishri-Sulimany\; Gabi
+	 Brontvein\; Hanan Kavitz\; Harel Azulay\; Itai Buks\; Uorya Kapach\; Uri 
+	Smolyan\; Eran Blum\; Tsvi Goren\; Sima Moyal --TR-CNTR\; Ariel Miller\; E
+	ran Reuven\; Maria Antokolsky --TR-CNTR\; Limor Drori\; Oleg Nepomnyaschy\
+	; Gautam Yadav\; Eti Abel\; Yair Goldenberg\; Gilad Kotler\; Tali Bachar\;
+	 Denzil Vinod Fernandes\; Rajat Arora\; Noam Shaham\; Tal Ayzik\; Yuval Ya
+	hav\; Shai Nissim\; Noa Ben-Halevy\; Amit Fatal\; Yoav Harari\; Omer Kahan
+	\; Hanan Nahmani --TR-CNTR\; Shalom Elkayam\; Asaf Golov\nCc: Adi Yakir --
+	TR-CNTR\; Alex Brikker\; Cindi Szeinberg --TR-CNTR\; Artyom Merkovich\; As
+	hutosh Shukla\; Avihai Danino --TR-CNTR\nSubject: Daily bugs status 16.7.3
+	1 + 16.7.30 beta\nWhen: Monday\, August 10\, 2020 9:00 AM-9:30 AM (UTC+02:
+	00) Jerusalem.\nWhere: Webex\n\n \n\nAgenda:\n\n16.7.31 bugs status\n\n16.
+	7.30 beta status\n\n  \n-- Do not delete or change any of the following te
+	xt. --   \n  \n  \n\nWelcome to new eMeeting\, powered by Cisco WebEx \nCl
+	ick here to join the meeting <https://applied-materials.webex.com/applied-
+	materials/j.php?MTID=ma53a908bfdddd5fcbfcec39fa4f84cd5>    \nMeeting numbe
+	r (access code): 961 864 488 Meeting password: tH2MZZ5rmY2    \nJoin from 
+	a video system or application\nDial 961864488@applied-materials.webex.com 
+	<sip:961864488@applied-materials.webex.com>   \n  \n\nCall Using Computer 
+	\n     VOIP/Call Over Internet. This is the preferred option\, but a PC He
+	adset is required to connect.\n\nCall Me \n     Dial back to an Applied Ma
+	terials extension.\n     Select US and enter 555 + interoffice/country tie
+	-line + your extension. \n          Examples: (X is your 4 or 5-digit exte
+	nsion depending on region). \n                   SCLA       555 + 20 + XXX
+	XX\n                   Austin     555 + 22 + XXXXX\n                   Ger
+	many 555 + 420 + XXXX\n                   Israel       555 + 55 + XXXXX\n 
+	                  Taiwan    555 + 750 + XXXX\n          (Click here for a 
+	list of all interoffice/country tie-lines) (Global Tie-line format) <https
+	://amat.service-now.com/AMAT3/knowledge_view.do?sysparm_document_key=kb_kn
+	owledge\,5d284a22db2d474c6deb5887dc96194e>    \n\n\nI Will Call In from an
+	 Applied Materials Cisco Phone:\n           Dial 1+20+77777  \n           
+	Enter the meeting number to connect.\n\n\nI Will Call In from an External 
+	Phone (non Applied Materials):\nTap to join from a mobile device (attendee
+	s only)  \n+1-669-234-1708\,\,961864488## <tel:%2B1-669-234-1708\,\,*01*96
+	1864488%23%23*01*>  United States of America Toll  \n\nJoin by phone  \n+1
+	-669-234-1708 United States of America Toll  \nGlobal call-in numbers <htt
+	ps://applied-materials.webex.com/applied-materials/globalcallin.php?MTID=m
+	56cd53b2311c86f5fdcf28dec0145d6d>   |  Toll-free calling restrictions <htt
+	ps://www.webex.com/pdf/tollfree_restrictions.pdf>    \n  \nCan't join the 
+	meeting? <https://help.webex.com/docs/DOC-5412>  \n  \nIf you are a host\,
+	 click here <https://applied-materials.webex.com/applied-materials/j.php?M
+	TID=m087a545b14aa9ae1338ec07b082517b1>  to view host information. IMPORTAN
+	T NOTICE: Please note that this Webex service allows audio and other infor
+	mation sent during the session to be recorded\, which may be discoverable 
+	in a legal matter. By joining this session\, you automatically consent to 
+	such recordings. If you do not consent to being recorded\, discuss your co
+	ncerns with the host or do not join the session. \n\n \n\nThe content of t
+	his message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended
+	 recipient\, please notify me\, delete this email and do not use or distri
+	bute this email. \n\n
+DTEND;TZID="Israel Standard Time":20200810T093000
+DTSTAMP:20200723T062326Z
+DTSTART;TZID="Israel Standard Time":20200810T090000
+LAST-MODIFIED:20200810T055530Z
+LOCATION:Webex
+ORGANIZER;CN="Idan Reuven":mailto:Idan_Reuven@amat.com
+PRIORITY:5
+RECURRENCE-ID;TZID="India Standard Time":20200810T090000
+SEQUENCE:18
+SUMMARY:Daily bugs status 16.7.31 + 16.7.30 beta
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000908801834234D601000000000000000
+	01000000046741163CEF78249AF95D2A300550FE2
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
+	"Content-Type" content="text/html\; charset=us-ascii"><meta name="Generato
+	r" content="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font Defi
+	nitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 
+	5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 
+	2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5 2 4
+	 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, div.M
+	soNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-size:11.0pt\;\n	
+	font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyperlink\n	{mso-st
+	yle-priority:99\;\n	color:#0563C1\;\n	text-decoration:underline\;}\na:visi
+	ted\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n	color:#954F72
+	\;\n	text-decoration:underline\;}\np.msonormal0\, li.msonormal0\, div.mson
+	ormal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:auto\;\n	margin-
+	right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;\n	font-size
+	:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.EmailStyle18\n	{mso
+	-style-type:personal\;\n	font-family:"Calibri"\,sans-serif\;\n	color:windo
+	wtext\;}\nspan.EmailStyle19\n	{mso-style-type:personal-reply\;\n	font-fami
+	ly:"Calibri"\,sans-serif\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-st
+	yle-type:export-only\;\n	font-size:10.0pt\;}\n@page WordSection1\n	{size:8
+	.5in 11.0in\;\n	margin:1.0in 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{pag
+	e:WordSection1\;}\n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v
+	:ext="edit" spidmax="1026" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\
+	n<o:shapelayout v:ext="edit">\n<o:idmap v:ext="edit" data="1" />\n</o:shap
+	elayout></xml><![endif]--></head><body lang="EN-US" link="#0563C1" vlink="
+	#954F72"><div class="WordSection1"><p class="MsoNormal"><span style="font-
+	size:13.0pt"><o:p>&nbsp\;</o:p></span></p><p class="MsoNormal"><span style
+	="font-size:13.0pt"><o:p>&nbsp\;</o:p></span></p><div><p class="MsoNormal"
+	>-----Original Appointment-----<br><b>From:</b> Idan Reuven &lt\;<a href="
+	mailto:Idan_Reuven@amat.com">Idan_Reuven@amat.com</a>&gt\; <br><b>Sent:</b
+	> Wednesday\, May 27\, 2020 4:26 PM<br><b>To:</b> Idan Reuven\; Sudarshan 
+	Kumar Mishra\; Maor Keinan\; Balaji Chithugnanamoorthy\; Suchitra Gupta\; 
+	Eve Nishri-Sulimany\; Gabi Brontvein\; Hanan Kavitz\; Harel Azulay\; Itai 
+	Buks\; Uorya Kapach\; Uri Smolyan\; Eran Blum\; Tsvi Goren\; Sima Moyal --
+	TR-CNTR\; Ariel Miller\; Eran Reuven\; Maria Antokolsky --TR-CNTR\; Limor 
+	Drori\; Oleg Nepomnyaschy\; Gautam Yadav\; Eti Abel\; Yair Goldenberg\; Gi
+	lad Kotler\; Tali Bachar\; Denzil Vinod Fernandes\; Rajat Arora\; Noam Sha
+	ham\; Tal Ayzik\; Yuval Yahav\; Shai Nissim\; Noa Ben-Halevy\; Amit Fatal\
+	; Yoav Harari\; Omer Kahan\; Hanan Nahmani --TR-CNTR\; Shalom Elkayam\; As
+	af Golov<br><b>Cc:</b> Adi Yakir --TR-CNTR\; Alex Brikker\; Cindi Szeinber
+	g --TR-CNTR\; Artyom Merkovich\; Ashutosh Shukla\; Avihai Danino --TR-CNTR
+	<br><b>Subject:</b> Daily bugs status 16.7.31 + 16.7.30 beta<br><b>When:</
+	b> Monday\, August 10\, 2020 9:00 AM-9:30 AM (UTC+02:00) Jerusalem.<br><b>
+	Where:</b> Webex<o:p></o:p></p></div><p class="MsoNormal"><o:p>&nbsp\;</o:
+	p></p><p class="MsoNormal"><span style="font-size:10.5pt\;font-family:&quo
+	t\;Segoe UI&quot\;\,sans-serif">Agenda:<o:p></o:p></span></p><p class="Mso
+	Normal"><span style="font-size:10.5pt\;font-family:&quot\;Segoe UI&quot\;\
+	,sans-serif">16.7.31 bugs status<o:p></o:p></span></p><p class="MsoNormal"
+	><span style="font-size:10.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-s
+	erif">16.7.30 beta status<o:p></o:p></span></p><div><p class="MsoNormal"><
+	span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif">&nbsp\; <br></
+	span><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sa
+	ns-serif\;color:#A0A0A0">-<a name="WBX92FCA">- Do not delete or change any
+	 of the following text. --</a></span><span style="mso-bookmark:WBX92FCA"><
+	span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-ser
+	if"> &nbsp\; <br>&nbsp\; <br>&nbsp\; <br><br></span></span><span style="ms
+	o-bookmark:WBX92FCA"><span style="font-size:13.5pt\;font-family:&quot\;Ari
+	al&quot\;\,sans-serif\;color:#E87722">Welcome to new eMeeting\, powered by
+	 Cisco WebEx</span></span><span style="mso-bookmark:WBX92FCA"><span style=
+	"font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif"> <br></
+	span></span><a href="https://applied-materials.webex.com/applied-materials
+	/j.php?MTID=ma53a908bfdddd5fcbfcec39fa4f84cd5"><span style="mso-bookmark:W
+	BX92FCA"><span style="font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;
+	\,sans-serif\;color:#00AFF9">Click here to join the meeting</span></span><
+	span style="mso-bookmark:WBX92FCA"></span></a><span style="mso-bookmark:WB
+	X92FCA"><span style="font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\
+	,sans-serif"> &nbsp\; <br></span></span><span style="mso-bookmark:WBX92FCA
+	"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-
+	serif\;color:#666666">Meeting number (access code): 961 864 488</span></sp
+	an><span style="mso-bookmark:WBX92FCA"><span style="font-size:13.5pt\;font
+	-family:&quot\;Segoe UI&quot\;\,sans-serif"> </span></span><span style="ms
+	o-bookmark:WBX92FCA"><span style="font-size:12.0pt\;font-family:&quot\;Ari
+	al&quot\;\,sans-serif\;color:black">Meeting password:</span></span><span s
+	tyle="mso-bookmark:WBX92FCA"><span style="font-size:10.0pt\;font-family:&q
+	uot\;Segoe UI&quot\;\,sans-serif\;color:#666666"> </span></span><span styl
+	e="mso-bookmark:WBX92FCA"><span style="font-size:12.0pt\;font-family:&quot
+	\;Arial&quot\;\,sans-serif\;color:black">tH2MZZ5rmY2</span></span><span st
+	yle="mso-bookmark:WBX92FCA"><span style="font-size:10.0pt\;font-family:&qu
+	ot\;Segoe UI&quot\;\,sans-serif\;color:#666666">&nbsp\; </span></span><spa
+	n style="mso-bookmark:WBX92FCA"><span style="font-size:10.0pt\;font-family
+	:&quot\;Segoe UI&quot\;\,sans-serif">&nbsp\; <br></span></span><span style
+	="mso-bookmark:WBX92FCA"><b><span style="font-size:9.0pt\;font-family:&quo
+	t\;Arial&quot\;\,sans-serif\;color:black">Join from a video system or appl
+	ication</span></b></span><span style="mso-bookmark:WBX92FCA"><span style="
+	font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif"><br></span>
+	</span><span style="mso-bookmark:WBX92FCA"><span style="font-size:10.5pt\;
+	font-family:&quot\;Arial&quot\;\,sans-serif\;color:#333333">Dial</span></s
+	pan><span style="mso-bookmark:WBX92FCA"><span style="font-size:10.0pt\;fon
+	t-family:&quot\;Arial&quot\;\,sans-serif"> </span></span><a href="sip:9618
+	64488@applied-materials.webex.com"><span style="mso-bookmark:WBX92FCA"><sp
+	an style="font-size:10.5pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;c
+	olor:#049FD9">961864488@applied-materials.webex.com</span></span><span sty
+	le="mso-bookmark:WBX92FCA"></span></a><span style="mso-bookmark:WBX92FCA">
+	<span style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif
+	">&nbsp\; <br></span></span><span style="mso-bookmark:WBX92FCA"><span styl
+	e="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif">&nbsp
+	\; <span style="color:#666666"><o:p></o:p></span></span></span></p><p><spa
+	n style="mso-bookmark:WBX92FCA"><span style="font-size:13.5pt\;font-family
+	:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666">Call Using Computer </
+	span></span><span style="mso-bookmark:WBX92FCA"><span style="font-size:10.
+	0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666"><br>&n
+	bsp\; &nbsp\; &nbsp\;VOIP/Call Over Internet. This is the preferred option
+	\, but a PC Headset is required to connect.<o:p></o:p></span></span></p><p
+	 class="MsoNormal"><span style="mso-bookmark:WBX92FCA"><span style="font-s
+	ize:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666"
+	>Call Me <br></span></span><span style="mso-bookmark:WBX92FCA"><span style
+	="font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:
+	#666666">&nbsp\; &nbsp\; &nbsp\;Dial back to an Applied Materials extensio
+	n.<br>&nbsp\; &nbsp\; &nbsp\;Select US and enter 555 + interoffice/country
+	 tie-line + your extension. <br>&nbsp\; &nbsp\; &nbsp\;&nbsp\; &nbsp\; &nb
+	sp\;Examples: (X is your 4 or 5-digit extension depending on region). <br>
+	&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &n
+	bsp\;SCLA&nbsp\; &nbsp\; &nbsp\; &nbsp\;555 + 20 + XXXXX<br>&nbsp\; &nbsp\
+	; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Austin&nb
+	sp\; &nbsp\; &nbsp\;555 + 22 + XXXXX<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; &n
+	bsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Germany 555 + 420 + XXXX<br>&
+	nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nb
+	sp\;Israel&nbsp\; &nbsp\; &nbsp\; &nbsp\;555 + 55 + XXXXX<br>&nbsp\; &nbsp
+	\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Taiwan&n
+	bsp\; &nbsp\; 555 + 750 + XXXX<br>&nbsp\; &nbsp\; &nbsp\;&nbsp\; &nbsp\; &
+	nbsp\;(Click here for a list of all interoffice/country tie-lines</span></
+	span><span style="mso-bookmark:WBX92FCA"><span style="font-size:12.0pt\;fo
+	nt-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666">) </span></sp
+	an><a href="https://amat.service-now.com/AMAT3/knowledge_view.do?sysparm_d
+	ocument_key=kb_knowledge\,5d284a22db2d474c6deb5887dc96194e"><span style="m
+	so-bookmark:WBX92FCA"><span style="font-size:10.0pt\;font-family:&quot\;Se
+	goe UI&quot\;\,sans-serif\;color:#00AFF9">(Global Tie-line format)</span><
+	/span><span style="mso-bookmark:WBX92FCA"></span></a><span style="mso-book
+	mark:WBX92FCA"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI&
+	quot\;\,sans-serif\;color:#00AFF9"> &nbsp\;&nbsp\;<o:p></o:p></span></span
+	></p><p class="MsoNormal"><span style="mso-bookmark:WBX92FCA"><span style=
+	"font-size:10.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#
+	00AFF9"><br></span></span><span style="mso-bookmark:WBX92FCA"><span style=
+	"font-size:13.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#
+	666666">I Will Call In from an Applied Materials Cisco Phone:<br></span></
+	span><span style="mso-bookmark:WBX92FCA"><span style="font-size:10.0pt\;fo
+	nt-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#666666">&nbsp\; &nbsp
+	\; &nbsp\;&nbsp\; &nbsp\; &nbsp\; Dial <strong><span style="font-family:&q
+	uot\;Segoe UI&quot\;\,sans-serif">1+20+77777&nbsp\;</span></strong> <br>&n
+	bsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;Enter the meeting number to c
+	onnect.<o:p></o:p></span></span></p><p class="MsoNormal"><span style="mso-
+	bookmark:WBX92FCA"><span style="font-size:10.0pt\;font-family:&quot\;Segoe
+	 UI&quot\;\,sans-serif\;color:#666666"><br></span></span><span style="mso-
+	bookmark:WBX92FCA"><span style="font-size:13.5pt\;font-family:&quot\;Segoe
+	 UI&quot\;\,sans-serif\;color:#666666">I Will Call In from an External Pho
+	ne (non Applied Materials):<br></span></span><span style="mso-bookmark:WBX
+	92FCA"><b><span style="font-size:9.0pt\;font-family:&quot\;Arial&quot\;\,s
+	ans-serif\;color:black">Tap to join from a mobile device (attendees only)<
+	/span></b></span><span style="mso-bookmark:WBX92FCA"><span style="font-siz
+	e:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#666666">&nbs
+	p\; <br></span></span><a href="tel:%2B1-669-234-1708\,\,*01*961864488%23%2
+	3*01*"><span style="mso-bookmark:WBX92FCA"><span style="font-size:10.5pt\;
+	font-family:&quot\;Arial&quot\;\,sans-serif\;color:#049FD9\;text-decoratio
+	n:none">+1-669-234-1708\,\,961864488##</span></span><span style="mso-bookm
+	ark:WBX92FCA"></span></a><span style="mso-bookmark:WBX92FCA"><span style="
+	font-size:10.5pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#3333
+	33">&nbsp\;United States of America Toll</span></span><span style="mso-boo
+	kmark:WBX92FCA"><span style="font-size:10.0pt\;font-family:&quot\;Arial&qu
+	ot\;\,sans-serif\;color:#666666">&nbsp\; <br><br></span></span><span style
+	="mso-bookmark:WBX92FCA"><b><span style="font-size:9.0pt\;font-family:&quo
+	t\;Arial&quot\;\,sans-serif\;color:black">Join by phone</span></b></span><
+	span style="mso-bookmark:WBX92FCA"><span style="font-size:10.0pt\;font-fam
+	ily:&quot\;Arial&quot\;\,sans-serif\;color:#666666">&nbsp\; <br></span></s
+	pan><span style="mso-bookmark:WBX92FCA"><span style="font-size:10.5pt\;fon
+	t-family:&quot\;Arial&quot\;\,sans-serif\;color:#333333">+1-669-234-1708&n
+	bsp\;United States of America Toll</span></span><span style="mso-bookmark:
+	WBX92FCA"><span style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,
+	sans-serif\;color:#666666">&nbsp\; <br></span></span><a href="https://appl
+	ied-materials.webex.com/applied-materials/globalcallin.php?MTID=m56cd53b23
+	11c86f5fdcf28dec0145d6d"><span style="mso-bookmark:WBX92FCA"><span style="
+	font-size:10.5pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#049F
+	D9\;text-decoration:none">Global call-in numbers</span></span><span style=
+	"mso-bookmark:WBX92FCA"></span></a><span style="mso-bookmark:WBX92FCA"><sp
+	an style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;c
+	olor:#666666">&nbsp\;&nbsp\;|&nbsp\;&nbsp\;</span></span><a href="https://
+	www.webex.com/pdf/tollfree_restrictions.pdf"><span style="mso-bookmark:WBX
+	92FCA"><span style="font-size:10.5pt\;font-family:&quot\;Arial&quot\;\,san
+	s-serif\;color:#049FD9\;text-decoration:none">Toll-free calling restrictio
+	ns</span></span><span style="mso-bookmark:WBX92FCA"></span></a><span style
+	="mso-bookmark:WBX92FCA"><span style="font-size:10.0pt\;font-family:&quot\
+	;Arial&quot\;\,sans-serif\;color:#666666"> &nbsp\; <br>&nbsp\; <br></span>
+	</span><a href="https://help.webex.com/docs/DOC-5412"><span style="mso-boo
+	kmark:WBX92FCA"><span style="font-size:10.0pt\;font-family:&quot\;Segoe UI
+	&quot\;\,sans-serif\;color:#00AFF9">Can't join the meeting?</span></span><
+	span style="mso-bookmark:WBX92FCA"></span></a><span style="mso-bookmark:WB
+	X92FCA"><span style="font-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sa
+	ns-serif\;color:#666666"> <br>&nbsp\; <br></span></span><span style="mso-b
+	ookmark:WBX92FCA"><span style="font-size:12.0pt\;font-family:&quot\;Segoe 
+	UI&quot\;\,sans-serif\;color:black">If you are a host\, </span></span><a h
+	ref="https://applied-materials.webex.com/applied-materials/j.php?MTID=m087
+	a545b14aa9ae1338ec07b082517b1"><span style="mso-bookmark:WBX92FCA"><span s
+	tyle="font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;co
+	lor:#049FD9\;text-decoration:none">click here</span></span><span style="ms
+	o-bookmark:WBX92FCA"></span></a><span style="mso-bookmark:WBX92FCA"><span 
+	style="font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;c
+	olor:black"> to view host information.</span></span><span style="mso-bookm
+	ark:WBX92FCA"><span style="font-size:10.0pt\;font-family:&quot\;Arial&quot
+	\;\,sans-serif\;color:#666666"> </span></span><span style="mso-bookmark:WB
+	X92FCA"><span style="font-size:7.5pt\;font-family:&quot\;Segoe UI&quot\;\,
+	sans-serif\;color:#A0A0A0">IMPORTANT NOTICE: Please note that this Webex s
+	ervice allows audio and other information sent during the session to be re
+	corded\, which may be discoverable in a legal matter. By joining this sess
+	ion\, you automatically consent to such recordings. If you do not consent 
+	to being recorded\, discuss your concerns with the host or do not join the
+	 session.</span></span><span style="mso-bookmark:WBX92FCA"><span style="fo
+	nt-size:10.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#666666
+	"> </span></span><o:p></o:p></p></div><p class="MsoNormal"><o:p>&nbsp\;</o
+	:p></p><p><span style="color:black">The content of this message is APPLIED
+	 MATERIALS CONFIDENTIAL. If you are not the intended recipient\, please no
+	tify me\, delete this email and do not use or distribute this email. </spa
+	n><o:p></o:p></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTSEQTIME:20200723T062227Z
 END:VEVENT
 END:VCALENDAR
