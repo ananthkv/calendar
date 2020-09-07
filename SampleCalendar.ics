@@ -2,11 +2,12 @@ BEGIN:VCALENDAR
 PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
 METHOD:PUBLISH
-X-CALSTART:20200906T063000Z
+X-CALSTART:20200907T032500Z
 X-CALSTART:20200907T000000
-X-CALEND:20200914T080000Z
-X-CLIPSTART:20200905T183000Z
-X-CLIPEND:20200914T183000Z
+X-CALEND:20200915T130000Z
+X-CALEND:20200916T000000
+X-CLIPSTART:20200906T183000Z
+X-CLIPEND:20200915T183000Z
 X-WR-RELCALID:{0000002E-6E92-3A34-C16A-6DFCF7CB3C3E}
 X-WR-CALNAME:Ananth Venugopal Calendar
 X-PRIMARY-CALENDAR:TRUE
@@ -66,7 +67,7 @@ CATEGORIES:Holiday
 CLASS:PUBLIC
 CREATED:20161104T070852Z
 DTEND;VALUE=DATE:20200908
-DTSTAMP:20200906T180916Z
+DTSTAMP:20200907T032401Z
 DTSTART;VALUE=DATE:20200907
 LAST-MODIFIED:20200906T115917Z
 LOCATION:United States
@@ -149,11 +150,11 @@ CLASS:PRIVATE
 CREATED:20200421T060607Z
 DESCRIPTION: \n
 DTEND;TZID="India Standard Time":20200907T133000
-DTSTAMP:20200906T180916Z
+DTSTAMP:20200907T032401Z
 DTSTART;TZID="India Standard Time":20200907T130000
 LAST-MODIFIED:20200731T093708Z
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=6;BYDAY=MO,TU,WE,TH,FR
+RRULE:FREQ=WEEKLY;COUNT=7;BYDAY=MO,TU,WE,TH,FR
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:LunchTimeAwayFromWork
 TRANSP:OPAQUE
@@ -754,7 +755,7 @@ LAST-MODIFIED:20200906T115929Z
 LOCATION:WEBEX
 ORGANIZER;CN="Artyom Merkovich":mailto:Artyom_Merkovich@amat.com
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=1;BYDAY=TU
+RRULE:FREQ=WEEKLY;COUNT=2;BYDAY=TU
 SEQUENCE:4
 SUMMARY:PRV Weekly field issue alignment 
 TRANSP:OPAQUE
@@ -2416,15 +2417,14 @@ DESCRIPTION:Sunday – AMIL only\n\nFriday – AMIND only\n\n  \n-- Do not
 	IED MATERIALS CONFIDENTIAL. If you are not the intended recipient\, please
 	 notify me\, delete this email and do not use or distribute this email. \n
 	\n
-DTEND;TZID="India Standard Time":20200906T123000
+DTEND;TZID="India Standard Time":20200908T123000
 DTSTAMP:20200626T042019Z
-DTSTART;TZID="India Standard Time":20200906T120000
-EXDATE;TZID="India Standard Time":20200907T120000
+DTSTART;TZID="India Standard Time":20200908T120000
 LAST-MODIFIED:20200906T161823Z
 LOCATION:WebEx
 ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=8;BYDAY=SU,MO,TU,WE,TH,FR
+RRULE:FREQ=WEEKLY;COUNT=7;BYDAY=SU,MO,TU,WE,TH,FR
 SEQUENCE:0
 SUMMARY:ProWiz Daily Meeting
 TRANSP:OPAQUE
@@ -3061,6 +3061,289 @@ X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-APPTSEQTIME:20200731T094143Z
 BEGIN:VALARM
 TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="Irit Shaaya-Segal";RSVP=TRUE:mailto:Irit_ShaayaSegal@amat.com
+ATTENDEE;CN="Karnit Alon";RSVP=TRUE:mailto:Karnit_Alon@amat.com
+ATTENDEE;CN="Lior Kessel";RSVP=TRUE:mailto:Lior_Kessel@amat.com
+ATTENDEE;CN="Assaf Ariel";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Assaf_Ariel@am
+	at.com
+ATTENDEE;CN="Nir Sagiv";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Nir_Sagiv@amat.c
+	om
+ATTENDEE;CN="Alon Shulhami";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Alon_Shulham
+	i@amat.com
+ATTENDEE;CN="Michal Dishon";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Michal_Disho
+	n@amat.com
+ATTENDEE;CN="Oren Wass";RSVP=TRUE:mailto:oren_wass@amat.com
+ATTENDEE;CN="Amir Avrahami";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Amir_Avraham
+	i@amat.com
+ATTENDEE;CN="Amir Zlotorynski";RSVP=TRUE:mailto:Amir_Zlotorynski@amat.com
+ATTENDEE;CN="Dinesh Durgaiah --CNTR";RSVP=TRUE:mailto:Dinesh_Durgaiah@contr
+	actor.amat.com
+ATTENDEE;CN="Gilad Barnea";RSVP=TRUE:mailto:Gilad_Barnea@amat.com
+ATTENDEE;CN="Limor Drori";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Limor_Drori@am
+	at.com
+ATTENDEE;CN="Nili Avnit";RSVP=TRUE:mailto:Nili_Avnit@amat.com
+ATTENDEE;CN="Ofira Daniel";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ofira_Daniel@
+	amat.com
+ATTENDEE;CN="Padmini Nanjundaswamy";RSVP=TRUE:mailto:Padmini_Nanjundaswamy@
+	amat.com
+ATTENDEE;CN="Yuval Dolev";RSVP=TRUE:mailto:Yuval_Dolev@amat.com
+ATTENDEE;CN="Sunil Kiran E";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:SunilKiran_E
+	setty@amat.com
+ATTENDEE;CN="Chandan N S";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Chandan_NS@ama
+	t.com
+ATTENDEE;CN="Omer Sela";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Omer_Sela@amat.c
+	om
+ATTENDEE;CN="Moshe Bootz";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Moshe_Bootz@am
+	at.com
+ATTENDEE;CN="Hadar Nisankoren";RSVP=TRUE:mailto:Hadar_Nisankoren@amat.com
+ATTENDEE;CN="Gil Gattegno";RSVP=TRUE:mailto:Gil_Gattegno@amat.com
+ATTENDEE;CN="Neta Caspi";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Neta_Caspi@amat
+	.com
+ATTENDEE;CN="Nelly Fayer";RSVP=TRUE:mailto:Nelly_Fayer@amat.com
+ATTENDEE;CN="Lena Krak";RSVP=TRUE:mailto:Lena_Krak@amat.com
+ATTENDEE;CN="Ariel Miller";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ariel_Miller@
+	amat.com
+ATTENDEE;CN="Maor Keinan";RSVP=TRUE:mailto:Maor_Keinan@amat.com
+ATTENDEE;CN="Avi Bensimhon";RSVP=TRUE:mailto:Avi_Bensimhon@amat.com
+ATTENDEE;CN="Yana Branzburg";RSVP=TRUE:mailto:Yana_Branzburg@amat.com
+ATTENDEE;CN="Arihant Bapna";RSVP=TRUE:mailto:Arihant_Bapna@amat.com
+ATTENDEE;CN="Merav Artzi";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Merav_Artzi@am
+	at.com
+ATTENDEE;CN="Alex Kaplan";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Alex_Kaplan@am
+	at.com
+ATTENDEE;CN="Amit Harel";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Amit_Harel@amat
+	.com
+ATTENDEE;CN="Eliav Dahan";RSVP=TRUE:mailto:Eliav_Dahan@amat.com
+ATTENDEE;CN="Michal Fisher";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Michal_Fishe
+	r@amat.com
+ATTENDEE;CN="Suma Cotha";RSVP=TRUE:mailto:Suma_Cotha@amat.com
+ATTENDEE;CN="Talia Rogov";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Talia_Rogov@am
+	at.com
+ATTENDEE;CN="Vladimir Pavlov";RSVP=TRUE:mailto:Vladimir_Pavlov@amat.com
+ATTENDEE;CN="Ziv Gordin";RSVP=TRUE:mailto:Ziv_Gordin@amat.com
+ATTENDEE;CN="Guy Gozlan";RSVP=TRUE:mailto:Guy_Gozlan@amat.com
+ATTENDEE;CN="Doron Girmonsky";RSVP=TRUE:mailto:Doron_Girmonsky@amat.com
+ATTENDEE;CN="Amir Komem";RSVP=TRUE:mailto:Amir_Komem@amat.com
+ATTENDEE;CN="Boaz Cohen";RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Boaz_Cohen@ama
+	t.com
+ATTENDEE;CN="AMIND PDC Software Group INDIA L";ROLE=OPT-PARTICIPANT;RSVP=TR
+	UE:mailto:AMIND-PDC-Software-Group-INDIA-L@amat.com
+ATTENDEE;CN="Akash Pandurang Gandhamal";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PART
+	STAT=ACCEPTED:mailto:AkashPandurang_Gandhamal@amat.com
+ATTENDEE;CN="Rakshendra Singh";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
+	PTED:mailto:Rakshendra_Singh@amat.com
+ATTENDEE;CN="Pradeepta Mishra";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
+	PTED:mailto:Pradeepta_Mishra@amat.com
+ATTENDEE;CN="Payal Kumari";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+	:mailto:Payal_Kumari@amat.com
+ATTENDEE;CN="Azharulla Mohammed --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PART
+	STAT=ACCEPTED:mailto:Azharulla_Mohammed@contractor.amat.com
+ATTENDEE;CN="Shradha Sahay";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTE
+	D:mailto:Shradha_Sahay@amat.com
+ATTENDEE;CN="Penchala Narasimhulu Koyi";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PART
+	STAT=ACCEPTED:mailto:PenchalaNarasimhulu_Koyi@amat.com
+ATTENDEE;CN="Mrinal Kumar --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=A
+	CCEPTED:mailto:Mrinal_Kumar@contractor.amat.com
+ATTENDEE;CN="Karthikayan Arumugam --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PA
+	RTSTAT=ACCEPTED:mailto:Karthikayan_Arumugam@contractor.amat.com
+ATTENDEE;CN="Sahil Mehra";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:
+	mailto:Sahil_Mehra@amat.com
+ATTENDEE;CN="Sreenath Kummari";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
+	PTED:mailto:Sreenath_Kummari@amat.com
+ATTENDEE;CN="Prabu Palraj";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+	:mailto:Prabu_Palraj@amat.com
+ATTENDEE;CN="Shreevidya Golthajje";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=
+	ACCEPTED:mailto:Shreevidya_Golthajje@amat.com
+ATTENDEE;CN="Prashanth Krishna";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACC
+	EPTED:mailto:Prashanth_Krishna@amat.com
+ATTENDEE;CN="AMIND PDC OPWI Accuracy SW";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mai
+	lto:AMIND_PDC_UV-RCT_SW@amat.com
+ATTENDEE;CN="AMIND PDC OPWI SWNG SW";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	AMIND_PDC_OPWI_SWNG@amat.com
+ATTENDEE;CN="Sandeep Menon";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTE
+	D:mailto:Sandeep_Menon@amat.com
+ATTENDEE;CN="Sharmistha Mohapatra";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=
+	ACCEPTED:mailto:Sharmistha_Mohapatra@amat.com
+ATTENDEE;CN="Gangadhar Ramapur";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACC
+	EPTED:mailto:Gangadhar_Ramapur@amat.com
+ATTENDEE;CN="Bhasker Bamsiya";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEP
+	TED:mailto:Bhasker_Bamsiya@amat.com
+ATTENDEE;CN="Vignesh Arcot Gopalraj";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTA
+	T=ACCEPTED:mailto:VigneshArcot_Gopalraj@amat.com
+ATTENDEE;CN="Sudarshan Kumar Mishra";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTA
+	T=ACCEPTED:mailto:SudarshanKumar_Mishra@amat.com
+ATTENDEE;CN="Ananth Venugopal";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
+	PTED:mailto:Ananth_Venugopal@amat.com
+ATTENDEE;CN="Vinay Kumar Yadav";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACC
+	EPTED:mailto:VinayKumar_Yadav@amat.com
+ATTENDEE;CN="Tushar Kumar --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=A
+	CCEPTED:mailto:Tushar_T_Kumar@contractor.amat.com
+ATTENDEE;CN="Sri Naga Basava Raja Ram Kiran Chevendra";ROLE=OPT-PARTICIPANT
+	;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:SriNagaBasavaRajaRamKiran_Chevendra@am
+	at.com
+ATTENDEE;CN="Aadarsh Goswami --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTA
+	T=ACCEPTED:mailto:Aadarsh_Goswami@contractor.amat.com
+ATTENDEE;CN="Raghunandan Mohan";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACC
+	EPTED:mailto:Raghunandan_Mohan@amat.com
+ATTENDEE;CN="Pavan Kumar Hogade";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
+	CEPTED:mailto:Pavan_Kumar_Hogade@amat.com
+ATTENDEE;CN="Ishan Tiwari";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+	:mailto:Ishan_Tiwari@amat.com
+ATTENDEE;CN="Sachidananda Chinagudi Jagadeesha";ROLE=OPT-PARTICIPANT;RSVP=T
+	RUE;PARTSTAT=ACCEPTED:mailto:Sachidananda_ChinagudiJagadeesha@amat.com
+ATTENDEE;CN="Ashwini Nagaraj --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTA
+	T=ACCEPTED:mailto:Ashwini_Nagaraj@contractor.amat.com
+ATTENDEE;CN="Pavaman Kamalapurkar";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=
+	ACCEPTED:mailto:Pavaman_Kamalapurkar@amat.com
+ATTENDEE;CN="Noam Elias";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Noam_Elias@a
+	mat.com
+ATTENDEE;CN="Yevgeny Matzinovskey";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ye
+	vgeny_Matzinovskey@amat.com
+ATTENDEE;CN="Yogev Mahazri";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTE
+	D:mailto:Yogev_Mahazri@amat.com
+ATTENDEE;CN="OPWI System Qualification";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mail
+	to:OPWI_Sys_Qual@amat.com
+ATTENDEE;CN="Amit Glick";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Amit_Glick@a
+	mat.com
+ATTENDEE;CN="Israel Aharonson";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENT
+	ATIVE:mailto:Israel_Aharonson@amat.com
+CLASS:PUBLIC
+CREATED:20200807T050632Z
+DESCRIPTION:Not sure if you have it already !!\n\n \n\n-----Original Appoin
+	tment-----\nFrom: Dror Zur <Dror_Zur@amat.com <mailto:Dror_Zur@amat.com> >
+	 \nSent: Thursday\, August 6\, 2020 5:48 PM\nTo: Dror Zur\; Irit Shaaya-Se
+	gal\; Karnit Alon\; Lior Kessel\; Assaf Ariel\; Nir Sagiv\; Alon Shulhami\
+	; Michal Dishon\; Oren Wass\; Amir Avrahami\; Amir Zlotorynski\; Dinesh Du
+	rgaiah --CNTR\; Gilad Barnea\; Limor Drori\; Nili Avnit\; Ofira Daniel\; P
+	admini Nanjundaswamy\; Yuval Dolev\; Sunil Kiran E\; Chandan N S\; Omer Se
+	la\; Moshe Bootz\; Hadar Nisankoren\; Gil Gattegno\; Neta Caspi\; Nelly Fa
+	yer\; Lena Krak\; Ariel Miller\; Maor Keinan\; Avi Bensimhon\; Yana Branzb
+	urg\; Arihant Bapna\; Merav Artzi\; Alex Kaplan\; Amit Harel\; Eliav Dahan
+	\; Michal Fisher\; Suma Cotha\; Talia Rogov\; Vladimir Pavlov\; Ziv Gordin
+	\; Guy Gozlan\; Doron Girmonsky\; Amir Komem\; Boaz Cohen\nCc: AMIND PDC S
+	oftware Group INDIA L\; Akash Pandurang Gandhamal\; Rakshendra Singh\; Pra
+	deepta Mishra\; Payal Kumari\; Azharulla Mohammed --CNTR\; Shradha Sahay\;
+	 Penchala Narasimhulu Koyi\; Mrinal Kumar --CNTR\; Karthikayan Arumugam --
+	CNTR\; Sahil Mehra\; Sreenath Kummari\; Prabu Palraj\; Shreevidya Golthajj
+	e\; Prashanth Krishna\; AMIND PDC OPWI Accuracy SW\; AMIND PDC OPWI SWNG S
+	W\; Sandeep Menon\; Sharmistha Mohapatra\; Gangadhar Ramapur\; Bhasker Bam
+	siya\; Vignesh Arcot Gopalraj\; Sudarshan Kumar Mishra\; Ananth Venugopal\
+	; Vinay Kumar Yadav\; Tushar Kumar --CNTR\nSubject: SW Quality online Hack
+	athon - save the dates\nWhen: Monday\, September 14\, 2020 9:30 PM to Wedn
+	esday\, September 16\, 2020 9:30 PM (UTC+02:00) Jerusalem.\nWhere: TBD\n\n
+	 \n\n \n\n \n\n-----Original Appointment-----\nFrom: Dror Zur <Dror_Zur@am
+	at.com <mailto:Dror_Zur@amat.com> > \nSent: Thursday\, August 6\, 2020 5:4
+	8 PM\nTo: Dror Zur\; Irit Shaaya-Segal\; Karnit Alon\; Lior Kessel\; Assaf
+	 Ariel\; Nir Sagiv\; Alon Shulhami\; Michal Dishon\; Oren Wass\; Amir Avra
+	hami\; Amir Zlotorynski\; Dinesh Durgaiah --CNTR\; Gilad Barnea\; Limor Dr
+	ori\; Nili Avnit\; Ofira Daniel\; Padmini Nanjundaswamy\; Yuval Dolev\; Su
+	nil Kiran E\; Chandan N S\; Omer Sela\; Moshe Bootz\; Hadar Nisankoren\; G
+	il Gattegno\; Neta Caspi\; Nelly Fayer\; Lena Krak\; Ariel Miller\; Maor K
+	einan\; Avi Bensimhon\; Yana Branzburg\; Arihant Bapna\; Merav Artzi\; Ale
+	x Kaplan\; Amit Harel\; Eliav Dahan\; Michal Fisher\; Suma Cotha\; Talia R
+	ogov\; Vladimir Pavlov\; Ziv Gordin\; Guy Gozlan\; Doron Girmonsky\; Amir 
+	Komem\; Boaz Cohen\nSubject: SW Quality online Hackathon - save the dates\
+	nWhen: Monday\, September 14\, 2020 9:30 PM to Wednesday\, September 16\, 
+	2020 9:30 PM (UTC+02:00) Jerusalem.\nWhere: TBD\n\n \n\n \n\nThe content o
+	f this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the inten
+	ded recipient\, please notify me\, delete this email and do not use or dis
+	tribute this email. \n\n
+DTEND;VALUE=DATE:20200916
+DTSTAMP:20200806T121749Z
+DTSTART;VALUE=DATE:20200915
+LAST-MODIFIED:20200906T115918Z
+LOCATION:TBD
+ORGANIZER;CN="Dror Zur":mailto:Dror_Zur@amat.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY:SW Quality online Hackathon - save the dates
+TRANSP:TRANSPARENT
+UID:040000008200E00074C5B7101A82E0080000000090E6F59F046CD601000000000000000
+	010000000EB1580C90AFB0244BA3417D15F3F7E6D
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
+	"Content-Type" content="text/html\; charset=us-ascii"><meta name="Generato
+	r" content="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font Defi
+	nitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 
+	5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 
+	2 4 3 2 4\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, div.Ms
+	oNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-size:11.0pt\;\n	f
+	ont-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyperlink\n	{mso-sty
+	le-priority:99\;\n	color:#0563C1\;\n	text-decoration:underline\;}\na:visit
+	ed\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n	color:#954F72\
+	;\n	text-decoration:underline\;}\np.msonormal0\, li.msonormal0\, div.msono
+	rmal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:auto\;\n	margin-r
+	ight:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;\n	font-size:
+	11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.EmailStyle18\n	{mso-
+	style-type:personal\;\n	font-family:"Calibri"\,sans-serif\;\n	color:window
+	text\;}\nspan.EmailStyle19\n	{mso-style-type:personal\;\n	font-family:"Cal
+	ibri"\,sans-serif\;\n	color:windowtext\;}\nspan.EmailStyle20\n	{mso-style-
+	type:personal-reply\;\n	font-family:"Calibri"\,sans-serif\;\n	color:window
+	text\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	font-size:10.0pt
+	\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in 1.0in 1.0in 
+	1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></style><!--[if gte
+	 mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />\n</xml><![e
+	ndif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:idmap v
+	:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]--></head><body la
+	ng="EN-US" link="#0563C1" vlink="#954F72"><div class="WordSection1"><p cla
+	ss="MsoNormal">Not sure if you have it already !!<o:p></o:p></p><p class="
+	MsoNormal"><o:p>&nbsp\;</o:p></p><div><p class="MsoNormal">-----Original A
+	ppointment-----<br><b>From:</b> Dror Zur &lt\;<a href="mailto:Dror_Zur@ama
+	t.com">Dror_Zur@amat.com</a>&gt\; <br><b>Sent:</b> Thursday\, August 6\, 2
+	020 5:48 PM<br><b>To:</b> Dror Zur\; Irit Shaaya-Segal\; Karnit Alon\; Lio
+	r Kessel\; Assaf Ariel\; Nir Sagiv\; Alon Shulhami\; Michal Dishon\; Oren 
+	Wass\; Amir Avrahami\; Amir Zlotorynski\; Dinesh Durgaiah --CNTR\; Gilad B
+	arnea\; Limor Drori\; Nili Avnit\; Ofira Daniel\; Padmini Nanjundaswamy\; 
+	Yuval Dolev\; Sunil Kiran E\; Chandan N S\; Omer Sela\; Moshe Bootz\; Hada
+	r Nisankoren\; Gil Gattegno\; Neta Caspi\; Nelly Fayer\; Lena Krak\; Ariel
+	 Miller\; Maor Keinan\; Avi Bensimhon\; Yana Branzburg\; Arihant Bapna\; M
+	erav Artzi\; Alex Kaplan\; Amit Harel\; Eliav Dahan\; Michal Fisher\; Suma
+	 Cotha\; Talia Rogov\; Vladimir Pavlov\; Ziv Gordin\; Guy Gozlan\; Doron G
+	irmonsky\; Amir Komem\; Boaz Cohen<br><b>Cc:</b> AMIND PDC Software Group 
+	INDIA L\; Akash Pandurang Gandhamal\; Rakshendra Singh\; Pradeepta Mishra\
+	; Payal Kumari\; Azharulla Mohammed --CNTR\; Shradha Sahay\; Penchala Nara
+	simhulu Koyi\; Mrinal Kumar --CNTR\; Karthikayan Arumugam --CNTR\; Sahil M
+	ehra\; Sreenath Kummari\; Prabu Palraj\; Shreevidya Golthajje\; Prashanth 
+	Krishna\; AMIND PDC OPWI Accuracy SW\; AMIND PDC OPWI SWNG SW\; Sandeep Me
+	non\; Sharmistha Mohapatra\; Gangadhar Ramapur\; Bhasker Bamsiya\; Vignesh
+	 Arcot Gopalraj\; Sudarshan Kumar Mishra\; Ananth Venugopal\; Vinay Kumar 
+	Yadav\; Tushar Kumar --CNTR<br><b>Subject:</b> SW Quality online Hackathon
+	 - save the dates<br><b>When:</b> Monday\, September 14\, 2020 9:30 PM to 
+	Wednesday\, September 16\, 2020 9:30 PM (UTC+02:00) Jerusalem.<br><b>Where
+	:</b> TBD<o:p></o:p></p></div><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><
+	p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\
+	;</o:p></p><div><p class="MsoNormal">-----Original Appointment-----<br><b>
+	From:</b> Dror Zur &lt\;<a href="mailto:Dror_Zur@amat.com">Dror_Zur@amat.c
+	om</a>&gt\; <br><b>Sent:</b> Thursday\, August 6\, 2020 5:48 PM<br><b>To:<
+	/b> Dror Zur\; Irit Shaaya-Segal\; Karnit Alon\; Lior Kessel\; Assaf Ariel
+	\; Nir Sagiv\; Alon Shulhami\; Michal Dishon\; Oren Wass\; Amir Avrahami\;
+	 Amir Zlotorynski\; Dinesh Durgaiah --CNTR\; Gilad Barnea\; Limor Drori\; 
+	Nili Avnit\; Ofira Daniel\; Padmini Nanjundaswamy\; Yuval Dolev\; Sunil Ki
+	ran E\; Chandan N S\; Omer Sela\; Moshe Bootz\; Hadar Nisankoren\; Gil Gat
+	tegno\; Neta Caspi\; Nelly Fayer\; Lena Krak\; Ariel Miller\; Maor Keinan\
+	; Avi Bensimhon\; Yana Branzburg\; Arihant Bapna\; Merav Artzi\; Alex Kapl
+	an\; Amit Harel\; Eliav Dahan\; Michal Fisher\; Suma Cotha\; Talia Rogov\;
+	 Vladimir Pavlov\; Ziv Gordin\; Guy Gozlan\; Doron Girmonsky\; Amir Komem\
+	; Boaz Cohen<br><b>Subject:</b> SW Quality online Hackathon - save the dat
+	es<br><b>When:</b> Monday\, September 14\, 2020 9:30 PM to Wednesday\, Sep
+	tember 16\, 2020 9:30 PM (UTC+02:00) Jerusalem.<br><b>Where:</b> TBD<o:p><
+	/o:p></p></div><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNor
+	mal"><o:p>&nbsp\;</o:p></p><p><span style="color:black">The content of thi
+	s message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended r
+	ecipient\, please notify me\, delete this email and do not use or distribu
+	te this email. </span><o:p></o:p></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+TRIGGER:-PT720M
 ACTION:DISPLAY
 DESCRIPTION:Reminder
 END:VALARM
@@ -4655,18 +4938,18 @@ END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Run Export Calendar
 CLASS:PUBLIC
-CREATED:20200905T181023Z
+CREATED:20200906T032509Z
 DESCRIPTION:Export Calendar \n\n
-DTEND;TZID="India Standard Time":20200906T234000
-DTSTAMP:20200906T180916Z
-DTSTART;TZID="India Standard Time":20200906T234000
-LAST-MODIFIED:20200906T175407Z
+DTEND;TZID="India Standard Time":20200907T085500
+DTSTAMP:20200907T032401Z
+DTSTART;TZID="India Standard Time":20200907T085500
+LAST-MODIFIED:20200906T233845Z
 PRIORITY:5
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:Export Calendar
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E0080000000000BE6DEADD83D601000000000000000
-	0100000000DF77AD258B6134DB4B45114D9B57FA2
+UID:040000008200E00074C5B7101A82E0080000000090C6106B2B84D601000000000000000
+	0100000003A208F5443C3C8488399D30D4BAF6AA7
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
 	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
 	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
@@ -4686,18 +4969,18 @@ END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Run Export Calendar
 CLASS:PUBLIC
-CREATED:20200906T032509Z
+CREATED:20200906T181028Z
 DESCRIPTION:Export Calendar \n\n
-DTEND;TZID="India Standard Time":20200907T085500
-DTSTAMP:20200906T180916Z
-DTSTART;TZID="India Standard Time":20200907T085500
-LAST-MODIFIED:20200906T175407Z
+DTEND;TZID="India Standard Time":20200907T234000
+DTSTAMP:20200907T032401Z
+DTSTART;TZID="India Standard Time":20200907T234000
+LAST-MODIFIED:20200906T181030Z
 PRIORITY:5
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:Export Calendar
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E0080000000090C6106B2B84D601000000000000000
-	0100000003A208F5443C3C8488399D30D4BAF6AA7
+UID:040000008200E00074C5B7101A82E008000000007073DD0DA784D601000000000000000
+	010000000DCF2022FE7811D40B669F7FA771F00D1
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
 	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
 	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
