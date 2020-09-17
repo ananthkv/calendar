@@ -75,6 +75,14 @@ TZOFFSETFROM:+0530
 TZOFFSETTO:+0530
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Korea Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 ATTENDEE;CN="PDC PROVision Revenue SW";RSVP=TRUE:mailto:PDC-PROVision-Reven
 	ue-SW@amat.com
@@ -801,7 +809,7 @@ CLASS:PRIVATE
 CREATED:20200421T060607Z
 DESCRIPTION: \n
 DTEND;TZID="India Standard Time":20200917T133000
-DTSTAMP:20200917T052850Z
+DTSTAMP:20200917T120558Z
 DTSTART;TZID="India Standard Time":20200917T130000
 LAST-MODIFIED:20200907T053100Z
 PRIORITY:5
@@ -1679,7 +1687,7 @@ DESCRIPTION:Hi\n\n \n\nhttp://dcilpa317:8090/display/PDC/PROVision+Revenue+
 DTEND;TZID="Israel Standard Time":20200916T120000
 DTSTAMP:20200518T064039Z
 DTSTART;TZID="Israel Standard Time":20200916T110000
-LAST-MODIFIED:20200916T212326Z
+LAST-MODIFIED:20200917T100020Z
 LOCATION:Israel-Rehovot-PDC3- Excellence 5128(7)
 ORGANIZER;CN="Eran Reuven":mailto:Eran_Reuven@amat.com
 PRIORITY:5
@@ -1972,7 +1980,7 @@ DESCRIPTION:Postponed due to AMIL hackathon.\n\n \n\n \n\nHi\n\n \n\nhttp:/
 DTEND:20200917T110000Z
 DTSTAMP:20200831T195411Z
 DTSTART:20200917T100000Z
-LAST-MODIFIED:20200916T212313Z
+LAST-MODIFIED:20200917T095303Z
 LOCATION:Israel-Rehovot-PDC3- Excellence 5128(3)
 PRIORITY:5
 RECURRENCE-ID:20200916T080000Z
@@ -3313,7 +3321,7 @@ DESCRIPTION:Sunday – AMIL only\n\nFriday – AMIND only\n\n  \n-- Do not
 DTEND;TZID="India Standard Time":20200917T123000
 DTSTAMP:20200626T042019Z
 DTSTART;TZID="India Standard Time":20200917T120000
-LAST-MODIFIED:20200917T045733Z
+LAST-MODIFIED:20200917T074306Z
 LOCATION:WebEx
 ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
 PRIORITY:5
@@ -4416,15 +4424,15 @@ DESCRIPTION: \n\n__________________________________________________________
 	this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intende
 	d recipient\, please notify me\, delete this email and do not use or distr
 	ibute this email. \n\n
-DTEND;TZID="India Standard Time":20200917T153000
+DTEND;TZID="India Standard Time":20200924T153000
 DTSTAMP:20200902T112759Z
-DTSTART;TZID="Unnamed Time Zone 1":20200917T150000
-LAST-MODIFIED:20200916T212318Z
+DTSTART;TZID="Unnamed Time Zone 1":20200924T150000
+LAST-MODIFIED:20200917T082434Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Balaji Chithugnanamoorthy":mailto:Balaji_Chithugnanamoorthy@a
 	mat.com
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=2;BYDAY=TH
+RRULE:FREQ=WEEKLY;COUNT=1;BYDAY=TH
 SEQUENCE:0
 SUMMARY:ProWiz Team Meeting
 TRANSP:OPAQUE
@@ -5090,14 +5098,14 @@ DESCRIPTION:Scheduling SDD review meeting\, will add others when we are rea
 	__ \n\n \n\nThe content of this message is APPLIED MATERIALS CONFIDENTIAL.
 	 If you are not the intended recipient\, please notify me\, delete this em
 	ail and do not use or distribute this email. \n\n
-DTEND;TZID="India Standard Time":20200917T130000
+DTEND;TZID="India Standard Time":20200918T130000
 DTSTAMP:20200909T111323Z
-DTSTART;TZID="India Standard Time":20200917T123000
-LAST-MODIFIED:20200916T212318Z
+DTSTART;TZID="India Standard Time":20200918T123000
+LAST-MODIFIED:20200917T074308Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Sudarshan Kumar Mishra":mailto:SudarshanKumar_Mishra@amat.com
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=MO,TU,WE,TH,FR
+RRULE:FREQ=WEEKLY;COUNT=4;BYDAY=MO,TU,WE,TH,FR
 SEQUENCE:0
 SUMMARY:SDD review meeting for Increase post processing limitation
 TRANSP:OPAQUE
@@ -5187,7 +5195,7 @@ DESCRIPTION: \n\n__________________________________________________________
 DTEND;TZID="India Standard Time":20200917T120000
 DTSTAMP:20200916T100903Z
 DTSTART;TZID="India Standard Time":20200917T110000
-LAST-MODIFIED:20200916T212304Z
+LAST-MODIFIED:20200917T053531Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Ananth Venugopal":mailto:Ananth_Venugopal@amat.com
 PRIORITY:5
@@ -5249,11 +5257,6 @@ X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-APPTSEQTIME:20200916T100903Z
 X-MS-OLK-AUTOFILLLOCATION:FALSE
 X-MS-OLK-CONFTYPE:0
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 ATTENDEE;CN=AMINDHackathon2020_participants;RSVP=TRUE:mailto:AMINDHackathon
@@ -5521,7 +5524,7 @@ CLASS:PUBLIC
 CREATED:20200916T142834Z
 DESCRIPTION:Export Calendar \n\n
 DTEND;TZID="India Standard Time":20200917T195700
-DTSTAMP:20200917T052851Z
+DTSTAMP:20200917T120559Z
 DTSTART;TZID="India Standard Time":20200917T195700
 LAST-MODIFIED:20200916T142835Z
 PRIORITY:5
@@ -5552,7 +5555,7 @@ CLASS:PUBLIC
 CREATED:20200917T043409Z
 DESCRIPTION:Export Calendar \n\n
 DTEND;TZID="India Standard Time":20200918T100400
-DTSTAMP:20200917T052851Z
+DTSTAMP:20200917T120559Z
 DTSTART;TZID="India Standard Time":20200918T100400
 LAST-MODIFIED:20200917T043414Z
 PRIORITY:5
@@ -5573,6 +5576,255 @@ X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-CONFTYPE:0
 BEGIN:VALARM
 TRIGGER:-PT1M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Run Export Calendar
+CLASS:PUBLIC
+CREATED:20200917T053201Z
+DESCRIPTION:Export Calendar \n\n
+DTEND;TZID="India Standard Time":20200918T105900
+DTSTAMP:20200917T120559Z
+DTSTART;TZID="India Standard Time":20200918T105900
+LAST-MODIFIED:20200917T053203Z
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Export Calendar
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000030ADF491E18CD601000000000000000
+	0100000000BB3B706AA3421499BC955CA1BFFA7B2
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
+	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
+	sion 16.0.11929.20766">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
+	from text/rtf format -->\n\n<P><FONT FACE="Calibri">Export Calendar</FONT>
+	\n</P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT1M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="Ananth Venugopal";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ananth_Ve
+	nugopal@amat.com
+CLASS:PUBLIC
+CREATED:20200917T082450Z
+DESCRIPTION: \n\n__________________________________________________________
+	______________________ \n\nJoin Microsoft Teams Meeting <https://teams.mic
+	rosoft.com/l/meetup-join/19%3ameeting_NGY5ODZjYzUtMzE0OS00NzgxLTgzZjktMjFm
+	YmI5ZDgyOGFh%40thread.v2/0?context=%7b%22Tid%22%3a%22709c2643-b1a9-4415-ad
+	0f-521cfa6ba3f5%22%2c%22Oid%22%3a%22327c00fc-ad07-4438-b996-ec032da5b1f2%2
+	2%7d>  \n\nLearn more about Teams <https://aka.ms/JoinTeamsMeeting>  | Mee
+	ting options <https://teams.microsoft.com/meetingOptions/?organizerId=327c
+	00fc-ad07-4438-b996-ec032da5b1f2&tenantId=709c2643-b1a9-4415-ad0f-521cfa6b
+	a3f5&threadId=19_meeting_NGY5ODZjYzUtMzE0OS00NzgxLTgzZjktMjFmYmI5ZDgyOGFh@
+	thread.v2&messageId=0&language=en-US>  \n\n_______________________________
+	_________________________________________________ \n\n \n\nThe content of 
+	this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intende
+	d recipient\, please notify me\, delete this email and do not use or distr
+	ibute this email. \n\n
+DTEND;TZID="India Standard Time":20200917T153000
+DTSTAMP:20200917T080114Z
+DTSTART;TZID="India Standard Time":20200917T150000
+LAST-MODIFIED:20200917T092900Z
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY:Regarding MPS Logs bug - https://jira-dc-prod.amat.com/browse/PRV-5
+	3554
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000080D0E9B9F68CD601000000000000000
+	01000000046E9515A5ED2FA419DF57AAF736D4C82
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
+	"Content-Type" content="text/html\; charset=us-ascii">\n<meta name="Genera
+	tor" content="Microsoft Word 15 (filtered medium)">\n<style><!--\n/* Font 
+	Definitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 
+	5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 
+	2 2 2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5
+	 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	panos
+	e-1:2 11 7 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.Mso
+	Normal\, div.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-si
+	ze:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyper
+	link\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underl
+	ine\;}\na:visited\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n
+		color:#954F72\;\n	text-decoration:underline\;}\np.msonormal0\, li.msonorm
+	al0\, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:au
+	to\;\n	margin-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in
+	\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.Email
+	Style18\n	{mso-style-type:personal-compose\;\n	font-family:"Calibri"\,sans
+	-serif\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-on
+	ly\;\n	font-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	ma
+	rgin:1.0in 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\
+	n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidma
+	x="1026" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:
+	ext="edit">\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![e
+	ndif]-->\n</head>\n<body lang="EN-US" link="#0563C1" vlink="#954F72">\n<di
+	v class="WordSection1">\n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\n<p c
+	lass="MsoNormal"><span style="color:gray">________________________________
+	________________________________________________</span>\n<o:p></o:p></p>\n
+	<div>\n<div style="margin-top:.25in\;margin-bottom:7.5pt">\n<p class="MsoN
+	ormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:
+	#252424"><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_N
+	GY5ODZjYzUtMzE0OS00NzgxLTgzZjktMjFmYmI5ZDgyOGFh%40thread.v2/0?context=%7b%
+	22Tid%22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%22%3a%22327
+	c00fc-ad07-4438-b996-ec032da5b1f2%22%7d" target="_blank"><span style="font
+	-size:13.5pt\;font-family:&quot\;Segoe UI Semibold&quot\;\,sans-serif\;col
+	or:#6264A7">Join\n Microsoft Teams Meeting</span></a> <o:p></o:p></span></
+	p>\n</div>\n<p class="MsoNormal"><span style="font-family:&quot\;Segoe UI&
+	quot\;\,sans-serif\;color:#252424"><a href="https://aka.ms/JoinTeamsMeetin
+	g" target="_blank"><span style="font-size:9.0pt\;color:#6264A7\;text-decor
+	ation:none">Learn more about Teams</span></a> |\n<a href="https://teams.mi
+	crosoft.com/meetingOptions/?organizerId=327c00fc-ad07-4438-b996-ec032da5b1
+	f2&amp\;tenantId=709c2643-b1a9-4415-ad0f-521cfa6ba3f5&amp\;threadId=19_mee
+	ting_NGY5ODZjYzUtMzE0OS00NzgxLTgzZjktMjFmYmI5ZDgyOGFh@thread.v2&amp\;messa
+	geId=0&amp\;language=en-US" target="_blank">\n<span style="font-size:9.0pt
+	\;color:#6264A7\;text-decoration:none">Meeting options</span></a>\n<o:p></
+	o:p></span></p>\n</div>\n<div>\n<p class="MsoNormal"><span style="color:gr
+	ay">______________________________________________________________________
+	__________</span>\n<o:p></o:p></p>\n</div>\n<p class="MsoNormal"><o:p>&nbs
+	p\;</o:p></p>\n</div>\n<p><span style="font-size: 11pt\; font-family: Cali
+	bri\, sans-serif\; color: #000000\;">The content of this message is APPLIE
+	D MATERIALS CONFIDENTIAL. If you are not the intended recipient\, please n
+	otify me\, delete this email and do not use or distribute this email.\n</s
+	pan></p>\n</body>\n</html>\n
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="Ananth Venugopal";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ananth_Ve
+	nugopal@amat.com
+CLASS:PUBLIC
+CREATED:20200917T095500Z
+DESCRIPTION:Please join the meeting. \n\nThanks\,\n\n______________________
+	__________________________________________________________ \n\nMicrosoft T
+	eams 모임 참가 <https://teams.microsoft.com/l/meetup-join/19%3ameeting
+	_YWY2NTA1ZjQtNDI0Mi00MjE0LThkMjMtZTRhNjA3NzAzYWNi%40thread.v2/0?context=%7
+	b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%22%3a%22e
+	691c7b5-df4c-4a2e-a65c-508b9e907d0d%22%7d>  \n\nTeams에 대한 자세한 
+	정보 <https://aka.ms/JoinTeamsMeeting>  | 모임 옵션 <https://teams.m
+	icrosoft.com/meetingOptions/?organizerId=e691c7b5-df4c-4a2e-a65c-508b9e907
+	d0d&tenantId=709c2643-b1a9-4415-ad0f-521cfa6ba3f5&threadId=19_meeting_YWY2
+	NTA1ZjQtNDI0Mi00MjE0LThkMjMtZTRhNjA3NzAzYWNi@thread.v2&messageId=0&languag
+	e=ko-KR>  \n\n____________________________________________________________
+	____________________ \n\n \n\nThe content of this message is APPLIED MATER
+	IALS CONFIDENTIAL. If you are not the intended recipient\, please notify m
+	e\, delete this email and do not use or distribute this email. \n\n
+DTEND;TZID="Korea Standard Time":20200918T150000
+DTSTAMP:20200917T095208Z
+DTSTART;TZID="Korea Standard Time":20200918T140000
+LAST-MODIFIED:20200917T101209Z
+LOCATION:Microsoft Teams 모임
+ORGANIZER;CN="Shin Ik Kim":mailto:ShinIk_Kim@amat.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY:Continue VDI Setup to fix Matlab problems
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000001024068D238DD601000000000000000
+	0100000009572DDD2F919514AAB37D77825E464BA
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
+	"Content-Type" content="text/html\; charset=ks_c_5601-1987">\n<meta name="
+	Generator" content="Microsoft Word 15 (filtered medium)">\n<style><!--\n/*
+	 Font Definitions */\n@font-face\n	{font-family:굴림\;\n	panose-1:2 11 6
+	 0 0 1 1 1 1 1\;}\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2
+	 4 5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:"맑은 고딕"\;\n	panos
+	e-1:2 11 5 3 2 0 0 2 0 4\;}\n@font-face\n	{font-family:"\\@맑은 고딕"\
+	;}\n@font-face\n	{font-family:"\\@굴림"\;\n	panose-1:2 11 6 0 0 1 1 1 1 
+	1\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5 2 4 2 4 2 2
+	 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	panose-1:2 11 7 2
+	 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, div
+	.MsoNormal\n	{margin:0cm\;\n	margin-bottom:.0001pt\;\n	text-align:justify\
+	;\n	text-justify:inter-ideograph\;\n	text-autospace:none\;\n	word-break:br
+	eak-hangul\;\n	font-size:10.0pt\;\n	font-family:"맑은 고딕"\;}\na:link
+	\, span.MsoHyperlink\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-d
+	ecoration:underline\;}\na:visited\, span.MsoHyperlinkFollowed\n	{mso-style
+	-priority:99\;\n	color:#954F72\;\n	text-decoration:underline\;}\np.msonorm
+	al0\, li.msonormal0\, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-m
+	argin-top-alt:auto\;\n	margin-right:0cm\;\n	mso-margin-bottom-alt:auto\;\n
+		margin-left:0cm\;\n	font-size:12.0pt\;\n	font-family:굴림\;}\nspan.Emai
+	lStyle18\n	{mso-style-type:personal-compose\;\n	font-family:"맑은 고딕
+	"\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;}
+	\n@page WordSection1\n	{size:612.0pt 792.0pt\;\n	margin:3.0cm 72.0pt 72.0p
+	t 72.0pt\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></style><!--[if 
+	gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />\n</xml><
+	![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:idma
+	p v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]-->\n</head>\n<
+	body lang="KO" link="#0563C1" vlink="#954F72">\n<div class="WordSection1">
+	\n<p class="MsoNormal"><span lang="EN-US">Please join the meeting. <o:p></
+	o:p></span></p>\n<p class="MsoNormal"><span lang="EN-US">Thanks\,<o:p></o:
+	p></span></p>\n<p class="MsoNormal" align="left" style="text-align:left\;t
+	ext-autospace:ideograph-other\;word-break:keep-all">\n<span lang="EN-US" s
+	tyle="color:gray">________________________________________________________
+	________________________</span><span lang="EN-US">\n<o:p></o:p></span></p>
+	\n<div>\n<div style="margin-top:18.0pt\;margin-bottom:7.5pt">\n<p class="M
+	soNormal"><span lang="EN-US" style="font-family:&quot\;Segoe UI&quot\;\,sa
+	ns-serif\;color:#252424"><a href="https://teams.microsoft.com/l/meetup-joi
+	n/19%3ameeting_YWY2NTA1ZjQtNDI0Mi00MjE0LThkMjMtZTRhNjA3NzAzYWNi%40thread.v
+	2/0?context=%7b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%2
+	2Oid%22%3a%22e691c7b5-df4c-4a2e-a65c-508b9e907d0d%22%7d" target="_blank"><
+	span style="font-size:13.5pt\;font-family:&quot\;Segoe UI Semibold&quot\;\
+	,sans-serif\;color:#6264A7">Microsoft\n Teams </span><span lang="EN-US" st
+	yle="font-size:13.5pt\;font-family:&quot\;맑은 고딕&quot\;\;color:#626
+	4A7"><span lang="EN-US">모임</span></span><span lang="EN-US" style="font
+	-size:13.5pt\;font-family:&quot\;Segoe UI Semibold&quot\;\,sans-serif\;col
+	or:#6264A7"><span lang="EN-US">\n</span></span><span lang="EN-US" style="f
+	ont-size:13.5pt\;font-family:&quot\;맑은 고딕&quot\;\;color:#6264A7"><
+	span lang="EN-US">참가</span></span></a>\n<o:p></o:p></span></p>\n</div>
+	\n<p class="MsoNormal"><span lang="EN-US" style="font-family:&quot\;Segoe 
+	UI&quot\;\,sans-serif\;color:#252424"><a href="https://aka.ms/JoinTeamsMee
+	ting" target="_blank"><span style="font-size:9.0pt\;color:#6264A7\;text-de
+	coration:none">Teams</span><span lang="EN-US" style="font-size:9.0pt\;font
+	-family:&quot\;맑은 고딕&quot\;\;color:#6264A7\;text-decoration:none">
+	<span lang="EN-US">에</span></span><span lang="EN-US" style="font-size:9.
+	0pt\;color:#6264A7\;text-decoration:none"><span lang="EN-US">\n</span></sp
+	an><span lang="EN-US" style="font-size:9.0pt\;font-family:&quot\;맑은 
+	고딕&quot\;\;color:#6264A7\;text-decoration:none"><span lang="EN-US">대
+	한</span></span><span lang="EN-US" style="font-size:9.0pt\;color:#6264A7\
+	;text-decoration:none"><span lang="EN-US">\n</span></span><span lang="EN-U
+	S" style="font-size:9.0pt\;font-family:&quot\;맑은 고딕&quot\;\;color:
+	#6264A7\;text-decoration:none"><span lang="EN-US">자세한</span></span><
+	span lang="EN-US" style="font-size:9.0pt\;color:#6264A7\;text-decoration:n
+	one"><span lang="EN-US">\n</span></span><span lang="EN-US" style="font-siz
+	e:9.0pt\;font-family:&quot\;맑은 고딕&quot\;\;color:#6264A7\;text-deco
+	ration:none"><span lang="EN-US">정보</span></span></a> |\n<a href="https
+	://teams.microsoft.com/meetingOptions/?organizerId=e691c7b5-df4c-4a2e-a65c
+	-508b9e907d0d&amp\;tenantId=709c2643-b1a9-4415-ad0f-521cfa6ba3f5&amp\;thre
+	adId=19_meeting_YWY2NTA1ZjQtNDI0Mi00MjE0LThkMjMtZTRhNjA3NzAzYWNi@thread.v2
+	&amp\;messageId=0&amp\;language=ko-KR" target="_blank">\n<span lang="EN-US
+	" style="font-size:9.0pt\;font-family:&quot\;맑은 고딕&quot\;\;color:#
+	6264A7\;text-decoration:none"><span lang="EN-US">모임</span></span><span
+	 lang="EN-US" style="font-size:9.0pt\;color:#6264A7\;text-decoration:none"
+	><span lang="EN-US">\n</span></span><span lang="EN-US" style="font-size:9.
+	0pt\;font-family:&quot\;맑은 고딕&quot\;\;color:#6264A7\;text-decorati
+	on:none"><span lang="EN-US">옵션</span></span></a>\n<o:p></o:p></span></
+	p>\n</div>\n<div>\n<p class="MsoNormal"><span lang="EN-US" style="color:gr
+	ay">______________________________________________________________________
+	__________</span><span lang="EN-US">\n</span><span lang="EN-US" style="fon
+	t-family:굴림"><o:p></o:p></span></p>\n</div>\n<p class="MsoNormal"><spa
+	n lang="EN-US"><o:p>&nbsp\;</o:p></span></p>\n</div>\n<p><span style="font
+	-size: 11pt\; font-family: Calibri\, sans-serif\; color: #000000\;">The co
+	ntent of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not th
+	e intended recipient\, please notify me\, delete this email and do not use
+	 or distribute this email.\n</span></p>\n</body>\n</html>\n
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+TRIGGER:-PT15M
 ACTION:DISPLAY
 DESCRIPTION:Reminder
 END:VALARM
