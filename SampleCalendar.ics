@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
 METHOD:PUBLISH
-X-CALSTART:20201101T042900Z
+X-CALSTART:20201101T070000Z
 X-CALEND:20201109T100000Z
 X-CLIPSTART:20201031T183000Z
 X-CLIPEND:20201109T183000Z
@@ -59,12 +59,20 @@ TZOFFSETFROM:+0530
 TZOFFSETTO:+0530
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Taipei Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 CATEGORIES:Holiday
 CLASS:PUBLIC
 CREATED:20161104T070852Z
 DTEND;VALUE=DATE:20201104
-DTSTAMP:20201101T042815Z
+DTSTAMP:20201101T142603Z
 DTSTART;VALUE=DATE:20201103
 LAST-MODIFIED:20201031T214545Z
 LOCATION:United States
@@ -2245,7 +2253,7 @@ DESCRIPTION: \n\n \n\n  \n-- Do not delete or change any of the following t
 DTEND;TZID="Israel Standard Time":20201101T100000
 DTSTAMP:20201019T123651Z
 DTSTART;TZID="Israel Standard Time":20201101T090000
-LAST-MODIFIED:20201031T214551Z
+LAST-MODIFIED:20201101T122220Z
 LOCATION:WebEx
 ORGANIZER;CN="Avihai Danino --TR-CNTR":mailto:Avihai_Danino@contractor.amat
 	.com
@@ -2416,6 +2424,144 @@ X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-APPTSEQTIME:20201018T125840Z
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20201101T122219Z
+DESCRIPTION: \n\n \n\n\n\n  \n-- Do not delete or change any of the followi
+	ng text. --   \n  \n  \n\nWelcome to new eMeeting\, powered by Cisco WebEx
+	 \nClick here to join the meeting <https://applied-materials.webex.com/app
+	lied-materials/j.php?MTID=m409b0dd166920ce082bc90864b1425de>    \nMeeting 
+	number (access code): 146 608 6349 Meeting password: KNg5Vpjp   \nJoin fro
+	m a video system or application\nDial 1466086349@applied-materials.webex.c
+	om <sip:1466086349@applied-materials.webex.com>  \n 	 \nCall Using Compute
+	r \n     VOIP/Call Over Internet. This is the preferred option\, but a PC 
+	Headset is required to connect.\n\n\nI Will Call In from an Applied Materi
+	als Cisco Phone:\n           Dial 1+20+77777  \n           Enter the meeti
+	ng number to connect. \n\n\nI Will Call In from an External Phone (non App
+	lied Materials):\nTap to join from a mobile device (attendees only)   \n+1
+	-669-234-1708\,\,1466086349## <tel:%2B1-669-234-1708\,\,*01*1466086349%23%
+	23*01*>  United States of America Toll  \n\nJoin by phone   \n+1-669-234-1
+	708 United States of America Toll   \nGlobal call-in numbers <https://appl
+	ied-materials.webex.com/applied-materials/globalcallin.php?MTID=m60d3ea94c
+	319989da73b973560c7fa3c>   |  Toll-free calling restrictions <https://www.
+	webex.com/pdf/tollfree_restrictions.pdf>  \n 	 \nCan't join the meeting? <
+	https://help.webex.com/docs/DOC-5412>  \n  \nIf you are a host\, click her
+	e <https://applied-materials.webex.com/applied-materials/j.php?MTID=mfa07f
+	780b4fff995d3dce4229e3b79dd>  to view host information. IMPORTANT NOTICE: 
+	Please note that this Webex service allows audio and other information sen
+	t during the session to be recorded\, which may be discoverable in a legal
+	 matter. By joining this session\, you automatically consent to such recor
+	dings. If you do not consent to being recorded\, discuss your concerns wit
+	h the host or do not join the session. \n\nThe content of this message is 
+	APPLIED MATERIALS CONFIDENTIAL. If you are not the intended recipient\, pl
+	ease notify me\, delete this email and do not use or distribute this email
+	. \n\n
+DTEND:20201102T080000Z
+DTSTAMP:20201101T122212Z
+DTSTART:20201102T070000Z
+LAST-MODIFIED:20201101T122219Z
+PRIORITY:5
+RECURRENCE-ID:20201102T070000Z
+SEQUENCE:28
+UID:040000008200E00074C5B7101A82E00800000000209FE77CD07ED601000000000000000
+	0100000000E14D6CFE9E56242A5D29272DA295102
+X-ALT-DESC;FMTTYPE=text/html:<html><head>\n<meta http-equiv="Content-Type" 
+	content="text/html\; charset=us-ascii">\n<meta content="text/html\; charse
+	t=us-ascii">\n<meta name="Generator" content="Microsoft Word 15 (filtered 
+	medium)">\n<style>\n<!--\n@font-face\n	{font-family:"Cambria Math"}\n@font
+	-face\n	{font-family:Calibri}\n@font-face\n	{font-family:"Segoe UI"}\np.Ms
+	oNormal\, li.MsoNormal\, div.MsoNormal\n	{margin:0cm\;\n	margin-bottom:.00
+	01pt\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif}\na:link\,
+	 span.MsoHyperlink\n	{color:blue\;\n	text-decoration:underline}\na:visited
+	\, span.MsoHyperlinkFollowed\n	{color:purple\;\n	text-decoration:underline
+	}\np.msonormal0\, li.msonormal0\, div.msonormal0\n	{margin-right:0cm\;\n	m
+	argin-left:0cm\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif}
+	\nspan.EmailStyle18\n	{}\n.MsoChpDefault\n	{font-size:10.0pt}\n@page WordS
+	ection1\n	{margin:72.0pt 72.0pt 72.0pt 72.0pt}\ndiv.WordSection1\n	{}\n-->
+	\n</style>\n</head>\n<body lang="EN-US" link="blue" vlink="purple">\n<div 
+	class="WordSection1">\n<p class="MsoNormal" style="">&nbsp\;</p>\n<p class
+	="MsoNormal" style="margin-bottom:12.0pt">&nbsp\;</p>\n</div>\n<br>\n<br>\
+	n<div id="WebexMeetingDescription"><font face="Segoe UI">&nbsp\; <br>\n</f
+	ont><font size="2" face="Segoe UI"><font size="2" color="#A0A0A0" face="Se
+	goe UI">-- Do not delete or change any of the following text. --</font> &n
+	bsp\;\n<br>\n&nbsp\; <br>\n&nbsp\; <br>\n<br>\n<font size="4" color="#E877
+	22" face="ARIAL">Welcome to new eMeeting\, powered by Cisco WebEx</font>\n
+	<br>\n<font size="4" face="Segoe UI"><a href="https://applied-materials.we
+	bex.com/applied-materials/j.php?MTID=m409b0dd166920ce082bc90864b1425de"><f
+	ont size="4" color="#00AFF9">Click here to join the meeting</font></a> &nb
+	sp\;\n<br>\n<font size="2" color="#666666" face="Segoe UI">Meeting number 
+	(access code): 146 608 6349</font>\n<font size="2" color="#666666" face="S
+	egoe UI">Meeting password: KNg5Vpjp</font> <font size="2" color="#666666" 
+	face="Segoe UI">\n</font></font>&nbsp\; <br>\n<font style="font-family:Ari
+	al\;"><font style="color:#000000\; font-family:Arial\; font-size:12px\; fo
+	nt-weight:bold\; line-height:24px\;">Join from a video system or applicati
+	on</font><br>\n<font style="color:#333333\; font-family:Arial\; font-size:
+	14px\; line-height:24px\;">Dial</font>\n<a href="sip:1466086349@applied-ma
+	terials.webex.com"><font style="color:#00AFF9\; font-family:Arial\; font-s
+	ize:14px\; text-decoration:none\;">1466086349@applied-materials.webex.com<
+	/font></a></font>\n<table cellpadding="0" cellspacing="0">\n<tbody>\n<tr s
+	tyle="line-height:28px">\n<td style="height:28px">&nbsp\;</td>\n</tr>\n</t
+	body>\n</table>\n<font size="2" color="#666666" face="Segoe UI">\n<p><font
+	 size="4" color="#666666" face="Segoe UI">Call Using Computer <font size="
+	2" color="#666666" face="Segoe UI">\n<br>\n&nbsp\; &nbsp\; &nbsp\;VOIP/Cal
+	l Over Internet. This is the preferred option\, but a PC Headset is requir
+	ed to connect.</font></font></p>\n<font size="4" color="#666666" face="Seg
+	oe UI"><font size="2" color="#666666" face="Segoe UI"><br>\n<font size="4"
+	 color="#666666" face="Segoe UI">I Will Call In from an Applied Materials 
+	Cisco Phone:<br>\n<font size="2" color="#666666" face="Segoe UI">&nbsp\; &
+	nbsp\; &nbsp\;&nbsp\; &nbsp\; &nbsp\; Dial <strong>1+20+77777&nbsp\;</stro
+	ng><font size="2" color="#666666" face="Segoe UI">\n<br>\n&nbsp\; &nbsp\; 
+	&nbsp\; &nbsp\; &nbsp\; &nbsp\;Enter the meeting number to connect.\n<p></
+	p>\n<br>\n<font size="4" color="#666666" face="Segoe UI">I Will Call In fr
+	om an External Phone (non Applied Materials):<br>\n<font size="2" color="#
+	666666" face="Segoe UI"><font style="font-family:Arial\;"><font style="col
+	or:#000000\; font-family:Arial\; font-size:12px\; font-weight:bold\; line-
+	height:24px\;">Tap to join from a mobile device (attendees only)</font> &n
+	bsp\;\n<br>\n<font style="color:#333333\; font-family:Arial\; font-size:14
+	px\; line-height:24px\;"><a href="tel:%2B1-669-234-1708\,\,*01*1466086349%
+	23%23*01*" style="color:#00AFF9\;  text-decoration:none\; font-family: Ari
+	al\;font-size: 14px\;line-height: 24px\;">+1-669-234-1708\,\,1466086349##<
+	/a>\n United States of America Toll</font>&nbsp\; <br>\n<br>\n<font style=
+	"font-family:Arial\;"><font style="color:#000000\; font-family:Arial\; fon
+	t-size:12px\; font-weight:bold\; line-height:24px\;">Join by phone</font> 
+	&nbsp\;\n<br>\n<font style="color:#333333\; font-family:Arial\; font-size:
+	14px\; line-height:24px\;">+1-669-234-1708 United States of America Toll</
+	font> &nbsp\;\n<br>\n<font style="color:#333333\; font-family:Arial\; font
+	-size:14px\; line-height:24px\;"><a href="https://applied-materials.webex.
+	com/applied-materials/globalcallin.php?MTID=m60d3ea94c319989da73b973560c7f
+	a3c" style="text-decoration:none\;font-size:14px\;color:#00AFF9">Global\n 
+	call-in numbers</a>&nbsp\;&nbsp\;|&nbsp\;&nbsp\;<a href="https://www.webex
+	.com/pdf/tollfree_restrictions.pdf" style="text-decoration:none\;font-size
+	:14px\;color:#00AFF9">Toll-free calling restrictions</a></font>\n<table ce
+	llpadding="0" cellspacing="0">\n<tbody>\n<tr style="line-height:28px">\n<t
+	d style="height:28px">&nbsp\;</td>\n</tr>\n</tbody>\n</table>\n<a href="ht
+	tps://help.webex.com/docs/DOC-5412"><font size="2" color="#00AFF9" face="S
+	egoe UI">Can't join the meeting?</font></a>\n<br>\n&nbsp\; <br>\n<font siz
+	e="2" color="#00AFF9" face="Segoe UI"><font size="3" color="#000000" face=
+	"Arial">If you are a host\,\n</font><a href="https://applied-materials.web
+	ex.com/applied-materials/j.php?MTID=mfa07f780b4fff995d3dce4229e3b79dd" sty
+	le="text-decoration:none\;"><font size="3" color="#00AFF9" face="Arial">cl
+	ick here</font></a><font size="3" color="#000000" face="Arial"> to\n view 
+	host information.</font></font> <font color="#A0A0A0" size="1" face="Segoe
+	 UI">\nIMPORTANT NOTICE: Please note that this Webex service allows audio 
+	and other information sent during the session to be recorded\, which may b
+	e discoverable in a legal matter. By joining this session\, you automatica
+	lly consent to such recordings. If you do not\n consent to being recorded\
+	, discuss your concerns with the host or do not join the session.</font>\n
+	</font></font></font></font></font></font></font></font></font></font></fo
+	nt></div>\n<p><span style="font-size: 11pt\; font-family: Calibri\, sans-s
+	erif\; color: #000000\;">The content of this message is APPLIED MATERIALS 
+	CONFIDENTIAL. If you are not the intended recipient\, please notify me\, d
+	elete this email and do not use or distribute this email.\n</span></p>\n</
+	body>\n</html>\n
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-APPTSEQTIME:20201101T122212Z
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -2784,41 +2930,10 @@ END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Run Export Calendar
 CLASS:PUBLIC
-CREATED:20201031T042837Z
-DESCRIPTION:Export Calendar \n\n
-DTEND;TZID="Unnamed Time Zone 1":20201101T095900
-DTSTAMP:20201101T042815Z
-DTSTART;TZID="Unnamed Time Zone 1":20201101T095900
-LAST-MODIFIED:20201101T032023Z
-PRIORITY:5
-SEQUENCE:0
-SUMMARY;LANGUAGE=en-us:Export Calendar
-TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E008000000003025F8686CAFD601000000000000000
-	010000000EA0F2B13F4B8184B924C37A331FEEEF2
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
-	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
-	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
-	sion 16.0.11929.20766">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
-	from text/rtf format -->\n\n<P><FONT FACE="Calibri">Export Calendar</FONT>
-	\n</P>\n\n</BODY>\n</HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-CONFTYPE:0
-BEGIN:VALARM
-TRIGGER:-PT1M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Run Export Calendar
-CLASS:PUBLIC
 CREATED:20201031T143232Z
 DESCRIPTION:Export Calendar \n\n
 DTEND;TZID="Unnamed Time Zone 1":20201101T195700
-DTSTAMP:20201101T042815Z
+DTSTAMP:20201101T142604Z
 DTSTART;TZID="Unnamed Time Zone 1":20201101T195700
 LAST-MODIFIED:20201101T032024Z
 PRIORITY:5
@@ -2849,7 +2964,7 @@ CLASS:PUBLIC
 CREATED:20201031T174913Z
 DESCRIPTION:Export Calendar \n\n
 DTEND;TZID="Unnamed Time Zone 1":20201101T231500
-DTSTAMP:20201101T042815Z
+DTSTAMP:20201101T142604Z
 DTSTART;TZID="Unnamed Time Zone 1":20201101T231500
 LAST-MODIFIED:20201101T032024Z
 PRIORITY:5
@@ -2870,6 +2985,676 @@ X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-CONFTYPE:0
 BEGIN:VALARM
 TRIGGER:-PT1M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Run Export Calendar
+CLASS:PUBLIC
+CREATED:20201101T043222Z
+DESCRIPTION:Export Calendar \n\n
+DTEND;TZID="Unnamed Time Zone 1":20201102T095800
+DTSTAMP:20201101T142604Z
+DTSTART;TZID="Unnamed Time Zone 1":20201102T095800
+LAST-MODIFIED:20201101T043222Z
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Export Calendar
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000040B8348835B0D601000000000000000
+	0100000001ED6AB2FF7719F4199069A0F1AB25F4A
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
+	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
+	sion 16.0.11929.20766">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
+	from text/rtf format -->\n\n<P><FONT FACE="Calibri">Export Calendar</FONT>
+	\n</P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT1M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="Anatoli Elman";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Anatoli_Elma
+	n@amat.com
+ATTENDEE;CN="Ananth Venugopal";RSVP=TRUE:mailto:Ananth_Venugopal@amat.com
+ATTENDEE;CN="Gangadhar Ramapur";RSVP=TRUE:mailto:Gangadhar_Ramapur@amat.com
+ATTENDEE;CN="Eran Reuven";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Eran_Reuven
+	@amat.com
+ATTENDEE;CN="Maor Keinan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Maor_Keinan
+	@amat.com
+ATTENDEE;CN="Eti Abel";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Eti_Abel@amat.
+	com
+ATTENDEE;CN="Yoav Harari";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Yoav_Harari
+	@amat.com
+CLASS:PUBLIC
+CREATED:20201101T093805Z
+DESCRIPTION:Hi all\n\nLets have a meeting to\n\n*	Define the correct method
+	 of cleanup for TSMC \n*	Plan of implementation \n\n \n\n_________________
+	____________________________\nFrom: Anatoli Elman <Anatoli_Elman@amat.com 
+	<mailto:Anatoli_Elman@amat.com> > \nSent: Thursday\, October 29\, 2020 7:4
+	7 PM\nTo: Maor Keinan <Maor_Keinan@amat.com <mailto:Maor_Keinan@amat.com> 
+	>\nCc: Ananth Venugopal <Ananth_Venugopal@amat.com <mailto:Ananth_Venugopa
+	l@amat.com> >\; Eran Reuven <Eran_Reuven@amat.com <mailto:Eran_Reuven@amat
+	.com> >\nSubject: RE: Data Drives Cleanup Parameter Configuration\n\n \n\n
+	Hi\,\n\n \n\nPlease notice that “Disk space based cleanup” is about im
+	age store (disks where images stored). But we have also database.\n\nSo\, 
+	DB partitions should be configured to prevent DB space overflow & not impa
+	ct performance\n\n \n\nHope the following will help you to define proper p
+	arameters (max sites per partition (MSP) & partition number (PN)) \n\n*	Fr
+	om performance perspective number of rows in a table should be ~ <= 20- 25
+	 M rows\n\n	*	Partition switched if (“Site rows” * 0.8  > MSP) OR (“
+	Defect rows” * 0.8  > MSP * 10)  OR (“Structure rows” * 0.8  > MSP *
+	 20)\n	*	So\, MSP should be ~<=  1.5M  \n\n*	 Estimate size of partition\n
+	\n	*	Assuming average space in DB (based on analysis of GIS development DB
+	. On production Tool it may differ. You need to refine it ) for \n\n		*	1 
+	site ~ 1K\n		*	1 measure ~ 1.2 K\n		*	1 defect ~1.2 K\n\n	*	Partition size
+	 ~ = 1KB * 1.5M + 1.2KB *  25M + 1.2K * 12M ~=  40GB\n\n*	Estimate number 
+	of partitions\n\n	*	Assuming drive X ~ 2TB (you need to refine this)\n	*	S
+	pace for all DBs  except for WaferResultsDB  ~ 500GB\n\n		*	Do we have oth
+	er data on X? If yes - need to take into account\n\n	*	Number of partition
+	s  ~ < 40 : 1.5TB / 40GB = 37 \n\n \n\nThanks\,\n\nAnatoli    \n\n \n\n \n
+	\nFrom: Maor Keinan <Maor_Keinan@amat.com <mailto:Maor_Keinan@amat.com> > 
+	\nSent: Thursday\, October 29\, 2020 9:15 AM\nTo: Anatoli Elman <Anatoli_E
+	lman@amat.com <mailto:Anatoli_Elman@amat.com> >\nCc: Ananth Venugopal <Ana
+	nth_Venugopal@amat.com <mailto:Ananth_Venugopal@amat.com> >\; Eran Reuven 
+	<Eran_Reuven@amat.com <mailto:Eran_Reuven@amat.com> >\nSubject: FW: Data D
+	rives Cleanup Parameter Configuration\n\n \n\nHi Anatoli\,\n\nCan you plea
+	se answer wide forum in email below with request to configure partition me
+	chanism?\n\n \n\nRegards\,\n\nMaor\n\n \n\nFrom: Eran Blum <Eran_Blum@amat
+	.com <mailto:Eran_Blum@amat.com> > \nSent: Thursday\, October 29\, 2020 2:
+	28 AM\nTo: Anatoli Elman <Anatoli_Elman@amat.com <mailto:Anatoli_Elman@ama
+	t.com> >\; Maor Keinan <Maor_Keinan@amat.com <mailto:Maor_Keinan@amat.com>
+	 >\; Omer Kahan <Omer_Kahan@amat.com <mailto:Omer_Kahan@amat.com> >\nCc: P
+	ROVision SW technical support <PRV_Field_Issues@amat.com <mailto:PRV_Field
+	_Issues@amat.com> >\nSubject: RE: Data Drives Cleanup Parameter Configurat
+	ion\n\n \n\nGood.  \n\nSo let’s suggest the correct configuration\, such
+	 that only the disk space cleanup will be the active one (increasing parti
+	tion size etc.).\n\nNo reason for the tool to work with 50% disk space onl
+	y.\n\n \n\nBest Regards\,\n\n \n\nEran Blum\n\n \n\nPROVision Project Mana
+	ger | EBIM Division | Process Diagnostics and Control | Applied Material\n
+	\n9 Oppenheimer Street\, Rehovot\, 76705.  Israel.\n\nOffice +972.8.948631
+	8 | Mobile +972.54.4486318 \n\n \n\nFrom: Anatoli Elman <Anatoli_Elman@ama
+	t.com <mailto:Anatoli_Elman@amat.com> > \nSent: Wednesday\, October 28\, 2
+	020 7:00 PM\nTo: Maor Keinan <Maor_Keinan@amat.com <mailto:Maor_Keinan@ama
+	t.com> >\; Omer Kahan <Omer_Kahan@amat.com <mailto:Omer_Kahan@amat.com> >\
+	nCc: PROVision SW technical support <PRV_Field_Issues@amat.com <mailto:PRV
+	_Field_Issues@amat.com> >\nSubject: RE: Data Drives Cleanup Parameter Conf
+	iguration\n\n \n\nHi Maor\,\n\n \n\nYou are absolutely right\n\n \n\nThank
+	s\,\n\nAnatoli\n\n \n\n \n\nFrom: Maor Keinan <Maor_Keinan@amat.com <mailt
+	o:Maor_Keinan@amat.com> > \nSent: Wednesday\, October 28\, 2020 5:54 PM\nT
+	o: Omer Kahan <Omer_Kahan@amat.com <mailto:Omer_Kahan@amat.com> >\; Anatol
+	i Elman <Anatoli_Elman@amat.com <mailto:Anatoli_Elman@amat.com> >\nCc: PRO
+	Vision SW technical support <PRV_Field_Issues@amat.com <mailto:PRV_Field_I
+	ssues@amat.com> >\nSubject: RE: Data Drives Cleanup Parameter Configuratio
+	n\n\n \n\nAdding Anatoli.\n\n \n\nThere are 2 cleanup mechanisms in PROVis
+	ion. Below configuration is just for one of them. Other is DB partition ba
+	sed.\n\n \n\nPer my understanding\, below configuration means that disk oc
+	cupied space isn’t expected to go beyond 85% of capacity.\n\nHowever\, p
+	artition based cleanup mechanism can cause cleanup which will prevent disk
+	 space from getting to 85% of capacity.\n\n \n\nPer that\, below may be ex
+	pected behavior.\n\n \n\n@Anatoli Elman <mailto:Anatoli_Elman@amat.com>  
+	– please correct if I’m mistaken.\n\n \n\nRegards\,\n\nMaor\n\n \n\nFr
+	om: Omer Kahan <Omer_Kahan@amat.com <mailto:Omer_Kahan@amat.com> > \nSent:
+	 Wednesday\, October 28\, 2020 10:53 AM\nTo: PROVision SW technical suppor
+	t <PRV_Field_Issues@amat.com <mailto:PRV_Field_Issues@amat.com> >\nSubject
+	: FW: Data Drives Cleanup Parameter Configuration\n\n \n\nHi all\n\nWe hav
+	e tested the status of data drives on 4 tools with the following configura
+	tions\n\n\n\n \n\nIt means we expect to see all tools between 80-85% (tool
+	s that been running for a long time now)\n\nThis is what we actually get:\
+	n\n \n\nRD Etch tool:   50%         SW:16.6.25      PROV2E\n\nRD Litho too
+	l:  80%         SW:16.6.25      PROVOP\n\nF18 tool:         50%         SW
+	:16.6.15      PROV2E\n\nF12 FAB:          80%         SW:16.6.15      PROV
+	2E\n\n \n\n2 tools are not working as expected – RD Etch tool & F18 Tool
+	\n\n \n\nPlease share what should be tested or done to fix it\n\n \n\n \n\
+	n \n\n \n\nB.R\n\nOmer Kahan\n\nPROVision Product Specialist | Patterning 
+	Control Division | Process Diagnostics and Control | \n\n9 Oppenheimer Str
+	eet\, Rehovot\, 76705\, Israel\nOffice +972.8.9488460\n\n\n\n \n\nFrom: Da
+	niel D Yang <Daniel_D_Yang@amat.com <mailto:Daniel_D_Yang@amat.com> > \nSe
+	nt: Wednesday\, October 28\, 2020 9:33 AM\nTo: Omer Kahan <Omer_Kahan@amat
+	.com <mailto:Omer_Kahan@amat.com> >\nCc: PROVisionTSMC <PV@amat.com <mailt
+	o:PV@amat.com> >\; Santhosh Kumar Chittipolu <SanthoshKumar_Chittipolu@ama
+	t.com <mailto:SanthoshKumar_Chittipolu@amat.com> >\; Rajesh Dey <Rajesh_De
+	y@amat.com <mailto:Rajesh_Dey@amat.com> >\nSubject: Data Drives Cleanup Pa
+	rameter Configuration\n\n \n\nHi Omer\,\n\n \n\nI would like to know how t
+	o config data drive clean up setting correctly.\n\nFrom the RN of 16.5.90 
+	I can only find the configuration in TPE.\n\nCurrently we have the same se
+	tting of cleanup parameter in TPE.\n\nBut the data drives (P\, Q\, R\, S)u
+	sage is different from tool to tool.\n\nTool will purge the oldest data wh
+	en different amount of usage was reaching.\n\nSetting in TPE as below:\n\n
+	\n\n \n\nAnd the data drives usage:\n\nRD Etch tool:   50%         SW:16.6
+	.25      PROV2E\n\nRD Litho tool:  80%         SW:16.6.25      PROVOP\n\nF
+	18 tool:         50%         SW:16.6.15      PROV2E\n\nF12 FAB:          8
+	0%         SW:16.6.15      PROV2E\n\n \n\nDo you have idea what may cause 
+	the difference?\n\nCurrently customer is not aware of the early purging bu
+	t it will be better to keep more data in DB.\n\n \n\nThanks\,\n\nDaniel\n\
+	nThe content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are
+	 not the intended recipient\, please notify me\, delete this email and do 
+	not use or distribute this email. \n\n____________________________________
+	____________________________________________ \n\nMicrosoft Teams meeting \
+	n\nJoin on your computer or mobile app \n\nClick here to join the meeting 
+	<https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDkzMGUzYmYtM2NiMC
+	00NWFmLWEzYTktY2Y0NzYwNzRkZDk1%40thread.v2/0?context=%7b%22Tid%22%3a%22709
+	c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%22%3a%2263189f6f-9648-4b91-8
+	67a-a221c8eb5e22%22%7d>  \n\nLearn More <https://aka.ms/JoinTeamsMeeting> 
+	 | Meeting options <https://teams.microsoft.com/meetingOptions/?organizerI
+	d=63189f6f-9648-4b91-867a-a221c8eb5e22&tenantId=709c2643-b1a9-4415-ad0f-52
+	1cfa6ba3f5&threadId=19_meeting_MDkzMGUzYmYtM2NiMC00NWFmLWEzYTktY2Y0NzYwNzR
+	kZDk1@thread.v2&messageId=0&language=en-US>  \n\n_________________________
+	_______________________________________________________ \n\n \n\n
+DTEND;TZID="Taipei Standard Time":20201102T150000
+DTSTAMP:20201101T094345Z
+DTSTART;TZID="Taipei Standard Time":20201102T143000
+LAST-MODIFIED:20201101T100219Z
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN="Omer Kahan":mailto:Omer_Kahan@amat.com
+PRIORITY:5
+SEQUENCE:1
+SUMMARY:Defining DB Cleanup Configuration - TSMC
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000000B56F2875B0D601000000000000000
+	0100000008E8AABA7E41CE441B2B326D602F2D039
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
+	"Content-Type" content="text/html\; charset=us-ascii"><meta name="Generato
+	r" content="Microsoft Word 15 (filtered medium)"><!--[if !mso]><style>v\\:
+	* {behavior:url(#default#VML)\;}\no\\:* {behavior:url(#default#VML)\;}\nw\
+	\:* {behavior:url(#default#VML)\;}\n.shape {behavior:url(#default#VML)\;}\
+	n</style><![endif]--><style><!--\n/* Font Definitions */\n@font-face\n	{fo
+	nt-family:Wingdings\;\n	panose-1:5 0 0 0 0 0 0 0 0 0\;}\n@font-face\n	{fon
+	t-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 3 2 4\;}\n@font-face\n	
+	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 2 4 3 2 4\;}\n@font-face\n	{f
+	ont-family:Aharoni\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2
+	 11 5 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	
+	panose-1:2 11 7 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"Lucida Handwr
+	iting"\;\n	panose-1:3 1 1 1 1 1 1 1 1 1\;}\n/* Style Definitions */\np.Mso
+	Normal\, li.MsoNormal\, div.MsoNormal\n	{margin:0in\;\n	margin-bottom:.000
+	1pt\;\n	font-size:12.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\na:link\
+	, span.MsoHyperlink\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-de
+	coration:underline\;}\na:visited\, span.MsoHyperlinkFollowed\n	{mso-style-
+	priority:99\;\n	color:#954F72\;\n	text-decoration:underline\;}\np.MsoListP
+	aragraph\, li.MsoListParagraph\, div.MsoListParagraph\n	{mso-style-priorit
+	y:34\;\n	margin-top:0in\;\n	margin-right:0in\;\n	margin-bottom:0in\;\n	mar
+	gin-left:.5in\;\n	margin-bottom:.0001pt\;\n	font-size:12.0pt\;\n	font-fami
+	ly:"Calibri"\,sans-serif\;}\np.msonormal0\, li.msonormal0\, div.msonormal0
+	\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:auto\;\n	margin-right:
+	0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;\n	font-size:11.0p
+	t\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.EmailStyle19\n	{mso-style
+	-type:personal\;\n	font-family:"Calibri"\,sans-serif\;\n	color:windowtext\
+	;}\nspan.EmailStyle20\n	{mso-style-type:personal\;\n	font-family:"Calibri"
+	\,sans-serif\;\n	color:windowtext\;}\nspan.EmailStyle21\n	{mso-style-type:
+	personal\;\n	font-family:"Calibri"\,sans-serif\;\n	color:windowtext\;}\nsp
+	an.EmailStyle22\n	{mso-style-type:personal\;\n	font-family:"Calibri"\,sans
+	-serif\;\n	color:windowtext\;}\nspan.EmailStyle23\n	{mso-style-type:person
+	al\;\n	font-family:"Calibri"\,sans-serif\;\n	color:windowtext\;}\nspan.Ema
+	ilStyle24\n	{mso-style-type:personal\;\n	font-family:"Calibri"\,sans-serif
+	\;\n	color:windowtext\;}\nspan.EmailStyle25\n	{mso-style-type:personal\;\n
+		font-family:"Calibri"\,sans-serif\;\n	color:windowtext\;}\nspan.EmailStyl
+	e26\n	{mso-style-type:personal-reply\;\n	font-family:"Calibri"\,sans-serif
+	\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n
+		font-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1
+	.0in 1.25in 1.0in 1.25in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n/* 
+	List Definitions */\n@list l0\n	{mso-list-id:376977074\;\n	mso-list-type:h
+	ybrid\;\n	mso-list-template-ids:1168390644 -529864594 67698691 67698693 67
+	698689 67698691 67698693 67698689 67698691 67698693\;}\n@list l0:level1\n	
+	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-ta
+	b-stop:none\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n	
+	font-family:Symbol\;\n	mso-fareast-font-family:Calibri\;\n	mso-bidi-font-f
+	amily:Arial\;}\n@list l0:level2\n	{mso-level-number-format:bullet\;\n	mso-
+	level-text:o\;\n	mso-level-tab-stop:none\;\n	mso-level-number-position:lef
+	t\;\n	text-indent:-.25in\;\n	font-family:"Courier New"\;}\n@list l0:level3
+	\n	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0A7\;\n	mso-level
+	-tab-stop:none\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;
+	\n	font-family:Wingdings\;}\n@list l0:level4\n	{mso-level-number-format:bu
+	llet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab-stop:none\;\n	mso-level-n
+	umber-position:left\;\n	text-indent:-.25in\;\n	font-family:Symbol\;}\n@lis
+	t l0:level5\n	{mso-level-number-format:bullet\;\n	mso-level-text:o\;\n	mso
+	-level-tab-stop:none\;\n	mso-level-number-position:left\;\n	text-indent:-.
+	25in\;\n	font-family:"Courier New"\;}\n@list l0:level6\n	{mso-level-number
+	-format:bullet\;\n	mso-level-text:\\F0A7\;\n	mso-level-tab-stop:none\;\n	m
+	so-level-number-position:left\;\n	text-indent:-.25in\;\n	font-family:Wingd
+	ings\;}\n@list l0:level7\n	{mso-level-number-format:bullet\;\n	mso-level-t
+	ext:\\F0B7\;\n	mso-level-tab-stop:none\;\n	mso-level-number-position:left\
+	;\n	text-indent:-.25in\;\n	font-family:Symbol\;}\n@list l0:level8\n	{mso-l
+	evel-number-format:bullet\;\n	mso-level-text:o\;\n	mso-level-tab-stop:none
+	\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n	font-family
+	:"Courier New"\;}\n@list l0:level9\n	{mso-level-number-format:bullet\;\n	m
+	so-level-text:\\F0A7\;\n	mso-level-tab-stop:none\;\n	mso-level-number-posi
+	tion:left\;\n	text-indent:-.25in\;\n	font-family:Wingdings\;}\n@list l1\n	
+	{mso-list-id:1112238991\;\n	mso-list-template-ids:1502783018\;}\n@list l1:
+	level1\n	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso
+	-level-tab-stop:.5in\;\n	mso-level-number-position:left\;\n	text-indent:-.
+	25in\;\n	mso-ansi-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l1:lev
+	el2\n	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-le
+	vel-tab-stop:1.0in\;\n	mso-level-number-position:left\;\n	text-indent:-.25
+	in\;\n	mso-ansi-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l1:level
+	3\n	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-leve
+	l-tab-stop:1.5in\;\n	mso-level-number-position:left\;\n	text-indent:-.25in
+	\;\n	mso-ansi-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l1:level4\
+	n	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-
+	tab-stop:2.0in\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;
+	\n	mso-ansi-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l1:level5\n	
+	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-ta
+	b-stop:2.5in\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n
+		mso-ansi-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l1:level6\n	{m
+	so-level-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab-
+	stop:3.0in\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n	m
+	so-ansi-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l1:level7\n	{mso
+	-level-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab-st
+	op:3.5in\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n	mso
+	-ansi-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l1:level8\n	{mso-l
+	evel-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab-stop
+	:4.0in\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n	mso-a
+	nsi-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l1:level9\n	{mso-lev
+	el-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab-stop:4
+	.5in\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n	mso-ans
+	i-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l2\n	{mso-list-id:1799
+	958500\;\n	mso-list-type:hybrid\;\n	mso-list-template-ids:-525461964 67698
+	689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 6769869
+	3\;}\n@list l2:level1\n	{mso-level-number-format:bullet\;\n	mso-level-text
+	:\\F0B7\;\n	mso-level-tab-stop:none\;\n	mso-level-number-position:left\;\n
+		margin-left:46.0pt\;\n	text-indent:-.25in\;\n	font-family:Symbol\;}\n@lis
+	t l2:level2\n	{mso-level-number-format:bullet\;\n	mso-level-text:o\;\n	mso
+	-level-tab-stop:none\;\n	mso-level-number-position:left\;\n	margin-left:82
+	.0pt\;\n	text-indent:-.25in\;\n	font-family:"Courier New"\;}\n@list l2:lev
+	el3\n	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0A7\;\n	mso-le
+	vel-tab-stop:none\;\n	mso-level-number-position:left\;\n	margin-left:118.0
+	pt\;\n	text-indent:-.25in\;\n	font-family:Wingdings\;}\n@list l2:level4\n	
+	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-ta
+	b-stop:none\;\n	mso-level-number-position:left\;\n	margin-left:154.0pt\;\n
+		text-indent:-.25in\;\n	font-family:Symbol\;}\n@list l2:level5\n	{mso-leve
+	l-number-format:bullet\;\n	mso-level-text:o\;\n	mso-level-tab-stop:none\;\
+	n	mso-level-number-position:left\;\n	margin-left:190.0pt\;\n	text-indent:-
+	.25in\;\n	font-family:"Courier New"\;}\n@list l2:level6\n	{mso-level-numbe
+	r-format:bullet\;\n	mso-level-text:\\F0A7\;\n	mso-level-tab-stop:none\;\n	
+	mso-level-number-position:left\;\n	margin-left:226.0pt\;\n	text-indent:-.2
+	5in\;\n	font-family:Wingdings\;}\n@list l2:level7\n	{mso-level-number-form
+	at:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab-stop:none\;\n	mso-le
+	vel-number-position:left\;\n	margin-left:262.0pt\;\n	text-indent:-.25in\;\
+	n	font-family:Symbol\;}\n@list l2:level8\n	{mso-level-number-format:bullet
+	\;\n	mso-level-text:o\;\n	mso-level-tab-stop:none\;\n	mso-level-number-pos
+	ition:left\;\n	margin-left:298.0pt\;\n	text-indent:-.25in\;\n	font-family:
+	"Courier New"\;}\n@list l2:level9\n	{mso-level-number-format:bullet\;\n	ms
+	o-level-text:\\F0A7\;\n	mso-level-tab-stop:none\;\n	mso-level-number-posit
+	ion:left\;\n	margin-left:334.0pt\;\n	text-indent:-.25in\;\n	font-family:Wi
+	ngdings\;}\n@list l3\n	{mso-list-id:1820152050\;\n	mso-list-template-ids:1
+	093062782\;}\n@list l3:level1\n	{mso-level-number-format:bullet\;\n	mso-le
+	vel-text:\\F0B7\;\n	mso-level-tab-stop:.5in\;\n	mso-level-number-position:
+	left\;\n	text-indent:-.25in\;\n	mso-ansi-font-size:10.0pt\;\n	font-family:
+	Symbol\;}\n@list l3:level2\n	{mso-level-number-format:bullet\;\n	mso-level
+	-text:o\;\n	mso-level-tab-stop:1.0in\;\n	mso-level-number-position:left\;\
+	n	text-indent:-.25in\;\n	mso-ansi-font-size:10.0pt\;\n	font-family:"Courie
+	r New"\;\n	mso-bidi-font-family:"Times New Roman"\;}\n@list l3:level3\n	{m
+	so-level-number-format:bullet\;\n	mso-level-text:\\F0A7\;\n	mso-level-tab-
+	stop:1.5in\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n	m
+	so-ansi-font-size:10.0pt\;\n	font-family:Wingdings\;}\n@list l3:level4\n	{
+	mso-level-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab
+	-stop:2.0in\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n	
+	mso-ansi-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l3:level5\n	{ms
+	o-level-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab-s
+	top:2.5in\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n	ms
+	o-ansi-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l3:level6\n	{mso-
+	level-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab-sto
+	p:3.0in\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n	mso-
+	ansi-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l3:level7\n	{mso-le
+	vel-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab-stop:
+	3.5in\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n	mso-an
+	si-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l3:level8\n	{mso-leve
+	l-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab-stop:4.
+	0in\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n	mso-ansi
+	-font-size:10.0pt\;\n	font-family:Symbol\;}\n@list l3:level9\n	{mso-level-
+	number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab-stop:4.5i
+	n\;\n	mso-level-number-position:left\;\n	text-indent:-.25in\;\n	mso-ansi-f
+	ont-size:10.0pt\;\n	font-family:Symbol\;}\nol\n	{margin-bottom:0in\;}\nul\
+	n	{margin-bottom:0in\;}\n--></style><!--[if gte mso 9]><xml>\n<o:shapedefa
+	ults v:ext="edit" spidmax="1026" />\n</xml><![endif]--><!--[if gte mso 9]>
+	<xml>\n<o:shapelayout v:ext="edit">\n<o:idmap v:ext="edit" data="1" />\n</
+	o:shapelayout></xml><![endif]--></head><body lang="EN-US" link="#0563C1" v
+	link="#954F72" style="text-justify-trim:punctuation"><div class="WordSecti
+	on1"><p class="MsoNormal"><span style="font-size:11.0pt">Hi all<o:p></o:p>
+	</span></p><p class="MsoNormal"><span style="font-size:11.0pt">Lets have a
+	 meeting to<o:p></o:p></span></p><ul style="margin-top:0in" type="disc"><l
+	i class="MsoListParagraph" style="margin-left:0in\;mso-list:l0 level1 lfo3
+	"><span style="font-size:11.0pt">Define the correct method of cleanup for 
+	TSMC <o:p></o:p></span></li><li class="MsoListParagraph" style="margin-lef
+	t:0in\;mso-list:l0 level1 lfo3"><span style="font-size:11.0pt">Plan of imp
+	lementation <o:p></o:p></span></li></ul><p class="MsoNormal"><span style="
+	font-size:11.0pt"><o:p>&nbsp\;</o:p></span></p><div><p class="MsoNormal"><
+	span style="font-size:11.0pt">____________________________________________
+	_<br><b>From:</b> Anatoli Elman &lt\;<a href="mailto:Anatoli_Elman@amat.co
+	m">Anatoli_Elman@amat.com</a>&gt\; <br><b>Sent:</b> Thursday\, October 29\
+	, 2020 7:47 PM<br><b>To:</b> Maor Keinan &lt\;<a href="mailto:Maor_Keinan@
+	amat.com">Maor_Keinan@amat.com</a>&gt\;<br><b>Cc:</b> Ananth Venugopal &lt
+	\;<a href="mailto:Ananth_Venugopal@amat.com">Ananth_Venugopal@amat.com</a>
+	&gt\;\; Eran Reuven &lt\;<a href="mailto:Eran_Reuven@amat.com">Eran_Reuven
+	@amat.com</a>&gt\;<br><b>Subject:</b> RE: Data Drives Cleanup Parameter Co
+	nfiguration<o:p></o:p></span></p></div><p class="MsoNormal"><o:p>&nbsp\;</
+	o:p></p><p class="MsoNormal"><span style="font-size:11.0pt">Hi\,<o:p></o:p
+	></span></p><p class="MsoNormal"><span style="font-size:11.0pt"><o:p>&nbsp
+	\;</o:p></span></p><p class="MsoNormal"><span style="font-size:11.0pt">Ple
+	ase notice that &#8220\;Disk space based cleanup&#8221\; is about image st
+	ore (disks where images stored). But we have also database.<o:p></o:p></sp
+	an></p><p class="MsoNormal"><span style="font-size:11.0pt">So\, DB partiti
+	ons should be configured to prevent DB space overflow &amp\; not impact pe
+	rformance<o:p></o:p></span></p><p class="MsoNormal"><span style="font-size
+	:11.0pt"><o:p>&nbsp\;</o:p></span></p><p class="MsoNormal"><span style="fo
+	nt-size:11.0pt">Hope the following will help you to define proper paramete
+	rs (max sites per partition (MSP) &amp\; partition number (PN)) <o:p></o:p
+	></span></p><ul style="margin-top:0in" type="disc"><li class="MsoListParag
+	raph" style="margin-left:10.0pt\;mso-list:l2 level1 lfo6"><span style="fon
+	t-size:11.0pt">From performance perspective number of rows in a table shou
+	ld be ~ &lt\;= 20- 25 M rows<o:p></o:p></span></li><ul style="margin-top:0
+	in" type="circle"><li class="MsoListParagraph" style="margin-left:10.0pt\;
+	mso-list:l2 level2 lfo6"><span style="font-size:11.0pt">Partition switched
+	 if (&#8220\;Site rows&#8221\; * 0.8 &nbsp\;&gt\; MSP) OR (&#8220\;Defect 
+	rows&#8221\; * 0.8 &nbsp\;&gt\; MSP * 10) &nbsp\;OR (&#8220\;Structure row
+	s&#8221\; * 0.8 &nbsp\;&gt\; MSP * 20)<o:p></o:p></span></li><li class="Ms
+	oListParagraph" style="margin-left:10.0pt\;mso-list:l2 level2 lfo6"><span 
+	style="font-size:11.0pt">So\, MSP should be ~&lt\;= &nbsp\;<b>1.5M &nbsp\;
+	</b><o:p></o:p></span></li></ul><li class="MsoListParagraph" style="margin
+	-left:10.0pt\;mso-list:l2 level1 lfo6"><span style="font-size:11.0pt">&nbs
+	p\;Estimate size of partition<o:p></o:p></span></li><ul style="margin-top:
+	0in" type="circle"><li class="MsoListParagraph" style="margin-left:10.0pt\
+	;mso-list:l2 level2 lfo6"><span style="font-size:11.0pt">Assuming average 
+	space in DB (based on analysis of GIS development DB. On production Tool i
+	t may differ. You need to refine it ) for <o:p></o:p></span></li><ul style
+	="margin-top:0in" type="square"><li class="MsoListParagraph" style="margin
+	-left:10.0pt\;mso-list:l2 level3 lfo6"><span style="font-size:11.0pt">1 si
+	te ~ 1K<o:p></o:p></span></li><li class="MsoListParagraph" style="margin-l
+	eft:10.0pt\;mso-list:l2 level3 lfo6"><span style="font-size:11.0pt">1 meas
+	ure ~ 1.2 K<o:p></o:p></span></li><li class="MsoListParagraph" style="marg
+	in-left:10.0pt\;mso-list:l2 level3 lfo6"><span style="font-size:11.0pt">1 
+	defect ~1.2 K<o:p></o:p></span></li></ul><li class="MsoListParagraph" styl
+	e="margin-left:10.0pt\;mso-list:l2 level2 lfo6"><span style="font-size:11.
+	0pt">Partition size ~ = 1KB * 1.5M + 1.2KB * &nbsp\;25M + 1.2K * 12M ~= &n
+	bsp\;40GB<o:p></o:p></span></li></ul><li class="MsoListParagraph" style="m
+	argin-left:10.0pt\;mso-list:l2 level1 lfo6"><span style="font-size:11.0pt"
+	>Estimate number of partitions<o:p></o:p></span></li><ul style="margin-top
+	:0in" type="circle"><li class="MsoListParagraph" style="margin-left:10.0pt
+	\;mso-list:l2 level2 lfo6"><span style="font-size:11.0pt">Assuming drive X
+	 ~ 2TB (you need to refine this)<o:p></o:p></span></li><li class="MsoListP
+	aragraph" style="margin-left:10.0pt\;mso-list:l2 level2 lfo6"><span style=
+	"font-size:11.0pt">Space for all DBs &nbsp\;except for WaferResultsDB &nbs
+	p\;~ 500GB<o:p></o:p></span></li><ul style="margin-top:0in" type="square">
+	<li class="MsoListParagraph" style="margin-left:10.0pt\;mso-list:l2 level3
+	 lfo6"><span style="font-size:11.0pt">Do we have other data on X? If yes -
+	 need to take into account<o:p></o:p></span></li></ul><li class="MsoListPa
+	ragraph" style="margin-left:10.0pt\;mso-list:l2 level2 lfo6"><span style="
+	font-size:11.0pt">Number of partitions &nbsp\;~ &lt\; 40 : 1.5TB / 40GB = 
+	37 <o:p></o:p></span></li></ul></ul><p class="MsoNormal"><span style="font
+	-size:11.0pt"><o:p>&nbsp\;</o:p></span></p><p class="MsoNormal"><span styl
+	e="font-size:11.0pt">Thanks\,<o:p></o:p></span></p><p class="MsoNormal"><s
+	pan style="font-size:11.0pt">Anatoli &nbsp\;&nbsp\;&nbsp\;<o:p></o:p></spa
+	n></p><p class="MsoNormal"><span style="font-size:11.0pt"><o:p>&nbsp\;</o:
+	p></span></p><p class="MsoNormal"><span style="font-size:11.0pt"><o:p>&nbs
+	p\;</o:p></span></p><div><div style="border:none\;border-top:solid #E1E1E1
+	 1.0pt\;padding:3.0pt 0in 0in 0in"><p class="MsoNormal"><b><span style="fo
+	nt-size:11.0pt">From:</span></b><span style="font-size:11.0pt"> Maor Keina
+	n &lt\;<a href="mailto:Maor_Keinan@amat.com">Maor_Keinan@amat.com</a>&gt\;
+	 <br><b>Sent:</b> Thursday\, October 29\, 2020 9:15 AM<br><b>To:</b> Anato
+	li Elman &lt\;<a href="mailto:Anatoli_Elman@amat.com">Anatoli_Elman@amat.c
+	om</a>&gt\;<br><b>Cc:</b> Ananth Venugopal &lt\;<a href="mailto:Ananth_Ven
+	ugopal@amat.com">Ananth_Venugopal@amat.com</a>&gt\;\; Eran Reuven &lt\;<a 
+	href="mailto:Eran_Reuven@amat.com">Eran_Reuven@amat.com</a>&gt\;<br><b>Sub
+	ject:</b> FW: Data Drives Cleanup Parameter Configuration<o:p></o:p></span
+	></p></div></div><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoN
+	ormal"><span style="font-size:13.0pt">Hi Anatoli\,<o:p></o:p></span></p><p
+	 class="MsoNormal"><span style="font-size:13.0pt">Can you please answer wi
+	de forum in email below with request to configure partition mechanism?<o:p
+	></o:p></span></p><p class="MsoNormal"><span style="font-size:13.0pt"><o:p
+	>&nbsp\;</o:p></span></p><div><p class="MsoNormal"><span style="font-size:
+	11.0pt">Regards\,<o:p></o:p></span></p><p class="MsoNormal"><span style="f
+	ont-size:11.0pt">Maor<o:p></o:p></span></p></div><p class="MsoNormal"><spa
+	n style="font-size:13.0pt"><o:p>&nbsp\;</o:p></span></p><div><div style="b
+	order:none\;border-top:solid #E1E1E1 1.0pt\;padding:3.0pt 0in 0in 0in"><p 
+	class="MsoNormal"><b><span style="font-size:11.0pt">From:</span></b><span 
+	style="font-size:11.0pt"> Eran Blum &lt\;<a href="mailto:Eran_Blum@amat.co
+	m">Eran_Blum@amat.com</a>&gt\; <br><b>Sent:</b> Thursday\, October 29\, 20
+	20 2:28 AM<br><b>To:</b> Anatoli Elman &lt\;<a href="mailto:Anatoli_Elman@
+	amat.com">Anatoli_Elman@amat.com</a>&gt\;\; Maor Keinan &lt\;<a href="mail
+	to:Maor_Keinan@amat.com">Maor_Keinan@amat.com</a>&gt\;\; Omer Kahan &lt\;<
+	a href="mailto:Omer_Kahan@amat.com">Omer_Kahan@amat.com</a>&gt\;<br><b>Cc:
+	</b> PROVision SW technical support &lt\;<a href="mailto:PRV_Field_Issues@
+	amat.com">PRV_Field_Issues@amat.com</a>&gt\;<br><b>Subject:</b> RE: Data D
+	rives Cleanup Parameter Configuration<o:p></o:p></span></p></div></div><p 
+	class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><span style="
+	font-size:11.0pt">Good.&nbsp\; <o:p></o:p></span></p><p class="MsoNormal">
+	<span style="font-size:11.0pt">So let&#8217\;s suggest the correct configu
+	ration\, such that only the disk space cleanup will be the active one (inc
+	reasing partition size etc.).<o:p></o:p></span></p><p class="MsoNormal"><s
+	pan style="font-size:11.0pt">No reason for the tool to work with 50% disk 
+	space only.<o:p></o:p></span></p><p class="MsoNormal"><span style="font-si
+	ze:11.0pt"><o:p>&nbsp\;</o:p></span></p><div><p class="MsoNormal"><span st
+	yle="font-size:11.0pt\;color:#1F497D">Best Regards\,<o:p></o:p></span></p>
+	<p class="MsoNormal"><span style="font-size:8.0pt\;color:#1F497D"><o:p>&nb
+	sp\;</o:p></span></p><p class="MsoNormal"><span style="font-size:11.0pt\;f
+	ont-family:&quot\;Lucida Handwriting&quot\;\;color:#1F497D">Eran Blum<o:p>
+	</o:p></span></p><p class="MsoNormal"><span style="font-size:2.0pt\;color:
+	#1F497D"><o:p>&nbsp\;</o:p></span></p><p class="MsoNormal" style="margin-l
+	eft:.75pt\;text-autospace:none"><span style="font-size:8.0pt\;font-family:
+	&quot\;Arial&quot\;\,sans-serif\;color:#1F497D">PROVision Project Manager 
+	| EBIM Division | Process Diagnostics and Control | Applied Material<o:p><
+	/o:p></span></p><p class="MsoNormal" style="text-autospace:none"><span sty
+	le="font-size:8.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#1
+	F497D">9 Oppenheimer Street\, Rehovot\, 76705.&nbsp\; Israel.<o:p></o:p></
+	span></p><p class="MsoNormal" style="text-autospace:none"><span style="fon
+	t-size:8.0pt\;font-family:&quot\;Arial&quot\;\,sans-serif\;color:#1F497D">
+	Office +972.8.9486318 | Mobile +972.54.4486318 <o:p></o:p></span></p></div
+	><p class="MsoNormal"><span style="font-size:11.0pt"><o:p>&nbsp\;</o:p></s
+	pan></p><div><div style="border:none\;border-top:solid #E1E1E1 1.0pt\;padd
+	ing:3.0pt 0in 0in 0in"><p class="MsoNormal"><b><span style="font-size:11.0
+	pt">From:</span></b><span style="font-size:11.0pt"> Anatoli Elman &lt\;<a 
+	href="mailto:Anatoli_Elman@amat.com">Anatoli_Elman@amat.com</a>&gt\; <br><
+	b>Sent:</b> Wednesday\, October 28\, 2020 7:00 PM<br><b>To:</b> Maor Keina
+	n &lt\;<a href="mailto:Maor_Keinan@amat.com">Maor_Keinan@amat.com</a>&gt\;
+	\; Omer Kahan &lt\;<a href="mailto:Omer_Kahan@amat.com">Omer_Kahan@amat.co
+	m</a>&gt\;<br><b>Cc:</b> PROVision SW technical support &lt\;<a href="mail
+	to:PRV_Field_Issues@amat.com">PRV_Field_Issues@amat.com</a>&gt\;<br><b>Sub
+	ject:</b> RE: Data Drives Cleanup Parameter Configuration<o:p></o:p></span
+	></p></div></div><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoN
+	ormal">Hi Maor\,<o:p></o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p>
+	<p class="MsoNormal">You are absolutely right<o:p></o:p></p><p class="MsoN
+	ormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal">Thanks\,<o:p></o:p></p><
+	p class="MsoNormal">Anatoli<o:p></o:p></p><p class="MsoNormal"><o:p>&nbsp\
+	;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><div><div style="bor
+	der:none\;border-top:solid #E1E1E1 1.0pt\;padding:3.0pt 0in 0in 0in"><p cl
+	ass="MsoNormal"><b><span style="font-size:11.0pt">From:</span></b><span st
+	yle="font-size:11.0pt"> Maor Keinan &lt\;<a href="mailto:Maor_Keinan@amat.
+	com">Maor_Keinan@amat.com</a>&gt\; <br><b>Sent:</b> Wednesday\, October 28
+	\, 2020 5:54 PM<br><b>To:</b> Omer Kahan &lt\;<a href="mailto:Omer_Kahan@a
+	mat.com">Omer_Kahan@amat.com</a>&gt\;\; Anatoli Elman &lt\;<a href="mailto
+	:Anatoli_Elman@amat.com">Anatoli_Elman@amat.com</a>&gt\;<br><b>Cc:</b> PRO
+	Vision SW technical support &lt\;<a href="mailto:PRV_Field_Issues@amat.com
+	">PRV_Field_Issues@amat.com</a>&gt\;<br><b>Subject:</b> RE: Data Drives Cl
+	eanup Parameter Configuration<o:p></o:p></span></p></div></div><p class="M
+	soNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><span style="font-siz
+	e:13.0pt">Adding Anatoli.<o:p></o:p></span></p><p class="MsoNormal"><span 
+	style="font-size:13.0pt"><o:p>&nbsp\;</o:p></span></p><p class="MsoNormal"
+	><span style="font-size:13.0pt">There are 2 cleanup mechanisms in PROVisio
+	n. Below configuration is just for one of them. Other is DB partition base
+	d.<o:p></o:p></span></p><p class="MsoNormal"><span style="font-size:13.0pt
+	"><o:p>&nbsp\;</o:p></span></p><p class="MsoNormal"><span style="font-size
+	:13.0pt">Per my understanding\, below configuration means that disk occupi
+	ed space isn&#8217\;t expected to go beyond 85% of capacity.<o:p></o:p></s
+	pan></p><p class="MsoNormal"><span style="font-size:13.0pt">However\, part
+	ition based cleanup mechanism can cause cleanup which will prevent disk sp
+	ace from getting to 85% of capacity.<o:p></o:p></span></p><p class="MsoNor
+	mal"><span style="font-size:13.0pt"><o:p>&nbsp\;</o:p></span></p><p class=
+	"MsoNormal"><span style="font-size:13.0pt">Per that\, below may be expecte
+	d behavior.<o:p></o:p></span></p><p class="MsoNormal"><span style="font-si
+	ze:13.0pt"><o:p>&nbsp\;</o:p></span></p><p class="MsoNormal"><span style="
+	font-size:13.0pt"><a id="OWAAM5EA07201B47241488B87EF9AF208C722" href="mail
+	to:Anatoli_Elman@amat.com"><span style="font-family:&quot\;Calibri&quot\;\
+	,sans-serif\;text-decoration:none">@Anatoli Elman</span></a> &#8211\; plea
+	se correct if I&#8217\;m mistaken.<o:p></o:p></span></p><p class="MsoNorma
+	l"><span style="font-size:13.0pt"><o:p>&nbsp\;</o:p></span></p><div><p cla
+	ss="MsoNormal"><span style="font-size:11.0pt">Regards\,<o:p></o:p></span><
+	/p><p class="MsoNormal"><span style="font-size:11.0pt">Maor<o:p></o:p></sp
+	an></p></div><p class="MsoNormal"><span style="font-size:13.0pt"><o:p>&nbs
+	p\;</o:p></span></p><div><div style="border:none\;border-top:solid #E1E1E1
+	 1.0pt\;padding:3.0pt 0in 0in 0in"><p class="MsoNormal"><b><span style="fo
+	nt-size:11.0pt">From:</span></b><span style="font-size:11.0pt"> Omer Kahan
+	 &lt\;<a href="mailto:Omer_Kahan@amat.com">Omer_Kahan@amat.com</a>&gt\; <b
+	r><b>Sent:</b> Wednesday\, October 28\, 2020 10:53 AM<br><b>To:</b> PROVis
+	ion SW technical support &lt\;<a href="mailto:PRV_Field_Issues@amat.com">P
+	RV_Field_Issues@amat.com</a>&gt\;<br><b>Subject:</b> FW: Data Drives Clean
+	up Parameter Configuration<o:p></o:p></span></p></div></div><p class="MsoN
+	ormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><span style="font-size:1
+	1.0pt">Hi all<o:p></o:p></span></p><p class="MsoNormal"><span style="font-
+	size:11.0pt">We have tested the status of data drives on 4 tools with the 
+	following configurations<o:p></o:p></span></p><p class="MsoNormal"><span s
+	tyle="font-size:11.0pt"><img border="0" width="713" height="153" style="wi
+	dth:7.425in\;height:1.5916in" id="Picture_x0020_3" src="cid:image001.png@0
+	1D6B075.288315F0"></span><span style="font-size:11.0pt"><o:p></o:p></span>
+	</p><p class="MsoNormal"><span style="font-size:11.0pt"><o:p>&nbsp\;</o:p>
+	</span></p><p class="MsoNormal"><span style="font-size:11.0pt">It means we
+	 expect to see all tools between 80-85% (tools that been running for a lon
+	g time now)<o:p></o:p></span></p><p class="MsoNormal"><span style="mso-far
+	east-language:ZH-TW">This is what we actually get:<o:p></o:p></span></p><p
+	 class="MsoNormal"><span style="mso-fareast-language:ZH-TW"><o:p>&nbsp\;</
+	o:p></span></p><p class="MsoNormal"><span style="mso-fareast-language:ZH-T
+	W">RD Etch tool:&nbsp\;&nbsp\; 50%&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp
+	\;&nbsp\;&nbsp\; SW:16.6.25&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; PROV2E<o:p>
+	</o:p></span></p><p class="MsoNormal"><span style="mso-fareast-language:ZH
+	-TW">RD Litho tool:&nbsp\; 80%&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&n
+	bsp\;&nbsp\; SW:16.6.25&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; PROVOP<o:p></o:
+	p></span></p><p class="MsoNormal"><span style="mso-fareast-language:ZH-TW"
+	>F18 tool:&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; 50%&nbs
+	p\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; SW:16.6.15&nbsp\;&nbs
+	p\;&nbsp\;&nbsp\;&nbsp\; PROV2E<o:p></o:p></span></p><p class="MsoNormal">
+	<span style="mso-fareast-language:ZH-TW">F12 FAB:&nbsp\; &nbsp\;&nbsp\;&nb
+	sp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; 80%&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+	sp\;&nbsp\;&nbsp\; SW:16.6.15&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; PROV2E<o:
+	p></o:p></span></p><p class="MsoNormal"><span style="mso-fareast-language:
+	ZH-TW"><o:p>&nbsp\;</o:p></span></p><p class="MsoNormal"><span style="mso-
+	fareast-language:ZH-TW">2 tools are not working as expected &#8211\; RD Et
+	ch tool &amp\; F18 Tool<o:p></o:p></span></p><p class="MsoNormal"><span st
+	yle="mso-fareast-language:ZH-TW"><o:p>&nbsp\;</o:p></span></p><p class="Ms
+	oNormal"><span style="mso-fareast-language:ZH-TW">Please share what should
+	 be tested or done to fix it<o:p></o:p></span></p><p class="MsoNormal"><sp
+	an style="font-size:11.0pt"><o:p>&nbsp\;</o:p></span></p><p class="MsoNorm
+	al"><span style="font-size:11.0pt"><o:p>&nbsp\;</o:p></span></p><p class="
+	MsoNormal"><span style="font-size:11.0pt"><o:p>&nbsp\;</o:p></span></p><p 
+	class="MsoNormal"><span style="font-size:11.0pt"><o:p>&nbsp\;</o:p></span>
+	</p><div><p class="MsoNormal"><span style="font-size:11.0pt\;font-family:A
+	haroni\;color:#17365D">B.R<o:p></o:p></span></p><p class="MsoNormal"><span
+	 style="font-size:11.0pt\;font-family:Aharoni\;color:#17365D">Omer Kahan<o
+	:p></o:p></span></p><p class="MsoNormal"><b><span style="font-size:10.0pt\
+	;font-family:Aharoni\;color:#1F3864">PROVision Product Specialist | Patter
+	ning Control Division | Process Diagnostics and Control | <o:p></o:p></spa
+	n></b></p><p class="MsoNormal"><b><span style="font-size:10.0pt\;font-fami
+	ly:Aharoni\;color:#1F3864">9 Oppenheimer Street\, Rehovot\, 76705\,&nbsp\;
+	Israel<br>Office </span></b><b><span style="font-family:Aharoni\;color:#1F
+	3864">+972.8.9488460<o:p></o:p></span></b></p><p class="MsoNormal"><span s
+	tyle="font-family:Aharoni"><img border="0" width="76" height="23" style="w
+	idth:.7916in\;height:.2416in" id="Picture_x0020_1" src="cid:image002.jpg@0
+	1D6B075.288315F0"></span><span style="font-size:11.0pt\;font-family:Aharon
+	i"><o:p></o:p></span></p></div><p class="MsoNormal"><span style="font-size
+	:11.0pt"><o:p>&nbsp\;</o:p></span></p><div><div style="border:none\;border
+	-top:solid #E1E1E1 1.0pt\;padding:3.0pt 0in 0in 0in"><p class="MsoNormal">
+	<b><span style="font-size:11.0pt">From:</span></b><span style="font-size:1
+	1.0pt"> Daniel D Yang &lt\;<a href="mailto:Daniel_D_Yang@amat.com">Daniel_
+	D_Yang@amat.com</a>&gt\; <br><b>Sent:</b> Wednesday\, October 28\, 2020 9:
+	33 AM<br><b>To:</b> Omer Kahan &lt\;<a href="mailto:Omer_Kahan@amat.com">O
+	mer_Kahan@amat.com</a>&gt\;<br><b>Cc:</b> PROVisionTSMC &lt\;<a href="mail
+	to:PV@amat.com">PV@amat.com</a>&gt\;\; Santhosh Kumar Chittipolu &lt\;<a h
+	ref="mailto:SanthoshKumar_Chittipolu@amat.com">SanthoshKumar_Chittipolu@am
+	at.com</a>&gt\;\; Rajesh Dey &lt\;<a href="mailto:Rajesh_Dey@amat.com">Raj
+	esh_Dey@amat.com</a>&gt\;<br><b>Subject:</b> Data Drives Cleanup Parameter
+	 Configuration<o:p></o:p></span></p></div></div><p class="MsoNormal"><o:p>
+	&nbsp\;</o:p></p><p class="MsoNormal"><span style="mso-fareast-language:ZH
+	-TW">Hi Omer\,<o:p></o:p></span></p><p class="MsoNormal"><span style="mso-
+	fareast-language:ZH-TW"><o:p>&nbsp\;</o:p></span></p><p class="MsoNormal">
+	<span style="mso-fareast-language:ZH-TW">I would like to know how to confi
+	g data drive clean up setting correctly.<o:p></o:p></span></p><p class="Ms
+	oNormal"><span style="mso-fareast-language:ZH-TW">From the RN of 16.5.90 I
+	 can only find the configuration in TPE.<o:p></o:p></span></p><p class="Ms
+	oNormal"><span style="mso-fareast-language:ZH-TW">Currently we have the sa
+	me setting of cleanup parameter in TPE.<o:p></o:p></span></p><p class="Mso
+	Normal"><span style="mso-fareast-language:ZH-TW">But the data drives (P\, 
+	Q\, R\, S)usage is different from tool to tool.<o:p></o:p></span></p><p cl
+	ass="MsoNormal"><span style="mso-fareast-language:ZH-TW">Tool will purge t
+	he oldest data when different amount of usage was reaching.<o:p></o:p></sp
+	an></p><p class="MsoNormal"><span style="mso-fareast-language:ZH-TW">Setti
+	ng in TPE as below:<o:p></o:p></span></p><p class="MsoNormal"><span style=
+	"mso-fareast-language:ZH-TW"><img border="0" width="713" height="153" styl
+	e="width:7.425in\;height:1.5916in" id="_x5716__x7247__x0020_4" src="cid:im
+	age003.png@01D6B075.288315F0"></span><span style="mso-fareast-language:ZH-
+	TW"><o:p></o:p></span></p><p class="MsoNormal"><span style="mso-fareast-la
+	nguage:ZH-TW"><o:p>&nbsp\;</o:p></span></p><p class="MsoNormal"><span styl
+	e="mso-fareast-language:ZH-TW">And the data drives usage:<o:p></o:p></span
+	></p><p class="MsoNormal"><span style="mso-fareast-language:ZH-TW">RD Etch
+	 tool:&nbsp\;&nbsp\; 50%&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&
+	nbsp\; SW:16.6.25&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; PROV2E<o:p></o:p></sp
+	an></p><p class="MsoNormal"><span style="mso-fareast-language:ZH-TW">RD Li
+	tho tool:&nbsp\; 80%&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp
+	\; SW:16.6.25&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; PROVOP<o:p></o:p></span><
+	/p><p class="MsoNormal"><span style="mso-fareast-language:ZH-TW">F18 tool:
+	&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; 50%&nbsp\;&nbsp\;
+	&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; SW:16.6.15&nbsp\;&nbsp\;&nbsp\;
+	&nbsp\;&nbsp\; PROV2E<o:p></o:p></span></p><p class="MsoNormal"><span styl
+	e="mso-fareast-language:ZH-TW">F12 FAB:&nbsp\; &nbsp\;&nbsp\;&nbsp\;&nbsp\
+	;&nbsp\;&nbsp\;&nbsp\; 80%&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\
+	;&nbsp\; SW:16.6.15&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; PROV2E<o:p></o:p></
+	span></p><p class="MsoNormal"><span style="mso-fareast-language:ZH-TW"><o:
+	p>&nbsp\;</o:p></span></p><p class="MsoNormal"><span style="mso-fareast-la
+	nguage:ZH-TW">Do you have idea what may cause the difference?<o:p></o:p></
+	span></p><p class="MsoNormal"><span style="mso-fareast-language:ZH-TW">Cur
+	rently customer is not aware of the early purging but it will be better to
+	 keep more data in DB.<o:p></o:p></span></p><p class="MsoNormal"><span sty
+	le="mso-fareast-language:ZH-TW"><o:p>&nbsp\;</o:p></span></p><p class="Mso
+	Normal"><span style="mso-fareast-language:ZH-TW">Thanks\,<o:p></o:p></span
+	></p><p class="MsoNormal"><span style="mso-fareast-language:ZH-TW">Daniel<
+	o:p></o:p></span></p><p><span style="color:black\;mso-fareast-language:ZH-
+	TW">The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you 
+	are not the intended recipient\, please notify me\, delete this email and 
+	do not use or distribute this email. </span><span style="mso-fareast-langu
+	age:ZH-TW"><o:p></o:p></span></p><div><div><p class="MsoNormal"><span styl
+	e="color:#5F5F5F">________________________________________________________
+	________________________</span> <span style="font-size:11.0pt"><o:p></o:p>
+	</span></p></div><div><div style="margin-top:.25in\;margin-bottom:15.0pt">
+	<p class="MsoNormal"><span style="font-size:18.0pt\;font-family:&quot\;Seg
+	oe UI&quot\;\,sans-serif\;color:#252424">Microsoft Teams meeting</span><sp
+	an style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"> 
+	<o:p></o:p></span></p></div><div style="margin-bottom:15.0pt"><div><p clas
+	s="MsoNormal"><b><span style="font-size:10.5pt\;font-family:&quot\;Segoe U
+	I&quot\;\,sans-serif\;color:#252424">Join on your computer or mobile app</
+	span></b><b><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;c
+	olor:#252424"> <o:p></o:p></span></b></p></div><p class="MsoNormal"><span 
+	style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a h
+	ref="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDkzMGUzYmYtM2
+	NiMC00NWFmLWEzYTktY2Y0NzYwNzRkZDk1%40thread.v2/0?context=%7b%22Tid%22%3a%2
+	2709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%22%3a%2263189f6f-9648-4b
+	91-867a-a221c8eb5e22%22%7d" target="_blank"><span style="font-size:10.5pt\
+	;font-family:&quot\;Segoe UI Semibold&quot\;\,sans-serif\;color:#6264A7">C
+	lick here to join the meeting</span></a> <o:p></o:p></span></p></div><div 
+	style="margin-top:15.0pt\;margin-bottom:.25in"><p class="MsoNormal"><span 
+	style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a h
+	ref="https://aka.ms/JoinTeamsMeeting" target="_blank"><span style="font-si
+	ze:10.5pt\;color:#6264A7">Learn More</span></a> | <a href="https://teams.m
+	icrosoft.com/meetingOptions/?organizerId=63189f6f-9648-4b91-867a-a221c8eb5
+	e22&amp\;tenantId=709c2643-b1a9-4415-ad0f-521cfa6ba3f5&amp\;threadId=19_me
+	eting_MDkzMGUzYmYtM2NiMC00NWFmLWEzYTktY2Y0NzYwNzRkZDk1@thread.v2&amp\;mess
+	ageId=0&amp\;language=en-US" target="_blank"><span style="font-size:10.5pt
+	\;color:#6264A7">Meeting options</span></a> <o:p></o:p></span></p></div></
+	div><div><p class="MsoNormal"><span style="color:#5F5F5F">________________
+	________________________________________________________________</span> <o
+	:p></o:p></p></div></div><p><span style="mso-fareast-language:ZH-TW"><o:p>
+	&nbsp\;</o:p></span></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTSEQTIME:20201101T093747Z
+BEGIN:VALARM
+TRIGGER:-PT15M
 ACTION:DISPLAY
 DESCRIPTION:Reminder
 END:VALARM
