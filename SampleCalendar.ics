@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
 METHOD:PUBLISH
-X-CALSTART:20201217T043000Z
+X-CALSTART:20201217T050000Z
 X-CALEND:20201225T183000Z
 X-CALEND:20201226T000000
 X-CLIPSTART:20201216T183000Z
@@ -37,22 +37,14 @@ TZOFFSETFROM:+0530
 TZOFFSETTO:+0530
 END:STANDARD
 END:VTIMEZONE
-BEGIN:VTIMEZONE
-TZID:Unnamed Time Zone 1
-BEGIN:STANDARD
-DTSTART:16010101T000000
-TZOFFSETFROM:+0530
-TZOFFSETTO:+0530
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 CATEGORIES:Holiday
 CLASS:PUBLIC
 CREATED:20161104T070851Z
 DTEND;VALUE=DATE:20201225
-DTSTAMP:20201217T042912Z
+DTSTAMP:20201217T171502Z
 DTSTART;VALUE=DATE:20201224
-LAST-MODIFIED:20201216T001443Z
+LAST-MODIFIED:20201217T160951Z
 LOCATION:United States
 PRIORITY:5
 SEQUENCE:0
@@ -72,9 +64,9 @@ CATEGORIES:Holiday
 CLASS:PUBLIC
 CREATED:20161104T070851Z
 DTEND;VALUE=DATE:20201226
-DTSTAMP:20201217T042912Z
+DTSTAMP:20201217T171502Z
 DTSTART;VALUE=DATE:20201225
-LAST-MODIFIED:20201216T001444Z
+LAST-MODIFIED:20201217T160951Z
 LOCATION:United States
 PRIORITY:5
 SEQUENCE:0
@@ -94,9 +86,9 @@ CATEGORIES:Holiday
 CLASS:PUBLIC
 CREATED:20200106T042930Z
 DTEND;VALUE=DATE:20201226
-DTSTAMP:20201217T042912Z
+DTSTAMP:20201217T171502Z
 DTSTART;VALUE=DATE:20201225
-LAST-MODIFIED:20201216T001444Z
+LAST-MODIFIED:20201217T160951Z
 LOCATION:AMIND Holiday 2020
 PRIORITY:5
 SEQUENCE:0
@@ -144,7 +136,7 @@ DESCRIPTION:Follow-up on using page below.\n\nFeel free to add issues there
 DTEND;TZID="Israel Standard Time":20201207T110000
 DTSTAMP:20201130T164942Z
 DTSTART;TZID="Israel Standard Time":20201207T103000
-LAST-MODIFIED:20201216T001448Z
+LAST-MODIFIED:20201217T161000Z
 LOCATION:Teams
 ORGANIZER;CN="Maor Keinan":mailto:Maor_Keinan@amat.com
 PRIORITY:5
@@ -295,7 +287,7 @@ DESCRIPTION:Eran can’t make today. I prefer to do once with Eran.\n\n \n\
 DTEND:20201217T120000Z
 DTSTAMP:20201207T062747Z
 DTSTART:20201217T113000Z
-LAST-MODIFIED:20201216T001448Z
+LAST-MODIFIED:20201217T160958Z
 PRIORITY:5
 RECURRENCE-ID:20201207T083000Z
 SEQUENCE:17
@@ -466,7 +458,7 @@ DESCRIPTION: \n\n \n\n_____________________________________________________
 DTEND;TZID="India Standard Time":20201217T143000
 DTSTAMP:20201126T183345Z
 DTSTART;TZID="India Standard Time":20201217T140000
-LAST-MODIFIED:20201216T072815Z
+LAST-MODIFIED:20201217T161003Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
 PRIORITY:5
@@ -597,7 +589,7 @@ DESCRIPTION:Rescheduling as we have field issue handover meeting at usual t
 DTEND:20201217T093000Z
 DTSTAMP:20201215T082444Z
 DTSTART:20201217T090000Z
-LAST-MODIFIED:20201216T001447Z
+LAST-MODIFIED:20201217T160957Z
 PRIORITY:5
 RECURRENCE-ID:20201217T083000Z
 SEQUENCE:24
@@ -707,285 +699,11 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-ATTENDEE;CN="Artyom Merkovich";RSVP=TRUE:mailto:Artyom_Merkovich@amat.com
-ATTENDEE;CN="Maor Keinan";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Maor_Keinan@am
-	at.com
-ATTENDEE;CN="Roni Paradis";RSVP=TRUE:mailto:Roni_Paradis@amat.com
-ATTENDEE;CN="Ananth Venugopal";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ananth_Ve
-	nugopal@amat.com
-ATTENDEE;CN="Eran Blum";RSVP=TRUE:mailto:Eran_Blum@amat.com
-ATTENDEE;CN="Shai Nissim";RSVP=TRUE:mailto:Shai_Nissim@amat.com
-ATTENDEE;CN="Tsvi Goren";RSVP=TRUE:mailto:Zvi_Goren@amat.com
-ATTENDEE;CN="Eti Abel";RSVP=TRUE:mailto:Eti_Abel@amat.com
-ATTENDEE;CN="Oleg Nepomnyaschy";RSVP=TRUE:mailto:Oleg_Nepomnyashchiy@amat.c
-	om
-ATTENDEE;CN="Eve Nishri-Sulimany";RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Eve_N
-	ishri-Sulimany@amat.com
-ATTENDEE;CN="Ariel Miller";RSVP=TRUE:mailto:Ariel_Miller@amat.com
-ATTENDEE;CN="Uri Smolyan";RSVP=TRUE:mailto:Uri_Smolyan@amat.com
-ATTENDEE;CN="Omer Peer";RSVP=TRUE:mailto:Omer_Peer@amat.com
-ATTENDEE;CN="Shai Henya";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Shai_Henya@amat
-	.com
-ATTENDEE;CN="Gautam Yadav";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Gautam_Yad
-	av@amat.com
-ATTENDEE;CN="Gangadhar Ramapur";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TEN
-	TATIVE:mailto:Gangadhar_Ramapur@amat.com
-ATTENDEE;CN="Eran Reuven (Eran_Reuven@amat.com)";ROLE=OPT-PARTICIPANT;RSVP=
-	TRUE:mailto:Eran_Reuven@amat.com
-ATTENDEE;CN="Shiv Koutikwar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Shiv_Kou
-	tikwar@amat.com
-ATTENDEE;CN="Shashitej Gururaja";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Shas
-	hitej_Gururaja@amat.com
-ATTENDEE;CN="Ramiz Ahmad";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ramiz_Ahmad
-	@amat.com
-ATTENDEE;CN="Ziv Gordin";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ziv_Gordin@a
-	mat.com
-ATTENDEE;CN="Limor Drori";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTATIVE
-	:mailto:Limor_Drori@amat.com
-ATTENDEE;CN="Balaji Chithugnanamoorthy";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mail
-	to:Balaji_Chithugnanamoorthy@amat.com
-ATTENDEE;CN="Suchitra Gupta";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Suchitra
-	_Gupta@amat.com
-ATTENDEE;CN="Milan S Shet";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Milan_Shet
-	@amat.com
-CLASS:PUBLIC
-CREATED:20201102T085229Z
-DESCRIPTION:Hi All\n\n \n\nThe main purpose is to discuss open issues and s
-	chedule priorities for the upcoming week \n\nLink to PF JIRA  https://jira
-	-dc-prod.amat.com/projects/PF/summary\n\n \n\n____________________________
-	____________________________________________________ \n\nJoin Microsoft Te
-	ams Meeting <https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGIxYm
-	U0YmEtOTA1MS00YTA5LWExNjktNzJmOTAwMWRlODgz%40thread.v2/0?context=%7b%22Tid
-	%22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%22%3a%22c924668c
-	-3d93-4069-a39a-344c56ac4cd9%22%7d>  \n\nLearn more about Teams <https://a
-	ka.ms/JoinTeamsMeeting>  | Meeting options <https://teams.microsoft.com/me
-	etingOptions/?organizerId=c924668c-3d93-4069-a39a-344c56ac4cd9&tenantId=70
-	9c2643-b1a9-4415-ad0f-521cfa6ba3f5&threadId=19_meeting_OGIxYmU0YmEtOTA1MS0
-	0YTA5LWExNjktNzJmOTAwMWRlODgz@thread.v2&messageId=0&language=en-US>  \n\n_
-	__________________________________________________________________________
-	_____ \n\n \n\nThanks & Regards\,\n\nRohit Kumar\n\nPROVision SW support |
-	 Applied Materials\n\n☎ Mobile: +91-8892331465\n\n \n\nThe content of th
-	is message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended 
-	recipient\, please notify me\, delete this email and do not use or distrib
-	ute this email. \n\n
-DTEND;TZID="India Standard Time":20201222T183000
-DTSTAMP:20201102T084751Z
-DTSTART;TZID="Unnamed Time Zone 1":20201222T173000
-LAST-MODIFIED:20201216T054130Z
-LOCATION:MS Teams
-ORGANIZER;CN="Rohit Kumar --CNTR":mailto:Rohit_Kumar@contractor.amat.com
-PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=1;BYDAY=TU
-SEQUENCE:0
-SUMMARY:PRV Weekly field issue alignment 
-TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E008000000009098CC0422B1D601000000000000000
-	0100000006EAEC7266F078447BD9BED66C4758675
-X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
-	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
-	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
-	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
-	"Content-Type" content="text/html\; charset=ks_c_5601-1987">\n<meta name="
-	Generator" content="Microsoft Word 15 (filtered medium)">\n<style><!--\n/*
-	 Font Definitions */\n@font-face\n	{font-family:Gulim\;\n	panose-1:2 11 6 
-	0 0 1 1 1 1 1\;}\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 
-	4 5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 
-	5 2 2 2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI Emoji"\;\n	panose-
-	1:2 11 5 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose
-	-1:2 11 5 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\
-	;\n	panose-1:2 11 7 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"\\@Gulim"
-	\;\n	panose-1:2 11 6 0 0 1 1 1 1 1\;}\n/* Style Definitions */\np.MsoNorma
-	l\, li.MsoNormal\, div.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;
-	\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;\n	mso-fareast-
-	language:KO\;}\na:link\, span.MsoHyperlink\n	{mso-style-priority:99\;\n	co
-	lor:#0563C1\;\n	text-decoration:underline\;}\na:visited\, span.MsoHyperlin
-	kFollowed\n	{mso-style-priority:99\;\n	color:#954F72\;\n	text-decoration:u
-	nderline\;}\np.msonormal0\, li.msonormal0\, div.msonormal0\n	{mso-style-na
-	me:msonormal\;\n	mso-margin-top-alt:auto\;\n	margin-right:0in\;\n	mso-marg
-	in-bottom-alt:auto\;\n	margin-left:0in\;\n	font-size:12.0pt\;\n	font-famil
-	y:"Gulim"\,sans-serif\;\n	mso-fareast-language:KO\;}\nspan.EmailStyle18\n	
-	{mso-style-type:personal-compose\;\n	font-family:"Calibri"\,sans-serif\;\n
-		color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	fon
-	t-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in
-	 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></styl
-	e><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" /
-	>\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit"
-	>\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]-->\n
-	</head>\n<body lang="EN-US" link="#0563C1" vlink="#954F72">\n<div class="W
-	ordSection1">\n<p class="MsoNormal">Hi All<o:p></o:p></p>\n<p class="MsoNo
-	rmal"><o:p>&nbsp\;</o:p></p>\n<p class="MsoNormal">The main purpose is to 
-	discuss open issues and schedule priorities for the upcoming week\n<o:p></
-	o:p></p>\n<p class="MsoNormal">Link to PF JIRA &nbsp\;<a href="https://jir
-	a-dc-prod.amat.com/projects/PF/summary">https://jira-dc-prod.amat.com/proj
-	ects/PF/summary</a><o:p></o:p></p>\n<p class="MsoNormal"><o:p>&nbsp\;</o:p
-	></p>\n<p class="MsoNormal"><span style="color:gray">_____________________
-	___________________________________________________________</span>\n<o:p><
-	/o:p></p>\n<div>\n<div style="margin-top:.25in\;margin-bottom:7.5pt">\n<p 
-	class="MsoNormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-se
-	rif\;color:#252424"><a href="https://teams.microsoft.com/l/meetup-join/19%
-	3ameeting_OGIxYmU0YmEtOTA1MS00YTA5LWExNjktNzJmOTAwMWRlODgz%40thread.v2/0?c
-	ontext=%7b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%
-	22%3a%22c924668c-3d93-4069-a39a-344c56ac4cd9%22%7d" target="_blank"><span 
-	style="font-size:13.5pt\;font-family:&quot\;Segoe UI Semibold&quot\;\,sans
-	-serif\;color:#6264A7">Join\n Microsoft Teams Meeting</span></a> <o:p></o:
-	p></span></p>\n</div>\n<p class="MsoNormal"><span style="font-family:&quot
-	\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a href="https://aka.ms/Join
-	TeamsMeeting" target="_blank"><span style="font-size:9.0pt\;color:#6264A7\
-	;text-decoration:none">Learn more about Teams</span></a> |\n<a href="https
-	://teams.microsoft.com/meetingOptions/?organizerId=c924668c-3d93-4069-a39a
-	-344c56ac4cd9&amp\;tenantId=709c2643-b1a9-4415-ad0f-521cfa6ba3f5&amp\;thre
-	adId=19_meeting_OGIxYmU0YmEtOTA1MS00YTA5LWExNjktNzJmOTAwMWRlODgz@thread.v2
-	&amp\;messageId=0&amp\;language=en-US" target="_blank">\n<span style="font
-	-size:9.0pt\;color:#6264A7\;text-decoration:none">Meeting options</span></
-	a>\n<o:p></o:p></span></p>\n</div>\n<div>\n<p class="MsoNormal"><span styl
-	e="color:gray">___________________________________________________________
-	_____________________</span>\n<o:p></o:p></p>\n</div>\n<p class="MsoNormal
-	"><o:p>&nbsp\;</o:p></p>\n<p class="MsoNormal"><span style="color:#1F497D"
-	>Thanks &amp\; Regards\,<o:p></o:p></span></p>\n<p class="MsoNormal"><b><s
-	pan style="color:#1F497D">Rohit Kumar<o:p></o:p></span></b></p>\n<p class=
-	"MsoNormal"><span style="font-size:9.0pt\;color:#1F497D">PROVision SW supp
-	ort | Applied Materials<o:p></o:p></span></p>\n<p class="MsoNormal"><span 
-	style="font-size:9.0pt\;font-family:&quot\;Segoe UI Emoji&quot\;\,sans-ser
-	if\;color:#1F497D">☎</span><span style="font-size:9.0pt\;color:#1F497D">
-	 Mobile: +91-8892331465<o:p></o:p></span></p>\n<p class="MsoNormal"><o:p>&
-	nbsp\;</o:p></p>\n</div>\n<p><span style="font-size: 11pt\; font-family: C
-	alibri\, sans-serif\; color: #000000\;">The content of this message is APP
-	LIED MATERIALS CONFIDENTIAL. If you are not the intended recipient\, pleas
-	e notify me\, delete this email and do not use or distribute this email.\n
-	</span></p>\n</body>\n</html>\n
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-CLASS:PUBLIC
-CREATED:20201216T054130Z
-DESCRIPTION:(Cancelling next week field issue call due to Shut down in Bang
-	alore. If urgent update is needed we will reach out to you)\n\n \n\nHi All
-	\n\n \n\nThe main purpose is to discuss open issues and schedule prioritie
-	s for the upcoming week \n\nLink to PF JIRA  https://jira-dc-prod.amat.com
-	/projects/PF/summary\n\n \n\n_____________________________________________
-	___________________________________ \n\nJoin Microsoft Teams Meeting <http
-	s://teams.microsoft.com/l/meetup-join/19%3ameeting_OGIxYmU0YmEtOTA1MS00YTA
-	5LWExNjktNzJmOTAwMWRlODgz%40thread.v2/0?context=%7b%22Tid%22%3a%22709c2643
-	-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%22%3a%22c924668c-3d93-4069-a39a-3
-	44c56ac4cd9%22%7d>  \n\nLearn more about Teams <https://aka.ms/JoinTeamsMe
-	eting>  | Meeting options <https://teams.microsoft.com/meetingOptions/?org
-	anizerId=c924668c-3d93-4069-a39a-344c56ac4cd9&tenantId=709c2643-b1a9-4415-
-	ad0f-521cfa6ba3f5&threadId=19_meeting_OGIxYmU0YmEtOTA1MS00YTA5LWExNjktNzJm
-	OTAwMWRlODgz@thread.v2&messageId=0&language=en-US>  \n\n__________________
-	______________________________________________________________ \n\n \n\nTh
-	anks & Regards\,\n\nRohit Kumar\n\nPROVision SW support | Applied Material
-	s\n\n☎ Mobile: +91-8892331465\n\n \n\nThe content of this message is APP
-	LIED MATERIALS CONFIDENTIAL. If you are not the intended recipient\, pleas
-	e notify me\, delete this email and do not use or distribute this email. \
-	n\n
-DTEND:20201222T130000Z
-DTSTAMP:20201216T054121Z
-DTSTART:20201222T120000Z
-LAST-MODIFIED:20201216T054130Z
-PRIORITY:1
-RECURRENCE-ID:20201222T120000Z
-SEQUENCE:1
-SUMMARY:Canceled: PRV Weekly field issue alignment 
-TRANSP:TRANSPARENT
-UID:040000008200E00074C5B7101A82E008000000009098CC0422B1D601000000000000000
-	0100000006EAEC7266F078447BD9BED66C4758675
-X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
-	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
-	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
-	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
-	"Content-Type" content="text/html\; charset=ks_c_5601-1987">\n<meta name="
-	Generator" content="Microsoft Word 15 (filtered medium)">\n<style><!--\n/*
-	 Font Definitions */\n@font-face\n	{font-family:Gulim\;\n	panose-1:2 11 6 
-	0 0 1 1 1 1 1\;}\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 
-	4 5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 
-	5 2 2 2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI Emoji"\;\n	panose-
-	1:2 11 5 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose
-	-1:2 11 5 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\
-	;\n	panose-1:2 11 7 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"\\@Gulim"
-	\;\n	panose-1:2 11 6 0 0 1 1 1 1 1\;}\n/* Style Definitions */\np.MsoNorma
-	l\, li.MsoNormal\, div.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;
-	\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;\n	mso-fareast-
-	language:KO\;}\na:link\, span.MsoHyperlink\n	{mso-style-priority:99\;\n	co
-	lor:#0563C1\;\n	text-decoration:underline\;}\na:visited\, span.MsoHyperlin
-	kFollowed\n	{mso-style-priority:99\;\n	color:#954F72\;\n	text-decoration:u
-	nderline\;}\np.msonormal0\, li.msonormal0\, div.msonormal0\n	{mso-style-na
-	me:msonormal\;\n	mso-margin-top-alt:auto\;\n	margin-right:0in\;\n	mso-marg
-	in-bottom-alt:auto\;\n	margin-left:0in\;\n	font-size:12.0pt\;\n	font-famil
-	y:"Gulim"\,sans-serif\;\n	mso-fareast-language:KO\;}\nspan.EmailStyle18\n	
-	{mso-style-type:personal-compose\;\n	font-family:"Calibri"\,sans-serif\;\n
-		color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	fon
-	t-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in
-	 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></styl
-	e><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" /
-	>\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit"
-	>\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]-->\n
-	</head>\n<body lang="EN-US" link="#0563C1" vlink="#954F72">\n<div class="W
-	ordSection1">\n<p class="MsoNormal">(Cancelling next week field issue call
-	 due to Shut down in Bangalore. If urgent update is needed we will reach o
-	ut to you)<o:p></o:p></p>\n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\n<p
-	 class="MsoNormal">Hi All<o:p></o:p></p>\n<p class="MsoNormal"><o:p>&nbsp\
-	;</o:p></p>\n<p class="MsoNormal">The main purpose is to discuss open issu
-	es and schedule priorities for the upcoming week\n<o:p></o:p></p>\n<p clas
-	s="MsoNormal">Link to PF JIRA &nbsp\;<a href="https://jira-dc-prod.amat.co
-	m/projects/PF/summary">https://jira-dc-prod.amat.com/projects/PF/summary</
-	a><o:p></o:p></p>\n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\n<p class="
-	MsoNormal"><span style="color:gray">______________________________________
-	__________________________________________</span>\n<o:p></o:p></p>\n<div>\
-	n<div style="margin-top:.25in\;margin-bottom:7.5pt">\n<p class="MsoNormal"
-	><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#25242
-	4"><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGIxYmU
-	0YmEtOTA1MS00YTA5LWExNjktNzJmOTAwMWRlODgz%40thread.v2/0?context=%7b%22Tid%
-	22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%22%3a%22c924668c-
-	3d93-4069-a39a-344c56ac4cd9%22%7d" target="_blank"><span style="font-size:
-	13.5pt\;font-family:&quot\;Segoe UI Semibold&quot\;\,sans-serif\;color:#62
-	64A7">Join\n Microsoft Teams Meeting</span></a> <o:p></o:p></span></p>\n</
-	div>\n<p class="MsoNormal"><span style="font-family:&quot\;Segoe UI&quot\;
-	\,sans-serif\;color:#252424"><a href="https://aka.ms/JoinTeamsMeeting" tar
-	get="_blank"><span style="font-size:9.0pt\;color:#6264A7\;text-decoration:
-	none">Learn more about Teams</span></a> |\n<a href="https://teams.microsof
-	t.com/meetingOptions/?organizerId=c924668c-3d93-4069-a39a-344c56ac4cd9&amp
-	\;tenantId=709c2643-b1a9-4415-ad0f-521cfa6ba3f5&amp\;threadId=19_meeting_O
-	GIxYmU0YmEtOTA1MS00YTA5LWExNjktNzJmOTAwMWRlODgz@thread.v2&amp\;messageId=0
-	&amp\;language=en-US" target="_blank">\n<span style="font-size:9.0pt\;colo
-	r:#6264A7\;text-decoration:none">Meeting options</span></a>\n<o:p></o:p></
-	span></p>\n</div>\n<div>\n<p class="MsoNormal"><span style="color:gray">__
-	__________________________________________________________________________
-	____</span>\n<o:p></o:p></p>\n</div>\n<p class="MsoNormal"><o:p>&nbsp\;</o
-	:p></p>\n<p class="MsoNormal"><span style="color:#1F497D">Thanks &amp\; Re
-	gards\,<o:p></o:p></span></p>\n<p class="MsoNormal"><b><span style="color:
-	#1F497D">Rohit Kumar<o:p></o:p></span></b></p>\n<p class="MsoNormal"><span
-	 style="font-size:9.0pt\;color:#1F497D">PROVision SW support | Applied Mat
-	erials<o:p></o:p></span></p>\n<p class="MsoNormal"><span style="font-size:
-	9.0pt\;font-family:&quot\;Segoe UI Emoji&quot\;\,sans-serif\;color:#1F497D
-	">☎</span><span style="font-size:9.0pt\;color:#1F497D"> Mobile: +91-8892
-	331465<o:p></o:p></span></p>\n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\
-	n</div>\n<p><span style="font-size: 11pt\; font-family: Calibri\, sans-ser
-	if\; color: #000000\;">The content of this message is APPLIED MATERIALS CO
-	NFIDENTIAL. If you are not the intended recipient\, please notify me\, del
-	ete this email and do not use or distribute this email.\n</span></p>\n</bo
-	dy>\n</html>\n
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-X-MICROSOFT-CDO-IMPORTANCE:2
-X-MS-OLK-APPTSEQTIME:20201102T084751Z
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 CLASS:PRIVATE
 CREATED:20201106T054230Z
 DESCRIPTION: \n
 DTEND;TZID="India Standard Time":20201217T133000
-DTSTAMP:20201217T042912Z
+DTSTAMP:20201217T171502Z
 DTSTART;TZID="India Standard Time":20201217T130000
 LAST-MODIFIED:20201215T120320Z
 PRIORITY:1
@@ -1708,7 +1426,7 @@ DESCRIPTION: \n\n__________________________________________________________
 DTEND;TZID="India Standard Time":20201217T123000
 DTSTAMP:20201204T105100Z
 DTSTART;TZID="India Standard Time":20201217T103000
-LAST-MODIFIED:20201216T180121Z
+LAST-MODIFIED:20201217T160947Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Kajal Kanwar --CNTR":mailto:Kajal_Kanwar@contractor.amat.com
 PRIORITY:5
@@ -1784,11 +1502,6 @@ X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 ATTENDEE;CN="Olga Novak";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Olga_Novak@amat
@@ -2257,7 +1970,7 @@ DESCRIPTION: \n\n \n\n \n\n________________________________________________
 DTEND;TZID="Israel Standard Time":20201217T153000
 DTSTAMP:20201210T073551Z
 DTSTART;TZID="Israel Standard Time":20201217T141000
-LAST-MODIFIED:20201216T215337Z
+LAST-MODIFIED:20201217T160950Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Maayan Bar-Zvi":mailto:Maayan_Bar-Zvi@amat.com
 PRIORITY:5
@@ -2359,11 +2072,6 @@ X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-APPTSEQTIME:20201208T105017Z
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 ATTENDEE;CN="Hanan Nahmani --TR-CNTR";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ha
@@ -2430,7 +2138,7 @@ DESCRIPTION:Adding Others… \n\n__________________________________________
 DTEND;TZID="India Standard Time":20201217T143000
 DTSTAMP:20201214T112155Z
 DTSTART;TZID="India Standard Time":20201217T140000
-LAST-MODIFIED:20201216T001442Z
+LAST-MODIFIED:20201217T160949Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Ananth Venugopal":mailto:Ananth_Venugopal@amat.com
 PRIORITY:5
@@ -2598,11 +2306,6 @@ X-MS-OLK-APPTLASTSEQUENCE:1
 X-MS-OLK-APPTSEQTIME:20201214T112155Z
 X-MS-OLK-AUTOFILLLOCATION:FALSE
 X-MS-OLK-CONFTYPE:0
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 ATTENDEE;CN="Baek Jun Kim";RSVP=TRUE:mailto:BaekJun_Kim@amat.com
@@ -2617,8 +2320,8 @@ ATTENDEE;CN="Sudarshan Kumar Mishra";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Sud
 	arshanKumar_Mishra@amat.com
 ATTENDEE;CN="Tali Bachar";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Tali_Bachar@am
 	at.com
-ATTENDEE;CN="Eran Reuven";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTATIVE
-	:mailto:Eran_Reuven@amat.com
+ATTENDEE;CN="Eran Reuven";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:
+	mailto:Eran_Reuven@amat.com
 ATTENDEE;CN="Ananth Venugopal";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
 	PTED:mailto:Ananth_Venugopal@amat.com
 ATTENDEE;CN="Ashutosh Shukla";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ashutos
@@ -2666,7 +2369,7 @@ DESCRIPTION: \n\n \n\n-----Original Appointment-----\nFrom: Rajat Arora <Ra
 DTEND;TZID="India Standard Time":20201217T140000
 DTSTAMP:20201211T123001Z
 DTSTART;TZID="India Standard Time":20201217T133000
-LAST-MODIFIED:20201217T010159Z
+LAST-MODIFIED:20201217T160949Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Rajat Arora":mailto:Rajat_Arora@amat.com
 PRIORITY:5
@@ -2784,11 +2487,6 @@ X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-APPTSEQTIME:20201211T112709Z
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 ATTENDEE;CN="Sharon Dukraker";RSVP=TRUE:mailto:Sharon_Dukraker@amat.com
@@ -2796,7 +2494,8 @@ ATTENDEE;CN="Vasily Bondarenko";RSVP=TRUE:mailto:Vasily_Bondarenko@amat.com
 ATTENDEE;CN="Ananth Venugopal";RSVP=TRUE:mailto:Ananth_Venugopal@amat.com
 ATTENDEE;CN="Asher Levin --TR-CNTR";RSVP=TRUE:mailto:Asher_Levin@contractor
 	.amat.com
-ATTENDEE;CN="Roni Paradis";RSVP=TRUE:mailto:Roni_Paradis@amat.com
+ATTENDEE;CN="Roni Paradis";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Roni_Paradis@
+	amat.com
 ATTENDEE;CN="Noam Amit";RSVP=TRUE:mailto:Noam_Amit@amat.com
 ATTENDEE;CN="Rajat Arora";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Rajat_Arora@am
 	at.com
@@ -2820,7 +2519,7 @@ DESCRIPTION: \n\n__________________________________________________________
 DTEND;TZID="Israel Standard Time":20201217T140000
 DTSTAMP:20201212T214022Z
 DTSTART;TZID="Israel Standard Time":20201217T133000
-LAST-MODIFIED:20201216T001443Z
+LAST-MODIFIED:20201217T160949Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Oleg Nepomnyaschy":mailto:Oleg_Nepomnyashchiy@amat.com
 PRIORITY:5
@@ -2896,11 +2595,6 @@ X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-APPTSEQTIME:20201212T213844Z
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 ATTENDEE;CN="Ananth Venugopal";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ananth_Ve
@@ -2930,7 +2624,7 @@ DESCRIPTION: \n\n__________________________________________________________
 DTEND;TZID="India Standard Time":20201217T130000
 DTSTAMP:20201214T074337Z
 DTSTART;TZID="India Standard Time":20201217T123000
-LAST-MODIFIED:20201216T001442Z
+LAST-MODIFIED:20201217T160948Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Balaji Chithugnanamoorthy":mailto:Balaji_Chithugnanamoorthy@a
 	mat.com
@@ -3035,11 +2729,6 @@ X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 ATTENDEE;CN="AMIND PROVision SW";RSVP=TRUE:mailto:AMIND-PROVision-SW@amat.c
@@ -3169,7 +2858,7 @@ DESCRIPTION:1.     Epic - PRV-41191 <https://jira-dc-prod.amat.com/browse/P
 DTEND;TZID="India Standard Time":20201218T123000
 DTSTAMP:20201214T070029Z
 DTSTART;TZID="India Standard Time":20201218T113000
-LAST-MODIFIED:20201216T001443Z
+LAST-MODIFIED:20201217T160950Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Suchitra Gupta":mailto:Suchitra_Gupta@amat.com
 PRIORITY:5
@@ -3315,7 +3004,7 @@ BEGIN:VEVENT
 CLASS:PUBLIC
 CREATED:20201215T115747Z
 DTEND;VALUE=DATE:20201226
-DTSTAMP:20201217T042912Z
+DTSTAMP:20201217T171502Z
 DTSTART;VALUE=DATE:20201219
 LAST-MODIFIED:20201215T115818Z
 PRIORITY:5
@@ -3333,18 +3022,18 @@ END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Run Export Calendar
 CLASS:PUBLIC
-CREATED:20201216T090335Z
+CREATED:20201216T171625Z
 DESCRIPTION:Export Calendar \n\n
-DTEND;TZID="India Standard Time":20201217T100000
-DTSTAMP:20201217T042912Z
-DTSTART;TZID="India Standard Time":20201217T100000
-LAST-MODIFIED:20201216T171920Z
+DTEND;TZID="India Standard Time":20201217T224600
+DTSTAMP:20201217T171502Z
+DTSTART;TZID="India Standard Time":20201217T224600
+LAST-MODIFIED:20201216T171627Z
 PRIORITY:5
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:Export Calendar
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000C055E2C1B7D3D601000000000000000
-	01000000095083CB528266641B0331D93F72706E2
+UID:040000008200E00074C5B7101A82E00800000000E07B2246FDD3D601000000000000000
+	010000000A2E69C6E2DDCB943B5E388FE2AD1615B
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
 	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
 	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
@@ -3364,18 +3053,18 @@ END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Run Export Calendar
 CLASS:PUBLIC
-CREATED:20201216T171625Z
+CREATED:20201217T042922Z
 DESCRIPTION:Export Calendar \n\n
-DTEND;TZID="India Standard Time":20201217T224600
-DTSTAMP:20201217T042912Z
-DTSTART;TZID="India Standard Time":20201217T224600
-LAST-MODIFIED:20201216T171627Z
+DTEND;TZID="India Standard Time":20201218T095900
+DTSTAMP:20201217T171502Z
+DTSTART;TZID="India Standard Time":20201218T095900
+LAST-MODIFIED:20201217T042923Z
 PRIORITY:5
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:Export Calendar
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000E07B2246FDD3D601000000000000000
-	010000000A2E69C6E2DDCB943B5E388FE2AD1615B
+UID:040000008200E00074C5B7101A82E008000000000091D2485BD4D601000000000000000
+	0100000003FA92980A06AA447BE80506ADAA32C3A
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
 	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
 	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
