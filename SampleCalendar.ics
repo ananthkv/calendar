@@ -50,7 +50,7 @@ CATEGORIES:Holiday
 CLASS:PUBLIC
 CREATED:20161104T070852Z
 DTEND;VALUE=DATE:20210101
-DTSTAMP:20201231T050703Z
+DTSTAMP:20201231T101505Z
 DTSTART;VALUE=DATE:20201231
 LAST-MODIFIED:20201230T001834Z
 LOCATION:United States
@@ -72,7 +72,7 @@ CATEGORIES:Holiday
 CLASS:PUBLIC
 CREATED:20161104T070852Z
 DTEND;VALUE=DATE:20210102
-DTSTAMP:20201231T050703Z
+DTSTAMP:20201231T101505Z
 DTSTART;VALUE=DATE:20210101
 LAST-MODIFIED:20201230T001834Z
 LOCATION:United States
@@ -479,61 +479,57 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-ATTENDEE;CN="PRV ProWiz Scrum Team";RSVP=TRUE:mailto:PRV.ProWiz.Scrum.Team@
-	amat.com
-ATTENDEE;CN="Maor Keinan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Maor_Keinan
-	@amat.com
-ATTENDEE;CN="Balaji Chithugnanamoorthy";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PART
-	STAT=TENTATIVE:mailto:Balaji_Chithugnanamoorthy@amat.com
-ATTENDEE;CN="Gangadhar Ramapur";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACC
-	EPTED:mailto:Gangadhar_Ramapur@amat.com
-ATTENDEE;CN="Ananth Venugopal";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
-	PTED:mailto:Ananth_Venugopal@amat.com
-ATTENDEE;CN="Tali Bachar";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:
-	mailto:Tali_Bachar@amat.com
-ATTENDEE;CN="Suchitra Gupta";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPT
-	ED:mailto:Suchitra_Gupta@amat.com
-ATTENDEE;CN="Sudarshan Kumar Mishra";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTA
-	T=ACCEPTED:mailto:SudarshanKumar_Mishra@amat.com
-ATTENDEE;CN="Aditya Kothari";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPT
-	ED:mailto:Aditya_Kothari@amat.com
-ATTENDEE;CN="Roja Chekyal --CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=A
-	CCEPTED:mailto:Roja_Chekyal@contractor.amat.com
-ATTENDEE;CN="Eti Abel";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTATIVE:ma
-	ilto:Eti_Abel@amat.com
-ATTENDEE;CN="Eran Reuven";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Eran_Reuven
-	@amat.com
+ATTENDEE;CN=PRV.ProWiz.Scrum.Team@amat.com;RSVP=TRUE:mailto:PRV.ProWiz.Scru
+	m.Team@amat.com
+ATTENDEE;CN=Balaji_Chithugnanamoorthy@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TR
+	UE;PARTSTAT=TENTATIVE:mailto:Balaji_Chithugnanamoorthy@amat.com
+ATTENDEE;CN=Gangadhar_Ramapur@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTS
+	TAT=ACCEPTED:mailto:Gangadhar_Ramapur@amat.com
+ATTENDEE;CN=Ananth_Venugopal@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
+	AT=ACCEPTED:mailto:Ananth_Venugopal@amat.com
+ATTENDEE;CN=Tali_Bachar@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
+	CEPTED:mailto:Tali_Bachar@amat.com
+ATTENDEE;CN=Suchitra_Gupta@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
+	=ACCEPTED:mailto:Suchitra_Gupta@amat.com
+ATTENDEE;CN=SudarshanKumar_Mishra@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;P
+	ARTSTAT=ACCEPTED:mailto:SudarshanKumar_Mishra@amat.com
+ATTENDEE;CN=Roja_Chekyal@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE
+	;PARTSTAT=ACCEPTED:mailto:Roja_Chekyal@contractor.amat.com
+ATTENDEE;CN=Eti_Abel@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENTA
+	TIVE:mailto:Eti_Abel@amat.com
+ATTENDEE;CN=Eran_Reuven@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Eran
+	_Reuven@amat.com
 CLASS:PUBLIC
 CREATED:20201019T065250Z
-DESCRIPTION: \n\n \n\n_____________________________________________________
-	___________________________ \nMicrosoft Teams meeting \nJoin on your compu
-	ter or mobile app \nClick here to join the meeting <https://teams.microsof
-	t.com/l/meetup-join/19%3ameeting_YWIwMTdhY2MtYTc5Zi00NjQ5LTgyZGUtZjMxYWViO
-	TdiNjI4%40thread.v2/0?context=%7b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-52
-	1cfa6ba3f5%22%2c%22Oid%22%3a%22327c00fc-ad07-4438-b996-ec032da5b1f2%22%7d>
-	  \nOr call in (audio only) \n+1 408-899-5236\,\,899378747# <tel:+14088995
-	236\,\,899378747#>    United States\, San Jose \n(844) 491-2780\,\,8993787
-	47# <tel:8444912780\,\,899378747#>    United States (Toll-free) \nPhone Co
-	nference ID: 899 378 747# \nFind a local number <https://dialin.teams.micr
-	osoft.com/f4c817ac-3cdd-4e23-90c6-24873ded8c4b?id=899378747>  | Reset PIN 
-	<https://mysettings.lync.com/pstnconferencing>  \nLearn More <https://aka.
-	ms/JoinTeamsMeeting>  | Meeting options <https://teams.microsoft.com/meeti
-	ngOptions/?organizerId=327c00fc-ad07-4438-b996-ec032da5b1f2&tenantId=709c2
-	643-b1a9-4415-ad0f-521cfa6ba3f5&threadId=19_meeting_YWIwMTdhY2MtYTc5Zi00Nj
-	Q5LTgyZGUtZjMxYWViOTdiNjI4@thread.v2&messageId=0&language=en-US>  \n______
-	__________________________________________________________________________
-	 \n\nThe content of this message is APPLIED MATERIALS CONFIDENTIAL. If you
-	 are not the intended recipient\, please notify me\, delete this email and
-	 do not use or distribute this email. \n\n
+DESCRIPTION: \n\n \n\n \n\n________________________________________________
+	________________________________ \n\nMicrosoft Teams meeting \n\nJoin on y
+	our computer or mobile app \n\nClick here to join the meeting <https://tea
+	ms.microsoft.com/l/meetup-join/19%3ameeting_YWIwMTdhY2MtYTc5Zi00NjQ5LTgyZG
+	UtZjMxYWViOTdiNjI4%40thread.v2/0?context=%7b%22Tid%22%3a%22709c2643-b1a9-4
+	415-ad0f-521cfa6ba3f5%22%2c%22Oid%22%3a%22327c00fc-ad07-4438-b996-ec032da5
+	b1f2%22%7d>  \n\nOr call in (audio only) \n\n+1 408-899-5236\,\,899378747#
+	 <tel:+14088995236\,\,899378747#>    United States\, San Jose \n\n(844) 49
+	1-2780\,\,899378747# <tel:8444912780\,\,899378747#>    United States (Toll
+	-free) \n\nPhone Conference ID: 899 378 747# \n\nFind a local number <http
+	s://dialin.teams.microsoft.com/f4c817ac-3cdd-4e23-90c6-24873ded8c4b?id=899
+	378747>  | Reset PIN <https://mysettings.lync.com/pstnconferencing>  \n\nL
+	earn More <https://aka.ms/JoinTeamsMeeting>  | Meeting options <https://te
+	ams.microsoft.com/meetingOptions/?organizerId=327c00fc-ad07-4438-b996-ec03
+	2da5b1f2&tenantId=709c2643-b1a9-4415-ad0f-521cfa6ba3f5&threadId=19_meeting
+	_YWIwMTdhY2MtYTc5Zi00NjQ5LTgyZGUtZjMxYWViOTdiNjI4@thread.v2&messageId=0&la
+	nguage=en-US>  \n\n_______________________________________________________
+	_________________________ \n\nThe content of this message is APPLIED MATER
+	IALS CONFIDENTIAL. If you are not the intended recipient\, please notify m
+	e\, delete this email and do not use or distribute this email. \n\n
 DTEND;TZID="Unnamed Time Zone 1":20201231T143000
-DTSTAMP:20201126T183345Z
+DTSTAMP:20201231T100249Z
 DTSTART;TZID="Unnamed Time Zone 1":20201231T140000
-LAST-MODIFIED:20201230T001841Z
+LAST-MODIFIED:20201231T100722Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
 PRIORITY:5
 RRULE:FREQ=WEEKLY;COUNT=8;BYDAY=SU,MO,TU,WE,TH,FR
-SEQUENCE:15
+SEQUENCE:26
 SUMMARY:ProWiz Daily Meeting
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000600BCA8C0FA6D601000000000000000
@@ -544,84 +540,93 @@ X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"
 	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
 	"Content-Type" content="text/html\; charset=us-ascii">\n<meta name="Genera
 	tor" content="Microsoft Word 15 (filtered medium)">\n<style><!--\n/* Font 
-	Definitions */\n@font-face\n	{font-family:Mangal\;\n	panose-1:0 0 4 0 0 0 
-	0 0 0 0\;}\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 
-	5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 
-	2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5 2 4
-	 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	panose-1:
-	2 11 7 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNorm
-	al\, div.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-size:1
-	1.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyperlink
-	\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underline\
-	;}\na:visited\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n	col
-	or:#954F72\;\n	text-decoration:underline\;}\nspan.EmailStyle17\n	{mso-styl
-	e-type:personal-compose\;\n	font-family:"Calibri"\,sans-serif\;\n	color:wi
-	ndowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	font-family:
-	"Calibri"\,sans-serif\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	marg
-	in:1.0in 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n-
-	-></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax=
-	"1026" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ex
-	t="edit">\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![end
-	if]-->\n</head>\n<body lang="EN-US" link="#0563C1" vlink="#954F72">\n<div 
-	class="WordSection1">\n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\n<p cla
-	ss="MsoNormal"><span style="color:gray"></span><o:p></o:p></p>\n</div>\n<p
-	 class="MsoNormal"><o:p>&nbsp\;</o:p></p>\n<div></div>\n<div style="width:
-	100%\;height: 20px\;"><span style="white-space:nowrap\;color:#5F5F5F\;opac
-	ity:.36\;">_______________________________________________________________
-	_________________</span>\n</div>\n<div class="me-email-text" style="color:
-	#252424\;font-family:'Segoe UI'\,'Helvetica Neue'\,Helvetica\,Arial\,sans-
-	serif\;">\n<div style="margin-top: 24px\; margin-bottom: 20px\;"><span sty
-	le="font-size: 24px\; color:#252424">Microsoft Teams meeting</span>\n</div
-	>\n<div style="margin-bottom: 20px\;">\n<div style="margin-top: 0px\; marg
-	in-bottom: 0px\; font-weight: bold"><span style="font-size: 14px\; color:#
-	252424">Join on your computer or mobile app</span>\n</div>\n<a class="me-e
-	mail-headline" style="font-size: 14px\;font-family:'Segoe UI Semibold'\,'S
-	egoe UI'\,'Helvetica Neue'\,Helvetica\,Arial\,sans-serif\;text-decoration:
-	 underline\;color: #6264a7\;" href="https://teams.microsoft.com/l/meetup-j
-	oin/19%3ameeting_YWIwMTdhY2MtYTc5Zi00NjQ5LTgyZGUtZjMxYWViOTdiNjI4%40thread
-	.v2/0?context=%7b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c
-	%22Oid%22%3a%22327c00fc-ad07-4438-b996-ec032da5b1f2%22%7d" target="_blank"
-	 rel="noreferrer noopener">Click\n here to join the meeting</a> </div>\n<d
-	iv style="margin-bottom: 4px\;">\n<div style="margin-bottom: 4px\;"><span 
-	style="font-size: 14px\; color:#252424\; font-weight: bold">Or call in (au
-	dio only)</span>\n</div>\n<div style="margin-bottom: 4px\;"><a style="font
-	-size: 14px\;text-decoration: underline\;color: #6264a7\;" href="tel:+1408
-	8995236\,\,899378747# ">+1 408-899-5236\,\,899378747#</a>\n<span style="fo
-	nt-size: 14px\; color:#252424\;">&nbsp\; United States\, San Jose </span><
-	/div>\n<div><a style="font-size: 14px\;text-decoration: underline\;color: 
-	#6264a7\;" href="tel:8444912780\,\,899378747# ">(844) 491-2780\,\,89937874
-	7#</a>\n<span style="font-size: 14px\; color:#252424\;">&nbsp\; United Sta
-	tes (Toll-free) </span>\n</div>\n</div>\n<span style="font-size: 14px\; co
-	lor:#252424\;">Phone Conference ID: </span><span style="font-size: 16px\; 
-	color:#252424\;">899 378 747#\n</span>\n<div style="margin-bottom: 20px\;"
-	><a class="me-email-link" style="font-size: 14px\;text-decoration: underli
-	ne\;color: #6264a7\;font-family:'Segoe UI'\,'Helvetica Neue'\,Helvetica\,A
-	rial\,sans-serif\;" target="_blank" href="https://dialin.teams.microsoft.c
-	om/f4c817ac-3cdd-4e23-90c6-24873ded8c4b?id=899378747" rel="noreferrer noop
-	ener">Find\n a local number</a> | <a class="me-email-link" style="font-siz
-	e: 14px\;text-decoration: underline\;color: #6264a7\;" target="_blank" hre
-	f="https://mysettings.lync.com/pstnconferencing" rel="noreferrer noopener"
-	>\nReset PIN</a> </div>\n<div style="margin-bottom: 24px\;margin-top: 20px
-	\;"><a class="me-email-link" style="font-size: 14px\;text-decoration: unde
-	rline\;color: #6264a7\;font-family:'Segoe UI'\,'Helvetica Neue'\,Helvetica
-	\,Arial\,sans-serif\;" target="_blank" href="https://aka.ms/JoinTeamsMeeti
-	ng" rel="noreferrer noopener">Learn\n More</a> | <a class="me-email-link" 
-	style="font-size: 14px\;text-decoration: underline\;color: #6264a7\;font-f
-	amily:'Segoe UI'\,'Helvetica Neue'\,Helvetica\,Arial\,sans-serif\;" target
-	="_blank" href="https://teams.microsoft.com/meetingOptions/?organizerId=32
-	7c00fc-ad07-4438-b996-ec032da5b1f2&amp\;tenantId=709c2643-b1a9-4415-ad0f-5
-	21cfa6ba3f5&amp\;threadId=19_meeting_YWIwMTdhY2MtYTc5Zi00NjQ5LTgyZGUtZjMxY
-	WViOTdiNjI4@thread.v2&amp\;messageId=0&amp\;language=en-US" rel="noreferre
-	r noopener">\nMeeting options</a> </div>\n</div>\n<div style="font-size: 1
-	4px\; margin-bottom: 4px\;font-family:'Segoe UI'\,'Helvetica Neue'\,Helvet
-	ica\,Arial\,sans-serif\;">\n</div>\n<div style="font-size: 12px\;"></div>\
-	n<div style="width:100%\;height: 20px\;"><span style="white-space:nowrap\;
-	color:#5F5F5F\;opacity:.36\;">____________________________________________
-	____________________________________</span>\n</div>\n<p><span style="font-
-	size: 11pt\; font-family: Calibri\, sans-serif\; color: #000000\;">The con
-	tent of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the
-	 intended recipient\, please notify me\, delete this email and do not use 
-	or distribute this email.\n</span></p>\n</body>\n</html>\n
+	Definitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 
+	5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 
+	2 2 2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5
+	 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	panos
+	e-1:2 11 7 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.Mso
+	Normal\, div.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-si
+	ze:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyper
+	link\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underl
+	ine\;}\na:visited\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n
+		color:#954F72\;\n	text-decoration:underline\;}\np.msonormal0\, li.msonorm
+	al0\, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:au
+	to\;\n	margin-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in
+	\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.Email
+	Style18\n	{mso-style-type:personal-compose\;\n	font-family:"Calibri"\,sans
+	-serif\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-on
+	ly\;\n	font-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	ma
+	rgin:1.0in 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\
+	n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidma
+	x="1026" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:
+	ext="edit">\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![e
+	ndif]-->\n</head>\n<body lang="EN-US" link="#0563C1" vlink="#954F72">\n<di
+	v class="WordSection1">\n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\n<p c
+	lass="MsoNormal"><o:p>&nbsp\;</o:p></p>\n<p class="MsoNormal"><o:p>&nbsp\;
+	</o:p></p>\n<div>\n<p class="MsoNormal"><span style="color:#5F5F5F">______
+	__________________________________________________________________________
+	</span>\n<o:p></o:p></p>\n</div>\n<div>\n<div style="margin-top:.25in\;mar
+	gin-bottom:15.0pt">\n<p class="MsoNormal"><span style="font-size:18.0pt\;f
+	ont-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">Microsoft Te
+	ams meeting</span><span style="font-family:&quot\;Segoe UI&quot\;\,sans-se
+	rif\;color:#252424">\n<o:p></o:p></span></p>\n</div>\n<div style="margin-b
+	ottom:15.0pt">\n<div>\n<p class="MsoNormal"><b><span style="font-size:10.5
+	pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">Join on
+	 your computer or mobile app</span></b><b><span style="font-family:&quot\;
+	Segoe UI&quot\;\,sans-serif\;color:#252424">\n<o:p></o:p></span></b></p>\n
+	</div>\n<p class="MsoNormal"><span style="font-family:&quot\;Segoe UI&quot
+	\;\,sans-serif\;color:#252424"><a href="https://teams.microsoft.com/l/meet
+	up-join/19%3ameeting_YWIwMTdhY2MtYTc5Zi00NjQ5LTgyZGUtZjMxYWViOTdiNjI4%40th
+	read.v2/0?context=%7b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%2
+	2%2c%22Oid%22%3a%22327c00fc-ad07-4438-b996-ec032da5b1f2%22%7d" target="_bl
+	ank"><span style="font-size:10.5pt\;font-family:&quot\;Segoe UI Semibold&q
+	uot\;\,sans-serif\;color:#6264A7">Click\n here to join the meeting</span><
+	/a> <o:p></o:p></span></p>\n</div>\n<div style="margin-bottom:3.0pt">\n<di
+	v style="margin-bottom:3.0pt">\n<p class="MsoNormal"><b><span style="font-
+	size:10.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424
+	">Or call in (audio only)</span></b><span style="font-family:&quot\;Segoe 
+	UI&quot\;\,sans-serif\;color:#252424">\n<o:p></o:p></span></p>\n</div>\n<d
+	iv style="margin-bottom:3.0pt">\n<p class="MsoNormal"><span style="font-fa
+	mily:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a href="tel:+1408
+	8995236\,\,899378747# "><span style="font-size:10.5pt\;color:#6264A7">+1 4
+	08-899-5236\,\,899378747#</span></a>\n</span><span style="font-size:10.5pt
+	\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">&nbsp\; U
+	nited States\, San Jose\n</span><span style="font-family:&quot\;Segoe UI&q
+	uot\;\,sans-serif\;color:#252424"><o:p></o:p></span></p>\n</div>\n<div>\n<
+	p class="MsoNormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-
+	serif\;color:#252424"><a href="tel:8444912780\,\,899378747# "><span style=
+	"font-size:10.5pt\;color:#6264A7">(844) 491-2780\,\,899378747#</span></a>\
+	n</span><span style="font-size:10.5pt\;font-family:&quot\;Segoe UI&quot\;\
+	,sans-serif\;color:#252424">&nbsp\; United States (Toll-free)\n</span><spa
+	n style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><o
+	:p></o:p></span></p>\n</div>\n</div>\n<p class="MsoNormal"><span style="fo
+	nt-size:10.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252
+	424">Phone Conference ID:\n</span><span style="font-size:12.0pt\;font-fami
+	ly:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">899 378 747#\n</span
+	><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#25242
+	4"><o:p></o:p></span></p>\n<div style="margin-bottom:15.0pt">\n<p class="M
+	soNormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;col
+	or:#252424"><a href="https://dialin.teams.microsoft.com/f4c817ac-3cdd-4e23
+	-90c6-24873ded8c4b?id=899378747" target="_blank"><span style="font-size:10
+	.5pt\;color:#6264A7">Find a local number</span></a>\n | <a href="https://m
+	ysettings.lync.com/pstnconferencing" target="_blank"><span style="font-siz
+	e:10.5pt\;color:#6264A7">Reset PIN</span></a>\n<o:p></o:p></span></p>\n</d
+	iv>\n<div style="margin-top:15.0pt\;margin-bottom:.25in">\n<p class="MsoNo
+	rmal"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#
+	252424"><a href="https://aka.ms/JoinTeamsMeeting" target="_blank"><span st
+	yle="font-size:10.5pt\;color:#6264A7">Learn More</span></a> |\n<a href="ht
+	tps://teams.microsoft.com/meetingOptions/?organizerId=327c00fc-ad07-4438-b
+	996-ec032da5b1f2&amp\;tenantId=709c2643-b1a9-4415-ad0f-521cfa6ba3f5&amp\;t
+	hreadId=19_meeting_YWIwMTdhY2MtYTc5Zi00NjQ5LTgyZGUtZjMxYWViOTdiNjI4@thread
+	.v2&amp\;messageId=0&amp\;language=en-US" target="_blank">\n<span style="f
+	ont-size:10.5pt\;color:#6264A7">Meeting options</span></a> <o:p></o:p></sp
+	an></p>\n</div>\n</div>\n<div>\n<p class="MsoNormal"><span style="color:#5
+	F5F5F">___________________________________________________________________
+	_____________</span>\n<o:p></o:p></p>\n</div>\n</div>\n<p><span style="fon
+	t-size: 11pt\; font-family: Calibri\, sans-serif\; color: #000000\;">The c
+	ontent of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not t
+	he intended recipient\, please notify me\, delete this email and do not us
+	e or distribute this email.\n</span></p>\n</body>\n</html>\n
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
@@ -947,7 +952,7 @@ CLASS:PRIVATE
 CREATED:20201106T054230Z
 DESCRIPTION: \n
 DTEND;TZID="Unnamed Time Zone 1":20210104T133000
-DTSTAMP:20201231T050703Z
+DTSTAMP:20201231T101505Z
 DTSTART;TZID="Unnamed Time Zone 1":20210104T130000
 LAST-MODIFIED:20201215T120320Z
 PRIORITY:1
@@ -1475,8 +1480,6 @@ ATTENDEE;CN="Ofer Zvuluny";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ofer_Zvuluny@
 	amat.com
 ATTENDEE;CN="Israel-Rehovot-PDC3- Excellence 5128(4-Partitioned)";CUTYPE=RE
 	SOURCE;ROLE=NON-PARTICIPANT;RSVP=TRUE:mailto:PDC3-Excellence@amat.com
-ATTENDEE;CN="Maor Keinan";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:
-	mailto:Maor_Keinan@amat.com
 ATTENDEE;CN="Ziv Gordin";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ziv_Gordin@a
 	mat.com
 ATTENDEE;CN="Tali Bachar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Tali_Bachar
@@ -1513,7 +1516,7 @@ DESCRIPTION:Hi\n\nMeeting agenda - http://dcilpa317:8090/x/p4ET <http://dci
 DTEND;TZID="Israel Standard Time":20210106T120000
 DTSTAMP:20201202T112104Z
 DTSTART;TZID="Israel Standard Time":20210106T110000
-LAST-MODIFIED:20201230T001840Z
+LAST-MODIFIED:20201231T100019Z
 LOCATION:Teams
 ORGANIZER;CN="Eran Reuven":mailto:Eran_Reuven@amat.com
 PRIORITY:5
@@ -1629,24 +1632,22 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-ATTENDEE;CN="PDC PROVision Revenue SW";RSVP=TRUE:mailto:PDC-PROVision-Reven
-	ue-SW@amat.com
-ATTENDEE;CN="Tsvi Goren";RSVP=TRUE:mailto:Zvi_Goren@amat.com
-ATTENDEE;CN="Eti Abel";RSVP=TRUE:mailto:Eti_Abel@amat.com
-ATTENDEE;CN="Limor Drori";RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Limor_Drori@a
-	mat.com
-ATTENDEE;CN="Gangadhar Ramapur";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TEN
-	TATIVE:mailto:Gangadhar_Ramapur@amat.com
-ATTENDEE;CN="Maor Keinan";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:
-	mailto:Maor_Keinan@amat.com
-ATTENDEE;CN="Tali Bachar";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED:
-	mailto:Tali_Bachar@amat.com
-ATTENDEE;CN="Ananth Venugopal";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
-	PTED:mailto:Ananth_Venugopal@amat.com
-ATTENDEE;CN="Balaji Chithugnanamoorthy";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PART
-	STAT=TENTATIVE:mailto:Balaji_Chithugnanamoorthy@amat.com
-ATTENDEE;CN="Miriam Alter --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTA
-	T=ACCEPTED:mailto:Miriam_Alter@contractor.amat.com
+ATTENDEE;CN=PDC-PROVision-Revenue-SW@amat.com;RSVP=TRUE:mailto:PDC-PROVisio
+	n-Revenue-SW@amat.com
+ATTENDEE;CN=Zvi_Goren@amat.com;RSVP=TRUE:mailto:Zvi_Goren@amat.com
+ATTENDEE;CN=Eti_Abel@amat.com;RSVP=TRUE:mailto:Eti_Abel@amat.com
+ATTENDEE;CN=Limor_Drori@amat.com;RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Limor_
+	Drori@amat.com
+ATTENDEE;CN=Gangadhar_Ramapur@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTS
+	TAT=TENTATIVE:mailto:Gangadhar_Ramapur@amat.com
+ATTENDEE;CN=Tali_Bachar@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
+	CEPTED:mailto:Tali_Bachar@amat.com
+ATTENDEE;CN=Ananth_Venugopal@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
+	AT=ACCEPTED:mailto:Ananth_Venugopal@amat.com
+ATTENDEE;CN=Balaji_Chithugnanamoorthy@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TR
+	UE;PARTSTAT=TENTATIVE:mailto:Balaji_Chithugnanamoorthy@amat.com
+ATTENDEE;CN=Miriam_Alter@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE
+	;PARTSTAT=ACCEPTED:mailto:Miriam_Alter@contractor.amat.com
 CLASS:PUBLIC
 CREATED:20201213T172018Z
 DESCRIPTION:Agenda:\n\n*	First hour pre-planning as usual by PO\n*	Later 
@@ -1672,14 +1673,14 @@ DESCRIPTION:Agenda:\n\n*	First hour pre-planning as usual by PO\n*	Later
 	t\, please notify me\, delete this email and do not use or distribute this
 	 email. \n\n
 DTEND;TZID="Israel Standard Time":20210105T113000
-DTSTAMP:20201213T153951Z
+DTSTAMP:20201231T095025Z
 DTSTART;TZID="Israel Standard Time":20210105T100000
-LAST-MODIFIED:20201230T001840Z
+LAST-MODIFIED:20201231T100020Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Eran Reuven":mailto:Eran_Reuven@amat.com
 PRIORITY:5
 RRULE:FREQ=WEEKLY;COUNT=1;INTERVAL=3;BYDAY=TU;WKST=SU
-SEQUENCE:2
+SEQUENCE:5
 SUMMARY:Pre-pre-planning - PROVision MC Revenue
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000806DBE2B74D1D601000000000000000
@@ -1737,8 +1738,8 @@ X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"
 	ion:left\;\n	text-indent:-.25in\;\n	font-family:"Courier New"\;}\n@list l0
 	:level9\n	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0A7\;\n	ms
 	o-level-tab-stop:none\;\n	mso-level-number-position:left\;\n	text-indent:-
-	.25in\;\n	font-family:Wingdings\;}\n@list l1\n	{mso-list-id:273902795\;\n	
-	mso-list-template-ids:-940287072\;}\n@list l1:level1\n	{mso-level-number-f
+	.25in\;\n	font-family:Wingdings\;}\n@list l1\n	{mso-list-id:1504273924\;\n
+		mso-list-template-ids:182640596\;}\n@list l1:level1\n	{mso-level-number-f
 	ormat:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab-stop:.5in\;\n	mso
 	-level-number-position:left\;\n	text-indent:-.25in\;\n	mso-ansi-font-size:
 	10.0pt\;\n	font-family:Symbol\;}\n@list l1:level2\n	{mso-level-number-form
@@ -1847,7 +1848,7 @@ X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-APPTSEQTIME:20201213T152152Z
+X-MS-OLK-APPTSEQTIME:20201213T153951Z
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -1858,15 +1859,16 @@ BEGIN:VEVENT
 CLASS:PUBLIC
 CREATED:20201227T151633Z
 DTEND:20210105T093000Z
-DTSTAMP:20201231T050703Z
+DTSTAMP:20201231T095026Z
 DTSTART:20210105T080000Z
-LAST-MODIFIED:20201230T001838Z
+LAST-MODIFIED:20201231T095039Z
 PRIORITY:5
 RECURRENCE-ID:20210105T080000Z
-SEQUENCE:0
+SEQUENCE:6
 UID:040000008200E00074C5B7101A82E00800000000806DBE2B74D1D601000000000000000
 	010000000FD63A049D7F1F7478F00BFA698A0AFF5
 X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-APPTSEQTIME:20201231T095025Z
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -2125,7 +2127,7 @@ CATEGORIES:Holiday
 CLASS:PUBLIC
 CREATED:20201215T114734Z
 DTEND;VALUE=DATE:20210102
-DTSTAMP:20201231T050703Z
+DTSTAMP:20201231T101505Z
 DTSTART;VALUE=DATE:20210101
 LAST-MODIFIED:20201230T001834Z
 LOCATION:AMIND Holiday 2021
@@ -2146,7 +2148,7 @@ BEGIN:VEVENT
 CLASS:PUBLIC
 CREATED:20201215T115747Z
 DTEND;VALUE=DATE:20210104
-DTSTAMP:20201231T050703Z
+DTSTAMP:20201231T101505Z
 DTSTART;VALUE=DATE:20201231
 LAST-MODIFIED:20201220T211808Z
 PRIORITY:5
@@ -4309,41 +4311,10 @@ END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Run Export Calendar
 CLASS:PUBLIC
-CREATED:20201230T050805Z
-DESCRIPTION:Export Calendar \n\n
-DTEND;TZID="Unnamed Time Zone 1":20201231T103800
-DTSTAMP:20201231T050703Z
-DTSTART;TZID="Unnamed Time Zone 1":20201231T103800
-LAST-MODIFIED:20201230T050807Z
-PRIORITY:5
-SEQUENCE:0
-SUMMARY;LANGUAGE=en-us:Export Calendar
-TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000C07BA7DC97DED601000000000000000
-	010000000C14AE86D0C8CDB48BC3EE837D5807665
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
-	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
-	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
-	sion 16.0.11929.20766">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
-	from text/rtf format -->\n\n<P><FONT FACE="Calibri">Export Calendar</FONT>
-	\n</P>\n\n</BODY>\n</HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-CONFTYPE:0
-BEGIN:VALARM
-TRIGGER:-PT1M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Run Export Calendar
-CLASS:PUBLIC
 CREATED:20201230T101319Z
 DESCRIPTION:Export Calendar \n\n
 DTEND;TZID="Unnamed Time Zone 1":20201231T154600
-DTSTAMP:20201231T050703Z
+DTSTAMP:20201231T101505Z
 DTSTART;TZID="Unnamed Time Zone 1":20201231T154600
 LAST-MODIFIED:20201230T101639Z
 PRIORITY:5
@@ -4374,7 +4345,7 @@ CLASS:PUBLIC
 CREATED:20201230T101318Z
 DESCRIPTION:Export Calendar \n\n
 DTEND;TZID="Unnamed Time Zone 1":20201231T154600
-DTSTAMP:20201231T050703Z
+DTSTAMP:20201231T101505Z
 DTSTART;TZID="Unnamed Time Zone 1":20201231T154600
 LAST-MODIFIED:20201230T101639Z
 PRIORITY:5
@@ -4405,7 +4376,7 @@ CLASS:PUBLIC
 CREATED:20201230T101320Z
 DESCRIPTION:Export Calendar \n\n
 DTEND;TZID="Unnamed Time Zone 1":20201231T154600
-DTSTAMP:20201231T050703Z
+DTSTAMP:20201231T101505Z
 DTSTART;TZID="Unnamed Time Zone 1":20201231T154600
 LAST-MODIFIED:20201230T101640Z
 PRIORITY:5
@@ -4436,7 +4407,7 @@ CLASS:PUBLIC
 CREATED:20201231T044011Z
 DESCRIPTION:Export Calendar \n\n
 DTEND;TZID="Unnamed Time Zone 1":20210101T101300
-DTSTAMP:20201231T050703Z
+DTSTAMP:20201231T101505Z
 DTSTART;TZID="Unnamed Time Zone 1":20210101T101300
 LAST-MODIFIED:20201231T044607Z
 PRIORITY:5
@@ -4467,7 +4438,7 @@ CLASS:PUBLIC
 CREATED:20201231T044208Z
 DESCRIPTION:Export Calendar \n\n
 DTEND;TZID="Unnamed Time Zone 1":20210101T101500
-DTSTAMP:20201231T050703Z
+DTSTAMP:20201231T101505Z
 DTSTART;TZID="Unnamed Time Zone 1":20210101T101500
 LAST-MODIFIED:20201231T044611Z
 PRIORITY:5
@@ -4498,7 +4469,7 @@ CLASS:PUBLIC
 CREATED:20201231T044511Z
 DESCRIPTION:Export Calendar \n\n
 DTEND;TZID="Unnamed Time Zone 1":20210101T101800
-DTSTAMP:20201231T050703Z
+DTSTAMP:20201231T101505Z
 DTSTART;TZID="Unnamed Time Zone 1":20210101T101800
 LAST-MODIFIED:20201231T044708Z
 PRIORITY:5
@@ -4507,6 +4478,37 @@ SUMMARY;LANGUAGE=en-us:Export Calendar
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000709BBE3D5EDFD601000000000000000
 	0100000001E2CDD4DC1232847BF3A3F0C8F9023ED
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
+	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
+	sion 16.0.11929.20766">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
+	from text/rtf format -->\n\n<P><FONT FACE="Calibri">Export Calendar</FONT>
+	\n</P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT1M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Run Export Calendar
+CLASS:PUBLIC
+CREATED:20201231T050409Z
+DESCRIPTION:Export Calendar \n\n
+DTEND;TZID="Unnamed Time Zone 1":20210101T103700
+DTSTAMP:20201231T101505Z
+DTSTART;TZID="Unnamed Time Zone 1":20210101T103700
+LAST-MODIFIED:20201231T050710Z
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Export Calendar
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000030EF4CE460DFD601000000000000000
+	010000000D461C0067C66CF429504334F6250D45A
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
 	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
 	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
