@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
 METHOD:PUBLISH
-X-CALSTART:20210107T042300Z
+X-CALSTART:20210108T042200Z
 X-CALEND:20210115T090000Z
 X-CALEND:20210115T000000
-X-CLIPSTART:20210106T183000Z
-X-CLIPEND:20210115T183000Z
+X-CLIPSTART:20210107T183000Z
+X-CLIPEND:20210116T183000Z
 X-WR-RELCALID:{0000002E-6E92-3A34-C16A-6DFCF7CB3C3E}
 X-WR-CALNAME:Ananth Venugopal Calendar
 X-PRIMARY-CALENDAR:TRUE
@@ -46,18 +46,20 @@ TZOFFSETTO:+0300
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-ATTENDEE;CN="Ananth Venugopal";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ananth_Ve
-	nugopal@amat.com
-ATTENDEE;CN="Ashutosh Shukla";RSVP=TRUE:mailto:Ashutosh_Shukla@amat.com
-ATTENDEE;CN="Gangadhar Ramapur";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Gangadha
-	r_Ramapur@amat.com
-ATTENDEE;CN="Indraneel Biswas";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Indraneel
-	_Biswas@amat.com
-ATTENDEE;CN="Roja Chekyal --CNTR";RSVP=TRUE:mailto:Roja_Chekyal@contractor.
-	amat.com
-ATTENDEE;CN="Suchitra Gupta";RSVP=TRUE:mailto:Suchitra_Gupta@amat.com
-ATTENDEE;CN="Sudarshan Kumar Mishra";RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Sud
-	arshanKumar_Mishra@amat.com
+ATTENDEE;CN=Ananth_Venugopal@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:An
+	anth_Venugopal@amat.com
+ATTENDEE;CN=Ashutosh_Shukla@amat.com;RSVP=TRUE:mailto:Ashutosh_Shukla@amat.
+	com
+ATTENDEE;CN=Gangadhar_Ramapur@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:G
+	angadhar_Ramapur@amat.com
+ATTENDEE;CN=Indraneel_Biswas@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:In
+	draneel_Biswas@amat.com
+ATTENDEE;CN=Roja_Chekyal@contractor.amat.com;RSVP=TRUE:mailto:Roja_Chekyal@
+	contractor.amat.com
+ATTENDEE;CN=Suchitra_Gupta@amat.com;RSVP=TRUE:mailto:Suchitra_Gupta@amat.co
+	m
+ATTENDEE;CN=SudarshanKumar_Mishra@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mail
+	to:SudarshanKumar_Mishra@amat.com
 ATTENDEE;CN="Aditya Kothari";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Aditya_K
 	othari@amat.com
 CLASS:PUBLIC
@@ -85,7 +87,7 @@ DESCRIPTION: \n\n \n\n_____________________________________________________
 DTEND;TZID="Unnamed Time Zone 1":20210107T153000
 DTSTAMP:20201126T182041Z
 DTSTART;TZID="India Standard Time":20210107T150000
-LAST-MODIFIED:20210106T223113Z
+LAST-MODIFIED:20210107T124616Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Balaji Chithugnanamoorthy":mailto:Balaji_Chithugnanamoorthy@a
 	mat.com
@@ -190,6 +192,27 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210107T121326Z
+DTEND:20210108T073000Z
+DTSTAMP:20210107T115839Z
+DTSTART:20210108T070000Z
+LAST-MODIFIED:20210107T124616Z
+PRIORITY:5
+RECURRENCE-ID:20210107T093000Z
+SEQUENCE:18
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000505839074A81D601000000000000000
+	0100000001CEC59AA01C6B84486FD74E7B24AAF90
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 ATTENDEE;CN=PRV.ProWiz.Scrum.Team@amat.com;RSVP=TRUE:mailto:PRV.ProWiz.Scru
 	m.Team@amat.com
 ATTENDEE;CN=Balaji_Chithugnanamoorthy@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TR
@@ -234,14 +257,14 @@ DESCRIPTION: \n\n \n\n \n\n________________________________________________
 	_________________________ \n\nThe content of this message is APPLIED MATER
 	IALS CONFIDENTIAL. If you are not the intended recipient\, please notify m
 	e\, delete this email and do not use or distribute this email. \n\n
-DTEND;TZID="Unnamed Time Zone 1":20210107T143000
+DTEND;TZID="Unnamed Time Zone 1":20210108T143000
 DTSTAMP:20201231T100249Z
-DTSTART;TZID="Unnamed Time Zone 1":20210107T140000
+DTSTART;TZID="Unnamed Time Zone 1":20210108T140000
 LAST-MODIFIED:20210106T223112Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=2;BYDAY=SU,MO,TU,WE,TH,FR
+RRULE:FREQ=WEEKLY;COUNT=1;BYDAY=SU,MO,TU,WE,TH,FR
 SEQUENCE:26
 SUMMARY:ProWiz Daily Meeting
 TRANSP:OPAQUE
@@ -512,12 +535,12 @@ BEGIN:VEVENT
 CLASS:PRIVATE
 CREATED:20201106T054230Z
 DESCRIPTION: \n
-DTEND;TZID="Unnamed Time Zone 1":20210107T133000
-DTSTAMP:20210107T042202Z
-DTSTART;TZID="Unnamed Time Zone 1":20210107T130000
+DTEND;TZID="Unnamed Time Zone 1":20210108T133000
+DTSTAMP:20210108T042104Z
+DTSTART;TZID="Unnamed Time Zone 1":20210108T130000
 LAST-MODIFIED:20201215T120320Z
 PRIORITY:1
-RRULE:FREQ=WEEKLY;COUNT=7;BYDAY=MO,TU,WE,TH,FR
+RRULE:FREQ=WEEKLY;COUNT=6;BYDAY=MO,TU,WE,TH,FR
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:PersonalTime
 TRANSP:OPAQUE
@@ -2120,7 +2143,7 @@ CATEGORIES:Holiday
 CLASS:PUBLIC
 CREATED:20201215T114734Z
 DTEND;VALUE=DATE:20210115
-DTSTAMP:20210107T042202Z
+DTSTAMP:20210108T042104Z
 DTSTART;VALUE=DATE:20210114
 LAST-MODIFIED:20210106T223103Z
 LOCATION:AMIND Holiday 2021
@@ -2138,882 +2161,295 @@ X-MS-OLK-AUTOSTARTCHECK:FALSE
 X-MS-OLK-CONFTYPE:0
 END:VEVENT
 BEGIN:VEVENT
-ATTENDEE;CN=Sankalp_Verma@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Sanka
-	lp_Verma@amat.com
-ATTENDEE;CN=Roja_Chekyal@contractor.amat.com;RSVP=TRUE:mailto:Roja_Chekyal@
-	contractor.amat.com
-ATTENDEE;CN=Miriam_Alter@contractor.amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:ma
-	ilto:Miriam_Alter@contractor.amat.com
-ATTENDEE;CN=Ofer_Zvuluny@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ofer_Z
-	vuluny@amat.com
-ATTENDEE;CN=Ananth_Venugopal@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
-	AT=ACCEPTED:mailto:Ananth_Venugopal@amat.com
-ATTENDEE;CN=Ashutosh_Shukla@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
-	Ashutosh_Shukla@amat.com
-ATTENDEE;CN=Hanan_Nahmani@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRU
-	E:mailto:Hanan_Nahmani@contractor.amat.com
-ATTENDEE;CN=Tali_Bachar@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
-	CEPTED:mailto:Tali_Bachar@amat.com
-ATTENDEE;CN=Eran_Reuven@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TE
-	NTATIVE:mailto:Eran_Reuven@amat.com
-CLASS:PUBLIC
-CREATED:20210104T054640Z
-DESCRIPTION:changing time as per Sankalp’s availability.\n\n \n\n \n\nHi 
-	Sankalp\,\n\nThe expectation remains same as last time (Refer attachment f
-	or details). Please let us know if this time does not work for you.\n\n \n
-	\nEpic - Increase post processing limitation from 100K data item to 50M <h
-	ttps://jira-dc-prod.amat.com/browse/PRV-41191> \n\nPost Filter (Owner – 
-	Ofer)\n\nQC Daily Report (Owner – Roja)\n\n \n\n \n\n \n\n \n\n_________
-	_______________________________________________________________________ \n
-	\nMicrosoft Teams meeting \n\nJoin on your computer or mobile app \n\nClic
-	k here to join the meeting <https://teams.microsoft.com/l/meetup-join/19%3
-	ameeting_YzcwMDRhYmYtODNmOC00ZGY4LTliOGYtYzczOGM3ZWE3Mjlm%40thread.v2/0?co
-	ntext=%7b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%2
-	2%3a%2241eeb262-b2db-4fa8-b33d-3babbda1647a%22%7d>  \n\nOr call in (audio 
-	only) \n\n+1 408-899-5236\,\,232736350# <tel:+14088995236\,\,232736350#>  
-	  United States\, San Jose \n\n(844) 491-2780\,\,232736350# <tel:844491278
-	0\,\,232736350#>    United States (Toll-free) \n\nPhone Conference ID: 232
-	 736 350# \n\nFind a local number <https://dialin.teams.microsoft.com/f4c8
-	17ac-3cdd-4e23-90c6-24873ded8c4b?id=232736350>  | Reset PIN <https://myset
-	tings.lync.com/pstnconferencing>  \n\nLearn More <https://aka.ms/JoinTeams
-	Meeting>  | Meeting options <https://teams.microsoft.com/meetingOptions/?o
-	rganizerId=41eeb262-b2db-4fa8-b33d-3babbda1647a&tenantId=709c2643-b1a9-441
-	5-ad0f-521cfa6ba3f5&threadId=19_meeting_YzcwMDRhYmYtODNmOC00ZGY4LTliOGYtYz
-	czOGM3ZWE3Mjlm@thread.v2&messageId=0&language=en-US>  \n\n________________
-	________________________________________________________________ \n\n \n\n
-	The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are 
-	not the intended recipient\, please notify me\, delete this email and do n
-	ot use or distribute this email. \n\n
-DTEND;TZID="Unnamed Time Zone 1":20210107T193000
-DTSTAMP:20201221T065043Z
-DTSTART;TZID="Unnamed Time Zone 1":20210107T183000
-LAST-MODIFIED:20210106T223059Z
-LOCATION:Microsoft Teams Meeting
-ORGANIZER;CN="Suchitra Gupta":mailto:Suchitra_Gupta@amat.com
-PRIORITY:5
-SEQUENCE:1
-SUMMARY:Increase Post Processing Spec compliance - QC Daily report and Post
-	 Filter
-TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E0080000000060C314078BD5D601000000000000000
-	0100000000BD597675F260F42B131B1E5AAE5344D
-X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
-	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
-	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
-	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
-	"Content-Type" content="text/html\; charset=us-ascii">\n<meta name="Genera
-	tor" content="Microsoft Word 15 (filtered medium)">\n<style><!--\n/* Font 
-	Definitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 
-	5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 
-	2 2 2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5
-	 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	panos
-	e-1:2 11 7 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.Mso
-	Normal\, div.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-si
-	ze:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyper
-	link\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underl
-	ine\;}\na:visited\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n
-		color:#954F72\;\n	text-decoration:underline\;}\np.msonormal0\, li.msonorm
-	al0\, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:au
-	to\;\n	margin-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in
-	\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.Email
-	Style18\n	{mso-style-type:personal-compose\;\n	font-family:"Calibri"\,sans
-	-serif\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-on
-	ly\;\n	font-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	ma
-	rgin:1.0in 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\
-	n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidma
-	x="1026" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:
-	ext="edit">\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![e
-	ndif]-->\n</head>\n<body lang="EN-US" link="#0563C1" vlink="#954F72">\n<di
-	v class="WordSection1">\n<p class="MsoNormal">changing time as per Sankalp
-	&#8217\;s availability.<o:p></o:p></p>\n<p class="MsoNormal"><o:p>&nbsp\;<
-	/o:p></p>\n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\n<p class="MsoNorma
-	l">Hi Sankalp\,<o:p></o:p></p>\n<p class="MsoNormal">The expectation remai
-	ns same as last time (Refer attachment for details). Please let us know if
-	 this time does not work for you.<o:p></o:p></p>\n<p class="MsoNormal"><o:
-	p>&nbsp\;</o:p></p>\n<p class="MsoNormal"><b><span style="color:#5F5F5F">E
-	pic - </span></b><span lang="EN-IN"><a href="https://jira-dc-prod.amat.com
-	/browse/PRV-41191"><span lang="EN-US">Increase post processing limitation 
-	from 100K data item to 50M</span></a><o:p></o:p></span></p>\n<p class="Mso
-	Normal">Post Filter (Owner &#8211\; Ofer)<o:p></o:p></p>\n<p class="MsoNor
-	mal">QC Daily Report (Owner &#8211\; Roja)<o:p></o:p></p>\n<p class="MsoNo
-	rmal"><o:p>&nbsp\;</o:p></p>\n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\
-	n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\n<p class="MsoNormal"><o:p>&n
-	bsp\;</o:p></p>\n<p class="MsoNormal"><span style="color:#5F5F5F">________
-	________________________________________________________________________</
-	span>\n<o:p></o:p></p>\n<div>\n<div style="margin-top:.25in\;margin-bottom
-	:15.0pt">\n<p class="MsoNormal"><span style="font-size:18.0pt\;font-family
-	:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">Microsoft Teams meetin
-	g</span><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color
-	:#252424">\n<o:p></o:p></span></p>\n</div>\n<div style="margin-bottom:15.0
-	pt">\n<div>\n<p class="MsoNormal"><b><span style="font-size:10.5pt\;font-f
-	amily:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">Join on your comp
-	uter or mobile app</span></b><b><span style="font-family:&quot\;Segoe UI&q
-	uot\;\,sans-serif\;color:#252424">\n<o:p></o:p></span></b></p>\n</div>\n<p
-	 class="MsoNormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-s
-	erif\;color:#252424"><a href="https://teams.microsoft.com/l/meetup-join/19
-	%3ameeting_YzcwMDRhYmYtODNmOC00ZGY4LTliOGYtYzczOGM3ZWE3Mjlm%40thread.v2/0?
-	context=%7b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid
-	%22%3a%2241eeb262-b2db-4fa8-b33d-3babbda1647a%22%7d" target="_blank"><span
-	 style="font-size:10.5pt\;font-family:&quot\;Segoe UI Semibold&quot\;\,san
-	s-serif\;color:#6264A7">Click\n here to join the meeting</span></a> <o:p><
-	/o:p></span></p>\n</div>\n<div style="margin-bottom:3.0pt">\n<div style="m
-	argin-bottom:3.0pt">\n<p class="MsoNormal"><b><span style="font-size:10.5p
-	t\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">Or call 
-	in (audio only)</span></b><span style="font-family:&quot\;Segoe UI&quot\;\
-	,sans-serif\;color:#252424">\n<o:p></o:p></span></p>\n</div>\n<div style="
-	margin-bottom:3.0pt">\n<p class="MsoNormal"><span style="font-family:&quot
-	\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a href="tel:+14088995236\,\
-	,232736350# "><span style="font-size:10.5pt\;color:#6264A7">+1 408-899-523
-	6\,\,232736350#</span></a>\n</span><span style="font-size:10.5pt\;font-fam
-	ily:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">&nbsp\; United Stat
-	es\, San Jose\n</span><span style="font-family:&quot\;Segoe UI&quot\;\,san
-	s-serif\;color:#252424"><o:p></o:p></span></p>\n</div>\n<div>\n<p class="M
-	soNormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;col
-	or:#252424"><a href="tel:8444912780\,\,232736350# "><span style="font-size
-	:10.5pt\;color:#6264A7">(844) 491-2780\,\,232736350#</span></a>\n</span><s
-	pan style="font-size:10.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-seri
-	f\;color:#252424">&nbsp\; United States (Toll-free)\n</span><span style="f
-	ont-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><o:p></o:p><
-	/span></p>\n</div>\n</div>\n<p class="MsoNormal"><span style="font-size:10
-	.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">Phone
-	 Conference ID:\n</span><span style="font-size:12.0pt\;font-family:&quot\;
-	Segoe UI&quot\;\,sans-serif\;color:#252424">232 736 350#\n</span><span sty
-	le="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><o:p></
-	o:p></span></p>\n<div style="margin-bottom:15.0pt">\n<p class="MsoNormal">
-	<span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424
-	"><a href="https://dialin.teams.microsoft.com/f4c817ac-3cdd-4e23-90c6-2487
-	3ded8c4b?id=232736350" target="_blank"><span style="font-size:10.5pt\;colo
-	r:#6264A7">Find a local number</span></a>\n | <a href="https://mysettings.
-	lync.com/pstnconferencing" target="_blank"><span style="font-size:10.5pt\;
-	color:#6264A7">Reset PIN</span></a>\n<o:p></o:p></span></p>\n</div>\n<div 
-	style="margin-top:15.0pt\;margin-bottom:.25in">\n<p class="MsoNormal"><spa
-	n style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a
-	 href="https://aka.ms/JoinTeamsMeeting" target="_blank"><span style="font-
-	size:10.5pt\;color:#6264A7">Learn More</span></a> |\n<a href="https://team
-	s.microsoft.com/meetingOptions/?organizerId=41eeb262-b2db-4fa8-b33d-3babbd
-	a1647a&amp\;tenantId=709c2643-b1a9-4415-ad0f-521cfa6ba3f5&amp\;threadId=19
-	_meeting_YzcwMDRhYmYtODNmOC00ZGY4LTliOGYtYzczOGM3ZWE3Mjlm@thread.v2&amp\;m
-	essageId=0&amp\;language=en-US" target="_blank">\n<span style="font-size:1
-	0.5pt\;color:#6264A7">Meeting options</span></a> <o:p></o:p></span></p>\n<
-	/div>\n</div>\n<div>\n<p class="MsoNormal"><span style="color:#5F5F5F">___
-	__________________________________________________________________________
-	___</span>\n<o:p></o:p></p>\n</div>\n<p class="MsoNormal"><o:p>&nbsp\;</o:
-	p></p>\n</div>\n<p><span style="font-size: 11pt\; font-family: Calibri\, s
-	ans-serif\; color: #000000\;">The content of this message is APPLIED MATER
-	IALS CONFIDENTIAL. If you are not the intended recipient\, please notify m
-	e\, delete this email and do not use or distribute this email.\n</span></p
-	>\n</body>\n</html>\n
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-APPTSEQTIME:20201218T165210Z
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-ATTENDEE;CN=SWP_PRV_AMIND@amat.com;RSVP=TRUE:mailto:SWP_PRV_AMIND@amat.com
-ATTENDEE;CN=SWP_PRV_IL@amat.com;RSVP=TRUE:mailto:SWP_PRV_IL@amat.com
-ATTENDEE;CN=Pablo_Aliskevicius@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PART
-	STAT=ACCEPTED:mailto:Pablo_Aliskevicius@amat.com
-ATTENDEE;CN=Eitan_Farbiash@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TR
-	UE;PARTSTAT=DECLINED:mailto:Eitan_Farbiash@contractor.amat.com
-ATTENDEE;CN=Maor_Keinan@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TE
-	NTATIVE:mailto:Maor_Keinan@amat.com
-ATTENDEE;CN=Nechama_Engel@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRU
-	E;PARTSTAT=ACCEPTED:mailto:Nechama_Engel@contractor.amat.com
-ATTENDEE;CN=Tal_Orenstein@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=
-	ACCEPTED:mailto:Tal_Orenstein@amat.com
-ATTENDEE;CN=Michael_Polishuk@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
-	AT=ACCEPTED:mailto:Michael_Polishuk@amat.com
-ATTENDEE;CN=Noa_Ben-Halevy@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
-	=ACCEPTED:mailto:Noa_Ben-Halevy@amat.com
-ATTENDEE;CN=Yaara_Satmary@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRU
-	E;PARTSTAT=ACCEPTED:mailto:Yaara_Satmary@contractor.amat.com
-ATTENDEE;CN=Eran_Reuven@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
-	CEPTED:mailto:Eran_Reuven@amat.com
-ATTENDEE;CN=Noa_Marom@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
-	PTED:mailto:Noa_Marom@amat.com
-ATTENDEE;CN=Lina_Yaakobovich@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
-	AT=ACCEPTED:mailto:Lina_Yaakobovich@amat.com
-ATTENDEE;CN=Gilad_Kotler@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=A
-	CCEPTED:mailto:Gilad_Kotler@amat.com
-ATTENDEE;CN=Elran_Duek@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACC
-	EPTED:mailto:Elran_Duek@amat.com
-ATTENDEE;CN=Oren_Krakow@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
-	CEPTED:mailto:Oren_Krakow@amat.com
-ATTENDEE;CN=Uri_Marom@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PA
-	RTSTAT=ACCEPTED:mailto:Uri_Marom@contractor.amat.com
-ATTENDEE;CN=Oren_Moshin@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;
-	PARTSTAT=ACCEPTED:mailto:Oren_Moshin@contractor.amat.com
-ATTENDEE;CN=ganesh_mr@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
-	PTED:mailto:ganesh_mr@amat.com
-ATTENDEE;CN=Michel_Keselbrener@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PART
-	STAT=ACCEPTED:mailto:Michel_Keselbrener@amat.com
-ATTENDEE;CN=Yair_Goldenberg@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTA
-	T=ACCEPTED:mailto:Yair_Goldenberg@amat.com
-ATTENDEE;CN=Limor_Drori@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
-	CEPTED:mailto:Limor_Drori@amat.com
-ATTENDEE;CN=Tali_Bachar@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
-	CEPTED:mailto:Tali_Bachar@amat.com
-ATTENDEE;CN=Miriam_Alter@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE
-	;PARTSTAT=ACCEPTED:mailto:Miriam_Alter@contractor.amat.com
-ATTENDEE;CN=Ran_Lahat@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCE
-	PTED:mailto:Ran_Lahat@amat.com
-ATTENDEE;CN=Meir_Vengrover@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
-	=ACCEPTED:mailto:Meir_Vengrover@amat.com
-ATTENDEE;CN=Inga_Aloush@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;
-	PARTSTAT=ACCEPTED:mailto:Inga_Aloush@contractor.amat.com
-ATTENDEE;CN=Shradha_Sahay@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=
-	ACCEPTED:mailto:Shradha_Sahay@amat.com
-ATTENDEE;CN=Asher_Levin@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;
-	PARTSTAT=ACCEPTED:mailto:Asher_Levin@contractor.amat.com
-ATTENDEE;CN=Oleg_Nepomnyashchiy@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PAR
-	TSTAT=ACCEPTED:mailto:Oleg_Nepomnyashchiy@amat.com
-ATTENDEE;CN=Amit_Alkobe@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
-	CEPTED:mailto:Amit_Alkobe@amat.com
-ATTENDEE;CN=Shmuel_Coyas@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=A
-	CCEPTED:mailto:Shmuel_Coyas@amat.com
-ATTENDEE;CN=Hanan_Kavitz@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=A
-	CCEPTED:mailto:Hanan_Kavitz@amat.com
-ATTENDEE;CN=Eti_Abel@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEP
-	TED:mailto:Eti_Abel@amat.com
-ATTENDEE;CN=Ofer_Zvuluny@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=A
-	CCEPTED:mailto:Ofer_Zvuluny@amat.com
-ATTENDEE;CN=Mohammad_Zoabi@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
-	=ACCEPTED:mailto:Mohammad_Zoabi@amat.com
-ATTENDEE;CN=Mila_Raygor@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;
-	PARTSTAT=ACCEPTED:mailto:Mila_Raygor@contractor.amat.com
-ATTENDEE;CN=Tzvia_Yelenik@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRU
-	E;PARTSTAT=ACCEPTED:mailto:Tzvia_Yelenik@contractor.amat.com
-ATTENDEE;CN=Adi_A_Yakir@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;
-	PARTSTAT=ACCEPTED:mailto:Adi_A_Yakir@contractor.amat.com
-ATTENDEE;CN=Sharon_Rozanovich@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTS
-	TAT=ACCEPTED:mailto:Sharon_Rozanovich@amat.com
-ATTENDEE;CN=Moran_Smutko@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=A
-	CCEPTED:mailto:Moran_Smutko@amat.com
-ATTENDEE;CN=Nir_Goldmacher@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TR
-	UE;PARTSTAT=ACCEPTED:mailto:Nir_Goldmacher@contractor.amat.com
-ATTENDEE;CN=rachel_berenshtein@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSV
-	P=TRUE;PARTSTAT=ACCEPTED:mailto:rachel_berenshtein@contractor.amat.com
-ATTENDEE;CN=Sharon_Dukraker@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTA
-	T=ACCEPTED:mailto:Sharon_Dukraker@amat.com
-ATTENDEE;CN=Vasily_Bondarenko@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTS
-	TAT=ACCEPTED:mailto:Vasily_Bondarenko@amat.com
-ATTENDEE;CN=Ilia_Kurlander@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
-	=ACCEPTED:mailto:Ilia_Kurlander@amat.com
-ATTENDEE;CN=Guy_EzraWajnbaum@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
-	AT=ACCEPTED:mailto:Guy_EzraWajnbaum@amat.com
-ATTENDEE;CN=Yaniv_Ashkenazi@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=T
-	RUE;PARTSTAT=ACCEPTED:mailto:Yaniv_Ashkenazi@contractor.amat.com
-ATTENDEE;CN=Merav_Buchris@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRU
-	E;PARTSTAT=ACCEPTED:mailto:Merav_Buchris@contractor.amat.com
-ATTENDEE;CN=Avihai_Danino@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRU
-	E;PARTSTAT=ACCEPTED:mailto:Avihai_Danino@contractor.amat.com
-ATTENDEE;CN=Oz_Schwartz@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;
-	PARTSTAT=ACCEPTED:mailto:Oz_Schwartz@contractor.amat.com
-ATTENDEE;CN=Alon_Waldman@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=A
-	CCEPTED:mailto:Alon_Waldman@amat.com
-ATTENDEE;CN=Cindi_Szeinberg@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=T
-	RUE;PARTSTAT=ACCEPTED:mailto:Cindi_Szeinberg@contractor.amat.com
-ATTENDEE;CN=Igor_Giterman@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRU
-	E;PARTSTAT=ACCEPTED:mailto:Igor_Giterman@contractor.amat.com
-ATTENDEE;CN=Pavel_Karas@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;
-	PARTSTAT=ACCEPTED:mailto:Pavel_Karas@contractor.amat.com
-ATTENDEE;CN=Balaji_Chithugnanamoorthy@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TR
-	UE;PARTSTAT=ACCEPTED:mailto:Balaji_Chithugnanamoorthy@amat.com
-ATTENDEE;CN=Ananth_Venugopal@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
-	AT=ACCEPTED:mailto:Ananth_Venugopal@amat.com
-ATTENDEE;CN=Gangadhar_Ramapur@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTS
-	TAT=ACCEPTED:mailto:Gangadhar_Ramapur@amat.com
-ATTENDEE;CN=Ziv_Gordin@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACC
-	EPTED:mailto:Ziv_Gordin@amat.com
-ATTENDEE;CN=Rotem_Elisadeh@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
-	=ACCEPTED:mailto:Rotem_Elisadeh@amat.com
-CLASS:PUBLIC
-CREATED:20210104T055628Z
-DESCRIPTION: \n\n__________________________________________________________
-	______________________ \n\nMicrosoft Teams meeting \n\nJoin on your comput
-	er or mobile app \n\nClick here to join the meeting <https://teams.microso
-	ft.com/l/meetup-join/19%3ameeting_ZDc1MDllYmItZDBiZS00YzcxLTk2ZWEtNzk2ZjUz
-	MWZhNTVl%40thread.v2/0?context=%7b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-5
-	21cfa6ba3f5%22%2c%22Oid%22%3a%22dd9bf956-3c2c-47e0-a09a-2878bb205d4d%22%7d
-	>  \n\nOr call in (audio only) \n\n+1 408-899-5236\,\,315007785# <tel:+140
-	88995236\,\,315007785#>    United States\, San Jose \n\n(844) 491-2780\,\,
-	315007785# <tel:8444912780\,\,315007785#>    United States (Toll-free) \n\
-	nPhone Conference ID: 315 007 785# \n\nFind a local number <https://dialin
-	.teams.microsoft.com/f4c817ac-3cdd-4e23-90c6-24873ded8c4b?id=315007785>  |
-	 Reset PIN <https://mysettings.lync.com/pstnconferencing>  \n\nLearn More 
-	<https://aka.ms/JoinTeamsMeeting>  | Meeting options <https://teams.micros
-	oft.com/meetingOptions/?organizerId=dd9bf956-3c2c-47e0-a09a-2878bb205d4d&t
-	enantId=709c2643-b1a9-4415-ad0f-521cfa6ba3f5&threadId=19_meeting_ZDc1MDllY
-	mItZDBiZS00YzcxLTk2ZWEtNzk2ZjUzMWZhNTVl@thread.v2&messageId=0&language=en-
-	US>  \n\n_________________________________________________________________
-	_______________ \n\n \n\nThe content of this message is APPLIED MATERIALS 
-	CONFIDENTIAL. If you are not the intended recipient\, please notify me\, d
-	elete this email and do not use or distribute this email. \n\n
-DTEND;TZID="Israel Standard Time":20210107T100000
-DTSTAMP:20201223T093314Z
-DTSTART;TZID="Israel Standard Time":20210107T090000
-LAST-MODIFIED:20210106T223059Z
-LOCATION:Microsoft Teams Meeting
-ORGANIZER;CN="Ariel Miller":mailto:Ariel_Miller@amat.com
-PRIORITY:5
-SEQUENCE:0
-SUMMARY:PROVision SW Group Meeting
-TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000B096F5961BD9D601000000000000000
-	010000000CF5D275B5E134B43A7AB2832C357FEFB
-X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
-	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
-	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
-	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
-	"Content-Type" content="text/html\; charset=us-ascii">\n<meta name="Genera
-	tor" content="Microsoft Word 15 (filtered medium)">\n<style><!--\n/* Font 
-	Definitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 
-	5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 
-	2 2 2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5
-	 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	panos
-	e-1:2 11 7 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.Mso
-	Normal\, div.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-si
-	ze:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyper
-	link\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underl
-	ine\;}\na:visited\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n
-		color:#954F72\;\n	text-decoration:underline\;}\np.msonormal0\, li.msonorm
-	al0\, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:au
-	to\;\n	margin-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in
-	\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.Email
-	Style18\n	{mso-style-type:personal-compose\;\n	font-family:"Calibri"\,sans
-	-serif\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-on
-	ly\;\n	font-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	ma
-	rgin:1.0in 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\
-	n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidma
-	x="1026" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:
-	ext="edit">\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![e
-	ndif]-->\n</head>\n<body lang="EN-US" link="#0563C1" vlink="#954F72">\n<di
-	v class="WordSection1">\n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\n<p c
-	lass="MsoNormal"><span style="color:#5F5F5F">_____________________________
-	___________________________________________________</span>\n<o:p></o:p></p
-	>\n<div>\n<div style="margin-top:.25in\;margin-bottom:15.0pt">\n<p class="
-	MsoNormal"><span style="font-size:18.0pt\;font-family:&quot\;Segoe UI&quot
-	\;\,sans-serif\;color:#252424">Microsoft Teams meeting</span><span style="
-	font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">\n<o:p></o:
-	p></span></p>\n</div>\n<div style="margin-bottom:15.0pt">\n<div>\n<p class
-	="MsoNormal"><b><span style="font-size:10.5pt\;font-family:&quot\;Segoe UI
-	&quot\;\,sans-serif\;color:#252424">Join on your computer or mobile app</s
-	pan></b><b><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;co
-	lor:#252424">\n<o:p></o:p></span></b></p>\n</div>\n<p class="MsoNormal"><s
-	pan style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">
-	<a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDc1MDllYm
-	ItZDBiZS00YzcxLTk2ZWEtNzk2ZjUzMWZhNTVl%40thread.v2/0?context=%7b%22Tid%22%
-	3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%22%3a%22dd9bf956-3c2
-	c-47e0-a09a-2878bb205d4d%22%7d" target="_blank"><span style="font-size:10.
-	5pt\;font-family:&quot\;Segoe UI Semibold&quot\;\,sans-serif\;color:#6264A
-	7">Click\n here to join the meeting</span></a> <o:p></o:p></span></p>\n</d
-	iv>\n<div style="margin-bottom:3.0pt">\n<div style="margin-bottom:3.0pt">\
-	n<p class="MsoNormal"><b><span style="font-size:10.5pt\;font-family:&quot\
-	;Segoe UI&quot\;\,sans-serif\;color:#252424">Or call in (audio only)</span
-	></b><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#2
-	52424">\n<o:p></o:p></span></p>\n</div>\n<div style="margin-bottom:3.0pt">
-	\n<p class="MsoNormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sa
-	ns-serif\;color:#252424"><a href="tel:+14088995236\,\,315007785# "><span s
-	tyle="font-size:10.5pt\;color:#6264A7">+1 408-899-5236\,\,315007785#</span
-	></a>\n</span><span style="font-size:10.5pt\;font-family:&quot\;Segoe UI&q
-	uot\;\,sans-serif\;color:#252424">&nbsp\; United States\, San Jose\n</span
-	><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#25242
-	4"><o:p></o:p></span></p>\n</div>\n<div>\n<p class="MsoNormal"><span style
-	="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a href="
-	tel:8444912780\,\,315007785# "><span style="font-size:10.5pt\;color:#6264A
-	7">(844) 491-2780\,\,315007785#</span></a>\n</span><span style="font-size:
-	10.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">&nb
-	sp\; United States (Toll-free)\n</span><span style="font-family:&quot\;Seg
-	oe UI&quot\;\,sans-serif\;color:#252424"><o:p></o:p></span></p>\n</div>\n<
-	/div>\n<p class="MsoNormal"><span style="font-size:10.5pt\;font-family:&qu
-	ot\;Segoe UI&quot\;\,sans-serif\;color:#252424">Phone Conference ID:\n</sp
-	an><span style="font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans
-	-serif\;color:#252424">315 007 785#\n</span><span style="font-family:&quot
-	\;Segoe UI&quot\;\,sans-serif\;color:#252424"><o:p></o:p></span></p>\n<div
-	 style="margin-bottom:15.0pt">\n<p class="MsoNormal"><span style="font-fam
-	ily:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a href="https://di
-	alin.teams.microsoft.com/f4c817ac-3cdd-4e23-90c6-24873ded8c4b?id=315007785
-	" target="_blank"><span style="font-size:10.5pt\;color:#6264A7">Find a loc
-	al number</span></a>\n | <a href="https://mysettings.lync.com/pstnconferen
-	cing" target="_blank"><span style="font-size:10.5pt\;color:#6264A7">Reset 
-	PIN</span></a>\n<o:p></o:p></span></p>\n</div>\n<div style="margin-top:15.
-	0pt\;margin-bottom:.25in">\n<p class="MsoNormal"><span style="font-family:
-	&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a href="https://aka.ms
-	/JoinTeamsMeeting" target="_blank"><span style="font-size:10.5pt\;color:#6
-	264A7">Learn More</span></a> |\n<a href="https://teams.microsoft.com/meeti
-	ngOptions/?organizerId=dd9bf956-3c2c-47e0-a09a-2878bb205d4d&amp\;tenantId=
-	709c2643-b1a9-4415-ad0f-521cfa6ba3f5&amp\;threadId=19_meeting_ZDc1MDllYmIt
-	ZDBiZS00YzcxLTk2ZWEtNzk2ZjUzMWZhNTVl@thread.v2&amp\;messageId=0&amp\;langu
-	age=en-US" target="_blank">\n<span style="font-size:10.5pt\;color:#6264A7"
-	>Meeting options</span></a> <o:p></o:p></span></p>\n</div>\n</div>\n<div>\
-	n<p class="MsoNormal"><span style="color:#5F5F5F">________________________
-	________________________________________________________</span>\n<o:p></o:
-	p></p>\n</div>\n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\n</div>\n<p><s
-	pan style="font-size: 11pt\; font-family: Calibri\, sans-serif\; color: #0
-	00000\;">The content of this message is APPLIED MATERIALS CONFIDENTIAL. If
-	 you are not the intended recipient\, please notify me\, delete this email
-	 and do not use or distribute this email.\n</span></p>\n</body>\n</html>\n
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-ATTENDEE;CN=Eran_Blum@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Eran_Blum
+ATTENDEE;CN=AMIND-WI-SW@amat.com;RSVP=TRUE:mailto:AMIND-WI-SW@amat.com
+ATTENDEE;CN=AMINDPDCADCALL@amat.com;RSVP=TRUE:mailto:AMINDPDCADCALL@amat.co
+	m
+ATTENDEE;CN=AMIND_PDC_ARCHITECTS@amat.com;RSVP=TRUE:mailto:AMIND_PDC_ARCHIT
+	ECTS@amat.com
+ATTENDEE;CN=AMIND-PDC-FW-SW@amat.com;RSVP=TRUE:mailto:AMIND-PDC-FW-SW@amat.
+	com
+ATTENDEE;CN=AMIND_PDC_Devops@amat.com;RSVP=TRUE:mailto:AMIND_PDC_Devops@ama
+	t.com
+ATTENDEE;CN=AMIND_PDC_EBI_SW@amat.com;RSVP=TRUE:mailto:AMIND_PDC_EBI_SW@ama
+	t.com
+ATTENDEE;CN=AMIND-PDC-FIFA-SW@amat.com;RSVP=TRUE:mailto:AMIND-PDC-FIFA-SW@a
+	mat.com
+ATTENDEE;CN=AMIND-PDC-NCG-2015@amat.com;RSVP=TRUE:mailto:AMIND-PDC-NCG-2015
 	@amat.com
-ATTENDEE;CN=Gangadhar_Ramapur@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:G
-	angadhar_Ramapur@amat.com
-ATTENDEE;CN=Michael_Polishuk@amat.com;RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:M
-	ichael_Polishuk@amat.com
-ATTENDEE;CN=Itai_Buks@amat.com;RSVP=TRUE:mailto:Itai_Buks@amat.com
+ATTENDEE;CN=AMIND_PDC_SEM_APPLICATION@amat.com;RSVP=TRUE:mailto:AMIND_PDC_S
+	EM_APPLICATION@amat.com
+ATTENDEE;CN=AMIND_PDC_SEM_PLATFROM@amat.com;RSVP=TRUE:mailto:AMIND_PDC_SEM_
+	PLATFROM@amat.com
+ATTENDEE;CN=AMIND-PDC-Common-SW@amat.com;RSVP=TRUE:mailto:AMIND-PDC-Common-
+	SW@amat.com
+ATTENDEE;CN=LINK_SW_QA@amat.com;RSVP=TRUE:mailto:LINK_SW_QA@amat.com
+ATTENDEE;CN=jigar_rajesh_desai@amat.com;RSVP=TRUE:mailto:jigar_rajesh_desai
+	@amat.com
+ATTENDEE;CN=Vedavyasa_Dhanireddy@amat.com;RSVP=TRUE:mailto:Vedavyasa_Dhanir
+	eddy@amat.com
+ATTENDEE;CN=Vimal_Tomar@amat.com;RSVP=TRUE:mailto:Vimal_Tomar@amat.com
+ATTENDEE;CN=AMIND-PDC-Software-Group-INDIA-L@amat.com;RSVP=TRUE:mailto:AMIN
+	D-PDC-Software-Group-INDIA-L@amat.com
+ATTENDEE;CN=AMINDPDCSWManagersExtended@amat.com;RSVP=TRUE:mailto:AMINDPDCSW
+	ManagersExtended@amat.com
+ATTENDEE;CN=Kajal_Kanwar@contractor.amat.com;RSVP=TRUE:mailto:Kajal_Kanwar@
+	contractor.amat.com
+ATTENDEE;CN=Ashish_Patle@amat.com;RSVP=TRUE:mailto:Ashish_Patle@amat.com
+ATTENDEE;CN=Gangadhar_Ramapur@amat.com;RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:
+	Gangadhar_Ramapur@amat.com
+ATTENDEE;CN=Prashanth_Krishna@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:P
+	rashanth_Krishna@amat.com
+ATTENDEE;CN=Monika_Taneja@amat.com;RSVP=TRUE:mailto:Monika_Taneja@amat.com
+ATTENDEE;CN=Sambit_Rout@amat.com;RSVP=TRUE:mailto:Sambit_Rout@amat.com
+ATTENDEE;CN=Arihant_Bapna@amat.com;RSVP=TRUE:mailto:Arihant_Bapna@amat.com
+ATTENDEE;CN=Sravya_Matavalam@amat.com;RSVP=TRUE:mailto:Sravya_Matavalam@ama
+	t.com
+ATTENDEE;CN=SantoshKumar_Reddy@amat.com;RSVP=TRUE:mailto:SantoshKumar_Reddy
+	@amat.com
+ATTENDEE;CN=Prabu_Palraj@amat.com;RSVP=TRUE:mailto:Prabu_Palraj@amat.com
+ATTENDEE;CN=JollyAnna_Thomas@amat.com;RSVP=TRUE:mailto:JollyAnna_Thomas@ama
+	t.com
+ATTENDEE;CN=Suchitra_Gupta@amat.com;RSVP=TRUE:mailto:Suchitra_Gupta@amat.co
+	m
+ATTENDEE;CN=Ananth_Venugopal@amat.com;RSVP=TRUE:mailto:Ananth_Venugopal@ama
+	t.com
+ATTENDEE;CN=Tausif_Mohammad@amat.com;RSVP=TRUE:mailto:Tausif_Mohammad@amat.
+	com
+ATTENDEE;CN=Amit_A_Kumar@amat.com;RSVP=TRUE:mailto:Amit_A_Kumar@amat.com
+ATTENDEE;CN=Ram_Jaiswal@amat.com;RSVP=TRUE:mailto:Ram_Jaiswal@amat.com
+ATTENDEE;CN=Shabna_ThykkudathilRasheed@amat.com;RSVP=TRUE:mailto:Shabna_Thy
+	kkudathilRasheed@amat.com
+ATTENDEE;CN=Anshul_Agrawal@amat.com;RSVP=TRUE:mailto:Anshul_Agrawal@amat.co
+	m
+ATTENDEE;CN=Amil-Java-Software-Group-AMIL-O@amat.com;RSVP=TRUE:mailto:Amil-
+	Java-Software-Group-AMIL-O@amat.com
+ATTENDEE;CN=Anand_Kadari@amat.com;RSVP=TRUE:mailto:Anand_Kadari@amat.com
+ATTENDEE;CN=Vidya_Neelakantan@amat.com;RSVP=TRUE:mailto:Vidya_Neelakantan@a
+	mat.com
+ATTENDEE;CN=Ubhay_Kumar@amat.com;RSVP=TRUE:mailto:Ubhay_Kumar@amat.com
+ATTENDEE;CN=Shishir_Singh@amat.com;RSVP=TRUE:mailto:Shishir_Singh@amat.com
+ATTENDEE;CN=Padmini_Nanjundaswamy@amat.com;RSVP=TRUE:mailto:Padmini_Nanjund
+	aswamy@amat.com
+ATTENDEE;CN=Gautam_Yadav@amat.com;RSVP=TRUE:mailto:Gautam_Yadav@amat.com
+ATTENDEE;CN=SunilKiran_Esetty@amat.com;RSVP=TRUE:mailto:SunilKiran_Esetty@a
+	mat.com
+ATTENDEE;CN=Arun_Santhanakrishnan@amat.com;RSVP=TRUE:mailto:Arun_Santhanakr
+	ishnan@amat.com
+ATTENDEE;CN=Suma_Cotha@amat.com;RSVP=TRUE:mailto:Suma_Cotha@amat.com
+ATTENDEE;CN=Raghunandan_Mohan@amat.com;RSVP=TRUE:mailto:Raghunandan_Mohan@a
+	mat.com
+ATTENDEE;CN=Jigar_Mehta@amat.com;RSVP=TRUE:mailto:Jigar_Mehta@amat.com
+ATTENDEE;CN=Cijin_Thekkekara@amat.com;RSVP=TRUE:mailto:Cijin_Thekkekara@ama
+	t.com
+ATTENDEE;CN=Prabhugouda_Patil@contractor.amat.com;RSVP=TRUE:mailto:Prabhugo
+	uda_Patil@contractor.amat.com
+ATTENDEE;CN=Ashutosh_Shukla@amat.com;RSVP=TRUE:mailto:Ashutosh_Shukla@amat.
+	com
+ATTENDEE;CN=Piyush_Agrawal@amat.com;RSVP=TRUE:mailto:Piyush_Agrawal@amat.co
+	m
+ATTENDEE;CN=Vinay_V_Aggarwal@amat.com;RSVP=TRUE:mailto:Vinay_V_Aggarwal@ama
+	t.com
+ATTENDEE;CN=Anutosh_Khare@amat.com;RSVP=TRUE:mailto:Anutosh_Khare@amat.com
+ATTENDEE;CN=Prashanth_Reddy@amat.com;RSVP=TRUE:mailto:Prashanth_Reddy@amat.
+	com
+ATTENDEE;CN=Chandan_NS@amat.com;RSVP=TRUE:mailto:Chandan_NS@amat.com
+ATTENDEE;CN=Bhagyalakshmi_Vasudev@amat.com;RSVP=TRUE:mailto:Bhagyalakshmi_V
+	asudev@amat.com
+ATTENDEE;CN=DenzilVinod_Fernandes@amat.com;RSVP=TRUE:mailto:DenzilVinod_Fer
+	nandes@amat.com
+ATTENDEE;CN=SwamiNath_Singh@amat.com;RSVP=TRUE:mailto:SwamiNath_Singh@amat.
+	com
+ATTENDEE;CN=Shipra_Patel@amat.com;RSVP=TRUE:mailto:Shipra_Patel@amat.com
+ATTENDEE;CN=Satyajit_Kautkar@amat.com;RSVP=TRUE:mailto:Satyajit_Kautkar@ama
+	t.com
+ATTENDEE;CN=Payal_Kumari@amat.com;RSVP=TRUE:mailto:Payal_Kumari@amat.com
+ATTENDEE;CN=Harendra_Singh@amat.com;RSVP=TRUE:mailto:Harendra_Singh@amat.co
+	m
+ATTENDEE;CN=Muthuraja_Ramakrishnan@contractor.amat.com;RSVP=TRUE:mailto:Mut
+	huraja_Ramakrishnan@contractor.amat.com
+ATTENDEE;CN=Pradeepta_Mishra@amat.com;RSVP=TRUE:mailto:Pradeepta_Mishra@ama
+	t.com
+ATTENDEE;CN=Hitesh_Baheti@contractor.amat.com;RSVP=TRUE:mailto:Hitesh_Bahet
+	i@contractor.amat.com
+ATTENDEE;CN=Sreenath_Kummari@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Sr
+	eenath_Kummari@amat.com
+ATTENDEE;CN=Indraneel_Biswas@amat.com;RSVP=TRUE:mailto:Indraneel_Biswas@ama
+	t.com
+ATTENDEE;CN=ganesh_mr@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:ganesh_mr
+	@amat.com
+ATTENDEE;CN=Jyothi_Buggavaram@contractor.amat.com;RSVP=TRUE:mailto:Jyothi_B
+	uggavaram@contractor.amat.com
+ATTENDEE;CN=Vibhav_Sharma@amat.com;RSVP=TRUE:mailto:Vibhav_Sharma@amat.com
+ATTENDEE;CN=Raghvendra_Singh@amat.com;RSVP=TRUE:mailto:Raghvendra_Singh@ama
+	t.com
+ATTENDEE;CN=Azharulla_Mohammed@contractor.amat.com;RSVP=TRUE:mailto:Azharul
+	la_Mohammed@contractor.amat.com
+ATTENDEE;CN=Rohit_Goyal@amat.com;RSVP=TRUE:mailto:Rohit_Goyal@amat.com
+ATTENDEE;CN=Nilesh_Kundu@amat.com;RSVP=TRUE:mailto:Nilesh_Kundu@amat.com
+ATTENDEE;CN=Rahul_Suman@amat.com;RSVP=TRUE:mailto:Rahul_Suman@amat.com
+ATTENDEE;CN=Tapaskumar_Nayak@amat.com;RSVP=TRUE:mailto:Tapaskumar_Nayak@ama
+	t.com
+ATTENDEE;CN=Kirana_BoomarahallyThammegowda@amat.com;RSVP=TRUE:mailto:Kirana
+	_BoomarahallyThammegowda@amat.com
+ATTENDEE;CN=Pavan_Kumar_Hogade@amat.com;RSVP=TRUE:mailto:Pavan_Kumar_Hogade
+	@amat.com
+ATTENDEE;CN=Sahil_Mehra@amat.com;RSVP=TRUE:mailto:Sahil_Mehra@amat.com
+ATTENDEE;CN=Bandana_Shaw@amat.com;RSVP=TRUE:mailto:Bandana_Shaw@amat.com
+ATTENDEE;CN=Aayush_Agrawal@amat.com;RSVP=TRUE:mailto:Aayush_Agrawal@amat.co
+	m
+ATTENDEE;CN=SudarshanKumar_Mishra@amat.com;RSVP=TRUE:mailto:SudarshanKumar_
+	Mishra@amat.com
+ATTENDEE;CN=SurendraBabu_Innamuri@contractor.amat.com;RSVP=TRUE:mailto:Sure
+	ndraBabu_Innamuri@contractor.amat.com
+ATTENDEE;CN=Sachidananda_ChinagudiJagadeesha@amat.com;RSVP=TRUE:mailto:Sach
+	idananda_ChinagudiJagadeesha@amat.com
+ATTENDEE;CN=Sandeep_Menon@amat.com;RSVP=TRUE:mailto:Sandeep_Menon@amat.com
+ATTENDEE;CN=Shanavas_RafiAhmed@amat.com;RSVP=TRUE:mailto:Shanavas_RafiAhmed
+	@amat.com
+ATTENDEE;CN=Shivaprasad_Acharya@amat.com;RSVP=TRUE:mailto:Shivaprasad_Achar
+	ya@amat.com
+ATTENDEE;CN=Vikas_Sharma@amat.com;RSVP=TRUE:mailto:Vikas_Sharma@amat.com
+ATTENDEE;CN=Saurabh_Jaiswal@amat.com;RSVP=TRUE:mailto:Saurabh_Jaiswal@amat.
+	com
+ATTENDEE;CN=Vipin_Juneja@contractor.amat.com;RSVP=TRUE:mailto:Vipin_Juneja@
+	contractor.amat.com
+ATTENDEE;CN=Shreevidya_Golthajje@amat.com;RSVP=TRUE:mailto:Shreevidya_Golth
+	ajje@amat.com
+ATTENDEE;CN=Mohit_Bangani@amat.com;RSVP=TRUE:mailto:Mohit_Bangani@amat.com
+ATTENDEE;CN=Prakash_AKumar@amat.com;RSVP=TRUE:mailto:Prakash_AKumar@amat.co
+	m
+ATTENDEE;CN=VinayKumar_Yadav@amat.com;RSVP=TRUE:mailto:VinayKumar_Yadav@ama
+	t.com
+ATTENDEE;CN=Bhasker_Bamsiya@amat.com;RSVP=TRUE:mailto:Bhasker_Bamsiya@amat.
+	com
+ATTENDEE;CN=Swadha_Tripathi@contractor.amat.com;RSVP=TRUE:mailto:Swadha_Tri
+	pathi@contractor.amat.com
+ATTENDEE;CN=Sheethal_NanjundaMurthy@amat.com;RSVP=TRUE:mailto:Sheethal_Nanj
+	undaMurthy@amat.com
+ATTENDEE;CN=Tushar_T_Kumar@contractor.amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:
+	mailto:Tushar_T_Kumar@contractor.amat.com
+ATTENDEE;CN=Ishan_Tiwari@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Ishan_
+	Tiwari@amat.com
+ATTENDEE;CN=RameshKumar_Eswaran@contractor.amat.com;RSVP=TRUE:mailto:Ramesh
+	Kumar_Eswaran@contractor.amat.com
+ATTENDEE;CN=Akriti_Agrawal@amat.com;RSVP=TRUE:mailto:Akriti_Agrawal@amat.co
+	m
+ATTENDEE;CN=Radhika_Bhat@amat.com;RSVP=TRUE:mailto:Radhika_Bhat@amat.com
+ATTENDEE;CN=Swati_Mohanty@contractor.amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:m
+	ailto:Swati_Mohanty@contractor.amat.com
+ATTENDEE;CN=Tushar_Basantani@amat.com;RSVP=TRUE:mailto:Tushar_Basantani@ama
+	t.com
+ATTENDEE;CN=Rama_Avnon@amat.com;RSVP=TRUE:mailto:Rama_Avnon@amat.com
+ATTENDEE;CN=Victor_Vigderovich@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:
+	Victor_Vigderovich@amat.com
+ATTENDEE;CN=Elad_Levi@amat.com;RSVP=TRUE:mailto:Elad_Levi@amat.com
+ATTENDEE;CN=KamaleshNarayan_Nair@amat.com;RSVP=TRUE:mailto:KamaleshNarayan_
+	Nair@amat.com
+ATTENDEE;CN=Alexander_A_Feldman@amat.com;RSVP=TRUE:mailto:Alexander_A_Feldm
+	an@amat.com
+ATTENDEE;CN=Zvi_Avraham@contractor.amat.com;RSVP=TRUE:mailto:Zvi_Avraham@co
+	ntractor.amat.com
+ATTENDEE;CN=Ady_Magal@amat.com;RSVP=TRUE:mailto:Ady_Magal@amat.com
+ATTENDEE;CN=Irit_ShaayaSegal@amat.com;RSVP=TRUE:mailto:Irit_ShaayaSegal@ama
+	t.com
+ATTENDEE;CN=Nomi_Himelfarb@contractor.amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:
+	mailto:Nomi_Himelfarb@contractor.amat.com
+ATTENDEE;CN=Shimon_Ganon@amat.com;RSVP=TRUE:mailto:Shimon_Ganon@amat.com
 ATTENDEE;CN=Yair_Goldenberg@amat.com;RSVP=TRUE:mailto:Yair_Goldenberg@amat.
 	com
-ATTENDEE;CN=Gautam_Yadav@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Gautam
-	_Yadav@amat.com
-ATTENDEE;CN=Eve_Nishri-Sulimany@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto
-	:Eve_Nishri-Sulimany@amat.com
-ATTENDEE;CN=PDC_FIFA_Diamonds@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
-	o:PDC_FIFA_Diamonds@amat.com
-ATTENDEE;CN=Rohit_Goyal@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
-	CEPTED:mailto:Rohit_Goyal@amat.com
+ATTENDEE;CN=Adi_Karol@amat.com;RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Adi_Karo
+	l@amat.com
+ATTENDEE;CN=Vladimir_Tyomkin@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Vl
+	adimir_Tyomkin@amat.com
+ATTENDEE;CN=Hadas_Avraham@amat.com;RSVP=TRUE:mailto:Hadas_Avraham@amat.com
+ATTENDEE;CN=Shay_Dvory@amat.com;RSVP=TRUE:mailto:Shay_Dvory@amat.com
+ATTENDEE;CN=Elran_Duek@amat.com;RSVP=TRUE:mailto:Elran_Duek@amat.com
+ATTENDEE;CN=Assaf_Waizman@amat.com;RSVP=TRUE:mailto:Assaf_Waizman@amat.com
+ATTENDEE;CN=Alon_Shulhami@amat.com;RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Alon
+	_Shulhami@amat.com
+ATTENDEE;CN=Gilad_Kotler@amat.com;RSVP=TRUE:mailto:Gilad_Kotler@amat.com
+ATTENDEE;CN=Alex_Belzer@amat.com;RSVP=TRUE:mailto:Alex_Belzer@amat.com
+ATTENDEE;CN=Dror_Koren@amat.com;RSVP=TRUE:mailto:Dror_Koren@amat.com
+ATTENDEE;CN=Dmitry_Lifman@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Dmitr
+	y_Lifman@amat.com
+ATTENDEE;CN=Limor_Alon@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Limor_Al
+	on@amat.com
+ATTENDEE;CN=Tarun_Bisoriya@amat.com;RSVP=TRUE:mailto:Tarun_Bisoriya@amat.co
+	m
+ATTENDEE;CN=Azaria_Elburg@amat.com;RSVP=TRUE:mailto:Azaria_Elburg@amat.com
+ATTENDEE;CN=Nina_Verzun@amat.com;RSVP=TRUE:mailto:Nina_Verzun@amat.com
+ATTENDEE;CN=Shirley_Barda@amat.com;RSVP=TRUE:mailto:Shirley_Barda@amat.com
+ATTENDEE;CN=Anatoli_Elman@amat.com;RSVP=TRUE:mailto:Anatoli_Elman@amat.com
+ATTENDEE;CN=Vadim_Pulver@amat.com;RSVP=TRUE:mailto:Vadim_Pulver@amat.com
+ATTENDEE;CN=Riva_Levit@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Riva_Lev
+	it@amat.com
+ATTENDEE;CN=Tarun_Raheja@amat.com;RSVP=TRUE:mailto:Tarun_Raheja@amat.com
+ATTENDEE;CN=Eve_Nishri-Sulimany@amat.com;RSVP=TRUE;PARTSTAT=TENTATIVE:mailt
+	o:Eve_Nishri-Sulimany@amat.com
+ATTENDEE;CN=Polina_Usyskin@amat.com;RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Pol
+	ina_Usyskin@amat.com
+ATTENDEE;CN=Shay_Kraus@amat.com;RSVP=TRUE:mailto:Shay_Kraus@amat.com
+ATTENDEE;CN=Pavaman_Kamalapurkar@amat.com;RSVP=TRUE:mailto:Pavaman_Kamalapu
+	rkar@amat.com
+ATTENDEE;CN=Eli_Peretz@amat.com;RSVP=TRUE:mailto:Eli_Peretz@amat.com
+ATTENDEE;CN=Itamar_Bocher@amat.com;RSVP=TRUE:mailto:Itamar_Bocher@amat.com
+ATTENDEE;CN=Limor_Drori@amat.com;RSVP=TRUE:mailto:Limor_Drori@amat.com
+ATTENDEE;CN=Ramesh_Ramya@contractor.amat.com;RSVP=TRUE:mailto:Ramesh_Ramya@
+	contractor.amat.com
+ATTENDEE;CN=Saar_Ofir@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Saar_Ofir
+	@amat.com
+ATTENDEE;CN=Israel_Heiblum@amat.com;RSVP=TRUE:mailto:Israel_Heiblum@amat.co
+	m
+ATTENDEE;CN=Lior_Yehieli@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Lior_Y
+	ehieli@amat.com
+ATTENDEE;CN=VigneshArcot_Gopalraj@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mail
+	to:VigneshArcot_Gopalraj@amat.com
+ATTENDEE;CN=Karthik_Magadi@contractor.amat.com;RSVP=TRUE:mailto:Karthik_Mag
+	adi@contractor.amat.com
+ATTENDEE;CN=Shashitej_Gururaja@amat.com;RSVP=TRUE:mailto:Shashitej_Gururaja
+	@amat.com
+ATTENDEE;CN=Merav_Artzi@amat.com;RSVP=TRUE:mailto:Merav_Artzi@amat.com
+ATTENDEE;CN=Ariel_Lieberman@amat.com;RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Ar
+	iel_Lieberman@amat.com
+ATTENDEE;CN=Miriam_Zalaznik@contractor.amat.com;RSVP=TRUE:mailto:Miriam_Zal
+	aznik@contractor.amat.com
+ATTENDEE;CN=Hanan_Kavitz@amat.com;RSVP=TRUE:mailto:Hanan_Kavitz@amat.com
+ATTENDEE;CN=Lior_Raz@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Lior_Raz@a
+	mat.com
+ATTENDEE;CN=Evgeny_Lahav@amat.com;RSVP=TRUE;PARTSTAT=TENTATIVE:mailto:Evgen
+	y_Lahav@amat.com
+ATTENDEE;CN=Ella_Shechter@amat.com;RSVP=TRUE:mailto:Ella_Shechter@amat.com
+ATTENDEE;CN=Pablo_Aliskevicius@amat.com;RSVP=TRUE:mailto:Pablo_Aliskevicius
+	@amat.com
+ATTENDEE;CN=Sharon_Israel@amat.com;RSVP=TRUE:mailto:Sharon_Israel@amat.com
+ATTENDEE;CN=Ashutosh_Jain@amat.com;RSVP=TRUE:mailto:Ashutosh_Jain@amat.com
+ATTENDEE;CN=Amar_Nath@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Amar_Nath
+	@amat.com
+ATTENDEE;CN=Assaf_Ariel@amat.com;RSVP=TRUE:mailto:Assaf_Ariel@amat.com
+ATTENDEE;CN=Itay_Mangshe@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Itay_M
+	angshe@amat.com
+ATTENDEE;CN=Michal_Dishon@amat.com;RSVP=TRUE:mailto:Michal_Dishon@amat.com
+ATTENDEE;CN=Michael_Polishuk@amat.com;RSVP=TRUE:mailto:Michael_Polishuk@ama
+	t.com
+ATTENDEE;CN=Neta_Caspi@amat.com;RSVP=TRUE:mailto:Neta_Caspi@amat.com
+ATTENDEE;CN=Srinidhi_Sridhar@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
+	AT=ACCEPTED:mailto:Srinidhi_Sridhar@amat.com
 ATTENDEE;CN=Devora_Dicker@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRU
 	E;PARTSTAT=ACCEPTED:mailto:Devora_Dicker@contractor.amat.com
-ATTENDEE;CN=Asher_Levin@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;
-	PARTSTAT=ACCEPTED:mailto:Asher_Levin@contractor.amat.com
-ATTENDEE;CN=Igor_Giterman@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRU
-	E;PARTSTAT=TENTATIVE:mailto:Igor_Giterman@contractor.amat.com
-ATTENDEE;CN=Eran_Reuven@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Eran_Re
-	uven@amat.com
-ATTENDEE;CN=Hadar_Marcovici@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:Had
-	ar_Marcovici@amat.com
-ATTENDEE;CN=Eti_Abel@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEP
-	TED:mailto:Eti_Abel@amat.com
-ATTENDEE;CN=Vitaly_Kotlyarov@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
-	AT=ACCEPTED:mailto:Vitaly_Kotlyarov@amat.com
-ATTENDEE;CN=Balaji_Chithugnanamoorthy@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TR
-	UE:mailto:Balaji_Chithugnanamoorthy@amat.com
-ATTENDEE;CN=Suchitra_Gupta@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:S
-	uchitra_Gupta@amat.com
-ATTENDEE;CN=Ananth_Venugopal@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
-	AT=ACCEPTED:mailto:Ananth_Venugopal@amat.com
-ATTENDEE;CN=Roja_Chekyal@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE
-	:mailto:Roja_Chekyal@contractor.amat.com
-CLASS:PUBLIC
-CREATED:20210104T081918Z
-DESCRIPTION: \n\n \n\n-----Original Appointment-----\nFrom: Ady Magal <Ady_
-	Magal@amat.com <mailto:Ady_Magal@amat.com> > \nSent: Wednesday\, December 
-	30\, 2020 5:32 PM\nTo: Ady Magal\; Eran Blum\; Gangadhar Ramapur\; Michael
-	 Polishuk\; Itai Buks\; Yair Goldenberg\; Gautam Yadav\; Eve Nishri-Sulima
-	ny\; Eran Reuven\; Hadar Marcovici\nCc: PDC FIFA Diamonds\; Rohit Goyal\; 
-	Devora Dicker --TR-CNTR\; Asher Levin --TR-CNTR\; Igor Giterman --TR-CNTR\
-	; Eti Abel\; Vitaly_Kotlyarov@amat.com <mailto:Vitaly_Kotlyarov@amat.com> 
-	\; Balaji_Chithugnanamoorthy@amat.com <mailto:Balaji_Chithugnanamoorthy@am
-	at.com> \; Suchitra_Gupta@amat.com <mailto:Suchitra_Gupta@amat.com> \; Ana
-	nth_Venugopal@amat.com <mailto:Ananth_Venugopal@amat.com> \; Roja_Chekyal@
-	contractor.amat.com <mailto:Roja_Chekyal@contractor.amat.com> \nSubject: P
-	ump and PAL parallel to Scan grooming\nWhen: Thursday\, January 7\, 2021 1
-	:30 PM-2:30 PM (UTC+02:00) Jerusalem.\nWhere: Microsoft Teams Meeting\n\n 
-	\n\n \n\n \n\n-----Original Appointment-----\nFrom: Ady Magal \nSent: Mond
-	ay\, December 21\, 2020 6:29 PM\nTo: Ady Magal\; Eran Blum\; Gangadhar Ram
-	apur\; Michael Polishuk\; Itai Buks\; Yair Goldenberg\; Gautam Yadav\; Eve
-	 Nishri-Sulimany\nCc: PDC FIFA Diamonds\; Rohit Goyal\; Devora Dicker --TR
-	-CNTR\; Asher Levin --TR-CNTR\; Igor Giterman --TR-CNTR\nSubject: Pump and
-	 PAL parallel to Scan grooming\nWhen: Thursday\, January 7\, 2021 1:30 PM-
-	2:30 PM (UTC+02:00) Jerusalem.\nWhere: Microsoft Teams Meeting\n\n \n\n@Ev
-	e Nishri-Sulimany <mailto:Eve_Nishri-Sulimany@amat.com>  / @Gautam Yadav <
-	mailto:Gautam_Yadav@amat.com> – please forward to relevant FIFA stakehol
-	ders\n\n__________________________________________________________________
-	______________ \n\nMicrosoft Teams meeting \n\nJoin on your computer or mo
-	bile app \n\nClick here to join the meeting <https://teams.microsoft.com/l
-	/meetup-join/19%3ameeting_MjMyNDE4ZGUtYmNjNy00MDg4LWI5NGQtZDVhY2I0MzgyNmM4
-	%40thread.v2/0?context=%7b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba
-	3f5%22%2c%22Oid%22%3a%221eeee38c-9d20-43ea-b445-538bef23fb5d%22%7d>  \n\nO
-	r call in (audio only) \n\n+1 408-899-5236\,\,917408589# <tel:+14088995236
-	\,\,917408589#>    United States\, San Jose \n\n(844) 491-2780\,\,91740858
-	9# <tel:8444912780\,\,917408589#>    United States (Toll-free) \n\nPhone C
-	onference ID: 917 408 589# \n\nFind a local number <https://dialin.teams.m
-	icrosoft.com/f4c817ac-3cdd-4e23-90c6-24873ded8c4b?id=917408589>  | Reset P
-	IN <https://mysettings.lync.com/pstnconferencing>  \n\nLearn More <https:/
-	/aka.ms/JoinTeamsMeeting>  | Meeting options <https://teams.microsoft.com/
-	meetingOptions/?organizerId=1eeee38c-9d20-43ea-b445-538bef23fb5d&tenantId=
-	709c2643-b1a9-4415-ad0f-521cfa6ba3f5&threadId=19_meeting_MjMyNDE4ZGUtYmNjN
-	y00MDg4LWI5NGQtZDVhY2I0MzgyNmM4@thread.v2&messageId=0&language=en-US>  \n\
-	n_________________________________________________________________________
-	_______ \n\n \n\nThe content of this message is APPLIED MATERIALS CONFIDEN
-	TIAL. If you are not the intended recipient\, please notify me\, delete th
-	is email and do not use or distribute this email. \n\n
-DTEND;TZID="Israel Standard Time":20210107T143000
-DTSTAMP:20201221T163203Z
-DTSTART;TZID="Israel Standard Time":20210107T133000
-LAST-MODIFIED:20210106T223059Z
-LOCATION:Microsoft Teams Meeting
-ORGANIZER;CN="Ady Magal":mailto:Ady_Magal@amat.com
-PRIORITY:5
-SEQUENCE:2
-SUMMARY:Pump and PAL parallel to Scan grooming
-TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000E0496512C7D7D601000000000000000
-	01000000027BD3D444CDE2A43A9A7EE1B0AAFE7C4
-X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
-	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
-	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
-	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
-	"Content-Type" content="text/html\; charset=us-ascii"><meta name="Generato
-	r" content="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font Defi
-	nitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 
-	5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 
-	2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5 2 4
-	 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	panose-1:
-	2 11 7 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNorm
-	al\, div.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-size:1
-	1.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyperlink
-	\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underline\
-	;}\na:visited\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n	col
-	or:#954F72\;\n	text-decoration:underline\;}\np.msonormal0\, li.msonormal0\
-	, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:auto\;
-	\n	margin-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;\n
-		font-size:12.0pt\;\n	font-family:"Times New Roman"\,serif\;}\nspan.EmailS
-	tyle18\n	{mso-style-type:personal\;\n	font-family:"Calibri"\,sans-serif\;\
-	n	color:windowtext\;}\nspan.EmailStyle19\n	{mso-style-type:personal\;\n	fo
-	nt-family:"Calibri"\,sans-serif\;\n	color:windowtext\;}\nspan.EmailStyle20
-	\n	{mso-style-type:personal-reply\;\n	font-family:"Calibri"\,sans-serif\;\
-	n	color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	fo
-	nt-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0i
-	n 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></sty
-	le><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" 
-	/>\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit
-	">\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]--><
-	/head><body lang="EN-US" link="#0563C1" vlink="#954F72"><div class="WordSe
-	ction1"><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o
-	:p>&nbsp\;</o:p></p><div><p class="MsoNormal">-----Original Appointment---
-	--<br><b>From:</b> Ady Magal &lt\;<a href="mailto:Ady_Magal@amat.com">Ady_
-	Magal@amat.com</a>&gt\; <br><b>Sent:</b> Wednesday\, December 30\, 2020 5:
-	32 PM<br><b>To:</b> Ady Magal\; Eran Blum\; Gangadhar Ramapur\; Michael Po
-	lishuk\; Itai Buks\; Yair Goldenberg\; Gautam Yadav\; Eve Nishri-Sulimany\
-	; Eran Reuven\; Hadar Marcovici<br><b>Cc:</b> PDC FIFA Diamonds\; Rohit Go
-	yal\; Devora Dicker --TR-CNTR\; Asher Levin --TR-CNTR\; Igor Giterman --TR
-	-CNTR\; Eti Abel\; <a href="mailto:Vitaly_Kotlyarov@amat.com">Vitaly_Kotly
-	arov@amat.com</a>\; <a href="mailto:Balaji_Chithugnanamoorthy@amat.com">Ba
-	laji_Chithugnanamoorthy@amat.com</a>\; <a href="mailto:Suchitra_Gupta@amat
-	.com">Suchitra_Gupta@amat.com</a>\; <a href="mailto:Ananth_Venugopal@amat.
-	com">Ananth_Venugopal@amat.com</a>\; <a href="mailto:Roja_Chekyal@contract
-	or.amat.com">Roja_Chekyal@contractor.amat.com</a><br><b>Subject:</b> Pump 
-	and PAL parallel to Scan grooming<br><b>When:</b> Thursday\, January 7\, 2
-	021 1:30 PM-2:30 PM (UTC+02:00) Jerusalem.<br><b>Where:</b> Microsoft Team
-	s Meeting<o:p></o:p></p></div><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><
-	p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\
-	;</o:p></p><div><p class="MsoNormal">-----Original Appointment-----<br><b>
-	From:</b> Ady Magal <br><b>Sent:</b> Monday\, December 21\, 2020 6:29 PM<b
-	r><b>To:</b> Ady Magal\; Eran Blum\; Gangadhar Ramapur\; Michael Polishuk\
-	; Itai Buks\; Yair Goldenberg\; Gautam Yadav\; Eve Nishri-Sulimany<br><b>C
-	c:</b> PDC FIFA Diamonds\; Rohit Goyal\; Devora Dicker --TR-CNTR\; Asher L
-	evin --TR-CNTR\; Igor Giterman --TR-CNTR<br><b>Subject:</b> Pump and PAL p
-	arallel to Scan grooming<br><b>When:</b> Thursday\, January 7\, 2021 1:30 
-	PM-2:30 PM (UTC+02:00) Jerusalem.<br><b>Where:</b> Microsoft Teams Meeting
-	<o:p></o:p></p></div><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="
-	MsoNormal"><a id="OWAAM61A0DE77CAF84FFEBB309695E100EC62" href="mailto:Eve_
-	Nishri-Sulimany@amat.com"><span style="font-family:&quot\;Calibri&quot\;\,
-	sans-serif\;text-decoration:none">@Eve Nishri-Sulimany</span></a> / <a id=
-	"OWAAMA6A6AE0A01B740D0BA36F71D095EBE7F" href="mailto:Gautam_Yadav@amat.com
-	"><span style="font-family:&quot\;Calibri&quot\;\,sans-serif\;text-decorat
-	ion:none">@Gautam Yadav</span></a>&#8211\; please forward to relevant FIFA
-	 stakeholders<o:p></o:p></p><p class="MsoNormal"><span style="color:#5F5F5
-	F">_______________________________________________________________________
-	_________</span> <o:p></o:p></p><div><div style="margin-top:.25in\;margin-
-	bottom:15.0pt"><p class="MsoNormal"><span style="font-size:18.0pt\;font-fa
-	mily:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">Microsoft Teams me
-	eting</span><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;c
-	olor:#252424"> <o:p></o:p></span></p></div><div style="margin-bottom:15.0p
-	t"><div><p class="MsoNormal"><b><span style="font-size:10.5pt\;font-family
-	:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">Join on your computer 
-	or mobile app</span></b><b><span style="font-family:&quot\;Segoe UI&quot\;
-	\,sans-serif\;color:#252424"> <o:p></o:p></span></b></p></div><p class="Ms
-	oNormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;colo
-	r:#252424"><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting
-	_MjMyNDE4ZGUtYmNjNy00MDg4LWI5NGQtZDVhY2I0MzgyNmM4%40thread.v2/0?context=%7
-	b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%2c%22Oid%22%3a%221
-	eeee38c-9d20-43ea-b445-538bef23fb5d%22%7d" target="_blank"><span style="fo
-	nt-size:10.5pt\;font-family:&quot\;Segoe UI Semibold&quot\;\,sans-serif\;c
-	olor:#6264A7">Click here to join the meeting</span></a> <o:p></o:p></span>
-	</p></div><div style="margin-bottom:3.0pt"><div style="margin-bottom:3.0pt
-	"><p class="MsoNormal"><b><span style="font-size:10.5pt\;font-family:&quot
-	\;Segoe UI&quot\;\,sans-serif\;color:#252424">Or call in (audio only)</spa
-	n></b><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#
-	252424"> <o:p></o:p></span></p></div><div style="margin-bottom:3.0pt"><p c
-	lass="MsoNormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-ser
-	if\;color:#252424"><a href="tel:+14088995236\,\,917408589# "><span style="
-	font-size:10.5pt\;color:#6264A7">+1 408-899-5236\,\,917408589#</span></a> 
-	</span><span style="font-size:10.5pt\;font-family:&quot\;Segoe UI&quot\;\,
-	sans-serif\;color:#252424">&nbsp\; United States\, San Jose </span><span s
-	tyle="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><o:p>
-	</o:p></span></p></div><div><p class="MsoNormal"><span style="font-family:
-	&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a href="tel:8444912780
-	\,\,917408589# "><span style="font-size:10.5pt\;color:#6264A7">(844) 491-2
-	780\,\,917408589#</span></a> </span><span style="font-size:10.5pt\;font-fa
-	mily:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">&nbsp\; United Sta
-	tes (Toll-free) </span><span style="font-family:&quot\;Segoe UI&quot\;\,sa
-	ns-serif\;color:#252424"><o:p></o:p></span></p></div></div><p class="MsoNo
-	rmal"><span style="font-size:10.5pt\;font-family:&quot\;Segoe UI&quot\;\,s
-	ans-serif\;color:#252424">Phone Conference ID: </span><span style="font-si
-	ze:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">
-	917 408 589# </span><span style="font-family:&quot\;Segoe UI&quot\;\,sans-
-	serif\;color:#252424"><o:p></o:p></span></p><div style="margin-bottom:15.0
-	pt"><p class="MsoNormal"><span style="font-family:&quot\;Segoe UI&quot\;\,
-	sans-serif\;color:#252424"><a href="https://dialin.teams.microsoft.com/f4c
-	817ac-3cdd-4e23-90c6-24873ded8c4b?id=917408589" target="_blank"><span styl
-	e="font-size:10.5pt\;color:#6264A7">Find a local number</span></a> | <a hr
-	ef="https://mysettings.lync.com/pstnconferencing" target="_blank"><span st
-	yle="font-size:10.5pt\;color:#6264A7">Reset PIN</span></a> <o:p></o:p></sp
-	an></p></div><div style="margin-top:15.0pt\;margin-bottom:.25in"><p class=
-	"MsoNormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;c
-	olor:#252424"><a href="https://aka.ms/JoinTeamsMeeting" target="_blank"><s
-	pan style="font-size:10.5pt\;color:#6264A7">Learn More</span></a> | <a hre
-	f="https://teams.microsoft.com/meetingOptions/?organizerId=1eeee38c-9d20-4
-	3ea-b445-538bef23fb5d&amp\;tenantId=709c2643-b1a9-4415-ad0f-521cfa6ba3f5&a
-	mp\;threadId=19_meeting_MjMyNDE4ZGUtYmNjNy00MDg4LWI5NGQtZDVhY2I0MzgyNmM4@t
-	hread.v2&amp\;messageId=0&amp\;language=en-US" target="_blank"><span style
-	="font-size:10.5pt\;color:#6264A7">Meeting options</span></a> <o:p></o:p><
-	/span></p></div></div><div><p class="MsoNormal"><span style="color:#5F5F5F
-	">________________________________________________________________________
-	________</span> <o:p></o:p></p></div><p class="MsoNormal"><o:p>&nbsp\;</o:
-	p></p><p><span style="color:black">The content of this message is APPLIED 
-	MATERIALS CONFIDENTIAL. If you are not the intended recipient\, please not
-	ify me\, delete this email and do not use or distribute this email. </span
-	><o:p></o:p></p></div></body></html>
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-APPTSEQTIME:20201221T162927Z
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-ATTENDEE;CN="AMIND OWI SW";RSVP=TRUE:mailto:AMIND-WI-SW@amat.com
-ATTENDEE;CN="AMIND PDC ADC ALL";RSVP=TRUE:mailto:AMINDPDCADCALL@amat.com
-ATTENDEE;CN="AMIND PDC ARCHITECTS";RSVP=TRUE:mailto:AMIND_PDC_ARCHITECTS@am
-	at.com
-ATTENDEE;CN="AMIND PDC Common BE";RSVP=TRUE:mailto:AMIND-PDC-FW-SW@amat.com
-ATTENDEE;CN="AMIND PDC Devops";RSVP=TRUE:mailto:AMIND_PDC_Devops@amat.com
-ATTENDEE;CN="PrimeVision India SW Group";RSVP=TRUE:mailto:AMIND_PDC_EBI_SW@
-	amat.com
-ATTENDEE;CN="AMIND PDC FIFA SW";RSVP=TRUE:mailto:AMIND-PDC-FIFA-SW@amat.com
-ATTENDEE;CN="AMIND PDC NCG 2015";RSVP=TRUE:mailto:AMIND-PDC-NCG-2015@amat.c
-	om
-ATTENDEE;CN="AMIND PDC SEM APPLICATION";RSVP=TRUE:mailto:AMIND_PDC_SEM_APPL
-	ICATION@amat.com
-ATTENDEE;CN="AMIND PDC SEM PLATFORM";RSVP=TRUE:mailto:AMIND_PDC_SEM_PLATFRO
-	M@amat.com
-ATTENDEE;CN="AMIND PDC SimulationNComputing SW";RSVP=TRUE:mailto:AMIND-PDC-
-	Common-SW@amat.com
-ATTENDEE;CN="LINK SW Qual";RSVP=TRUE:mailto:LINK_SW_QA@amat.com
-ATTENDEE;CN="Jigar Rajesh Desai";RSVP=TRUE:mailto:jigar_rajesh_desai@amat.c
-	om
-ATTENDEE;CN="Vedavyasa Dhanireddy";RSVP=TRUE:mailto:Vedavyasa_Dhanireddy@am
-	at.com
-ATTENDEE;CN="Vimal Tomar";RSVP=TRUE:mailto:Vimal_Tomar@amat.com
-ATTENDEE;CN="AMIND PDC Software Group INDIA L";RSVP=TRUE:mailto:AMIND-PDC-S
-	oftware-Group-INDIA-L@amat.com
-ATTENDEE;CN="AMIND PDCSW Managers Extended";RSVP=TRUE:mailto:AMINDPDCSWMana
-	gersExtended@amat.com
-ATTENDEE;CN="Kajal Kanwar --CNTR";RSVP=TRUE:mailto:Kajal_Kanwar@contractor.
-	amat.com
-ATTENDEE;CN="Ashish Patle";RSVP=TRUE:mailto:Ashish_Patle@amat.com
-ATTENDEE;CN="Gangadhar Ramapur";RSVP=TRUE:mailto:Gangadhar_Ramapur@amat.com
-ATTENDEE;CN="Prashanth Krishna";RSVP=TRUE:mailto:Prashanth_Krishna@amat.com
-ATTENDEE;CN="Monika Taneja";RSVP=TRUE:mailto:Monika_Taneja@amat.com
-ATTENDEE;CN="Sambit Rout";RSVP=TRUE:mailto:Sambit_Rout@amat.com
-ATTENDEE;CN="Arihant Bapna";RSVP=TRUE:mailto:Arihant_Bapna@amat.com
-ATTENDEE;CN="Sravya Matavalam";RSVP=TRUE:mailto:Sravya_Matavalam@amat.com
-ATTENDEE;CN="Santosh Kumar Reddy";RSVP=TRUE:mailto:SantoshKumar_Reddy@amat.
-	com
-ATTENDEE;CN="Prabu Palraj";RSVP=TRUE:mailto:Prabu_Palraj@amat.com
-ATTENDEE;CN="Jolly Anna Thomas";RSVP=TRUE:mailto:JollyAnna_Thomas@amat.com
-ATTENDEE;CN="Suchitra Gupta";RSVP=TRUE:mailto:Suchitra_Gupta@amat.com
-ATTENDEE;CN="Ananth Venugopal";RSVP=TRUE:mailto:Ananth_Venugopal@amat.com
-ATTENDEE;CN="Tausif Mohammad";RSVP=TRUE:mailto:Tausif_Mohammad@amat.com
-ATTENDEE;CN="Amit A Kumar";RSVP=TRUE:mailto:Amit_A_Kumar@amat.com
-ATTENDEE;CN="Ram Jaiswal";RSVP=TRUE:mailto:Ram_Jaiswal@amat.com
-ATTENDEE;CN="Shabna Thykkudathil Rasheed";RSVP=TRUE:mailto:Shabna_Thykkudat
-	hilRasheed@amat.com
-ATTENDEE;CN="Anshul Agrawal";RSVP=TRUE:mailto:Anshul_Agrawal@amat.com
-ATTENDEE;CN="Amil Java Software Group AMIL O";RSVP=TRUE:mailto:Amil-Java-So
-	ftware-Group-AMIL-O@amat.com
-ATTENDEE;CN="Anand Kadari";RSVP=TRUE:mailto:Anand_Kadari@amat.com
-ATTENDEE;CN="Vidya Neelakantan";RSVP=TRUE:mailto:Vidya_Neelakantan@amat.com
-ATTENDEE;CN="Ubhay Kumar";RSVP=TRUE:mailto:Ubhay_Kumar@amat.com
-ATTENDEE;CN="Shishir Singh";RSVP=TRUE:mailto:Shishir_Singh@amat.com
-ATTENDEE;CN="Padmini Nanjundaswamy";RSVP=TRUE:mailto:Padmini_Nanjundaswamy@
-	amat.com
-ATTENDEE;CN="Gautam Yadav";RSVP=TRUE:mailto:Gautam_Yadav@amat.com
-ATTENDEE;CN="Sunil Kiran E";RSVP=TRUE:mailto:SunilKiran_Esetty@amat.com
-ATTENDEE;CN="Arun Santhanakrishnan";RSVP=TRUE:mailto:Arun_Santhanakrishnan@
-	amat.com
-ATTENDEE;CN="Suma Cotha";RSVP=TRUE:mailto:Suma_Cotha@amat.com
-ATTENDEE;CN="Raghunandan Mohan";RSVP=TRUE:mailto:Raghunandan_Mohan@amat.com
-ATTENDEE;CN="Jigar Mehta";RSVP=TRUE:mailto:Jigar_Mehta@amat.com
-ATTENDEE;CN="Cijin Thekkekara";RSVP=TRUE:mailto:Cijin_Thekkekara@amat.com
-ATTENDEE;CN="Mallikarjuna Patil --CNTR";RSVP=TRUE:mailto:Prabhugouda_Patil@
-	contractor.amat.com
-ATTENDEE;CN="Ashutosh Shukla";RSVP=TRUE:mailto:Ashutosh_Shukla@amat.com
-ATTENDEE;CN="Piyush Agrawal";RSVP=TRUE:mailto:Piyush_Agrawal@amat.com
-ATTENDEE;CN="Vinay V Aggarwal";RSVP=TRUE:mailto:Vinay_V_Aggarwal@amat.com
-ATTENDEE;CN="Anutosh Khare";RSVP=TRUE:mailto:Anutosh_Khare@amat.com
-ATTENDEE;CN="Prashanth Reddy";RSVP=TRUE:mailto:Prashanth_Reddy@amat.com
-ATTENDEE;CN="Chandan N S";RSVP=TRUE:mailto:Chandan_NS@amat.com
-ATTENDEE;CN="Bhagyalakshmi Vasudev";RSVP=TRUE:mailto:Bhagyalakshmi_Vasudev@
-	amat.com
-ATTENDEE;CN="Denzil Vinod Fernandes";RSVP=TRUE:mailto:DenzilVinod_Fernandes
-	@amat.com
-ATTENDEE;CN="Swami Nath Singh";RSVP=TRUE:mailto:SwamiNath_Singh@amat.com
-ATTENDEE;CN="Shipra Patel";RSVP=TRUE:mailto:Shipra_Patel@amat.com
-ATTENDEE;CN="Satyajit Kautkar";RSVP=TRUE:mailto:Satyajit_Kautkar@amat.com
-ATTENDEE;CN="Payal Kumari";RSVP=TRUE:mailto:Payal_Kumari@amat.com
-ATTENDEE;CN="Harendra Singh";RSVP=TRUE:mailto:Harendra_Singh@amat.com
-ATTENDEE;CN="Muthuraja Ramakrishnan --CNTR";RSVP=TRUE:mailto:Muthuraja_Rama
-	krishnan@contractor.amat.com
-ATTENDEE;CN="Pradeepta Mishra";RSVP=TRUE:mailto:Pradeepta_Mishra@amat.com
-ATTENDEE;CN="Hitesh Baheti --CNTR";RSVP=TRUE:mailto:Hitesh_Baheti@contracto
-	r.amat.com
-ATTENDEE;CN="Sreenath Kummari";RSVP=TRUE:mailto:Sreenath_Kummari@amat.com
-ATTENDEE;CN="Indraneel Biswas";RSVP=TRUE:mailto:Indraneel_Biswas@amat.com
-ATTENDEE;CN="Ganesh Kumar M R";RSVP=TRUE:mailto:ganesh_mr@amat.com
-ATTENDEE;CN="Jyothi Buggavaram --CNTR";RSVP=TRUE:mailto:Jyothi_Buggavaram@c
-	ontractor.amat.com
-ATTENDEE;CN="Vibhav Sharma";RSVP=TRUE:mailto:Vibhav_Sharma@amat.com
-ATTENDEE;CN="Raghvendra Singh";RSVP=TRUE:mailto:Raghvendra_Singh@amat.com
-ATTENDEE;CN="Azharulla Mohammed --CNTR";RSVP=TRUE:mailto:Azharulla_Mohammed
-	@contractor.amat.com
-ATTENDEE;CN="Rohit Goyal";RSVP=TRUE:mailto:Rohit_Goyal@amat.com
-ATTENDEE;CN="Nilesh Kundu";RSVP=TRUE:mailto:Nilesh_Kundu@amat.com
-ATTENDEE;CN="Rahul Suman";RSVP=TRUE:mailto:Rahul_Suman@amat.com
-ATTENDEE;CN="Tapas kumar Nayak";RSVP=TRUE:mailto:Tapaskumar_Nayak@amat.com
-ATTENDEE;CN="Kirana Boomarahally Thammegowda";RSVP=TRUE:mailto:Kirana_Booma
-	rahallyThammegowda@amat.com
-ATTENDEE;CN="Pavan Kumar Hogade";RSVP=TRUE:mailto:Pavan_Kumar_Hogade@amat.c
-	om
-ATTENDEE;CN="Sahil Mehra";RSVP=TRUE:mailto:Sahil_Mehra@amat.com
-ATTENDEE;CN="Bandana Shaw";RSVP=TRUE:mailto:Bandana_Shaw@amat.com
-ATTENDEE;CN="Aayush Agrawal";RSVP=TRUE:mailto:Aayush_Agrawal@amat.com
-ATTENDEE;CN="Sudarshan Kumar Mishra";RSVP=TRUE:mailto:SudarshanKumar_Mishra
-	@amat.com
-ATTENDEE;CN="Surendra Babu Innamuri --CNTR";RSVP=TRUE:invalid:nomail
-ATTENDEE;CN="Sachidananda Chinagudi Jagadeesha";RSVP=TRUE:mailto:Sachidanan
-	da_ChinagudiJagadeesha@amat.com
-ATTENDEE;CN="Sandeep Menon";RSVP=TRUE:mailto:Sandeep_Menon@amat.com
-ATTENDEE;CN="Shanavas Rafi Ahmed";RSVP=TRUE:mailto:Shanavas_RafiAhmed@amat.
-	com
-ATTENDEE;CN="Shivaprasad Acharya";RSVP=TRUE:mailto:Shivaprasad_Acharya@amat
-	.com
-ATTENDEE;CN="Vikas Sharma";RSVP=TRUE:mailto:Vikas_Sharma@amat.com
-ATTENDEE;CN="Saurabh Jaiswal";RSVP=TRUE:mailto:Saurabh_Jaiswal@amat.com
-ATTENDEE;CN="Vipin Juneja --CNTR";RSVP=TRUE:mailto:Vipin_Juneja@contractor.
-	amat.com
-ATTENDEE;CN="Shreevidya Golthajje";RSVP=TRUE:mailto:Shreevidya_Golthajje@am
-	at.com
-ATTENDEE;CN="Mohit Bangani";RSVP=TRUE:mailto:Mohit_Bangani@amat.com
-ATTENDEE;CN="Prakash Kumar";RSVP=TRUE:mailto:Prakash_AKumar@amat.com
-ATTENDEE;CN="Vinay Kumar Yadav";RSVP=TRUE:mailto:VinayKumar_Yadav@amat.com
-ATTENDEE;CN="Bhasker Bamsiya";RSVP=TRUE:mailto:Bhasker_Bamsiya@amat.com
-ATTENDEE;CN="Swadha Tripathi --CNTR";RSVP=TRUE:mailto:Swadha_Tripathi@contr
-	actor.amat.com
-ATTENDEE;CN="Sheethal Nanjunda Murthy";RSVP=TRUE:mailto:Sheethal_NanjundaMu
-	rthy@amat.com
-ATTENDEE;CN="Tushar Kumar --CNTR";RSVP=TRUE:mailto:Tushar_T_Kumar@contracto
-	r.amat.com
-ATTENDEE;CN="Ishan Tiwari";RSVP=TRUE:mailto:Ishan_Tiwari@amat.com
-ATTENDEE;CN="Ramesh Kumar Eswaran --CNTR";RSVP=TRUE:mailto:RameshKumar_Eswa
-	ran@contractor.amat.com
-ATTENDEE;CN="Akriti Agrawal";RSVP=TRUE:mailto:Akriti_Agrawal@amat.com
-ATTENDEE;CN="Radhika Bhat";RSVP=TRUE:mailto:Radhika_Bhat@amat.com
-ATTENDEE;CN="Swati Mohanty --CNTR";RSVP=TRUE:mailto:Swati_Mohanty@contracto
-	r.amat.com
-ATTENDEE;CN="Tushar Basantani";RSVP=TRUE:mailto:Tushar_Basantani@amat.com
-ATTENDEE;CN="Rama Avnon";RSVP=TRUE:mailto:Rama_Avnon@amat.com
-ATTENDEE;CN="Victor Vigderovich";RSVP=TRUE:mailto:Victor_Vigderovich@amat.c
-	om
-ATTENDEE;CN="Elad Levi";RSVP=TRUE:mailto:Elad_Levi@amat.com
-ATTENDEE;CN="Kamalesh  Narayan Nair";RSVP=TRUE:mailto:KamaleshNarayan_Nair@
-	amat.com
-ATTENDEE;CN="Alexander A Feldman";RSVP=TRUE:mailto:Alexander_A_Feldman@amat
-	.com
-ATTENDEE;CN="Zvi Avraham --TR-CNTR";RSVP=TRUE:mailto:Zvi_Avraham@contractor
-	.amat.com
-ATTENDEE;CN="Ady Magal";RSVP=TRUE:mailto:Ady_Magal@amat.com
-ATTENDEE;CN="Irit Shaaya-Segal";RSVP=TRUE:mailto:Irit_ShaayaSegal@amat.com
-ATTENDEE;CN="Nomi Himelfarb --TR-CNTR";RSVP=TRUE:mailto:Nomi_Himelfarb@cont
-	ractor.amat.com
-ATTENDEE;CN="Shimon Ganon";RSVP=TRUE:mailto:Shimon_Ganon@amat.com
-ATTENDEE;CN="Yair Goldenberg";RSVP=TRUE:mailto:Yair_Goldenberg@amat.com
-ATTENDEE;CN="Adi Karol";RSVP=TRUE:mailto:Adi_Karol@amat.com
-ATTENDEE;CN="Vladimir Tyomkin";RSVP=TRUE:mailto:Vladimir_Tyomkin@amat.com
-ATTENDEE;CN="Hadas Avraham";RSVP=TRUE:mailto:Hadas_Avraham@amat.com
-ATTENDEE;CN="Shay Dvory";RSVP=TRUE:mailto:Shay_Dvory@amat.com
-ATTENDEE;CN="Elran Duek";RSVP=TRUE:mailto:Elran_Duek@amat.com
-ATTENDEE;CN="Assaf Waizman";RSVP=TRUE:mailto:Assaf_Waizman@amat.com
-ATTENDEE;CN="Alon Shulhami";RSVP=TRUE:mailto:Alon_Shulhami@amat.com
-ATTENDEE;CN="Gilad Kotler";RSVP=TRUE:mailto:Gilad_Kotler@amat.com
-ATTENDEE;CN="Alex Belzer";RSVP=TRUE:mailto:Alex_Belzer@amat.com
-ATTENDEE;CN="Dror Koren";RSVP=TRUE:mailto:Dror_Koren@amat.com
-ATTENDEE;CN="Dmitry Lifman";RSVP=TRUE:mailto:Dmitry_Lifman@amat.com
-ATTENDEE;CN="Limor Alon";RSVP=TRUE:mailto:Limor_Alon@amat.com
-ATTENDEE;CN="Tarun Bisoriya";RSVP=TRUE:mailto:Tarun_Bisoriya@amat.com
-ATTENDEE;CN="Azaria Elburg";RSVP=TRUE:mailto:Azaria_Elburg@amat.com
-ATTENDEE;CN="Nina Verzun";RSVP=TRUE:mailto:Nina_Verzun@amat.com
-ATTENDEE;CN="Shirley Barda";RSVP=TRUE:mailto:Shirley_Barda@amat.com
-ATTENDEE;CN="Anatoli Elman";RSVP=TRUE:mailto:Anatoli_Elman@amat.com
-ATTENDEE;CN="Vadim Pulver";RSVP=TRUE:mailto:Vadim_Pulver@amat.com
-ATTENDEE;CN="Riva Levit";RSVP=TRUE:mailto:Riva_Levit@amat.com
-ATTENDEE;CN="Tarun Raheja";RSVP=TRUE:mailto:Tarun_Raheja@amat.com
-ATTENDEE;CN="Eve Nishri-Sulimany";RSVP=TRUE:mailto:Eve_Nishri-Sulimany@amat
-	.com
-ATTENDEE;CN="Polina Usyskin";RSVP=TRUE:mailto:Polina_Usyskin@amat.com
-ATTENDEE;CN="Shay Kraus";RSVP=TRUE:mailto:Shay_Kraus@amat.com
-ATTENDEE;CN="Pavaman Kamalapurkar";RSVP=TRUE:mailto:Pavaman_Kamalapurkar@am
-	at.com
-ATTENDEE;CN="Eli Peretz";RSVP=TRUE:mailto:Eli_Peretz@amat.com
-ATTENDEE;CN="Itamar Bocher";RSVP=TRUE:mailto:Itamar_Bocher@amat.com
-ATTENDEE;CN="Limor Drori";RSVP=TRUE:mailto:Limor_Drori@amat.com
-ATTENDEE;CN="Ramesh Ramya --CNTR";RSVP=TRUE:mailto:Ramesh_Ramya@contractor.
-	amat.com
-ATTENDEE;CN="Saar Ofir";RSVP=TRUE:mailto:Saar_Ofir@amat.com
-ATTENDEE;CN="Israel Heiblum";RSVP=TRUE:mailto:Israel_Heiblum@amat.com
-ATTENDEE;CN="Lior Yehieli";RSVP=TRUE:mailto:Lior_Yehieli@amat.com
-ATTENDEE;CN="Vignesh Arcot Gopalraj";RSVP=TRUE:mailto:VigneshArcot_Gopalraj
-	@amat.com
-ATTENDEE;CN="Karthik Magadi --CNTR";RSVP=TRUE:mailto:Karthik_Magadi@contrac
-	tor.amat.com
-ATTENDEE;CN="Shashitej Gururaja";RSVP=TRUE:mailto:Shashitej_Gururaja@amat.c
-	om
-ATTENDEE;CN="Merav Artzi";RSVP=TRUE:mailto:Merav_Artzi@amat.com
-ATTENDEE;CN="Ariel Lieberman";RSVP=TRUE:mailto:Ariel_Lieberman@amat.com
-ATTENDEE;CN="Miriam Zalaznik --TR-CNTR";RSVP=TRUE:mailto:Miriam_Zalaznik@co
-	ntractor.amat.com
-ATTENDEE;CN="Hanan Kavitz";RSVP=TRUE:mailto:Hanan_Kavitz@amat.com
-ATTENDEE;CN="Lior Raz";RSVP=TRUE:mailto:Lior_Raz@amat.com
-ATTENDEE;CN="Evgeny Lahav";RSVP=TRUE:mailto:Evgeny_Lahav@amat.com
-ATTENDEE;CN="Ella Shechter";RSVP=TRUE:mailto:Ella_Shechter@amat.com
-ATTENDEE;CN="Pablo Aliskevicius";RSVP=TRUE:mailto:Pablo_Aliskevicius@amat.c
-	om
-ATTENDEE;CN="Sharon Israel";RSVP=TRUE:mailto:Sharon_Israel@amat.com
-ATTENDEE;CN="Ashutosh Jain";RSVP=TRUE:mailto:Ashutosh_Jain@amat.com
-ATTENDEE;CN="Amar Nath";RSVP=TRUE:mailto:Amar_Nath@amat.com
-ATTENDEE;CN="Assaf Ariel";RSVP=TRUE:mailto:Assaf_Ariel@amat.com
-ATTENDEE;CN="Itay Mangshe";RSVP=TRUE:mailto:Itay_Mangshe@amat.com
-ATTENDEE;CN="Michal Dishon";RSVP=TRUE:mailto:Michal_Dishon@amat.com
-ATTENDEE;CN="Michael Polishuk";RSVP=TRUE:mailto:Michael_Polishuk@amat.com
-ATTENDEE;CN="Neta Caspi";RSVP=TRUE:mailto:Neta_Caspi@amat.com
+ATTENDEE;CN=Avi_ShemTov@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=AC
+	CEPTED:mailto:Avi_ShemTov@amat.com
+ATTENDEE;CN=Chana_Fischer@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRU
+	E;PARTSTAT=TENTATIVE:mailto:Chana_Fischer@contractor.amat.com
+ATTENDEE;CN=Nir_Sagiv@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TENT
+	ATIVE:mailto:Nir_Sagiv@amat.com
+ATTENDEE;CN=Nikita_Shounewich@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTS
+	TAT=ACCEPTED:mailto:Nikita_Shounewich@amat.com
+ATTENDEE;CN=Elad_Argentaro@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
+	=ACCEPTED:mailto:Elad_Argentaro@amat.com
+ATTENDEE;CN=Amir_Avrahami@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=
+	TENTATIVE:mailto:Amir_Avrahami@amat.com
+ATTENDEE;CN=Surendrababu_Innamuri@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;P
+	ARTSTAT=ACCEPTED:mailto:Surendrababu_Innamuri@amat.com
 CLASS:PUBLIC
 CREATED:20210104T083206Z
 DESCRIPTION: \n\nHi Everyone\,\n\n \n\nHappy New year  to all of you !!\n\n
@@ -3037,7 +2473,7 @@ DESCRIPTION: \n\nHi Everyone\,\n\n \n\nHappy New year  to all of you !!\n\n
 DTEND;TZID="Unnamed Time Zone 1":20210111T150000
 DTSTAMP:20210104T083058Z
 DTSTART;TZID="Unnamed Time Zone 1":20210111T140000
-LAST-MODIFIED:20210106T223100Z
+LAST-MODIFIED:20210107T095132Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Bijitha Swapna Nivas Rajagopalan":mailto:Bijitha_SwapnaNivasR
 	ajagopalan@amat.com
@@ -3162,14 +2598,14 @@ DESCRIPTION: \n\n__________________________________________________________
 	zItY2MyYy00NWY1LWJiYzQtNWVjNWExNjgzYjU4@thread.v2&messageId=0&language=en-
 	US>  \n\n_________________________________________________________________
 	_______________ \n\n \n\n
-DTEND;TZID="Unnamed Time Zone 1":20210107T111500
+DTEND;TZID="Unnamed Time Zone 1":20210108T111500
 DTSTAMP:20210105T051849Z
-DTSTART;TZID="Unnamed Time Zone 1":20210107T110000
-LAST-MODIFIED:20210106T223108Z
+DTSTART;TZID="Unnamed Time Zone 1":20210108T110000
+LAST-MODIFIED:20210107T051713Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Ananth Venugopal":mailto:Ananth_Venugopal@amat.com
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=7;BYDAY=MO,TU,WE,TH,FR
+RRULE:FREQ=WEEKLY;COUNT=6;BYDAY=MO,TU,WE,TH,FR
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:Daily Field Issues
 TRANSP:OPAQUE
@@ -3789,18 +3225,18 @@ END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Run Export Calendar
 CLASS:PUBLIC
-CREATED:20210106T042402Z
+CREATED:20210107T042211Z
 DESCRIPTION:Export Calendar \n\n
-DTEND;TZID="Unnamed Time Zone 1":20210107T095300
-DTSTAMP:20210107T042203Z
-DTSTART;TZID="Unnamed Time Zone 1":20210107T095300
-LAST-MODIFIED:20210106T201311Z
+DTEND;TZID="Unnamed Time Zone 1":20210108T095200
+DTSTAMP:20210108T042104Z
+DTSTART;TZID="Unnamed Time Zone 1":20210108T095200
+LAST-MODIFIED:20210107T043204Z
 PRIORITY:5
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:Export Calendar
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000F0EC2AC511E4D601000000000000000
-	010000000E2A7E753F166D84AA9F686A13E6DE235
+UID:040000008200E00074C5B7101A82E00800000000F0DAC4C3DAE4D601000000000000000
+	0100000000A32B38A1CF7504E84BBD5CDAADD8699
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
 	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
 	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
@@ -3813,6 +3249,938 @@ X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-CONFTYPE:0
 BEGIN:VALARM
 TRIGGER:-PT1M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ATTACH;ENCODING=BASE64;VALUE=BINARY;X-FILENAME="JAVA-Tech Lead-JD.doc":0M8R
+	4KGxGuEAAAAAAAAAAAAAAAAAAAAAPgADAP7/CQAGAAAAAAAAAAAAAAABAAAASAAAAAAAAAAAEA
+	AASgAAAAEAAAD+////AAAAAEcAAAD/////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	/////////////spcEANwAJBAAA8BK/AAAAAAAAEAAAAAAACAAAIRAAAA4AYmpiaiH3IfcAAAAA
+	AAAAAAAAAAAAAAAAAAAJBBYALhwAAEOdzmRDnc5kEwgAAAAAAAANAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAD//w8AAAAAAAAAAAD//w8AAAAAAAAAAAD//w8AAAAAAAAAAAAAAAAAAAAAALcAAAAA
+	AFIIAAAAAAAAUggAAJcWAAAAAAAAlxYAAAAAAACXFgAAAAAAAJcWAAAAAAAAlxYAABQAAAAAAA
+	AAAAAAAP////8AAAAAqxYAAAAAAACrFgAAAAAAAKsWAAA4AAAA4xYAABwAAAD/FgAAFAAAAKsW
+	AAAAAAAAZzkAAPABAAATFwAAAAAAABMXAAAAAAAAExcAAAAAAAATFwAAAAAAABMXAAAAAAAAWx
+	gAAAAAAABbGAAAAAAAAFsYAAAAAAAA5jgAAAIAAADoOAAAAAAAAOg4AAAAAAAA6DgAAAAAAADo
+	OAAAAAAAAOg4AAAAAAAA6DgAACQAAABXOwAAtgIAAA0+AACoAAAADDkAABUAAAAAAAAAAAAAAA
+	AAAAAAAAAAlxYAAAAAAABbGAAAAAAAAAAAAAAAAAAAAAAAAAAAAABbGAAAAAAAAFsYAAAAAAAA
+	WxgAAAAAAABbGAAAAAAAAAw5AAAAAAAAAAAAAAAAAACXFgAAAAAAAJcWAAAAAAAAExcAAAAAAA
+	AAAAAAAAAAABMXAABIAQAAITkAABYAAAAtGQAAAAAAAC0ZAAAAAAAALRkAAAAAAABbGAAAHAAA
+	AJcWAAAAAAAAExcAAAAAAACXFgAAAAAAABMXAAAAAAAA5jgAAAAAAAAAAAAAAAAAAC0ZAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWxgAAAAA
+	AADmOAAAAAAAAAAAAAAAAAAALRkAAAAAAAAtGQAAUgEAAE42AAD0AAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAfjcAAAAAAAATFwAAAAAAAP////8AAAAAkGipkd2z1AEAAAAAAAAAAP////8AAAAAdxgAAB
+	YAAABCNwAAHgAAAAAAAAAAAAAA0jgAABQAAAA3OQAAMAAAAGc5AAAAAAAAYDcAAB4AAAC1PgAA
+	AAAAAI0YAACgAAAAtT4AADwAAAB+NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+NwAAVAAAALU+AAAAAAAAAAAA
+	AAAAAACXFgAAAAAAANI3AAAAAQAAWxgAAAAAAABbGAAAAAAAAC0ZAAAAAAAAWxgAAAAAAABbGA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWxgAAAAAAABbGAAAAAAAAFsY
+	AAAAAAAADDkAAAAAAAAMOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALR
+	kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFsYAAAAAAAAWxgAAAAAAABb
+	GAAAAAAAAGc5AAAAAAAAWxgAAAAAAABbGAAAAAAAAFsYAAAAAAAAWxgAAAAAAAAAAAAAAAAAAP
+	////8AAAAA/////wAAAAD/////AAAAAAAAAAAAAAAA/////wAAAAD/////AAAAAP////8AAAAA
+	/////wAAAAD/////AAAAAP////8AAAAA/////wAAAAD/////AAAAAP////8AAAAA/////wAAAA
+	D/////AAAAAP////8AAAAA/////wAAAAD/////AAAAALU+AAAAAAAAWxgAAAAAAABbGAAAAAAA
+	AFsYAAAAAAAAWxgAAAAAAABbGAAAAAAAAFsYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABbGAAAAAAAAFsYAAAAAAAAWxgAAAAA
+	AABSCAAACw0AAF0VAAA6AQAABQASAQAACQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAEpvYiBUaXRsZTogSmF2YS1UZWNobmljYWwgTGVhZA1Mb2NhdGlvbjogSVRQTCBCYW5nYW
+	xvcmUgDQ0NQXMgYSBUZWNoIGxlYWQgeW91ciBwcmltYXJ5IHJlc3BvbnNpYmlsaXR5IHdpbGwg
+	YmUgdG8gcGFydGljaXBhdGUgaW4gdGhlIGNyZWF0aW9uIG9mIG5ldyBwcm9kdWN0cyBhbmQgZW
+	5oYW5jZW1lbnRzIHRvIGV4aXN0aW5nIHByb2R1Y3RzIGZyb20gY29uY2VwdCB0byBsYXVuY2gg
+	YXMgcGFydCBvZiBhIGNyb3NzIGZ1bmN0aW9uYWwgdGVhbS4gSW4gdGhpcyByb2xlIHlvdSB3aW
+	xsIHV0aWxpemUgeW91ciBleHBlcmllbmNlIHRvIHByb3ZpZGUgU29mdHdhcmUgc29sdXRpb25z
+	IHdoaWNoIGludm9sdmVzIFN5c3RlbSB1bmRlcnN0YW5kaW5nIG9mIHRoZSBQcm9kdWN0LiBZb3
+	Ugd2lsbCBhbHNvIGJlIHJlcXVpcmVkIHRvIHdvcmsgd2l0aCB2YXJpb3VzIGludGVyZmFjZXMg
+	dG8gZW5zdXJlIHRoZSBjb21wbGV0ZW5lc3Mgb2YgdGhlIHNvbHV0aW9uLiANDUtleSBSZXNwb2
+	5zaWJpbGl0aWVzDUV4ZWN1dGUgdGhlIGRlc2lnbiwgYW5hbHlzaXMsIG9yIGV2YWx1YXRpb24g
+	b2YgYXNzaWduZWQgcHJvamVjdHMgdXNpbmcgc291bmQgZW5naW5lZXJpbmcgcHJpbmNpcGxlcy
+	BhbmQgYWRoZXJpbmcgdG8gYnVzaW5lc3Mgc3RhbmRhcmRzLCBwcmFjdGljZXMsIHByb2NlZHVy
+	ZXMsIGFuZCBwcm9kdWN0IC8gcHJvZ3JhbSByZXF1aXJlbWVudHMNRGVzaWduICYgY29kZSBhIH
+	ZhcmlldHkgb2YgY29tcGxleCBzb2Z0d2FyZSBmZWF0dXJlcyB3aXRoIGFkZXF1YXRlIGRvY3Vt
+	ZW50YXRpb24NV3JpdGUgYXV0b21hdGlvbiBmb3IgbmV3L2V4aXN0aW5nIGZlYXR1cmVzLg1DdX
+	N0b21lciBTdXBwb3J0ICYgdHJvdWJsZXNob290L2ZpeCBhIHZhcmlldHkgb2YgZGlmZmljdWx0
+	IHNvZnR3YXJlIHByb2JsZW1zLiCgDVByb2FjdGl2ZWx5IGNvbW11bmljYXRlIG9uIGRldmVsb3
+	BtZW50IHN0YXR1cyAmIGRlbGF5cyBpbiBhZ3JlZWQgdXBvbiB0aW1lbGluZXMNSW50ZXJmYWNl
+	IHdpdGggZ2xvYmFsIHRlYW1zIGZvciByZXF1aXJlbWVudHMgYW5hbHlzaXMgYW5kIHNjaGVkdW
+	xlLg1JbnRlcmZhY2Ugd2l0aCBleHRlcm5hbCBjdXN0b21lcnMgcmVnYXJkaW5nIHNvZnR3YXJl
+	IGlzc3Vlcy4NQmUgd2lsbGluZyB0byB0cmF2ZWwgdG8gb25zaXRlIGxvY2F0aW9ucyBmb3IgU2
+	hvcnQgVGVybSBBc3NpZ25tZW50cyBsaWtlIEZlYXR1cmUgSW50ZWdyYXRpb25zICYgVmVyc2lv
+	biBJbnN0YWxsYXRpb25zLg0NUXVhbGlmaWNhdGlvbiBhbmQgUmVxdWlyZW1lbnRzDUJhY2hlbG
+	9yJ3MgRGVncmVlIC8gbWFzdGVyknMgZGVncmVlIGluIGVuZ2luZWVyaW5nIHdpdGggQ29tcHV0
+	ZXIgU2NpZW5jZS9FbGVjdHJvbmljcy9FbGVjdHJpY2FsIGJhY2tncm91bmQgYW5kIDctMTAgeW
+	VhcnMgb2YgZXhwZXJpZW5jZQ1NaW5pbXVtIG9mIDYgeWVhcnOSIGV4cGVyaWVuY2UgaW4gc29m
+	dHdhcmUgZGV2ZWxvcG1lbnQgd2l0aCBleHBvc3VyZSB0byBtYWludGVuYW5jZSwgY29udGludW
+	91cyBpbnRlZ3JhdGlvbiAmIHJlbGVhc2VzDU1pbmltdW0gb2YgMyB5ZWFycyBleHBlcmllbmNl
+	IGluIGNvcmUgcHJvZHVjdCBzb2Z0d2FyZSBkZXZlbG9wbWVudA1TdHJvbmcgT2JqZWN0IE9yaW
+	VudGVkIERlc2lnbiAmIFByb2dyYW1taW5nIEV4cGVyaWVuY2UNUHJvZmVzc2lvbmFsIGV4cGVy
+	aWVuY2Ugb2YgIENvcmUgSmF2YSBUZWNobm9sb2dpZXMgKERlc2lnbiBQYXR0ZXJuL011bHRpLX
+	RocmVhZGluZy9EYXRhIFN0cnVjdHVyZXMvQWxnb3JpdGhtKSANRXhwb3N1cmUgdG8gQWdpbGUg
+	bWV0aG9kb2xvZ2llcyBhbmQgdG9vbCBjaGFpbiAobGlrZSBKSVJBKQ1IYXMga25vd2xlZGdlIG
+	9mIGJlc3QgcHJhY3RpY2VzIGFuZCBob3cgb3duIGFyZWEgaW50ZWdyYXRlcyB3aXRoIG90aGVy
+	cw0JDUFwcGxpZWQgTWF0ZXJpYWxzIGlzIGNvbW1pdHRlZCB0byBkaXZlcnNpdHkgaW4gaXRzIH
+	dvcmtmb3JjZSBpbmNsdWRpbmcgRXF1YWwgRW1wbG95bWVudCBPcHBvcnR1bml0eSBmb3IgTWlu
+	b3JpdGllcywgRmVtYWxlcywgUHJvdGVjdGVkIFZldGVyYW5zIGFuZCBJbmRpdmlkdWFscyB3aX
+	RoIERpc2FiaWxpdGllcy4NDQMNDQQNDQMNDQQNDQ0NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAACAAACwgAABAIAAA4CAAAOQgAADsIAAA+CAAAQAgAAEEIAABJCAAASggAAP
+	4IAAAvCQAAUAkAAOMJAADlCQAA5gkAAO7f7s/DtKWWh3hpXE9CXDcAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAABQVaFIOYAAWaBJuLwBPSgAAUUoAAAAYFWhSDmAAFmgQMtcAT0oAAFBKAABRSg
+	AAABgVaFIOYAAWaOtBygBPSgAAUEoAAFFKAAAAGBVoUg5gABZoSna2AE9KAABQSgAAUUoAAAAc
+	FWhSDmAAFmjCEZcAQ0oUAE9KAABRSgAAYUoUAAAcFWhSDmAAFmi9JBwAQ0oUAE9KAABRSgAAYU
+	oUAAAcFWhSDmAAFmjrCXkAQ0oUAE9KAABRSgAAYUoUAAAcFWhSDmAAFmgQMtcAQ0oUAE9KAABR
+	SgAAYUoUAAAcFWhSDmAAFmikLZQAQ0oUAE9KAABRSgAAYUoUAAAcFWhSDmAAFmg1HjEAQ0oUAE
+	9KAABRSgAAYUoUAAAWFmhSDmAAQ0oUAE9KAABRSgAAYUoUAAAfFWhSDmAAFmhSDmAAPioBQ0oU
+	AE9KAABRSgAAYUoUABwWaM5hVwA1CIE+KgFDShQAT0oAAFFKAABhShQAACIVaFIOYAAWaFIOYA
+	A1CIE+KgFDShQAT0oAAFFKAABhShQAEAAIAAAfCAAAOQgAADoIAAA7CAAA5QkAAOYJAAD7CQAA
+	vQoAAA4LAAA6CwAAigsAANoLAAAeDAAAWwwAANIMAADTDAAA8gwAAHoNAAD6AAAAAAAAAAAAAA
+	AA+gAAAAAAAAAAAAAAAPoAAAAAAAAAAAAAAAD6AAAAAAAAAAAAAAAA+gAAAAAAAAAAAAAAAPUA
+	AAAAAAAAAAAAAADrAAAAAAAAAAAAAAAA2QAAAAAAAAAAAAAAANkAAAAAAAAAAAAAAADZAAAAAA
+	AAAAAAAAAA2QAAAAAAAAAAAAAAANkAAAAAAAAAAAAAAADZAAAAAAAAAAAAAAAA2QAAAAAAAAAA
+	AAAAANkAAAAAAAAAAAAAAADKAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAKkAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAACiYAC0YMABJk8AABABOkZAAUpGQAWyQB
+	XCQBZ2RKdrYAAA4AABJk8AABABOkZAAUpGQAWyQBXCQBZ2RSDmAAAA4SABJk8AABABOkZAAUpG
+	QAWyQBXCQBZ2SibP8AEhIACiYAC0YLABJk8AABABOkZAAUpGQAWyQBXCQBZ2RKdrYAAAkAABJk
+	8AABABSkAABnZBMBPQAABBEAZ2Q1HjEAAAQRAGdkSna2AAAS5gkAAPoJAAD7CQAA0AwAANEMAA
+	DSDAAA0wwAAPEMAADyDAAABg0AACQNAACHDQAAmA0AAJEOAACfDgAAXA8AAF0PAABeDwAAXw8A
+	ABIQAAATEAAA7NvOwc6lk4LOdc51znXOk2NRST4AAAAAAAAAAAAAAAAAAAAAAAAAABQVaFIOYA
+	AWaHFPxQBPSgAAUUoAAAAOFmhSDmAAT0oAAFFKAAAAIxVoUg5gABZogkULADUIgUNKFABPSgAA
+	UEoAAFFKAABhShQAIxVoUg5gABZoA0MkADUIgUNKFABPSgAAUEoAAFFKAABhShQAGBVoUg5gAB
+	ZoUg5gAE9KAABQSgAAUUoAAAAgFWhSDmAAFmglECYAQ0oUAE9KAABQSgAAUUoAAGFKFAAAIxVo
+	Ug5gABZoSna2ADUIgUNKFABPSgAAUEoAAFFKAABhShQANhVoUg5gABZoomz/AEIqAUNKFABPSg
+	AAUUoAAGFKFABmSAABcGgzMzMAccoKAAAA/////wAAAAAYFWhSDmAAFmgJT0AAT0oAAFBKAABR
+	SgAAABgVaFIOYAAWaEp2tgBPSgAAUEoAAFFKAAAAIBVoUg5gABZoEwE9AENKFABPSgAAUEoAAF
+	FKAABhShQAACYVaFIOYAAWaBMBPQA1CIFDShQAT0oAAFBKAABRSgAAXAiBYUoUABR6DQAA8Q0A
+	ADQOAABrDgAA2g4AABUPAABdDwAAXw8AABIQAAATEAAAFRAAABYQAAAYEAAAGRAAABsQAAAcEA
+	AAHhAAAB8QAAAgEAAAIRAAAO0AAAAAAAAAAAAAAADtAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA
+	AO0AAAAAAAAAAAAAAADtAAAAAAAAAAAAAAAA7QAAAAAAAAAAAAAAAM0AAAAAAAAAAAAAAADAAA
+	AAAAAAAAAAAAAAvgAAAAAAAAAAAAAAALQAAAAAAAAAAAAAAAC+AAAAAAAAAAAAAAAAtAAAAAAA
+	AAAAAAAAAL4AAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAAAvgAAAAAAAAAAAAAAALQAAAAAAAAAAA
+	AAAAC+AAAAAAAAAAAAAAAAvgAAAAAAAAAAAAAAAL4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAEmTwAAEAFKQAAGdkUg5gAAABAAANAAAtRAABTcYKAA
+	AA/////wAAAGdkUg5gAAASEgANxgUAAf4fABJk8AABABOkZAAUpGQAWyQBXCQBZ2QDQyQADQAA
+	CiYAC0YMABJk8AABABSkAABnZEp2tgASEgAKJgALRgwAEmTwAAEAE6RkABSkZABbJAFcJAFnZE
+	p2tgAAExMQAAAUEAAAFhAAABcQAAAZEAAAGhAAABwQAAAdEAAAIBAAACEQAAD38/fz9/P38+gA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBVoUg5gABZocU/FAE9KAABRSgAAAAYWaKU/3wAA
+	DwNqAAAAABZopT/fAFUIAQAJLAAxkGgBH7DQLyCw4D0hsKAFIrCgBSOQoAUkkKAFJbAAABew0A
+	IYsNACDJDQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAGgYTABIAAQB3AQ8ABwADAAMAAwAAAAQACAAAAJgAAACeAAAA
+	ngAAAJ4AAACeAAAAngAAAJ4AAACeAAAAngAAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAA
+	A2BgAANgYAAHYCAAB2AgAAdgIAAHYCAAB2AgAAdgIAAHYCAAB2AgAAdgIAADYGAAA2BgAANgYA
+	ADYGAAA2BgAANgYAAD4CAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2Bg
+	AANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYG
+	AAA2BgAANgYAADYGAACoAAAANgYAADYGAAAWAAAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANg
+	YAADYGAAC4AAAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2
+	BgAAaAEAAEgBAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAAD
+	YGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAA
+	NgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAA
+	A2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYA
+	ADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAALADAAA2Bg
+	AAMgYAABgAAADAAwAA0AMAAOADAADwAwAAAAQAABAEAAAgBAAAMAQAAEAEAABQBAAAYAQAAHAE
+	AACABAAAkAQAAMADAADQAwAA4AMAAPADAAAABAAAEAQAADIGAAAoAgAA2AEAAOgBAAAgBAAAMA
+	QAAEAEAABQBAAAYAQAAHAEAACABAAAkAQAAMADAADQAwAA4AMAAPADAAAABAAAEAQAACAEAAAw
+	BAAAQAQAAFAEAABgBAAAcAQAAIAEAACQBAAAwAMAANADAADgAwAA8AMAAAAEAAAQBAAAIAQAAD
+	AEAABABAAAUAQAAGAEAABwBAAAgAQAAJAEAADAAwAA0AMAAOADAADwAwAAAAQAABAEAAAgBAAA
+	MAQAAEAEAABQBAAAYAQAAHAEAACABAAAkAQAAMADAADQAwAA4AMAAPADAAAABAAAEAQAACAEAA
+	AwBAAAQAQAAFAEAABgBAAAcAQAAIAEAACQBAAAwAMAANADAADgAwAA8AMAAAAEAAAQBAAAIAQA
+	ADAEAABABAAAUAQAAGAEAABwBAAAgAQAAJAEAAA4AQAAWAEAAPgBAAAIAgAAGAIAAFYCAAB+Ag
+	AAkAIAAKACAACwAgAAwAIAANACAACAAgAA4AIAAPACAAAAAwAAEAMAACADAAAwAwAAQAMAAOAC
+	AADwAgAAAAMAABADAAAgAwAAMAMAAEADAADgAgAA8AIAAAADAAAQAwAAIAMAADADAABAAwAA4A
+	IAAPACAAAAAwAAEAMAACADAAAwAwAAQAMAAOACAADwAgAAAAMAABADAAAgAwAAMAMAAEADAADg
+	AgAA8AIAAAADAAAQAwAAIAMAADADAABAAwAA4AIAAPACAAAAAwAAEAMAACADAAAwAwAAQAMAAO
+	ACAADwAgAAAAMAABADAAAgAwAAMAMAAEADAADgAgAA8AIAAAADAAAQAwAAIAMAADADAABAAwAA
+	4AIAAPACAAAAAwAAEAMAACADAAAwAwAAQAMAAOACAADwAgAAAAMAABADAAAgAwAAMAMAAEADAA
+	DgAgAA8AIAAAADAAAQAwAAIAMAADADAABAAwAA4AIAAPACAAAAAwAAEAMAACADAAAwAwAAQAMA
+	AOACAADwAgAAAAMAABADAAAgAwAAMAMAAEADAAA2BgAANgYAADYGAAA2BgAAIAAAAE9KAwBQSg
+	MAUUoDAF9IAQRtSAkEbkgJBHNICQR0SAkEAAAAAEoAAGDx/wIASgAMEAAAAAAAAAAABgBOAG8A
+	cgBtAGEAbAAAAAwAAAASZBQBAQAUpMgAGABDShYAX0gBBGFKFgBtSAkEc0gJBHRICQQAAAAAAA
+	AAAAAAAAAAAAAAAABEAEEg8v+hAEQADA0AAAAAAAAQABYARABlAGYAYQB1AGwAdAAgAFAAYQBy
+	AGEAZwByAGEAcABoACAARgBvAG4AdAAAAAAAUgBpAPP/swBSAAwNAAAAAAAAMAYMAFQAYQBiAG
+	wAZQAgAE4AbwByAG0AYQBsAAAAHAAX9gMAADTWBgABCgNsADTWBgABBQMAAGH2AwAAAgALAAAA
+	KABrIPT/wQAoAAANAAAAAAAAMAYHAE4AbwAgAEwAaQBzAHQAAAACAAwAAAAAAFYAXgABAPIAVg
+	AMCQAAEwE9ADAGDABOAG8AcgBtAGEAbAAgACgAVwBlAGIAKQAAAAwADwASZPAAAQAUpAAAGABD
+	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
+	ysksaorxfhpWOTsftWvHdoEfoHaVImFk/dZW7Y7dihrhnA4Gb1T5QW43amFoue0rtaX1rbl5sc
+	3OXkDyGEGXu6ZSaFfCyS5H0BBNdU+SpQ3YIi9lvjXgyVtz0vO/rIX9YNgIh5VaJxxXgmZQq3TC
+	frPSD8NmfRzWa6NB4xUUFhkn9TC7sZ/ABQbd5Pf2enzv7j7Z3tHcmbOkyvTdfFUT13f39cbhu3
+	uPQNL5stWYdJvdQavSbfYnlWA06FS6w9agMmoN26PJaBh2upNXvnehwUG/OQxa406lVR8OK0Gr
+	puh3upV20Gj0g3a/Mw76r/I2BlaepY/cFmBezevefwEAAP//AwBQSwMEFAAGAAgAAAAhAA3RkJ
+	+2AAAAGwEAACcAAAB0aGVtZS90aGVtZS9fcmVscy90aGVtZU1hbmFnZXIueG1sLnJlbHOEj00K
+	wjAUhPeCdwhvb9O6EJEm3YjQrdQDhOQ1DTY/JFHs7Q2uLAguh2G+mWm7l53JE2My3jFoqhoIOu
+	mVcZrBbbjsjkBSFk6J2TtksGCCjm837RVnkUsoTSYkUiguMZhyDidKk5zQilT5gK44o49W5CKj
+	pkHIu9BI93V9oPGbAXzFJL1iEHvVABmWUJr/s/04GolnLx8WXf5RQXPZhQUoosbM4CObqkwEyl
+	u6usTfAAAA//8DAFBLAQItABQABgAIAAAAIQDp3g+//wAAABwCAAATAAAAAAAAAAAAAAAAAAAA
+	AABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAAGAAgAAAAhAKXWp+fAAAAANgEAAAsAAAAAAA
+	AAAAAAAAAAMAEAAF9yZWxzLy5yZWxzUEsBAi0AFAAGAAgAAAAhAGt5lhaDAAAAigAAABwAAAAA
+	AAAAAAAAAAAAGQIAAHRoZW1lL3RoZW1lL3RoZW1lTWFuYWdlci54bWxQSwECLQAUAAYACAAAAC
+	EAtvRnmJMHAADJIAAAFgAAAAAAAAAAAAAAAADWAgAAdGhlbWUvdGhlbWUvdGhlbWUxLnhtbFBL
+	AQItABQABgAIAAAAIQAN0ZCftgAAABsBAAAnAAAAAAAAAAAAAAAAAJ0KAAB0aGVtZS90aGVtZS
+	9fcmVscy90aGVtZU1hbmFnZXIueG1sLnJlbHNQSwUGAAAAAAUABQBdAQAAmAsAAAAAPD94bWwg
+	dmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pg0KPGE6Y2
+	xyTWFwIHhtbG5zOmE9Imh0dHA6Ly9zY2hlbWFzLm9wZW54bWxmb3JtYXRzLm9yZy9kcmF3aW5n
+	bWwvMjAwNi9tYWluIiBiZzE9Imx0MSIgdHgxPSJkazEiIGJnMj0ibHQyIiB0eDI9ImRrMiIgYW
+	NjZW50MT0iYWNjZW50MSIgYWNjZW50Mj0iYWNjZW50MiIgYWNjZW50Mz0iYWNjZW50MyIgYWNj
+	ZW50ND0iYWNjZW50NCIgYWNjZW50NT0iYWNjZW50NSIgYWNjZW50Nj0iYWNjZW50NiIgaGxpbm
+	s9ImhsaW5rIiBmb2xIbGluaz0iZm9sSGxpbmsiLz4AAAAAIQgAABoAABwAAAAA/////wAAAAAD
+	AAAABgAAAAYAAAAJAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAPAAAAAAgAAO
+	YJAAATEAAAIRAAAAkAAAALAAAADQAAAAAIAAB6DQAAIRAAAAoAAAAMAAAADwAA8FQAAAAAAAbw
+	IAAAAAEIAAADAAAAAgAAAAIAAAABAAAAAgAAAAIAAAABAAAAIwAL8AwAAACGwQAAAADFwQAAAA
+	BAAB7xEAAAAP//AAAAAP8AgICAAPcAABABDwAC8EgAAAAgAAjwCAAAAAEAAAAACAAADwAD8DAA
+	AAAPAATwKAAAAAEACfAQAAAAAAAAAAAAAAAAAAAAAAAAAAIACvAIAAAAAAgAAAUAAAAADwAC8J
+	IAAAAQAAjwCAAAAAEAAAABBAAADwAD8DAAAAAPAATwKAAAAAEACfAQAAAAAAAAAAAAAAAAAAAA
+	AAAAAAIACvAIAAAAAAQAAAUAAAAPAATwQgAAABIACvAIAAAAAQQAAAAOAABTAAvwHgAAAL8BAA
+	AQAMsBAAAAAP8BAAAIAAQDCQAAAD8DAQABAAAAEfAEAAAAAQAAAAAAAAALAAAAGQAAABMIAAAi
+	CAAABwAEAAcAAgAAAAAAHgAAABMIAAAiCAAABAAHAAIAAAAAAAQAAAAKAAAAOwAAAEAAAABBAA
+	AAcQAAAHEAAAD+AAAA5QEAAOYBAADmAQAA+wEAANIEAADTBAAA8QQAAPIEAAAGBQAAJAUAAIcF
+	AACYBQAAkQYAAJ8GAABeBwAAXwcAABIIAAAiCAAABAAHAAQAAwAEAAMABAADAAQAAwAEAAMABA
+	ADAAQAAwAEAAcABAAHAAQABwAEAAMABAAHAAwA8HpqGk7AmCX/D/8P/w//D/8P/w//D/8P/w8A
+	AIseih9CTnDq/w//D/8P/w//D/8P/w//D/8PAAA/Ej8lSovetf8P/w//D/8P/w//D/8P/w//Dw
+	AAdHTWJ0qL3rX/D/8P/w//D/8P/w//D/8P/w8AANABMi5Ki961/w//D/8P/w//D/8P/w//D/8P
+	AAD5XmQumBgWjf8P/w//D/8P/w//D/8P/w//DwAA5WvfLrhCGhn/D/8P/w//D/8P/w//D/8P/w
+	8AABpZwEMemwjs/w//D/8P/w//D/8P/w//D/8PAAClbA9ccNHOcv8P/w//D/8P/w//D/8P/w//
+	DwAAjSExYzhOiIj/D/8P/w//D/8P/w//D/8P/w8AAJJTb2tKi961/w//D/8P/w//D/8P/w//D/
+	8PAADEDbh/4puEb/8P/w//D/8P/w//D/8P/w//DwAAAQAAABcAAAAAAAAAAAAAAAAAAAAAAAAA
+	DxgAAA+E0AIRhJj+FcYFAAHQAgZehNACYISY/kNKFABPSgEAUUoBAG8oAAEAt/ABAAAAF4AAAA
+	AAAAAAAAAAAAAAAAAAAAAPGAAAD4SgBRGEmP4VxgUAAaAFBl6EoAVghJj+Q0oUAE9KBQBRSgUA
+	bygAAQBvAAEAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAA8YAAAPhHAIEYSY/hXGBQABcAgGXoRwCG
+	CEmP5DShQAT0oGAFFKBgBvKAABAKfwAQAAABeAAAAAAAAAAAAAAAAAAAAAAAAADxgAAA+EQAsR
+	hJj+FcYFAAFACwZehEALYISY/kNKFABPSgYAUUoGAG8oAAEAp/ABAAAAF4AAAAAAAAAAAAAAAA
+	AAAAAAAAAPGAAAD4QQDhGEmP4VxgUAARAOBl6EEA5ghJj+Q0oUAE9KBgBRSgYAbygAAQCn8AEA
+	AAAXgAAAAAAAAAAAAAAAAAAAAAAAAA8YAAAPhOAQEYSY/hXGBQAB4BAGXoTgEGCEmP5DShQAT0
+	oGAFFKBgBvKAABAKfwAQAAABeAAAAAAAAAAAAAAAAAAAAAAAAADxgAAA+EsBMRhJj+FcYFAAGw
+	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
+	BAADkA4AAAA0AQAA3wYAAAEABAAAAA4AAAAAAAAAIQMA8BAAAAABAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAoAWgBbQAtACBgRIwAAAAAAAAAAAAAAAAAAAPCAAADwgAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA
+	AAAAAAAAAAAASoMRAPAQAAgA/P0BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEhQAAAAAAnw/w
+	8ACSRQAADkBAAA////f////3////9/////f////3////9/////fxMBPQAABAAAMgAAAAAAAAAA
+	AAAAAAAAAAAAAAAAACEEAAAAAAAAAAAAAAAAAAAAAAAAEBwAAAcAAAAAAAAAAAB4AAAAeAAAAA
+	AAAAAAAAAAoAUAAKiw4DELAAAAAAAAANwAAAABAAAA//8SAAAAAAAAAAAAAAAAAAAAHgBTAGEA
+	bQBwAGEAdABoAGsAdQBtAGEAcgAgAE0AYQBoAGEAbABpAG4AZwBhAG0AIAAtAC0AQwBOAFQAUg
+	AhAE0AYQBiAGwAZQAgAFMAaABhAGwAaQBuAGkAIABTAGEAZwBhAHkAYQBuAGEAdABoAGEAbgAg
+	AC0ALQBDAE4AVABSAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAYAAAAMAAAAAAAMAAEADAACAA
+	wAAwAMAAQADAAFAAwABgAMAAcADAAIAAwACQAMAAoADAALAAwAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7/AAAKAAIAAAAAAAAAAAAAAAAAAAAAAA
+	EAAADghZ/y+U9oEKuRCAArJ7PZMAAAAIwBAAAQAAAAAQAAAIgAAAACAAAAkAAAAAMAAACcAAAA
+	BAAAAKgAAAAFAAAA0AAAAAcAAADcAAAACAAAAPAAAAAJAAAAHAEAABIAAAAoAQAACgAAAEgBAA
+	AMAAAAVAEAAA0AAABgAQAADgAAAGwBAAAPAAAAdAEAABAAAAB8AQAAEwAAAIQBAAACAAAA5AQA
+	AB4AAAAEAAAAAAAAAB4AAAAEAAAAAAAAAB4AAAAgAAAAU2FtcGF0aGt1bWFyIE1haGFsaW5nYW
+	0gLS1DTlRSAAAeAAAABAAAAAAAAAAeAAAADAAAAE5vcm1hbC5kb3RtAB4AAAAkAAAATWFibGUg
+	U2hhbGluaSBTYWdheWFuYXRoYW4gLS1DTlRSAAAAHgAAAAQAAAAzAAAAHgAAABgAAABNaWNyb3
+	NvZnQgT2ZmaWNlIFdvcmQAAABAAAAAANJJawAAAABAAAAAAJANc92z1AFAAAAAAJANc92z1AED
+	AAAAAQAAAAMAAAA0AQAAAwAAAN8GAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAD+/wAACgACAAAAAAAAAAAAAAAAAAAAAAABAAAAAtXN1ZwuGx
+	CTlwgAKyz5rjAAAAD4AAAADAAAAAEAAABoAAAADwAAAHAAAAAFAAAAjAAAAAYAAACUAAAAEQAA
+	AJwAAAAXAAAApAAAAAsAAACsAAAAEAAAALQAAAATAAAAvAAAABYAAADEAAAADQAAAMwAAAAMAA
+	AA2QAAAAIAAADkBAAAHgAAABQAAABBcHBsaWVkIE1hdGVyaWFscwAAAAMAAAAOAAAAAwAAAAQA
+	AAADAAAADwgAAAMAAAAAABAACwAAAAAAAAALAAAAAAAAAAsAAAAAAAAACwAAAAAAAAAeEAAAAQ
+	AAAAEAAAAADBAAAAIAAAAeAAAABgAAAFRpdGxlAAMAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAA
+	AADQAAAA4AAAD+////EAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAAP7///8YAAAAGQAAABoA
+	AAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAAJQAAACYAAAAnAAAAKA
+	AAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAAMQAAADIAAAAzAAAANAAAADUAAAA2
+	AAAA/v///zgAAAA5AAAAOgAAADsAAAA8AAAAPQAAAD4AAAD+////QAAAAEEAAABCAAAAQwAAAE
+	QAAABFAAAARgAAAP7////9////SQAAAP7////+/////v//////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	////////////////////////////9SAG8AbwB0ACAARQBuAHQAcgB5AAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFgAFAf//////////AwAAAAYJAgAAAAAAwA
+	AAAAAAAEYAAAAAAAAAAAAAAADQBKqR3bPUAUsAAACAAAAAAAAAAEQAYQB0AGEAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAIB//////
+	//////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAAAQAAAAAAAA
+	MQBUAGEAYgBsAGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAA4AAgEBAAAABgAAAP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAXAAAA8T4AAAAAAABXAG8AcgBkAEQAbwBjAHUAbQBlAG4AdAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgACAQIAAAAFAAAA/////wAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuHAAAAAAAAAUAUwB1AG0AbQBhAHIAeQBJAG4AZg
+	BvAHIAbQBhAHQAaQBvAG4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAIB////////////
+	////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANwAAAAAQAAAAAAAABQBEAG
+	8AYwB1AG0AZQBuAHQAUwB1AG0AbQBhAHIAeQBJAG4AZgBvAHIAbQBhAHQAaQBvAG4AAAAAAAAA
+	AAAAADgAAgEEAAAA//////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	A/AAAAABAAAAAAAAABAEMAbwBtAHAATwBiAGoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAEgACAP///////////////wAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAByAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////AA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAP7/////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	////8BAP7/AwoAAP////8GCQIAAAAAAMAAAAAAAABGIAAAAE1pY3Jvc29mdCBXb3JkIDk3LTIw
+	MDMgRG9jdW1lbnQACgAAAE1TV29yZERvYwAQAAAAV29yZC5Eb2N1bWVudC44APQ5snEAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAA==
+ATTENDEE;CN=shriram.kashyap@gmail.com;RSVP=TRUE:mailto:shriram.kashyap@gmai
+	l.com
+ATTENDEE;CN="Ananth Venugopal";RSVP=TRUE:mailto:Ananth_Venugopal@amat.com
+ATTENDEE;CN="Mable Shalini Sagayanathan --CNTR";ROLE=OPT-PARTICIPANT;RSVP=T
+	RUE:mailto:Mable_Shalini@contractor.amat.com
+CLASS:PUBLIC
+CREATED:20210107T050530Z
+DESCRIPTION:\n\n \n\nApplied Materials Interview Schedule\n\n              
+	                                                                          
+	                                                      \n\nDear Shriram\,  
+	                                                                          
+	                                                                  \n\n \n\
+	nAs per our discussion\, we would like you to have Interview (Video) as me
+	ntioned below.\n\n \n\n“Please note that during a Video Interview\, we w
+	ill be taking a snap shot during the interview process for our internal re
+	cords.”\n\n \n\nInterview Panel: Ananth\n\n \n\nDate:  Jan 09\, 2021 (Sa
+	t)\n\nTime: 11:00 AM IST \n\nPlease find the  link to attend the meeting :
+	 https://ooz2.app.link/npNUUtUlQcb\n\n \n\n \n\nNote: 24 hours live chat s
+	upport is available on glider platform. Once you are login to glider accou
+	nt\, you will find a Question mark icon  on the top right corner. You can 
+	ask any doubt there!\n\n \n\nPlease let me know if you have any questions\
+	n\nCompany Details. \n\n \n\nFor information about the company please clic
+	k www.appliedmaterials.com <http://www.appliedmaterials.com/> \n\n \n\n \n
+	\nRegards\,\n\nAshutosh Kumar\n\nHR Shared Services| Applied Materials \n\
+	nOffice +91.80.6628.3000(ext-5000) | Mobile +91.9606011393\n\n \n\nHave an
+	 HR question? contact HR Direct <http://amat.service-now.com/hr_direct>  o
+	r dial 7700/*2\n\n <https://amat.service-now.com/help?id=help_kb_article&s
+	ys_id=4a583af2dba300dc3b86570bd396192e&table=kb_knowledge> \n\n \n\nThe co
+	ntent of this message is Applied Materials Confidential. If you are not th
+	e intended recipient and have received this message in error\, any use or 
+	distribution is prohibited. Please notify me immediately by reply e-mail a
+	nd delete this message from your computer system. \n\n \n\n** Save paper a
+	nd trees! Please consider the environment before printing this e-mail.\n\n
+	 \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\
+	n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n
+	\n \n\n \n\n \n\n \n\n \n\n \n\n
+DTEND;TZID="Unnamed Time Zone 1":20210109T123000
+DTSTAMP:20210107T050520Z
+DTSTART;TZID="Unnamed Time Zone 1":20210109T110000
+LAST-MODIFIED:20210107T050703Z
+ORGANIZER;CN="AMIND Staffing Operations":mailto:AMIND_Staffing_Operations@a
+	mat.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY:Interview (Video) with Applied Materials - Shriram 9740152078
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000005E3484E0E4D601000000000000000
+	010000000D176C6C4B9F64A4AB49F5A058D7CDDE9
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
+	"Content-Type" content="text/html\; charset=us-ascii"><meta name="Generato
+	r" content="Microsoft Word 15 (filtered medium)"><!--[if !mso]><style>v\\:
+	* {behavior:url(#default#VML)\;}\no\\:* {behavior:url(#default#VML)\;}\nw\
+	\:* {behavior:url(#default#VML)\;}\n.shape {behavior:url(#default#VML)\;}\
+	n</style><![endif]--><style><!--\n/* Font Definitions */\n@font-face\n	{fo
+	nt-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 3 2 4\;}\n@font-face\n
+		{font-family:Calibri\;\n	panose-1:2 15 5 2 2 2 4 3 2 4\;}\n/* Style Defin
+	itions */\np.MsoNormal\, li.MsoNormal\, div.MsoNormal\n	{margin:0in\;\n	ma
+	rgin-bottom:.0001pt\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-s
+	erif\;}\na:link\, span.MsoHyperlink\n	{mso-style-priority:99\;\n	color:#05
+	63C1\;\n	text-decoration:underline\;}\na:visited\, span.MsoHyperlinkFollow
+	ed\n	{mso-style-priority:99\;\n	color:#954F72\;\n	text-decoration:underlin
+	e\;}\np.msonormal0\, li.msonormal0\, div.msonormal0\n	{mso-style-name:mson
+	ormal\;\n	mso-margin-top-alt:auto\;\n	margin-right:0in\;\n	mso-margin-bott
+	om-alt:auto\;\n	margin-left:0in\;\n	font-size:11.0pt\;\n	font-family:"Cali
+	bri"\,sans-serif\;}\nspan.EmailStyle18\n	{mso-style-type:personal-compose\
+	;\n	font-family:"Calibri"\,sans-serif\;\n	color:windowtext\;}\n.MsoChpDefa
+	ult\n	{mso-style-type:export-only\;\n	font-size:10.0pt\;}\n@page WordSecti
+	on1\n	{size:8.5in 11.0in\;\n	margin:1.0in 1.0in 1.0in 1.0in\;}\ndiv.WordSe
+	ction1\n	{page:WordSection1\;}\n--></style><!--[if gte mso 9]><xml>\n<o:sh
+	apedefaults v:ext="edit" spidmax="1026" />\n</xml><![endif]--><!--[if gte 
+	mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:idmap v:ext="edit" data="1"
+	 />\n</o:shapelayout></xml><![endif]--></head><body lang="EN-US" link="#05
+	63C1" vlink="#954F72"><div class="WordSection1"><p class="MsoNormal"><span
+	 style="font-size:10.0pt"><img width="412" height="32" style="width:4.2916
+	in\;height:.3333in" id="Picture_x0020_7" src="cid:image001.png@01D6E4E0.CB
+	3A2140"></span><span style="font-size:10.0pt"><o:p></o:p></span></p><p cla
+	ss="MsoNormal"><span style="font-size:10.0pt"><o:p>&nbsp\;</o:p></span></p
+	><p class="MsoNormal"><span style="font-size:10.0pt\;font-family:&quot\;Ti
+	mes New Roman&quot\;\,serif\;color:#548DD4">Applied Materials Interview Sc
+	hedule<o:p></o:p></span></p><p class="MsoNormal"><span style="font-size:10
+	.0pt">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp
+	\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&n
+	bsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\
+	;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+	sp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+	&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbs
+	p\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&
+	nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp
+	\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&n
+	bsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\
+	;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+	sp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+	&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbs
+	p\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; <o:p></o:p></span></p><p class="MsoNormal"
+	 style="text-autospace:none"><span style="font-size:10.0pt">Dear Shriram\,
+	&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbs
+	p\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&
+	nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp
+	\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&n
+	bsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\
+	;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+	sp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+	&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbs
+	p\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&
+	nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp
+	\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&n
+	bsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\
+	;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+	sp\;&nbsp\;&nbsp\;&nbsp\; <o:p></o:p></span></p><p class="MsoNormal" style
+	="text-autospace:none"><span style="font-size:10.0pt"><o:p>&nbsp\;</o:p></
+	span></p><p class="MsoNormal" style="text-autospace:none"><span style="fon
+	t-size:10.0pt">As per our discussion\, we would like you to have Interview
+	 (Video) as mentioned below.<o:p></o:p></span></p><p class="MsoNormal" sty
+	le="text-autospace:none"><span style="font-size:10.0pt"><o:p>&nbsp\;</o:p>
+	</span></p><p class="MsoNormal" style="text-autospace:none"><span style="f
+	ont-size:10.0pt">&#8220\;Please note that during a Video Interview\, we wi
+	ll be taking a snap shot during the interview process for our internal rec
+	ords.&#8221\;<o:p></o:p></span></p><p class="MsoNormal" style="text-autosp
+	ace:none"><b><span style="font-size:10.0pt"><o:p>&nbsp\;</o:p></span></b><
+	/p><p class="MsoNormal" style="text-autospace:none"><b><span style="font-s
+	ize:10.0pt">Interview Panel: Ananth<o:p></o:p></span></b></p><p class="Mso
+	Normal" style="text-autospace:none"><b><span style="font-size:10.0pt"><o:p
+	>&nbsp\;</o:p></span></b></p><p class="MsoNormal" style="text-autospace:no
+	ne"><b><span style="font-size:10.0pt">Date: &nbsp\;Jan 09\, 2021 (Sat)<o:p
+	></o:p></span></b></p><p class="MsoNormal" style="text-autospace:none"><b>
+	<span style="font-size:10.0pt">Time: 11:00 AM IST <o:p></o:p></span></b></
+	p><p class="MsoNormal"><b><span style="font-size:10.0pt\;background:yellow
+	\;mso-highlight:yellow">Please find the &nbsp\;link to attend the meeting 
+	:</span></b> <a href="https://ooz2.app.link/npNUUtUlQcb">https://ooz2.app.
+	link/npNUUtUlQcb</a><span style="color:black"><o:p></o:p></span></p><p cla
+	ss="MsoNormal"><span style="color:black"><o:p>&nbsp\;</o:p></span></p><p c
+	lass="MsoNormal"><span style="color:black"><o:p>&nbsp\;</o:p></span></p><p
+	 class="MsoNormal"><span style="font-family:&quot\;Times New Roman&quot\;\
+	,serif\;color:black\;background:silver\;mso-highlight:silver">Note: <b>24 
+	hours live chat support&nbsp\;is available on glider platform</b>. Once yo
+	u are login to glider account\, you will find a Question mark icon&nbsp\;<
+	/span><span style="font-family:&quot\;Times New Roman&quot\;\,serif"><img 
+	border="0" width="23" height="17" style="width:.243in\;height:.1736in" id=
+	"Picture_x0020_3" src="cid:image002.png@01D6E4E0.CB3A2140"></span><span st
+	yle="font-family:&quot\;Times New Roman&quot\;\,serif\;color:black\;backgr
+	ound:silver\;mso-highlight:silver">&nbsp\;on the top right corner. You can
+	 ask any doubt there!</span><span style="color:black"><o:p></o:p></span></
+	p><p class="MsoNormal" style="text-autospace:none"><b><span style="font-si
+	ze:10.0pt"><o:p>&nbsp\;</o:p></span></b></p><p class="MsoNormal" style="te
+	xt-autospace:none"><span style="font-size:10.0pt">Please let me know if yo
+	u have any questions<br><br><b>Company Details.</b> <o:p></o:p></span></p>
+	<p class="MsoNormal" style="text-autospace:none"><span style="font-size:10
+	.0pt"><o:p>&nbsp\;</o:p></span></p><p class="MsoNormal"><b><span style="fo
+	nt-size:10.0pt">For information about the company please click </span></b>
+	<span style="font-size:10.0pt"><a href="http://www.appliedmaterials.com/" 
+	target="_BLANK"><b>www.appliedmaterials.com</b></a><o:p></o:p></span></p><
+	p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\
+	;</o:p></p><p class="MsoNormal" style="text-autospace:none"><span style="f
+	ont-size:9.0pt">Regards\,<o:p></o:p></span></p><p class="MsoNormal" style=
+	"margin-left:.75pt\;text-autospace:none"><span style="font-size:9.0pt\;col
+	or:#7F7F7F">Ashutosh Kumar<o:p></o:p></span></p><p class="MsoNormal" style
+	="margin-left:.75pt\;text-autospace:none"><span style="font-size:9.0pt\;co
+	lor:gray">HR Shared Services| Applied Materials </span><span style="font-s
+	ize:9.0pt\;color:#7F7F7F"><o:p></o:p></span></p><p class="MsoNormal" style
+	="margin-left:.75pt\;text-autospace:none"><span style="font-size:9.0pt\;co
+	lor:gray">Office +91.80.6628.3000(ext-5000) | Mobile +91.9606011393<o:p></
+	o:p></span></p><p class="MsoNormal" style="margin-left:.75pt\;text-autospa
+	ce:none"><span style="font-size:9.0pt\;color:gray"><o:p>&nbsp\;</o:p></spa
+	n></p><p class="MsoNormal" style="margin-bottom:6.0pt"><span style="font-s
+	ize:9.0pt\;color:gray">Have an HR question? contact </span><a href="http:/
+	/amat.service-now.com/hr_direct"><span style="font-size:9.0pt\;color:blue"
+	>HR Direct</span></a> <span style="font-size:9.0pt\;color:gray">or dial 77
+	00/*2</span><span style="font-size:9.0pt\;color:#7F7F7F"><o:p></o:p></span
+	></p><p class="MsoNormal"><a href="https://amat.service-now.com/help?id=he
+	lp_kb_article&amp\;sys_id=4a583af2dba300dc3b86570bd396192e&amp\;table=kb_k
+	nowledge"><span style="color:windowtext\;text-decoration:none"><img border
+	="0" width="287" height="64" style="width:2.993in\;height:.6666in" id="Pic
+	ture_x0020_2" src="cid:image003.jpg@01D6E4E0.CB3A2140"></span></a><o:p></o
+	:p></p><p class="MsoNormal" style="margin-left:.75pt\;text-autospace:none"
+	><b><span style="font-size:9.0pt\;color:gray"><o:p>&nbsp\;</o:p></span></b
+	></p><p class="MsoNormal" style="margin-left:.75pt\;text-autospace:none"><
+	span style="font-size:9.0pt\;color:gray">The content of this message is Ap
+	plied Materials Confidential. If you are not the intended recipient and ha
+	ve received this message in error\, any use or distribution is prohibited.
+	 Please notify me immediately by reply e-mail and delete this message from
+	 your computer system. <o:p></o:p></span></p><p class="MsoNormal" style="m
+	argin-left:.75pt\;text-autospace:none"><span style="font-size:9.0pt\;color
+	:gray"><o:p>&nbsp\;</o:p></span></p><p class="MsoNormal" style="text-autos
+	pace:none"><span style="font-size:9.0pt\;color:gray">** Save paper and tre
+	es! Please consider the environment before printing this e-mail.</span><o:
+	p></o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal
+	"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p clas
+	s="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p
+	></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>
+	&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoN
+	ormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p
+	 class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;
+	</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal">
+	<o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class=
+	"MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p><
+	/p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&n
+	bsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNor
+	mal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p c
+	lass="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</
+	o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o
+	:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="M
+	soNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p
+	><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbs
+	p\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNorma
+	l"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><p cla
+	ss="MsoNormal"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><o:p>&nbsp\;</o:
+	p></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+TRIGGER:-PT15M
 ACTION:DISPLAY
 DESCRIPTION:Reminder
 END:VALARM
@@ -3832,8 +4200,10 @@ ATTENDEE;CN=Roja_Chekyal@contractor.amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE
 	;PARTSTAT=ACCEPTED:mailto:Roja_Chekyal@contractor.amat.com
 ATTENDEE;CN=Suchitra_Gupta@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT
 	=ACCEPTED:mailto:Suchitra_Gupta@amat.com
+ATTENDEE;CN=Ananth_Venugopal@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
+	AT=ACCEPTED:mailto:Ananth_Venugopal@amat.com
 CLASS:PUBLIC
-CREATED:20210106T112608Z
+CREATED:20210107T051611Z
 DESCRIPTION: \n\n__________________________________________________________
 	______________________ \n\nMicrosoft Teams meeting \n\nJoin on your comput
 	er or mobile app \n\nClick here to join the meeting <https://teams.microso
@@ -3857,7 +4227,7 @@ DESCRIPTION: \n\n__________________________________________________________
 DTEND;TZID="Unnamed Time Zone 1":20210111T143000
 DTSTAMP:20210106T112600Z
 DTSTART;TZID="Unnamed Time Zone 1":20210111T140000
-LAST-MODIFIED:20210106T223108Z
+LAST-MODIFIED:20210107T052048Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
 PRIORITY:5
@@ -3959,9 +4329,532 @@ X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"
 	;">The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you a
 	re not the intended recipient\, please notify me\, delete this email and d
 	o not use or distribute this email.\n</span></p>\n</body>\n</html>\n
-X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PRIVATE
+CREATED:20210107T051834Z
+DESCRIPTION: \n
+DTEND;TZID="Unnamed Time Zone 1":20210108T153000
+DTSTAMP:20210108T042104Z
+DTSTART;TZID="Unnamed Time Zone 1":20210108T143000
+LAST-MODIFIED:20210107T084735Z
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Personal Time
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000006037228DE2E4D601000000000000000
+	010000000E56D36D8E2429A4AAFDF2FFB3FBB3C40
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:o="urn:schemas-microsoft-com:offic
+	e:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://
+	schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC
+	-html40"><head><META HTTP-EQUIV="Content-Type" CONTENT="text/html\; charse
+	t=us-ascii"><meta name=ProgId content=Word.Document><meta name=Generator c
+	ontent="Microsoft Word 15"><meta name=Originator content="Microsoft Word 1
+	5"><link rel=File-List href="cid:filelist.xml@01D6E4E2.8D328B10"><!--[if g
+	te mso 9]><xml>\n<o:OfficeDocumentSettings>\n<o:AllowPNG/>\n</o:OfficeDocu
+	mentSettings>\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<w:WordDocument
+	>\n<w:Zoom>110</w:Zoom>\n<w:TrackMoves/>\n<w:TrackFormatting/>\n<w:Envelop
+	eVis/>\n<w:PunctuationKerning/>\n<w:ValidateAgainstSchemas/>\n<w:SaveIfXML
+	Invalid>false</w:SaveIfXMLInvalid>\n<w:IgnoreMixedContent>false</w:IgnoreM
+	ixedContent>\n<w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderT
+	ext>\n<w:DoNotPromoteQF/>\n<w:LidThemeOther>EN-US</w:LidThemeOther>\n<w:Li
+	dThemeAsian>X-NONE</w:LidThemeAsian>\n<w:LidThemeComplexScript>X-NONE</w:L
+	idThemeComplexScript>\n<w:Compatibility>\n<w:BreakWrappedTables/>\n<w:Snap
+	ToGridInCell/>\n<w:WrapTextWithPunct/>\n<w:UseAsianBreakRules/>\n<w:DontGr
+	owAutofit/>\n<w:SplitPgBreakAndParaMark/>\n<w:EnableOpenTypeKerning/>\n<w:
+	DontFlipMirrorIndents/>\n<w:OverrideTableStyleHps/>\n</w:Compatibility>\n<
+	m:mathPr>\n<m:mathFont m:val="Cambria Math"/>\n<m:brkBin m:val="before"/>\
+	n<m:brkBinSub m:val="&#45\;-"/>\n<m:smallFrac m:val="off"/>\n<m:dispDef/>\
+	n<m:lMargin m:val="0"/>\n<m:rMargin m:val="0"/>\n<m:defJc m:val="centerGro
+	up"/>\n<m:wrapIndent m:val="1440"/>\n<m:intLim m:val="subSup"/>\n<m:naryLi
+	m m:val="undOvr"/>\n</m:mathPr></w:WordDocument>\n</xml><![endif]--><!--[i
+	f gte mso 9]><xml>\n<w:LatentStyles DefLockedState="false" DefUnhideWhenUs
+	ed="false" DefSemiHidden="false" DefQFormat="false" DefPriority="99" Laten
+	tStyleCount="377">\n<w:LsdException Locked="false" Priority="0" QFormat="t
+	rue" Name="Normal"/>\n<w:LsdException Locked="false" Priority="9" QFormat=
+	"true" Name="heading 1"/>\n<w:LsdException Locked="false" Priority="9" Sem
+	iHidden="true" UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>\n<w
+	:LsdException Locked="false" Priority="9" SemiHidden="true" UnhideWhenUsed
+	="true" QFormat="true" Name="heading 3"/>\n<w:LsdException Locked="false" 
+	Priority="9" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name="
+	heading 4"/>\n<w:LsdException Locked="false" Priority="9" SemiHidden="true
+	" UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>\n<w:LsdException
+	 Locked="false" Priority="9" SemiHidden="true" UnhideWhenUsed="true" QForm
+	at="true" Name="heading 6"/>\n<w:LsdException Locked="false" Priority="9" 
+	SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>\
+	n<w:LsdException Locked="false" Priority="9" SemiHidden="true" UnhideWhenU
+	sed="true" QFormat="true" Name="heading 8"/>\n<w:LsdException Locked="fals
+	e" Priority="9" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Nam
+	e="heading 9"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWh
+	enUsed="true" Name="index 1"/>\n<w:LsdException Locked="false" SemiHidden=
+	"true" UnhideWhenUsed="true" Name="index 2"/>\n<w:LsdException Locked="fal
+	se" SemiHidden="true" UnhideWhenUsed="true" Name="index 3"/>\n<w:LsdExcept
+	ion Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="index 4"/
+	>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" 
+	Name="index 5"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideW
+	henUsed="true" Name="index 6"/>\n<w:LsdException Locked="false" SemiHidden
+	="true" UnhideWhenUsed="true" Name="index 7"/>\n<w:LsdException Locked="fa
+	lse" SemiHidden="true" UnhideWhenUsed="true" Name="index 8"/>\n<w:LsdExcep
+	tion Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="index 9"
+	/>\n<w:LsdException Locked="false" Priority="39" SemiHidden="true" UnhideW
+	henUsed="true" Name="toc 1"/>\n<w:LsdException Locked="false" Priority="39
+	" SemiHidden="true" UnhideWhenUsed="true" Name="toc 2"/>\n<w:LsdException 
+	Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name=
+	"toc 3"/>\n<w:LsdException Locked="false" Priority="39" SemiHidden="true" 
+	UnhideWhenUsed="true" Name="toc 4"/>\n<w:LsdException Locked="false" Prior
+	ity="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 5"/>\n<w:LsdExc
+	eption Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true
+	" Name="toc 6"/>\n<w:LsdException Locked="false" Priority="39" SemiHidden=
+	"true" UnhideWhenUsed="true" Name="toc 7"/>\n<w:LsdException Locked="false
+	" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 8"/>\n<w
+	:LsdException Locked="false" Priority="39" SemiHidden="true" UnhideWhenUse
+	d="true" Name="toc 9"/>\n<w:LsdException Locked="false" SemiHidden="true" 
+	UnhideWhenUsed="true" Name="Normal Indent"/>\n<w:LsdException Locked="fals
+	e" SemiHidden="true" UnhideWhenUsed="true" Name="footnote text"/>\n<w:LsdE
+	xception Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="anno
+	tation text"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhe
+	nUsed="true" Name="header"/>\n<w:LsdException Locked="false" SemiHidden="t
+	rue" UnhideWhenUsed="true" Name="footer"/>\n<w:LsdException Locked="false"
+	 SemiHidden="true" UnhideWhenUsed="true" Name="index heading"/>\n<w:LsdExc
+	eption Locked="false" Priority="35" SemiHidden="true" UnhideWhenUsed="true
+	" QFormat="true" Name="caption"/>\n<w:LsdException Locked="false" SemiHidd
+	en="true" UnhideWhenUsed="true" Name="table of figures"/>\n<w:LsdException
+	 Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="envelope add
+	ress"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="
+	true" Name="envelope return"/>\n<w:LsdException Locked="false" SemiHidden=
+	"true" UnhideWhenUsed="true" Name="footnote reference"/>\n<w:LsdException 
+	Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="annotation re
+	ference"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUse
+	d="true" Name="line number"/>\n<w:LsdException Locked="false" SemiHidden="
+	true" UnhideWhenUsed="true" Name="page number"/>\n<w:LsdException Locked="
+	false" SemiHidden="true" UnhideWhenUsed="true" Name="endnote reference"/>\
+	n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Na
+	me="endnote text"/>\n<w:LsdException Locked="false" SemiHidden="true" Unhi
+	deWhenUsed="true" Name="table of authorities"/>\n<w:LsdException Locked="f
+	alse" SemiHidden="true" UnhideWhenUsed="true" Name="macro"/>\n<w:LsdExcept
+	ion Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="toa headi
+	ng"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="tr
+	ue" Name="List"/>\n<w:LsdException Locked="false" SemiHidden="true" Unhide
+	WhenUsed="true" Name="List Bullet"/>\n<w:LsdException Locked="false" SemiH
+	idden="true" UnhideWhenUsed="true" Name="List Number"/>\n<w:LsdException L
+	ocked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List 2"/>\n<w:
+	LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="
+	List 3"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed
+	="true" Name="List 4"/>\n<w:LsdException Locked="false" SemiHidden="true" 
+	UnhideWhenUsed="true" Name="List 5"/>\n<w:LsdException Locked="false" Semi
+	Hidden="true" UnhideWhenUsed="true" Name="List Bullet 2"/>\n<w:LsdExceptio
+	n Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Bullet
+	 3"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="tr
+	ue" Name="List Bullet 4"/>\n<w:LsdException Locked="false" SemiHidden="tru
+	e" UnhideWhenUsed="true" Name="List Bullet 5"/>\n<w:LsdException Locked="f
+	alse" SemiHidden="true" UnhideWhenUsed="true" Name="List Number 2"/>\n<w:L
+	sdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="L
+	ist Number 3"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWh
+	enUsed="true" Name="List Number 4"/>\n<w:LsdException Locked="false" SemiH
+	idden="true" UnhideWhenUsed="true" Name="List Number 5"/>\n<w:LsdException
+	 Locked="false" Priority="10" QFormat="true" Name="Title"/>\n<w:LsdExcepti
+	on Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Closing"/>
+	\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" N
+	ame="Signature"/>\n<w:LsdException Locked="false" Priority="1" SemiHidden=
+	"true" UnhideWhenUsed="true" Name="Default Paragraph Font"/>\n<w:LsdExcept
+	ion Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text
+	"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true
+	" Name="Body Text Indent"/>\n<w:LsdException Locked="false" SemiHidden="tr
+	ue" UnhideWhenUsed="true" Name="List Continue"/>\n<w:LsdException Locked="
+	false" SemiHidden="true" UnhideWhenUsed="true" Name="List Continue 2"/>\n<
+	w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name
+	="List Continue 3"/>\n<w:LsdException Locked="false" SemiHidden="true" Unh
+	ideWhenUsed="true" Name="List Continue 4"/>\n<w:LsdException Locked="false
+	" SemiHidden="true" UnhideWhenUsed="true" Name="List Continue 5"/>\n<w:Lsd
+	Exception Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Mes
+	sage Header"/>\n<w:LsdException Locked="false" Priority="11" QFormat="true
+	" Name="Subtitle"/>\n<w:LsdException Locked="false" SemiHidden="true" Unhi
+	deWhenUsed="true" Name="Salutation"/>\n<w:LsdException Locked="false" Semi
+	Hidden="true" UnhideWhenUsed="true" Name="Date"/>\n<w:LsdException Locked=
+	"false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text First Inde
+	nt"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="tr
+	ue" Name="Body Text First Indent 2"/>\n<w:LsdException Locked="false" Semi
+	Hidden="true" UnhideWhenUsed="true" Name="Note Heading"/>\n<w:LsdException
+	 Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text 2"
+	/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+	 Name="Body Text 3"/>\n<w:LsdException Locked="false" SemiHidden="true" Un
+	hideWhenUsed="true" Name="Body Text Indent 2"/>\n<w:LsdException Locked="f
+	alse" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text Indent 3"/>\
+	n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Na
+	me="Block Text"/>\n<w:LsdException Locked="false" SemiHidden="true" Unhide
+	WhenUsed="true" Name="Hyperlink"/>\n<w:LsdException Locked="false" SemiHid
+	den="true" UnhideWhenUsed="true" Name="FollowedHyperlink"/>\n<w:LsdExcepti
+	on Locked="false" Priority="22" QFormat="true" Name="Strong"/>\n<w:LsdExce
+	ption Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>\n<w:Ls
+	dException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Do
+	cument Map"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhen
+	Used="true" Name="Plain Text"/>\n<w:LsdException Locked="false" SemiHidden
+	="true" UnhideWhenUsed="true" Name="E-mail Signature"/>\n<w:LsdException L
+	ocked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Top of Fo
+	rm"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="tr
+	ue" Name="HTML Bottom of Form"/>\n<w:LsdException Locked="false" SemiHidde
+	n="true" UnhideWhenUsed="true" Name="Normal (Web)"/>\n<w:LsdException Lock
+	ed="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Acronym"/>\n
+	<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Nam
+	e="HTML Address"/>\n<w:LsdException Locked="false" SemiHidden="true" Unhid
+	eWhenUsed="true" Name="HTML Cite"/>\n<w:LsdException Locked="false" SemiHi
+	dden="true" UnhideWhenUsed="true" Name="HTML Code"/>\n<w:LsdException Lock
+	ed="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Definition"/
+	>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" 
+	Name="HTML Keyboard"/>\n<w:LsdException Locked="false" SemiHidden="true" U
+	nhideWhenUsed="true" Name="HTML Preformatted"/>\n<w:LsdException Locked="f
+	alse" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Sample"/>\n<w:Lsd
+	Exception Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTM
+	L Typewriter"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWh
+	enUsed="true" Name="HTML Variable"/>\n<w:LsdException Locked="false" SemiH
+	idden="true" UnhideWhenUsed="true" Name="annotation subject"/>\n<w:LsdExce
+	ption Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="No List
+	"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true
+	" Name="Outline List 1"/>\n<w:LsdException Locked="false" SemiHidden="true
+	" UnhideWhenUsed="true" Name="Outline List 2"/>\n<w:LsdException Locked="f
+	alse" SemiHidden="true" UnhideWhenUsed="true" Name="Outline List 3"/>\n<w:
+	LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="
+	Table Simple 1"/>\n<w:LsdException Locked="false" SemiHidden="true" Unhide
+	WhenUsed="true" Name="Table Simple 2"/>\n<w:LsdException Locked="false" Se
+	miHidden="true" UnhideWhenUsed="true" Name="Table Simple 3"/>\n<w:LsdExcep
+	tion Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Cl
+	assic 1"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUse
+	d="true" Name="Table Classic 2"/>\n<w:LsdException Locked="false" SemiHidd
+	en="true" UnhideWhenUsed="true" Name="Table Classic 3"/>\n<w:LsdException 
+	Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Classic
+	 4"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="tr
+	ue" Name="Table Colorful 1"/>\n<w:LsdException Locked="false" SemiHidden="
+	true" UnhideWhenUsed="true" Name="Table Colorful 2"/>\n<w:LsdException Loc
+	ked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Colorful 3
+	"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true
+	" Name="Table Columns 1"/>\n<w:LsdException Locked="false" SemiHidden="tru
+	e" UnhideWhenUsed="true" Name="Table Columns 2"/>\n<w:LsdException Locked=
+	"false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Columns 3"/>\n
+	<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Nam
+	e="Table Columns 4"/>\n<w:LsdException Locked="false" SemiHidden="true" Un
+	hideWhenUsed="true" Name="Table Columns 5"/>\n<w:LsdException Locked="fals
+	e" SemiHidden="true" UnhideWhenUsed="true" Name="Table Grid 1"/>\n<w:LsdEx
+	ception Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table
+	 Grid 2"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUse
+	d="true" Name="Table Grid 3"/>\n<w:LsdException Locked="false" SemiHidden=
+	"true" UnhideWhenUsed="true" Name="Table Grid 4"/>\n<w:LsdException Locked
+	="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Grid 5"/>\n<w
+	:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name=
+	"Table Grid 6"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideW
+	henUsed="true" Name="Table Grid 7"/>\n<w:LsdException Locked="false" SemiH
+	idden="true" UnhideWhenUsed="true" Name="Table Grid 8"/>\n<w:LsdException 
+	Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table List 1"
+	/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+	 Name="Table List 2"/>\n<w:LsdException Locked="false" SemiHidden="true" U
+	nhideWhenUsed="true" Name="Table List 3"/>\n<w:LsdException Locked="false"
+	 SemiHidden="true" UnhideWhenUsed="true" Name="Table List 4"/>\n<w:LsdExce
+	ption Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table L
+	ist 5"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed=
+	"true" Name="Table List 6"/>\n<w:LsdException Locked="false" SemiHidden="t
+	rue" UnhideWhenUsed="true" Name="Table List 7"/>\n<w:LsdException Locked="
+	false" SemiHidden="true" UnhideWhenUsed="true" Name="Table List 8"/>\n<w:L
+	sdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="T
+	able 3D effects 1"/>\n<w:LsdException Locked="false" SemiHidden="true" Unh
+	ideWhenUsed="true" Name="Table 3D effects 2"/>\n<w:LsdException Locked="fa
+	lse" SemiHidden="true" UnhideWhenUsed="true" Name="Table 3D effects 3"/>\n
+	<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Nam
+	e="Table Contemporary"/>\n<w:LsdException Locked="false" SemiHidden="true"
+	 UnhideWhenUsed="true" Name="Table Elegant"/>\n<w:LsdException Locked="fal
+	se" SemiHidden="true" UnhideWhenUsed="true" Name="Table Professional"/>\n<
+	w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name
+	="Table Subtle 1"/>\n<w:LsdException Locked="false" SemiHidden="true" Unhi
+	deWhenUsed="true" Name="Table Subtle 2"/>\n<w:LsdException Locked="false" 
+	SemiHidden="true" UnhideWhenUsed="true" Name="Table Web 1"/>\n<w:LsdExcept
+	ion Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Web
+	 3"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="tr
+	ue" Name="Balloon Text"/>\n<w:LsdException Locked="false" Priority="39" Na
+	me="Table Grid"/>\n<w:LsdException Locked="false" SemiHidden="true" Name="
+	Placeholder Text"/>\n<w:LsdException Locked="false" Priority="1" QFormat="
+	true" Name="No Spacing"/>\n<w:LsdException Locked="false" Priority="60" Na
+	me="Light Shading"/>\n<w:LsdException Locked="false" Priority="61" Name="L
+	ight List"/>\n<w:LsdException Locked="false" Priority="62" Name="Light Gri
+	d"/>\n<w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"
+	/>\n<w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+	\n<w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>\n<w:
+	LsdException Locked="false" Priority="66" Name="Medium List 2"/>\n<w:LsdEx
+	ception Locked="false" Priority="67" Name="Medium Grid 1"/>\n<w:LsdExcepti
+	on Locked="false" Priority="68" Name="Medium Grid 2"/>\n<w:LsdException Lo
+	cked="false" Priority="69" Name="Medium Grid 3"/>\n<w:LsdException Locked=
+	"false" Priority="70" Name="Dark List"/>\n<w:LsdException Locked="false" P
+	riority="71" Name="Colorful Shading"/>\n<w:LsdException Locked="false" Pri
+	ority="72" Name="Colorful List"/>\n<w:LsdException Locked="false" Priority
+	="73" Name="Colorful Grid"/>\n<w:LsdException Locked="false" Priority="60"
+	 Name="Light Shading Accent 1"/>\n<w:LsdException Locked="false" Priority=
+	"61" Name="Light List Accent 1"/>\n<w:LsdException Locked="false" Priority
+	="62" Name="Light Grid Accent 1"/>\n<w:LsdException Locked="false" Priorit
+	y="63" Name="Medium Shading 1 Accent 1"/>\n<w:LsdException Locked="false" 
+	Priority="64" Name="Medium Shading 2 Accent 1"/>\n<w:LsdException Locked="
+	false" Priority="65" Name="Medium List 1 Accent 1"/>\n<w:LsdException Lock
+	ed="false" SemiHidden="true" Name="Revision"/>\n<w:LsdException Locked="fa
+	lse" Priority="34" QFormat="true" Name="List Paragraph"/>\n<w:LsdException
+	 Locked="false" Priority="29" QFormat="true" Name="Quote"/>\n<w:LsdExcepti
+	on Locked="false" Priority="30" QFormat="true" Name="Intense Quote"/>\n<w:
+	LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>\
+	n<w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1
+	"/>\n<w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Acce
+	nt 1"/>\n<w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 
+	Accent 1"/>\n<w:LsdException Locked="false" Priority="70" Name="Dark List 
+	Accent 1"/>\n<w:LsdException Locked="false" Priority="71" Name="Colorful S
+	hading Accent 1"/>\n<w:LsdException Locked="false" Priority="72" Name="Col
+	orful List Accent 1"/>\n<w:LsdException Locked="false" Priority="73" Name=
+	"Colorful Grid Accent 1"/>\n<w:LsdException Locked="false" Priority="60" N
+	ame="Light Shading Accent 2"/>\n<w:LsdException Locked="false" Priority="6
+	1" Name="Light List Accent 2"/>\n<w:LsdException Locked="false" Priority="
+	62" Name="Light Grid Accent 2"/>\n<w:LsdException Locked="false" Priority=
+	"63" Name="Medium Shading 1 Accent 2"/>\n<w:LsdException Locked="false" Pr
+	iority="64" Name="Medium Shading 2 Accent 2"/>\n<w:LsdException Locked="fa
+	lse" Priority="65" Name="Medium List 1 Accent 2"/>\n<w:LsdException Locked
+	="false" Priority="66" Name="Medium List 2 Accent 2"/>\n<w:LsdException Lo
+	cked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>\n<w:LsdExceptio
+	n Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>\n<w:LsdExce
+	ption Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>\n<w:Lsd
+	Exception Locked="false" Priority="70" Name="Dark List Accent 2"/>\n<w:Lsd
+	Exception Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>\
+	n<w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2
+	"/>\n<w:LsdException Locked="false" Priority="73" Name="Colorful Grid Acce
+	nt 2"/>\n<w:LsdException Locked="false" Priority="60" Name="Light Shading 
+	Accent 3"/>\n<w:LsdException Locked="false" Priority="61" Name="Light List
+	 Accent 3"/>\n<w:LsdException Locked="false" Priority="62" Name="Light Gri
+	d Accent 3"/>\n<w:LsdException Locked="false" Priority="63" Name="Medium S
+	hading 1 Accent 3"/>\n<w:LsdException Locked="false" Priority="64" Name="M
+	edium Shading 2 Accent 3"/>\n<w:LsdException Locked="false" Priority="65" 
+	Name="Medium List 1 Accent 3"/>\n<w:LsdException Locked="false" Priority="
+	66" Name="Medium List 2 Accent 3"/>\n<w:LsdException Locked="false" Priori
+	ty="67" Name="Medium Grid 1 Accent 3"/>\n<w:LsdException Locked="false" Pr
+	iority="68" Name="Medium Grid 2 Accent 3"/>\n<w:LsdException Locked="false
+	" Priority="69" Name="Medium Grid 3 Accent 3"/>\n<w:LsdException Locked="f
+	alse" Priority="70" Name="Dark List Accent 3"/>\n<w:LsdException Locked="f
+	alse" Priority="71" Name="Colorful Shading Accent 3"/>\n<w:LsdException Lo
+	cked="false" Priority="72" Name="Colorful List Accent 3"/>\n<w:LsdExceptio
+	n Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>\n<w:LsdExce
+	ption Locked="false" Priority="60" Name="Light Shading Accent 4"/>\n<w:Lsd
+	Exception Locked="false" Priority="61" Name="Light List Accent 4"/>\n<w:Ls
+	dException Locked="false" Priority="62" Name="Light Grid Accent 4"/>\n<w:L
+	sdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/
+	>\n<w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Acc
+	ent 4"/>\n<w:LsdException Locked="false" Priority="65" Name="Medium List 1
+	 Accent 4"/>\n<w:LsdException Locked="false" Priority="66" Name="Medium Li
+	st 2 Accent 4"/>\n<w:LsdException Locked="false" Priority="67" Name="Mediu
+	m Grid 1 Accent 4"/>\n<w:LsdException Locked="false" Priority="68" Name="M
+	edium Grid 2 Accent 4"/>\n<w:LsdException Locked="false" Priority="69" Nam
+	e="Medium Grid 3 Accent 4"/>\n<w:LsdException Locked="false" Priority="70"
+	 Name="Dark List Accent 4"/>\n<w:LsdException Locked="false" Priority="71"
+	 Name="Colorful Shading Accent 4"/>\n<w:LsdException Locked="false" Priori
+	ty="72" Name="Colorful List Accent 4"/>\n<w:LsdException Locked="false" Pr
+	iority="73" Name="Colorful Grid Accent 4"/>\n<w:LsdException Locked="false
+	" Priority="60" Name="Light Shading Accent 5"/>\n<w:LsdException Locked="f
+	alse" Priority="61" Name="Light List Accent 5"/>\n<w:LsdException Locked="
+	false" Priority="62" Name="Light Grid Accent 5"/>\n<w:LsdException Locked=
+	"false" Priority="63" Name="Medium Shading 1 Accent 5"/>\n<w:LsdException 
+	Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>\n<w:LsdExc
+	eption Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>\n<w:Ls
+	dException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>\n<
+	w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/
+	>\n<w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent
+	 5"/>\n<w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Ac
+	cent 5"/>\n<w:LsdException Locked="false" Priority="70" Name="Dark List Ac
+	cent 5"/>\n<w:LsdException Locked="false" Priority="71" Name="Colorful Sha
+	ding Accent 5"/>\n<w:LsdException Locked="false" Priority="72" Name="Color
+	ful List Accent 5"/>\n<w:LsdException Locked="false" Priority="73" Name="C
+	olorful Grid Accent 5"/>\n<w:LsdException Locked="false" Priority="60" Nam
+	e="Light Shading Accent 6"/>\n<w:LsdException Locked="false" Priority="61"
+	 Name="Light List Accent 6"/>\n<w:LsdException Locked="false" Priority="62
+	" Name="Light Grid Accent 6"/>\n<w:LsdException Locked="false" Priority="6
+	3" Name="Medium Shading 1 Accent 6"/>\n<w:LsdException Locked="false" Prio
+	rity="64" Name="Medium Shading 2 Accent 6"/>\n<w:LsdException Locked="fals
+	e" Priority="65" Name="Medium List 1 Accent 6"/>\n<w:LsdException Locked="
+	false" Priority="66" Name="Medium List 2 Accent 6"/>\n<w:LsdException Lock
+	ed="false" Priority="67" Name="Medium Grid 1 Accent 6"/>\n<w:LsdException 
+	Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>\n<w:LsdExcept
+	ion Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>\n<w:LsdEx
+	ception Locked="false" Priority="70" Name="Dark List Accent 6"/>\n<w:LsdEx
+	ception Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>\n<
+	w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/
+	>\n<w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent
+	 6"/>\n<w:LsdException Locked="false" Priority="19" QFormat="true" Name="S
+	ubtle Emphasis"/>\n<w:LsdException Locked="false" Priority="21" QFormat="t
+	rue" Name="Intense Emphasis"/>\n<w:LsdException Locked="false" Priority="3
+	1" QFormat="true" Name="Subtle Reference"/>\n<w:LsdException Locked="false
+	" Priority="32" QFormat="true" Name="Intense Reference"/>\n<w:LsdException
+	 Locked="false" Priority="33" QFormat="true" Name="Book Title"/>\n<w:LsdEx
+	ception Locked="false" Priority="37" SemiHidden="true" UnhideWhenUsed="tru
+	e" Name="Bibliography"/>\n<w:LsdException Locked="false" Priority="39" Sem
+	iHidden="true" UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>\n
+	<w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>\n<w:Ls
+	dException Locked="false" Priority="42" Name="Plain Table 2"/>\n<w:LsdExce
+	ption Locked="false" Priority="43" Name="Plain Table 3"/>\n<w:LsdException
+	 Locked="false" Priority="44" Name="Plain Table 4"/>\n<w:LsdException Lock
+	ed="false" Priority="45" Name="Plain Table 5"/>\n<w:LsdException Locked="f
+	alse" Priority="40" Name="Grid Table Light"/>\n<w:LsdException Locked="fal
+	se" Priority="46" Name="Grid Table 1 Light"/>\n<w:LsdException Locked="fal
+	se" Priority="47" Name="Grid Table 2"/>\n<w:LsdException Locked="false" Pr
+	iority="48" Name="Grid Table 3"/>\n<w:LsdException Locked="false" Priority
+	="49" Name="Grid Table 4"/>\n<w:LsdException Locked="false" Priority="50" 
+	Name="Grid Table 5 Dark"/>\n<w:LsdException Locked="false" Priority="51" N
+	ame="Grid Table 6 Colorful"/>\n<w:LsdException Locked="false" Priority="52
+	" Name="Grid Table 7 Colorful"/>\n<w:LsdException Locked="false" Priority=
+	"46" Name="Grid Table 1 Light Accent 1"/>\n<w:LsdException Locked="false" 
+	Priority="47" Name="Grid Table 2 Accent 1"/>\n<w:LsdException Locked="fals
+	e" Priority="48" Name="Grid Table 3 Accent 1"/>\n<w:LsdException Locked="f
+	alse" Priority="49" Name="Grid Table 4 Accent 1"/>\n<w:LsdException Locked
+	="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>\n<w:LsdExceptio
+	n Locked="false" Priority="51" Name="Grid Table 6 Colorful Accent 1"/>\n<w
+	:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful Acc
+	ent 1"/>\n<w:LsdException Locked="false" Priority="46" Name="Grid Table 1 
+	Light Accent 2"/>\n<w:LsdException Locked="false" Priority="47" Name="Grid
+	 Table 2 Accent 2"/>\n<w:LsdException Locked="false" Priority="48" Name="G
+	rid Table 3 Accent 2"/>\n<w:LsdException Locked="false" Priority="49" Name
+	="Grid Table 4 Accent 2"/>\n<w:LsdException Locked="false" Priority="50" N
+	ame="Grid Table 5 Dark Accent 2"/>\n<w:LsdException Locked="false" Priorit
+	y="51" Name="Grid Table 6 Colorful Accent 2"/>\n<w:LsdException Locked="fa
+	lse" Priority="52" Name="Grid Table 7 Colorful Accent 2"/>\n<w:LsdExceptio
+	n Locked="false" Priority="46" Name="Grid Table 1 Light Accent 3"/>\n<w:Ls
+	dException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>\n<w
+	:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>\
+	n<w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"
+	/>\n<w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark A
+	ccent 3"/>\n<w:LsdException Locked="false" Priority="51" Name="Grid Table 
+	6 Colorful Accent 3"/>\n<w:LsdException Locked="false" Priority="52" Name=
+	"Grid Table 7 Colorful Accent 3"/>\n<w:LsdException Locked="false" Priorit
+	y="46" Name="Grid Table 1 Light Accent 4"/>\n<w:LsdException Locked="false
+	" Priority="47" Name="Grid Table 2 Accent 4"/>\n<w:LsdException Locked="fa
+	lse" Priority="48" Name="Grid Table 3 Accent 4"/>\n<w:LsdException Locked=
+	"false" Priority="49" Name="Grid Table 4 Accent 4"/>\n<w:LsdException Lock
+	ed="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>\n<w:LsdExcept
+	ion Locked="false" Priority="51" Name="Grid Table 6 Colorful Accent 4"/>\n
+	<w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful A
+	ccent 4"/>\n<w:LsdException Locked="false" Priority="46" Name="Grid Table 
+	1 Light Accent 5"/>\n<w:LsdException Locked="false" Priority="47" Name="Gr
+	id Table 2 Accent 5"/>\n<w:LsdException Locked="false" Priority="48" Name=
+	"Grid Table 3 Accent 5"/>\n<w:LsdException Locked="false" Priority="49" Na
+	me="Grid Table 4 Accent 5"/>\n<w:LsdException Locked="false" Priority="50"
+	 Name="Grid Table 5 Dark Accent 5"/>\n<w:LsdException Locked="false" Prior
+	ity="51" Name="Grid Table 6 Colorful Accent 5"/>\n<w:LsdException Locked="
+	false" Priority="52" Name="Grid Table 7 Colorful Accent 5"/>\n<w:LsdExcept
+	ion Locked="false" Priority="46" Name="Grid Table 1 Light Accent 6"/>\n<w:
+	LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>\n
+	<w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/
+	>\n<w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 
+	6"/>\n<w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark
+	 Accent 6"/>\n<w:LsdException Locked="false" Priority="51" Name="Grid Tabl
+	e 6 Colorful Accent 6"/>\n<w:LsdException Locked="false" Priority="52" Nam
+	e="Grid Table 7 Colorful Accent 6"/>\n<w:LsdException Locked="false" Prior
+	ity="46" Name="List Table 1 Light"/>\n<w:LsdException Locked="false" Prior
+	ity="47" Name="List Table 2"/>\n<w:LsdException Locked="false" Priority="4
+	8" Name="List Table 3"/>\n<w:LsdException Locked="false" Priority="49" Nam
+	e="List Table 4"/>\n<w:LsdException Locked="false" Priority="50" Name="Lis
+	t Table 5 Dark"/>\n<w:LsdException Locked="false" Priority="51" Name="List
+	 Table 6 Colorful"/>\n<w:LsdException Locked="false" Priority="52" Name="L
+	ist Table 7 Colorful"/>\n<w:LsdException Locked="false" Priority="46" Name
+	="List Table 1 Light Accent 1"/>\n<w:LsdException Locked="false" Priority=
+	"47" Name="List Table 2 Accent 1"/>\n<w:LsdException Locked="false" Priori
+	ty="48" Name="List Table 3 Accent 1"/>\n<w:LsdException Locked="false" Pri
+	ority="49" Name="List Table 4 Accent 1"/>\n<w:LsdException Locked="false" 
+	Priority="50" Name="List Table 5 Dark Accent 1"/>\n<w:LsdException Locked=
+	"false" Priority="51" Name="List Table 6 Colorful Accent 1"/>\n<w:LsdExcep
+	tion Locked="false" Priority="52" Name="List Table 7 Colorful Accent 1"/>\
+	n<w:LsdException Locked="false" Priority="46" Name="List Table 1 Light Acc
+	ent 2"/>\n<w:LsdException Locked="false" Priority="47" Name="List Table 2 
+	Accent 2"/>\n<w:LsdException Locked="false" Priority="48" Name="List Table
+	 3 Accent 2"/>\n<w:LsdException Locked="false" Priority="49" Name="List Ta
+	ble 4 Accent 2"/>\n<w:LsdException Locked="false" Priority="50" Name="List
+	 Table 5 Dark Accent 2"/>\n<w:LsdException Locked="false" Priority="51" Na
+	me="List Table 6 Colorful Accent 2"/>\n<w:LsdException Locked="false" Prio
+	rity="52" Name="List Table 7 Colorful Accent 2"/>\n<w:LsdException Locked=
+	"false" Priority="46" Name="List Table 1 Light Accent 3"/>\n<w:LsdExceptio
+	n Locked="false" Priority="47" Name="List Table 2 Accent 3"/>\n<w:LsdExcep
+	tion Locked="false" Priority="48" Name="List Table 3 Accent 3"/>\n<w:LsdEx
+	ception Locked="false" Priority="49" Name="List Table 4 Accent 3"/>\n<w:Ls
+	dException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/
+	>\n<w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorfu
+	l Accent 3"/>\n<w:LsdException Locked="false" Priority="52" Name="List Tab
+	le 7 Colorful Accent 3"/>\n<w:LsdException Locked="false" Priority="46" Na
+	me="List Table 1 Light Accent 4"/>\n<w:LsdException Locked="false" Priorit
+	y="47" Name="List Table 2 Accent 4"/>\n<w:LsdException Locked="false" Prio
+	rity="48" Name="List Table 3 Accent 4"/>\n<w:LsdException Locked="false" P
+	riority="49" Name="List Table 4 Accent 4"/>\n<w:LsdException Locked="false
+	" Priority="50" Name="List Table 5 Dark Accent 4"/>\n<w:LsdException Locke
+	d="false" Priority="51" Name="List Table 6 Colorful Accent 4"/>\n<w:LsdExc
+	eption Locked="false" Priority="52" Name="List Table 7 Colorful Accent 4"/
+	>\n<w:LsdException Locked="false" Priority="46" Name="List Table 1 Light A
+	ccent 5"/>\n<w:LsdException Locked="false" Priority="47" Name="List Table 
+	2 Accent 5"/>\n<w:LsdException Locked="false" Priority="48" Name="List Tab
+	le 3 Accent 5"/>\n<w:LsdException Locked="false" Priority="49" Name="List 
+	Table 4 Accent 5"/>\n<w:LsdException Locked="false" Priority="50" Name="Li
+	st Table 5 Dark Accent 5"/>\n<w:LsdException Locked="false" Priority="51" 
+	Name="List Table 6 Colorful Accent 5"/>\n<w:LsdException Locked="false" Pr
+	iority="52" Name="List Table 7 Colorful Accent 5"/>\n<w:LsdException Locke
+	d="false" Priority="46" Name="List Table 1 Light Accent 6"/>\n<w:LsdExcept
+	ion Locked="false" Priority="47" Name="List Table 2 Accent 6"/>\n<w:LsdExc
+	eption Locked="false" Priority="48" Name="List Table 3 Accent 6"/>\n<w:Lsd
+	Exception Locked="false" Priority="49" Name="List Table 4 Accent 6"/>\n<w:
+	LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6
+	"/>\n<w:LsdException Locked="false" Priority="51" Name="List Table 6 Color
+	ful Accent 6"/>\n<w:LsdException Locked="false" Priority="52" Name="List T
+	able 7 Colorful Accent 6"/>\n<w:LsdException Locked="false" SemiHidden="tr
+	ue" UnhideWhenUsed="true" Name="Mention"/>\n<w:LsdException Locked="false"
+	 SemiHidden="true" UnhideWhenUsed="true" Name="Smart Hyperlink"/>\n<w:LsdE
+	xception Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Hash
+	tag"/>\n<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="t
+	rue" Name="Unresolved Mention"/>\n<w:LsdException Locked="false" SemiHidde
+	n="true" UnhideWhenUsed="true" Name="Smart Link"/>\n<w:LsdException Locked
+	="false" SemiHidden="true" UnhideWhenUsed="true" Name="Smart Link Error"/>
+	\n</w:LatentStyles>\n</xml><![endif]--><style><!--\n/* Font Definitions */
+	\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 3 2 
+	4\;\n	mso-font-alt:"Calisto MT"\;\n	mso-font-charset:0\;\n	mso-generic-fon
+	t-family:roman\;\n	mso-font-pitch:variable\;\n	mso-font-signature:-5368701
+	45 1107305727 0 0 415 0\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1
+	:2 15 5 2 2 2 4 3 2 4\;\n	mso-font-alt:Calibri\;\n	mso-font-charset:0\;\n	
+	mso-generic-font-family:swiss\;\n	mso-font-pitch:variable\;\n	mso-font-sig
+	nature:-536859905 -1073732485 9 0 511 0\;}\n/* Style Definitions */\np.Mso
+	Normal\, li.MsoNormal\, div.MsoNormal\n	{mso-style-unhide:no\;\n	mso-style
+	-qformat:yes\;\n	mso-style-parent:""\;\n	margin:0in\;\n	margin-bottom:.000
+	1pt\;\n	mso-pagination:widow-orphan\;\n	font-size:11.0pt\;\n	font-family:"
+	Calibri"\,sans-serif\;\n	mso-ascii-font-family:Calibri\;\n	mso-fareast-fon
+	t-family:Calibri\;\n	mso-hansi-font-family:Calibri\;\n	mso-bidi-font-famil
+	y:"Times New Roman"\;}\na:link\, span.MsoHyperlink\n	{mso-style-noshow:yes
+	\;\n	mso-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underline
+	\;\n	text-underline:single\;}\na:visited\, span.MsoHyperlinkFollowed\n	{ms
+	o-style-noshow:yes\;\n	mso-style-priority:99\;\n	color:#954F72\;\n	text-de
+	coration:underline\;\n	text-underline:single\;}\nspan.EmailStyle17\n	{mso-
+	style-type:personal-compose\;\n	mso-style-noshow:yes\;\n	mso-style-unhide:
+	no\;\n	mso-ansi-font-size:11.0pt\;\n	mso-bidi-font-size:11.0pt\;\n	font-fa
+	mily:"Calibri"\,sans-serif\;\n	mso-ascii-font-family:Calibri\;\n	mso-farea
+	st-font-family:Calibri\;\n	mso-hansi-font-family:Calibri\;\n	mso-bidi-font
+	-family:"Times New Roman"\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-s
+	tyle-type:export-only\;\n	mso-default-props:yes\;\n	font-family:"Calibri"\
+	,sans-serif\;\n	mso-ascii-font-family:Calibri\;\n	mso-fareast-font-family:
+	Calibri\;\n	mso-hansi-font-family:Calibri\;\n	mso-bidi-font-family:"Times 
+	New Roman"\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in 1.
+	0in 1.0in 1.0in\;\n	mso-header-margin:.5in\;\n	mso-footer-margin:.5in\;\n	
+	mso-paper-source:0\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></styl
+	e><!--[if gte mso 10]><style>/* Style Definitions */\ntable.MsoNormalTable
+	\n	{mso-style-name:"Table Normal"\;\n	mso-tstyle-rowband-size:0\;\n	mso-ts
+	tyle-colband-size:0\;\n	mso-style-noshow:yes\;\n	mso-style-priority:99\;\n
+		mso-style-parent:""\;\n	mso-padding-alt:0in 5.4pt 0in 5.4pt\;\n	mso-para-
+	margin:0in\;\n	mso-para-margin-bottom:.0001pt\;\n	mso-pagination:widow-orp
+	han\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;\n	mso-asc
+	ii-font-family:Calibri\;\n	mso-hansi-font-family:Calibri\;\n	mso-bidi-font
+	-family:"Times New Roman"\;}\n</style><![endif]--></head><body lang=EN-US 
+	link="#0563C1" vlink="#954F72" style='tab-interval:.5in'><div class=WordSe
+	ction1><p class=MsoNormal><o:p>&nbsp\;</o:p></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-CONFTYPE:0
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
