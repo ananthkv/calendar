@@ -2,10 +2,10 @@ BEGIN:VCALENDAR
 PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
 METHOD:PUBLISH
-X-CALSTART:20210115T053000Z
-X-CALEND:20210122T090000Z
-X-CLIPSTART:20210114T183000Z
-X-CLIPEND:20210123T183000Z
+X-CALSTART:20210116T154700Z
+X-CALEND:20210124T090000Z
+X-CLIPSTART:20210115T183000Z
+X-CLIPEND:20210124T183000Z
 X-WR-RELCALID:{0000002E-6E92-3A34-C16A-6DFCF7CB3C3E}
 X-WR-CALNAME:Ananth Venugopal Calendar
 X-PRIMARY-CALENDAR:TRUE
@@ -42,6 +42,21 @@ DTSTART:16010330T020000
 RRULE:FREQ=YEARLY;BYDAY=-1FR;BYMONTH=3
 TZOFFSETFROM:+0200
 TZOFFSETTO:+0300
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Pacific Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
@@ -86,7 +101,7 @@ DESCRIPTION: \n\n \n\n_____________________________________________________
 DTEND;TZID="Unnamed Time Zone 1":20210121T153000
 DTSTAMP:20201126T182041Z
 DTSTART;TZID="India Standard Time":20210121T150000
-LAST-MODIFIED:20210115T134113Z
+LAST-MODIFIED:20210116T125012Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Balaji Chithugnanamoorthy":mailto:Balaji_Chithugnanamoorthy@a
 	mat.com
@@ -257,7 +272,7 @@ DESCRIPTION:Hi All\n\n \n\nThe main purpose is to discuss open issues and s
 DTEND;TZID="Unnamed Time Zone 1":20210119T183000
 DTSTAMP:20201102T084751Z
 DTSTART;TZID="India Standard Time":20210119T173000
-LAST-MODIFIED:20210115T134111Z
+LAST-MODIFIED:20210116T125010Z
 LOCATION:MS Teams
 ORGANIZER;CN="Rohit Kumar --CNTR":mailto:Rohit_Kumar@contractor.amat.com
 PRIORITY:5
@@ -352,12 +367,12 @@ BEGIN:VEVENT
 CLASS:PRIVATE
 CREATED:20201106T054230Z
 DESCRIPTION: \n
-DTEND;TZID="Unnamed Time Zone 1":20210115T133000
-DTSTAMP:20210115T154706Z
-DTSTART;TZID="Unnamed Time Zone 1":20210115T130000
+DTEND;TZID="Unnamed Time Zone 1":20210118T133000
+DTSTAMP:20210116T154610Z
+DTSTART;TZID="Unnamed Time Zone 1":20210118T130000
 LAST-MODIFIED:20201215T120320Z
 PRIORITY:1
-RRULE:FREQ=WEEKLY;COUNT=6;BYDAY=MO,TU,WE,TH,FR
+RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=MO,TU,WE,TH,FR
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:PersonalTime
 TRANSP:OPAQUE
@@ -976,7 +991,7 @@ DESCRIPTION: \n\n \n\n\n\n \n\n____________________________________________
 DTEND;TZID="Unnamed Time Zone 1":20210118T203000
 DTSTAMP:20201126T182036Z
 DTSTART;TZID="Unnamed Time Zone 1":20210118T123000
-LAST-MODIFIED:20210115T143416Z
+LAST-MODIFIED:20210116T125001Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Balaji Chithugnanamoorthy":mailto:Balaji_Chithugnanamoorthy@a
 	mat.com
@@ -1142,7 +1157,7 @@ DESCRIPTION:Hi\n\nMeeting agenda - http://dcilpa317:8090/x/p4ET <http://dci
 DTEND;TZID="Israel Standard Time":20210120T120000
 DTSTAMP:20201202T112104Z
 DTSTART;TZID="Israel Standard Time":20210120T110000
-LAST-MODIFIED:20210115T134110Z
+LAST-MODIFIED:20210116T125008Z
 LOCATION:Teams
 ORGANIZER;CN="Eran Reuven":mailto:Eran_Reuven@amat.com
 PRIORITY:5
@@ -1467,7 +1482,7 @@ DESCRIPTION:Owner: Yana Branzburg / Avi Bensimhon\n\n \n\n30min – Highlig
 DTEND;TZID="Israel Standard Time":20210119T111500
 DTSTAMP:20210104T103322Z
 DTSTART;TZID="Israel Standard Time":20210119T100000
-LAST-MODIFIED:20210115T134105Z
+LAST-MODIFIED:20210116T125001Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Irit Shaaya-Segal":mailto:Irit_ShaayaSegal@amat.com
 PRIORITY:5
@@ -1607,14 +1622,14 @@ DESCRIPTION: \n\n__________________________________________________________
 	zItY2MyYy00NWY1LWJiYzQtNWVjNWExNjgzYjU4@thread.v2&messageId=0&language=en-
 	US>  \n\n_________________________________________________________________
 	_______________ \n\n \n\n
-DTEND;TZID="Unnamed Time Zone 1":20210115T111500
+DTEND;TZID="Unnamed Time Zone 1":20210118T111500
 DTSTAMP:20210105T051849Z
-DTSTART;TZID="Unnamed Time Zone 1":20210115T110000
-LAST-MODIFIED:20210115T134110Z
+DTSTART;TZID="Unnamed Time Zone 1":20210118T110000
+LAST-MODIFIED:20210116T125007Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Ananth Venugopal":mailto:Ananth_Venugopal@amat.com
 PRIORITY:5
-RRULE:FREQ=WEEKLY;COUNT=6;BYDAY=MO,TU,WE,TH,FR
+RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=MO,TU,WE,TH,FR
 SEQUENCE:0
 SUMMARY;LANGUAGE=en-us:Daily Field Issues
 TRANSP:OPAQUE
@@ -1757,7 +1772,7 @@ DESCRIPTION:Sorry\, need to change again.\n\n \n\nTalia\, Rivka\, I found t
 DTEND;TZID="Unnamed Time Zone 1":20210120T183000
 DTSTAMP:20210104T155552Z
 DTSTART;TZID="Unnamed Time Zone 1":20210120T173000
-LAST-MODIFIED:20210115T134106Z
+LAST-MODIFIED:20210116T125002Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Suchitra Gupta":mailto:Suchitra_Gupta@amat.com
 PRIORITY:5
@@ -1930,10 +1945,10 @@ DESCRIPTION: \n\n__________________________________________________________
 	_________ \n\n \n\nThe content of this message is APPLIED MATERIALS CONFID
 	ENTIAL. If you are not the intended recipient\, please notify me\, delete 
 	this email and do not use or distribute this email. \n\n
-DTEND;TZID="Unnamed Time Zone 1":20210115T143000
+DTEND;TZID="Unnamed Time Zone 1":20210117T143000
 DTSTAMP:20210106T112600Z
-DTSTART;TZID="Unnamed Time Zone 1":20210115T140000
-LAST-MODIFIED:20210115T134110Z
+DTSTART;TZID="Unnamed Time Zone 1":20210117T140000
+LAST-MODIFIED:20210116T125007Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Ashutosh Shukla":mailto:Ashutosh_Shukla@amat.com
 PRIORITY:5
@@ -2038,28 +2053,6 @@ X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-CLASS:PUBLIC
-CREATED:20210115T051321Z
-DTEND:20210115T070000Z
-DTSTAMP:20210115T042417Z
-DTSTART:20210115T063000Z
-LAST-MODIFIED:20210115T134108Z
-PRIORITY:5
-RECURRENCE-ID:20210115T083000Z
-SEQUENCE:2
-TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E0080000000080A3B4784CE4D601000000000000000
-	01000000081C2FD634089B849B5B2CD88AA92E227
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MS-OLK-APPTSEQTIME:20210106T112600Z
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -2410,7 +2403,7 @@ DESCRIPTION:Hi All\,\n\n \n\nGreetings!\n\n \n\nLet us begin this year on w
 DTEND;TZID="Unnamed Time Zone 1":20210119T213000
 DTSTAMP:20210112T032957Z
 DTSTART;TZID="Unnamed Time Zone 1":20210119T203000
-LAST-MODIFIED:20210115T134105Z
+LAST-MODIFIED:20210116T125001Z
 LOCATION:Microsoft Teams Meeting 
 ORGANIZER;CN="GIS Software Development Accelerator":mailto:GIS_Software_Dev
 	elopment_accelerator@amat.com
@@ -2566,7 +2559,7 @@ DESCRIPTION: \n\n__________________________________________________________
 DTEND;TZID="Unnamed Time Zone 1":20210120T123000
 DTSTAMP:20210113T094558Z
 DTSTART;TZID="Unnamed Time Zone 1":20210120T120000
-LAST-MODIFIED:20210115T134105Z
+LAST-MODIFIED:20210116T125002Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Ananth Venugopal":mailto:Ananth_Venugopal@amat.com
 PRIORITY:5
@@ -2696,7 +2689,7 @@ DESCRIPTION:Hi Gangadhar\,\n\n \n\nNeed some inputs from you about invoking
 DTEND;TZID="Unnamed Time Zone 1":20210118T123000
 DTSTAMP:20210113T170214Z
 DTSTART;TZID="Unnamed Time Zone 1":20210118T120000
-LAST-MODIFIED:20210115T134104Z
+LAST-MODIFIED:20210116T124959Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Ananth Venugopal":mailto:Ananth_Venugopal@amat.com
 PRIORITY:5
@@ -2806,37 +2799,6 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Run Export Calendar
-CLASS:PUBLIC
-CREATED:20210114T154821Z
-DESCRIPTION:Export Calendar \n\n
-DTEND;TZID="Unnamed Time Zone 1":20210115T211800
-DTSTAMP:20210115T154706Z
-DTSTART;TZID="Unnamed Time Zone 1":20210115T211800
-LAST-MODIFIED:20210114T154822Z
-PRIORITY:5
-SEQUENCE:0
-SUMMARY;LANGUAGE=en-us:Export Calendar
-TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000303866C7BAEAD601000000000000000
-	010000000A8D1188721591843A8ED5F8431F78A69
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
-	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
-	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
-	sion 16.0.11929.20766">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
-	from text/rtf format -->\n\n<P><FONT FACE="Calibri">Export Calendar</FONT>
-	\n</P>\n\n</BODY>\n</HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-CONFTYPE:0
-BEGIN:VALARM
-TRIGGER:-PT1M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 ATTENDEE;CN=Ziv_Gordin@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ziv_G
 	ordin@amat.com
 ATTENDEE;CN=Eran_Reuven@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTSTAT=TE
@@ -2887,7 +2849,7 @@ DESCRIPTION:Purpose:\n\n*	Present STP and make sure all cases are valid.\n*
 DTEND;TZID="Israel Standard Time":20210120T143000
 DTSTAMP:20210114T111656Z
 DTSTART;TZID="Israel Standard Time":20210120T140000
-LAST-MODIFIED:20210115T134105Z
+LAST-MODIFIED:20210116T125002Z
 LOCATION:Israel-Rehovot-PDC3- Excellence 5128(3)
 ORGANIZER;CN="Ofer Zvuluny":mailto:Ofer_Zvuluny@amat.com
 PRIORITY:5
@@ -3070,142 +3032,6 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-ATTENDEE;CN=Ananth_Venugopal@amat.com;RSVP=TRUE;PARTSTAT=ACCEPTED:mailto:An
-	anth_Venugopal@amat.com
-CLASS:PUBLIC
-CREATED:20210115T081821Z
-DESCRIPTION:_______________________________________________________________
-	_________________ \n\nMicrosoft Teams meeting \n\nJoin on your computer or
-	 mobile app \n\nClick here to join the meeting <https://teams.microsoft.co
-	m/l/meetup-join/19%3ameeting_ZWJkMzA0NTItMmE1My00YWRlLTgxMTQtMjIwN2M3YzQ2Z
-	GNl%40thread.v2/0?context=%7b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-521cfa
-	6ba3f5%22%2c%22Oid%22%3a%2241eeb262-b2db-4fa8-b33d-3babbda1647a%22%7d>  \n
-	\nOr call in (audio only) \n\n+1 408-899-5236\,\,28230755# <tel:+140889952
-	36\,\,28230755#>    United States\, San Jose \n\n(844) 491-2780\,\,2823075
-	5# <tel:8444912780\,\,28230755#>    United States (Toll-free) \n\nPhone Co
-	nference ID: 282 307 55# \n\nFind a local number <https://dialin.teams.mic
-	rosoft.com/f4c817ac-3cdd-4e23-90c6-24873ded8c4b?id=28230755>  | Reset PIN 
-	<https://mysettings.lync.com/pstnconferencing>  \n\nLearn More <https://ak
-	a.ms/JoinTeamsMeeting>  | Meeting options <https://teams.microsoft.com/mee
-	tingOptions/?organizerId=41eeb262-b2db-4fa8-b33d-3babbda1647a&tenantId=709
-	c2643-b1a9-4415-ad0f-521cfa6ba3f5&threadId=19_meeting_ZWJkMzA0NTItMmE1My00
-	YWRlLTgxMTQtMjIwN2M3YzQ2ZGNl@thread.v2&messageId=0&language=en-US>  \n\n__
-	__________________________________________________________________________
-	____ \n\n \n\nThe content of this message is APPLIED MATERIALS CONFIDENTIA
-	L. If you are not the intended recipient\, please notify me\, delete this 
-	email and do not use or distribute this email. \n\n
-DTEND;TZID="Unnamed Time Zone 1":20210115T160000
-DTSTAMP:20210115T081724Z
-DTSTART;TZID="Unnamed Time Zone 1":20210115T150000
-LAST-MODIFIED:20210115T134104Z
-LOCATION:Microsoft Teams Meeting
-ORGANIZER;CN="Suchitra Gupta":mailto:Suchitra_Gupta@amat.com
-PRIORITY:5
-SEQUENCE:1
-SUMMARY;LANGUAGE=en-us:pump and pal - code discussion
-TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000E0E5ED5D3EEBD601000000000000000
-	01000000096CA9B5173EF804B926EC51CD18410A5
-X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
-	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
-	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
-	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta http-equiv=
-	"Content-Type" content="text/html\; charset=us-ascii">\n<meta name="Genera
-	tor" content="Microsoft Word 15 (filtered medium)">\n<style><!--\n/* Font 
-	Definitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 
-	5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 
-	2 2 2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5
-	 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	panos
-	e-1:2 11 7 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.Mso
-	Normal\, div.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-si
-	ze:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\na:link\, span.MsoHyper
-	link\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underl
-	ine\;}\na:visited\, span.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n
-		color:#954F72\;\n	text-decoration:underline\;}\np.msonormal0\, li.msonorm
-	al0\, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-margin-top-alt:au
-	to\;\n	margin-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in
-	\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\nspan.Email
-	Style18\n	{mso-style-type:personal-compose\;\n	font-family:"Calibri"\,sans
-	-serif\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-on
-	ly\;\n	font-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	ma
-	rgin:1.0in 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\
-	n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidma
-	x="1026" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:
-	ext="edit">\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![e
-	ndif]-->\n</head>\n<body lang="EN-US" link="#0563C1" vlink="#954F72">\n<di
-	v class="WordSection1">\n<p class="MsoNormal"><span style="color:#5F5F5F">
-	__________________________________________________________________________
-	______</span>\n<o:p></o:p></p>\n<div>\n<div style="margin-top:.25in\;margi
-	n-bottom:15.0pt">\n<p class="MsoNormal"><span style="font-size:18.0pt\;fon
-	t-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">Microsoft Team
-	s meeting</span><span style="font-family:&quot\;Segoe UI&quot\;\,sans-seri
-	f\;color:#252424">\n<o:p></o:p></span></p>\n</div>\n<div style="margin-bot
-	tom:15.0pt">\n<div>\n<p class="MsoNormal"><b><span style="font-size:10.5pt
-	\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">Join on y
-	our computer or mobile app</span></b><b><span style="font-family:&quot\;Se
-	goe UI&quot\;\,sans-serif\;color:#252424">\n<o:p></o:p></span></b></p>\n</
-	div>\n<p class="MsoNormal"><span style="font-family:&quot\;Segoe UI&quot\;
-	\,sans-serif\;color:#252424"><a href="https://teams.microsoft.com/l/meetup
-	-join/19%3ameeting_ZWJkMzA0NTItMmE1My00YWRlLTgxMTQtMjIwN2M3YzQ2ZGNl%40thre
-	ad.v2/0?context=%7b%22Tid%22%3a%22709c2643-b1a9-4415-ad0f-521cfa6ba3f5%22%
-	2c%22Oid%22%3a%2241eeb262-b2db-4fa8-b33d-3babbda1647a%22%7d" target="_blan
-	k"><span style="font-size:10.5pt\;font-family:&quot\;Segoe UI Semibold&quo
-	t\;\,sans-serif\;color:#6264A7">Click\n here to join the meeting</span></a
-	> <o:p></o:p></span></p>\n</div>\n<div style="margin-bottom:3.0pt">\n<div 
-	style="margin-bottom:3.0pt">\n<p class="MsoNormal"><b><span style="font-si
-	ze:10.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">
-	Or call in (audio only)</span></b><span style="font-family:&quot\;Segoe UI
-	&quot\;\,sans-serif\;color:#252424">\n<o:p></o:p></span></p>\n</div>\n<div
-	 style="margin-bottom:3.0pt">\n<p class="MsoNormal"><span style="font-fami
-	ly:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a href="tel:+140889
-	95236\,\,28230755# "><span style="font-size:10.5pt\;color:#6264A7">+1 408-
-	899-5236\,\,28230755#</span></a>\n</span><span style="font-size:10.5pt\;fo
-	nt-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">&nbsp\; Unite
-	d States\, San Jose\n</span><span style="font-family:&quot\;Segoe UI&quot\
-	;\,sans-serif\;color:#252424"><o:p></o:p></span></p>\n</div>\n<div>\n<p cl
-	ass="MsoNormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-seri
-	f\;color:#252424"><a href="tel:8444912780\,\,28230755# "><span style="font
-	-size:10.5pt\;color:#6264A7">(844) 491-2780\,\,28230755#</span></a>\n</spa
-	n><span style="font-size:10.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-
-	serif\;color:#252424">&nbsp\; United States (Toll-free)\n</span><span styl
-	e="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><o:p></o
-	:p></span></p>\n</div>\n</div>\n<p class="MsoNormal"><span style="font-siz
-	e:10.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">P
-	hone Conference ID:\n</span><span style="font-size:12.0pt\;font-family:&qu
-	ot\;Segoe UI&quot\;\,sans-serif\;color:#252424">282 307 55#\n</span><span 
-	style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><o:p
-	></o:p></span></p>\n<div style="margin-bottom:15.0pt">\n<p class="MsoNorma
-	l"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252
-	424"><a href="https://dialin.teams.microsoft.com/f4c817ac-3cdd-4e23-90c6-2
-	4873ded8c4b?id=28230755" target="_blank"><span style="font-size:10.5pt\;co
-	lor:#6264A7">Find a local number</span></a>\n | <a href="https://mysetting
-	s.lync.com/pstnconferencing" target="_blank"><span style="font-size:10.5pt
-	\;color:#6264A7">Reset PIN</span></a>\n<o:p></o:p></span></p>\n</div>\n<di
-	v style="margin-top:15.0pt\;margin-bottom:.25in">\n<p class="MsoNormal"><s
-	pan style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424">
-	<a href="https://aka.ms/JoinTeamsMeeting" target="_blank"><span style="fon
-	t-size:10.5pt\;color:#6264A7">Learn More</span></a> |\n<a href="https://te
-	ams.microsoft.com/meetingOptions/?organizerId=41eeb262-b2db-4fa8-b33d-3bab
-	bda1647a&amp\;tenantId=709c2643-b1a9-4415-ad0f-521cfa6ba3f5&amp\;threadId=
-	19_meeting_ZWJkMzA0NTItMmE1My00YWRlLTgxMTQtMjIwN2M3YzQ2ZGNl@thread.v2&amp\
-	;messageId=0&amp\;language=en-US" target="_blank">\n<span style="font-size
-	:10.5pt\;color:#6264A7">Meeting options</span></a> <o:p></o:p></span></p>\
-	n</div>\n</div>\n<div>\n<p class="MsoNormal"><span style="color:#5F5F5F">_
-	__________________________________________________________________________
-	_____</span>\n<o:p></o:p></p>\n</div>\n<p class="MsoNormal"><o:p>&nbsp\;</
-	o:p></p>\n</div>\n<p><span style="font-size: 11pt\; font-family: Calibri\,
-	 sans-serif\; color: #000000\;">The content of this message is APPLIED MAT
-	ERIALS CONFIDENTIAL. If you are not the intended recipient\, please notify
-	 me\, delete this email and do not use or distribute this email.\n</span><
-	/p>\n</body>\n</html>\n
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-APPTSEQTIME:20210115T073034Z
-X-MS-OLK-AUTOSTARTCHECK:FALSE
-X-MS-OLK-CONFTYPE:0
-END:VEVENT
-BEGIN:VEVENT
 ATTENDEE;CN=Suchitra_Gupta@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:S
 	uchitra_Gupta@amat.com
 ATTENDEE;CN=Ananth_Venugopal@amat.com;ROLE=OPT-PARTICIPANT;RSVP=TRUE;PARTST
@@ -3286,6 +3112,1283 @@ X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-APPTSEQTIME:20210115T091928Z
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Run Export Calendar
+CLASS:PUBLIC
+CREATED:20210115T154718Z
+DESCRIPTION:Export Calendar \n\n
+DTEND;TZID="Unnamed Time Zone 1":20210116T211700
+DTSTAMP:20210116T154610Z
+DTSTART;TZID="Unnamed Time Zone 1":20210116T211700
+LAST-MODIFIED:20210115T154720Z
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Export Calendar
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000005B96CB83EBD601000000000000000
+	0100000005F3476F5F4C4CA4F8849425C70701F01
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html\; 
+	charset=us-ascii">\n<META NAME="Generator" CONTENT="MS Exchange Server ver
+	sion 16.0.11929.20766">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
+	from text/rtf format -->\n\n<P><FONT FACE="Calibri">Export Calendar</FONT>
+	\n</P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT1M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="Aarnav Gupta";RSVP=FALSE:mailto:Aarnav_Gupta@amat.com
+ATTENDEE;CN="Aayush Agrawal";RSVP=FALSE:mailto:Aayush_Agrawal@amat.com
+ATTENDEE;CN="Aayush Raina";RSVP=FALSE:mailto:Aayush_Raina@amat.com
+ATTENDEE;CN="Adam Faust";RSVP=FALSE:mailto:Adam_Faust@amat.com
+ATTENDEE;CN="Adam Ge --TR";RSVP=FALSE:mailto:Adam_Ge@amat.com
+ATTENDEE;CN="Adam Sirota";RSVP=FALSE:mailto:Adam_Sirota@amat.com
+ATTENDEE;CN="Adi Abramovitch";RSVP=FALSE:mailto:Adi_Abramovitch@amat.com
+ATTENDEE;CN="Adi Ardenis";RSVP=FALSE:mailto:Adi_Ardenis@amat.com
+ATTENDEE;CN="Adi Boehm";RSVP=FALSE:mailto:Adi_Boehm@amat.com
+ATTENDEE;CN="Adi Karol";RSVP=FALSE:mailto:Adi_Karol@amat.com
+ATTENDEE;CN="Adi Shein";RSVP=FALSE:mailto:Adi_Shein@amat.com
+ATTENDEE;CN="Adrien Burtman";RSVP=FALSE:mailto:Adrien_Burtman@amat.com
+ATTENDEE;CN="Ady Magal";RSVP=FALSE:mailto:Ady_Magal@amat.com
+ATTENDEE;CN="Aharon Barak";RSVP=FALSE:mailto:Aharon_Barak@amat.com
+ATTENDEE;CN="Ahmad Farhan";RSVP=FALSE:mailto:Ahmad_Farhan@amat.com
+ATTENDEE;CN="Ahuva Bugakov";RSVP=FALSE:mailto:Ahuva_Bugakov@amat.com
+ATTENDEE;CN="Akhilesh Kumar Pandey";RSVP=FALSE:mailto:AkhileshKumar_Pandey@
+	amat.com
+ATTENDEE;CN="Akshay Joshi";RSVP=FALSE:mailto:Akshay_Joshi@amat.com
+ATTENDEE;CN="Albert Karabekov";RSVP=FALSE:mailto:Albert_Karabekov@amat.com
+ATTENDEE;CN="Alex Belzer";RSVP=FALSE:mailto:Alex_Belzer@amat.com
+ATTENDEE;CN="Alex Chernoguz";RSVP=FALSE:mailto:Alex_Chernoguz@amat.com
+ATTENDEE;CN="Alex Fuks";RSVP=FALSE:mailto:Alex_Fuks@amat.com
+ATTENDEE;CN="Alex Ganelin";RSVP=FALSE:mailto:Alex_Ganelin@amat.com
+ATTENDEE;CN="Alex Goldenshtein";RSVP=FALSE:mailto:Alex_Goldenshtein@amat.co
+	m
+ATTENDEE;CN="Alex Lamin";RSVP=FALSE:mailto:Alex_Lamin@amat.com
+ATTENDEE;CN="Alex Sobotka";RSVP=FALSE:mailto:Alex_Sobotka@amat.com
+ATTENDEE;CN="Alexandra Liekweg";RSVP=FALSE:mailto:Alexandra_Liekweg@amat.co
+	m
+ATTENDEE;CN="Alexey Orhov";RSVP=FALSE:mailto:Alexey_Orhov@amat.com
+ATTENDEE;CN="Almog Salman";RSVP=FALSE:mailto:Almog_Salman@amat.com
+ATTENDEE;CN="Alon Avrahami";RSVP=FALSE:mailto:Alon_Avrahami@amat.com
+ATTENDEE;CN="Alon Cooper";RSVP=FALSE:mailto:Alon_Cooper@amat.com
+ATTENDEE;CN="Alon Hessing";RSVP=FALSE:mailto:Alon_Hessing@amat.com
+ATTENDEE;CN="Alon Kosteliz";RSVP=FALSE:mailto:Alon_Kosteliz@amat.com
+ATTENDEE;CN="Alon Litman";RSVP=FALSE:mailto:Alon_Litman@amat.com
+ATTENDEE;CN="Alon Milner";RSVP=FALSE:mailto:Alon_Milner@amat.com
+ATTENDEE;CN="Alon Reidman";RSVP=FALSE:mailto:Alon_Reidman@amat.com
+ATTENDEE;CN="Alon Shulhami";RSVP=FALSE:mailto:Alon_Shulhami@amat.com
+ATTENDEE;CN="Alon Silberberg";RSVP=FALSE:mailto:Alon_Silberberg@amat.com
+ATTENDEE;CN="Alon Waldman";RSVP=FALSE:mailto:Alon_Waldman@amat.com
+ATTENDEE;CN="Alon Zeltser";RSVP=FALSE:mailto:Alon_Zeltser@amat.com
+ATTENDEE;CN="Alush Joni";RSVP=FALSE:mailto:Alush_joni@amat.com
+ATTENDEE;CN="Amar Nath";RSVP=FALSE:mailto:Amar_Nath@amat.com
+ATTENDEE;CN="Ami Roitman";RSVP=FALSE:mailto:Ami_Roitman@amat.com
+ATTENDEE;CN="Amir Alkalay";RSVP=FALSE:mailto:Amir_Alkalay@amat.com
+ATTENDEE;CN="Amir Avrahami";RSVP=FALSE:mailto:Amir_Avrahami@amat.com
+ATTENDEE;CN="Amir Harel";RSVP=FALSE:mailto:Amir_Harel@amat.com
+ATTENDEE;CN="Amir Knoll";RSVP=FALSE:mailto:Amir_Knoll@amat.com
+ATTENDEE;CN="Amir Komem";RSVP=FALSE:mailto:Amir_Komem@amat.com
+ATTENDEE;CN="Amir Leska";RSVP=FALSE:mailto:Amir_Leska@amat.com
+ATTENDEE;CN="Amir Marko";RSVP=FALSE:mailto:Amir_Marko@amat.com
+ATTENDEE;CN="Amir Rosen";RSVP=FALSE:mailto:Amir_Rosen@amat.com
+ATTENDEE;CN="Amir Sciaky";RSVP=FALSE:mailto:Amir_Sciaky@amat.com
+ATTENDEE;CN="Amir Shoham";RSVP=FALSE:mailto:Amir_Shoham@amat.com
+ATTENDEE;CN="Amir Bar";RSVP=FALSE:mailto:Amir_Wilde@amat.com
+ATTENDEE;CN="Amir Williams";RSVP=FALSE:mailto:Amir_Williams@amat.com
+ATTENDEE;CN="Amir Yahav";RSVP=FALSE:mailto:Amir_Yahav@amat.com
+ATTENDEE;CN="Amir Zlotorynski";RSVP=FALSE:mailto:Amir_Zlotorynski@amat.com
+ATTENDEE;CN="Amiran Abayev";RSVP=FALSE:mailto:Amiran_Abayev@amat.com
+ATTENDEE;CN="Amit A Kumar";RSVP=FALSE:mailto:Amit_A_Kumar@amat.com
+ATTENDEE;CN="Amit Agrawal";RSVP=FALSE:mailto:Amit_Agrawal@amat.com
+ATTENDEE;CN="Amit Alkobe";RSVP=FALSE:mailto:Amit_Alkobe@amat.com
+ATTENDEE;CN="Amit Ben Harush";RSVP=FALSE:mailto:Amit_BenHarush@amat.com
+ATTENDEE;CN="Amit Daly";RSVP=FALSE:mailto:Amit_Daly@amat.com
+ATTENDEE;CN="Amit Fatal";RSVP=FALSE:mailto:Amit_Fatal@amat.com
+ATTENDEE;CN="Amit Glick";RSVP=FALSE:mailto:Amit_Glick@amat.com
+ATTENDEE;CN="Amit Zakay";RSVP=FALSE:mailto:Amit_Zakay@amat.com
+ATTENDEE;CN="Anand Kadari";RSVP=FALSE:mailto:Anand_Kadari@amat.com
+ATTENDEE;CN="Anand Sankar";RSVP=FALSE:mailto:Anand_Sankar@amat.com
+ATTENDEE;CN="Ananth Venugopal";RSVP=FALSE:mailto:Ananth_Venugopal@amat.com
+ATTENDEE;CN="Anatoli Elman";RSVP=FALSE:mailto:Anatoli_Elman@amat.com
+ATTENDEE;CN="Andreas Schulze";RSVP=FALSE:mailto:Andreas_Schulze@amat.com
+ATTENDEE;CN="Anel Delic --TR";RSVP=FALSE:mailto:Anel_Delic@amat.com
+ATTENDEE;CN="Aner Avakrat";RSVP=FALSE:mailto:Aner_Avakrat@amat.com
+ATTENDEE;CN="Angela Kravtsov";RSVP=FALSE:mailto:Angela_Kravtsov@amat.com
+ATTENDEE;CN="Anirban Ghosh";RSVP=FALSE:mailto:Anirban_Ghosh@amat.com
+ATTENDEE;CN="Anju Sheba Mathew";RSVP=FALSE:mailto:AnjuSheba_Mathew@amat.com
+ATTENDEE;CN="Anke Horstmann";RSVP=FALSE:mailto:Anke_Horstmann@amat.com
+ATTENDEE;CN="Anna Levant";RSVP=FALSE:mailto:Anna_Levant@amat.com
+ATTENDEE;CN="Anna Michaeli";RSVP=FALSE:mailto:Anna_Michaeli@amat.com
+ATTENDEE;CN="Anna Petrossian";RSVP=FALSE:mailto:Anna_Petrossian@amat.com
+ATTENDEE;CN="Anna Smelyansky";RSVP=FALSE:mailto:Anna_Smelyansky@amat.com
+ATTENDEE;CN="Anshul Agrawal";RSVP=FALSE:mailto:Anshul_Agrawal@amat.com
+ATTENDEE;CN="Anton Andrusier";RSVP=FALSE:mailto:Anton_Andrusier@amat.com
+ATTENDEE;CN="Arad Nevat";RSVP=FALSE:mailto:Arad_Nevat@amat.com
+ATTENDEE;CN="Aranika Mistry";RSVP=FALSE:mailto:Aranika_Mistry@amat.com
+ATTENDEE;CN="Arie Kagan";RSVP=FALSE:mailto:Arie_Kagan@amat.com
+ATTENDEE;CN="Arie Karchmar";RSVP=FALSE:mailto:Arie_Karchmar@amat.com
+ATTENDEE;CN="Ariel Lieberman";RSVP=FALSE:mailto:Ariel_Lieberman@amat.com
+ATTENDEE;CN="Ariel Miller";RSVP=FALSE:mailto:Ariel_Miller@amat.com
+ATTENDEE;CN="Ariel Rez";RSVP=FALSE:mailto:Ariel_Rez@amat.com
+ATTENDEE;CN="Ariel Shkalim";RSVP=FALSE:mailto:Ariel_Shkalim@amat.com
+ATTENDEE;CN="Ariel Trink";RSVP=FALSE:mailto:Ariel_Trink@amat.com
+ATTENDEE;CN="Arik Algarici";RSVP=FALSE:mailto:Arik_Algarici@amat.com
+ATTENDEE;CN="ARIK EVDAEV";RSVP=FALSE:mailto:ARIK_EVDAEV@amat.com
+ATTENDEE;CN="Arik Levi";RSVP=FALSE:mailto:Arik_Levi@amat.com
+ATTENDEE;CN="Arnon Mizrahy";RSVP=FALSE:mailto:Arnon_Mizrahy@amat.com
+ATTENDEE;CN="Arthur Fridkin";RSVP=FALSE:mailto:Arthur_Fridkin@amat.com
+ATTENDEE;CN="Artyom Tseitlin";RSVP=FALSE:mailto:Artyom_Tseitlin@amat.com
+ATTENDEE;CN="Arun Santhanakrishnan";RSVP=FALSE:mailto:Arun_Santhanakrishnan
+	@amat.com
+ATTENDEE;CN="Arundeepth Tharassery";RSVP=FALSE:mailto:Arundeepth_Tharassery
+	@amat.com
+ATTENDEE;CN="Asaf Dafner";RSVP=FALSE:mailto:Asaf_Dafner@amat.com
+ATTENDEE;CN="Asaf Golov";RSVP=FALSE:mailto:Asaf_Golov@amat.com
+ATTENDEE;CN="Asaf Gutman";RSVP=FALSE:mailto:Asaf_Gutman@amat.com
+ATTENDEE;CN="Asaf Nisani";RSVP=FALSE:mailto:Asaf_Nisani@amat.com
+ATTENDEE;CN="Asaf Shamay";RSVP=FALSE:mailto:Asaf_Shamay@amat.com
+ATTENDEE;CN="Asaf Shoham";RSVP=FALSE:mailto:Asaf_Shoham@amat.com
+ATTENDEE;CN="Ashutosh Shukla";RSVP=FALSE:mailto:Ashutosh_Shukla@amat.com
+ATTENDEE;CN="Asli Ocal Ziegler";RSVP=FALSE:mailto:Asli_OecalZiegler@amat.co
+	m
+ATTENDEE;CN="Assaf Ariel";RSVP=FALSE:mailto:Assaf_Ariel@amat.com
+ATTENDEE;CN="Assaf Duvdevan";RSVP=FALSE:mailto:Assaf_Duvdevan@amat.com
+ATTENDEE;CN="Assaf Hezi";RSVP=FALSE:mailto:Assaf_Hezi@amat.com
+ATTENDEE;CN="Assaf Hezkiaho";RSVP=FALSE:mailto:Assaf_Hezkiaho@amat.com
+ATTENDEE;CN="Assaf Korkidi";RSVP=FALSE:mailto:Assaf_Korkidi@amat.com
+ATTENDEE;CN="Assaf Lahav";RSVP=FALSE:mailto:Assaf_Lahav@amat.com
+ATTENDEE;CN="Assaf Lerner";RSVP=FALSE:mailto:Assaf_Lerner@amat.com
+ATTENDEE;CN="Assaf Meiron";RSVP=FALSE:mailto:Assaf_Meiron@amat.com
+ATTENDEE;CN="Assaf Naor";RSVP=FALSE:mailto:Assaf_Naor@amat.com
+ATTENDEE;CN="Assaf Waizman";RSVP=FALSE:mailto:Assaf_Waizman@amat.com
+ATTENDEE;CN="Atai Baldinger";RSVP=FALSE:mailto:Atai_Baldinger@amat.com
+ATTENDEE;CN="Avi Aboody";RSVP=FALSE:mailto:Avi_Aboody@amat.com
+ATTENDEE;CN="Avi Asaf";RSVP=FALSE:mailto:Avi_Asaf@amat.com
+ATTENDEE;CN="Avi Bensimhon";RSVP=FALSE:mailto:Avi_Bensimhon@amat.com
+ATTENDEE;CN="Avi Harush";RSVP=FALSE:mailto:Avi_Harush@amat.com
+ATTENDEE;CN="Avi Nadler";RSVP=FALSE:mailto:Avi_Nadler@amat.com
+ATTENDEE;CN="Avi Salama";RSVP=FALSE:mailto:Avi_Salama@amat.com
+ATTENDEE;CN="Avi Shem Tov";RSVP=FALSE:mailto:Avi_ShemTov@amat.com
+ATTENDEE;CN="Avi Zino";RSVP=FALSE:mailto:Avi_Zino@amat.com
+ATTENDEE;CN="Aviad Carmeli";RSVP=FALSE:mailto:Aviad_Carmeli@amat.com
+ATTENDEE;CN="Aviad Yahalom";RSVP=FALSE:mailto:Aviad_Yahalom@amat.com
+ATTENDEE;CN="Avida Rafael";RSVP=FALSE:mailto:Avida_Rafael@amat.com
+ATTENDEE;CN="Avihay Bony";RSVP=FALSE:mailto:Avihay_Bony@amat.com
+ATTENDEE;CN="Aviral Madhup";RSVP=FALSE:mailto:Aviral_Madhup@amat.com
+ATTENDEE;CN="Aviram Sinvani";RSVP=FALSE:mailto:Aviram_Sinvani@amat.com
+ATTENDEE;CN="Avishy Batzir";RSVP=FALSE:mailto:Avishy_Batzir@amat.com
+ATTENDEE;CN="Avital Tikochinsky";RSVP=FALSE:mailto:Avital_Tikochinsky@amat.
+	com
+ATTENDEE;CN="Aviv Manor";RSVP=FALSE:mailto:Aviv_Manor@amat.com
+ATTENDEE;CN="Awadhesh Singh Sikarwar";RSVP=FALSE:mailto:Awadhesh_SinghSikar
+	war@amat.com
+ATTENDEE;CN="Azaria Elburg";RSVP=FALSE:mailto:Azaria_Elburg@amat.com
+ATTENDEE;CN="Balaji Chithugnanamoorthy";RSVP=FALSE:mailto:Balaji_Chithugnan
+	amoorthy@amat.com
+ATTENDEE;CN="Balakumar Shiva Shravan Kumar";RSVP=FALSE:mailto:BalakumarShiv
+	a_ShravanKumar@amat.com
+ATTENDEE;CN="Bandana Shaw";RSVP=FALSE:mailto:Bandana_Shaw@amat.com
+ATTENDEE;CN="Bar Dubovski";RSVP=FALSE:mailto:Bar_Dubovski@amat.com
+ATTENDEE;CN="Bar Yamin";RSVP=FALSE:mailto:Bar_Yamin@amat.com
+ATTENDEE;CN="Barak Navon";RSVP=FALSE:mailto:Barak_Navon@amat.com
+ATTENDEE;CN="Bat-el Vizel";RSVP=FALSE:mailto:Bat-el_Vizel@amat.com
+ATTENDEE;CN="Bat Sheva Magidesh";RSVP=FALSE:mailto:BatSheva_Magidesh@amat.c
+	om
+ATTENDEE;CN="Bela Gidkov";RSVP=FALSE:mailto:Bela_Gidkov@amat.com
+ATTENDEE;CN="Ben Cohen";RSVP=FALSE:mailto:Ben_Cohen@amat.com
+ATTENDEE;CN="Ben Keshet";RSVP=FALSE:mailto:Ben_Keshet@amat.com
+ATTENDEE;CN="Ben Venezia";RSVP=FALSE:mailto:Ben_Venezia@amat.com
+ATTENDEE;CN="Ben Wolffs";RSVP=FALSE:mailto:Ben_Wolffs@amat.com
+ATTENDEE;CN="Benjamin Cook";RSVP=FALSE:mailto:Benjamin_Cook@amat.com
+ATTENDEE;CN="Benny Hoffman";RSVP=FALSE:mailto:Benny_Hoffman@amat.com
+ATTENDEE;CN="Bernhard Goeppel";RSVP=FALSE:mailto:Bernhard_Goeppel@amat.com
+ATTENDEE;CN="Berta Lory";RSVP=FALSE:mailto:Berta_Lory@amat.com
+ATTENDEE;CN="Bhagyalakshmi Vasudev";RSVP=FALSE:mailto:Bhagyalakshmi_Vasudev
+	@amat.com
+ATTENDEE;CN="Bhartendu Kumar Dwivedi";RSVP=FALSE:mailto:BhartenduKumar_Dwiv
+	edi@amat.com
+ATTENDEE;CN="Bhasker Bamsiya";RSVP=FALSE:mailto:Bhasker_Bamsiya@amat.com
+ATTENDEE;CN="Binyamin Siman-Tov";RSVP=FALSE:mailto:Binyamin_Siman-Tov@amat.
+	com
+ATTENDEE;CN="Boaz Cohen";RSVP=FALSE:mailto:Boaz_Cohen@amat.com
+ATTENDEE;CN="Boaz Dudovich";RSVP=FALSE:mailto:Boaz_Dudovich@amat.com
+ATTENDEE;CN="Boaz Hadad";RSVP=FALSE:mailto:Boaz_Hadad@amat.com
+ATTENDEE;CN="Boaz Shohat";RSVP=FALSE:mailto:Boaz_Shohat@amat.com
+ATTENDEE;CN="Bobin Mathew";RSVP=FALSE:mailto:Bobin_Mathew@amat.com
+ATTENDEE;CN="Boris Golberg";RSVP=FALSE:mailto:Boris_Golberg@amat.com
+ATTENDEE;CN="Boris Levant";RSVP=FALSE:mailto:Boris_Levant@amat.com
+ATTENDEE;CN="Boris Rozensvaig";RSVP=FALSE:mailto:Boris_Rozensvaig@amat.com
+ATTENDEE;CN="Botser Reshef";RSVP=FALSE:mailto:Botser_Reshef@amat.com
+ATTENDEE;CN="Brigitte Bauer";RSVP=FALSE:mailto:Brigitte_Bauer@amat.com
+ATTENDEE;CN="Carsten Bubel";RSVP=FALSE:mailto:Carsten_Bubel@amat.com
+ATTENDEE;CN="Catherine Timokina";RSVP=FALSE:mailto:Catherine_Timokina@amat.
+	com
+ATTENDEE;CN="Chaim Braude";RSVP=FALSE:mailto:Chaim_Braude@amat.com
+ATTENDEE;CN="Chandan N S";RSVP=FALSE:mailto:Chandan_NS@amat.com
+ATTENDEE;CN="Chandan Talukdar";RSVP=FALSE:mailto:Chandan_Talukdar@amat.com
+ATTENDEE;CN="Chandler Dong --TR";RSVP=FALSE:mailto:Chandler_Dong@amat.com
+ATTENDEE;CN="Paul CH Lee";RSVP=FALSE:mailto:ChaoHsien_LEE@amat.com
+ATTENDEE;CN="Chaudhary Jitendra Pradipkumar";RSVP=FALSE:mailto:ChaudharyJit
+	endra_Pradipkumar@amat.com
+ATTENDEE;CN="Chen Itzikowitz";RSVP=FALSE:mailto:Chen_Itzikowitz@amat.com
+ATTENDEE;CN="Wilson WU --TR";RSVP=FALSE:mailto:ChengZhi_WU@amat.com
+ATTENDEE;CN="Chenkai Liang --TR";RSVP=FALSE:mailto:Chenkai_Liang@amat.com
+ATTENDEE;CN="Christian Rapperstorfer";RSVP=FALSE:mailto:Christian_Rappersto
+	rfer@amat.com
+ATTENDEE;CN="Cijin Thekkekara";RSVP=FALSE:mailto:Cijin_Thekkekara@amat.com
+ATTENDEE;CN="Clemens Liebig";RSVP=FALSE:mailto:Clemens_Liebig@amat.com
+ATTENDEE;CN="Craig Zhang --TR";RSVP=FALSE:mailto:Craig_Zhang@amat.com
+ATTENDEE;CN="Dafna Rifold";RSVP=FALSE:mailto:Dafna_Rifold@amat.com
+ATTENDEE;CN="Dalia Fidelman";RSVP=FALSE:mailto:Dalia_Fidelman@amat.com
+ATTENDEE;CN="Dan Chen";RSVP=FALSE:mailto:Dan_Chen@amat.com
+ATTENDEE;CN="Dan Faingezicht";RSVP=FALSE:mailto:Dan_Faingezicht@amat.com
+ATTENDEE;CN="Dan Fuchs";RSVP=FALSE:mailto:Dan_Fuchs@amat.com
+ATTENDEE;CN="Dan Lange";RSVP=FALSE:mailto:Dan_Lange@amat.com
+ATTENDEE;CN="Dan Ram";RSVP=FALSE:mailto:Dan_Ram@amat.com
+ATTENDEE;CN="Dan Segal";RSVP=FALSE:mailto:Dan_Segal@amat.com
+ATTENDEE;CN="Dan Vager";RSVP=FALSE:mailto:Dan_Vager@amat.com
+ATTENDEE;CN="Daniel Blum";RSVP=FALSE:mailto:Daniel_Blum@amat.com
+ATTENDEE;CN="Daniel Bogorad";RSVP=FALSE:mailto:Daniel_Bogorad@amat.com
+ATTENDEE;CN="Daniel Braun";RSVP=FALSE:mailto:Daniel_Braun@amat.com
+ATTENDEE;CN="Daniel Dmuschewski";RSVP=FALSE:mailto:Daniel_Dmuschewski@amat.
+	com
+ATTENDEE;CN="Daniel Fuchs";RSVP=FALSE:mailto:Daniel_Fuchs@amat.com
+ATTENDEE;CN="Daniel Gaber";RSVP=FALSE:mailto:Daniel_Gaber@amat.com
+ATTENDEE;CN="Daniel Krieger";RSVP=FALSE:mailto:Daniel_Krieger@amat.com
+ATTENDEE;CN="Daniel Moshayof";RSVP=FALSE:mailto:Daniel_Moshayof@amat.com
+ATTENDEE;CN="Daniel Zinchin";RSVP=FALSE:mailto:Daniel_Zinchin@amat.com
+ATTENDEE;CN="Daniela Radomislsky";RSVP=FALSE:mailto:Daniela_Radomislsky@ama
+	t.com
+ATTENDEE;CN="Danny Migdal";RSVP=FALSE:mailto:Danny_Migdal@amat.com
+ATTENDEE;CN="David Avraham";RSVP=FALSE:mailto:David_Avraham@amat.com
+ATTENDEE;CN="David Biton";RSVP=FALSE:mailto:David_Biton@amat.com
+ATTENDEE;CN="David Goldovsky";RSVP=FALSE:mailto:David_Goldovsky@amat.com
+ATTENDEE;CN="David Iliaev";RSVP=FALSE:mailto:David_Iliaev@amat.com
+ATTENDEE;CN="David Levi";RSVP=FALSE:mailto:David_Levi@amat.com
+ATTENDEE;CN="David Ohayon";RSVP=FALSE:mailto:David_Ohayon@amat.com
+ATTENDEE;CN="David Petrover";RSVP=FALSE:mailto:David_Petrover@amat.com
+ATTENDEE;CN="David A. Bloom";RSVP=FALSE:mailto:DavidA_Bloom@amat.com
+ATTENDEE;CN="Debabrata Debroy";RSVP=FALSE:mailto:Debabrata_Debroy@amat.com
+ATTENDEE;CN="Debesh Kanungo";RSVP=FALSE:mailto:Debesh_Kanungo@amat.com
+ATTENDEE;CN="Deevita Arya";RSVP=FALSE:mailto:Deevita_Arya@amat.com
+ATTENDEE;CN="Dekel Yedid";RSVP=FALSE:mailto:Dekel_Yedid@amat.com
+ATTENDEE;CN="Denis Norkin";RSVP=FALSE:mailto:Denis_Norkin@amat.com
+ATTENDEE;CN="Denys Mets";RSVP=FALSE:mailto:Denys_Mets@amat.com
+ATTENDEE;CN="Dieter Winkler";RSVP=FALSE:mailto:Dieter_Winkler@amat.com
+ATTENDEE;CN="Dimitri Golovenko --TR";RSVP=FALSE:mailto:Dimitri_Golovenko@am
+	at.com
+ATTENDEE;CN="Dimitri Mazor";RSVP=FALSE:mailto:Dimitri_Mazor@amat.com
+ATTENDEE;CN="Dimitry Maslov";RSVP=FALSE:mailto:Dimitry_Maslov@amat.com
+ATTENDEE;CN="Dimitry Shcerb";RSVP=FALSE:mailto:Dimitry_Shcerb@amat.com
+ATTENDEE;CN="Dina Ginzburg";RSVP=FALSE:mailto:Dina_Ginzburg@amat.com
+ATTENDEE;CN="Dmitri Grotvol";RSVP=FALSE:mailto:Dmitri_Grotvol@amat.com
+ATTENDEE;CN="Dmitriy Livshits";RSVP=FALSE:mailto:Dmitriy_Livshits@amat.com
+ATTENDEE;CN="Dominik Ehberger";RSVP=FALSE:mailto:Dominik_Ehberger@amat.com
+ATTENDEE;CN="Dor Gershon";RSVP=FALSE:mailto:Dor_Gershon@amat.com
+ATTENDEE;CN="Dor Levinberg";RSVP=FALSE:mailto:Dor_Levinberg@amat.com
+ATTENDEE;CN="Dor Moshe";RSVP=FALSE:mailto:Dor_Moshe@amat.com
+ATTENDEE;CN="Dor Pascal";RSVP=FALSE:mailto:Dor_Pascal@amat.com
+ATTENDEE;CN="Doris Wittmann";RSVP=FALSE:mailto:Doris_Wittmann@amat.com
+ATTENDEE;CN="Dorit Carmon";RSVP=FALSE:mailto:Dorit_Carmon@amat.com
+ATTENDEE;CN="Doron Azulay";RSVP=FALSE:mailto:Doron_Azulay@amat.com
+ATTENDEE;CN="Doron Girmonsky";RSVP=FALSE:mailto:Doron_Girmonsky@amat.com
+ATTENDEE;CN="Doron Korngut";RSVP=FALSE:mailto:Doron_Korngut@amat.com
+ATTENDEE;CN="Doron Meshulach";RSVP=FALSE:mailto:Doron_Meshulach@amat.com
+ATTENDEE;CN="Doron Shuldiner";RSVP=FALSE:mailto:Doron_Shuldiner@amat.com
+ATTENDEE;CN="Dov Avnon";RSVP=FALSE:mailto:Dov_Avnon@amat.com
+ATTENDEE;CN="Dov Leibowitz";RSVP=FALSE:mailto:Dov_Leibowitz@amat.com
+ATTENDEE;CN="Dror Alumot";RSVP=FALSE:mailto:Dror_Alumot@amat.com
+ATTENDEE;CN="Dror Koren";RSVP=FALSE:mailto:Dror_Koren@amat.com
+ATTENDEE;CN="Dror Shemesh";RSVP=FALSE:mailto:Dror_Shemesh@amat.com
+ATTENDEE;CN="Dror Zur";RSVP=FALSE:mailto:Dror_Zur@amat.com
+ATTENDEE;CN="Edi Novak";RSVP=FALSE:mailto:Edi_Novak@amat.com
+ATTENDEE;CN="Effi Siman tov";RSVP=FALSE:mailto:Effi_Siman_tov@amat.com
+ATTENDEE;CN="Efi Zertser";RSVP=FALSE:mailto:Efi_Zertser@amat.com
+ATTENDEE;CN="Efim Vinnitsky";RSVP=FALSE:mailto:Efim_Vinnitsky@amat.com
+ATTENDEE;CN="Efrat Meir";RSVP=FALSE:mailto:Efrat_Meir@amat.com
+ATTENDEE;CN="Efrat Noifeld";RSVP=FALSE:mailto:Efrat_Noifeld@amat.com
+ATTENDEE;CN="Egor Gluhov";RSVP=FALSE:mailto:Egor_Gluhov@amat.com
+ATTENDEE;CN="Ehud Levanon";RSVP=FALSE:mailto:Ehud_Levanon@amat.com
+ATTENDEE;CN="Ehud Yacoby";RSVP=FALSE:mailto:Ehud_Yacoby@amat.com
+ATTENDEE;CN="Einat Atias-Yarden";RSVP=FALSE:mailto:Einat_Atias-Yarden@amat.
+	com
+ATTENDEE;CN="Einat Frishman";RSVP=FALSE:mailto:Einat_Frishman@amat.com
+ATTENDEE;CN="Einat habut";RSVP=FALSE:mailto:Einat_habut@amat.com
+ATTENDEE;CN="Einat Itzkovitz";RSVP=FALSE:mailto:Einat_Itzkovitz@amat.com
+ATTENDEE;CN="Eitan Binyamini";RSVP=FALSE:mailto:Eitan_Binyamini@amat.com
+ATTENDEE;CN="Eitan Cohen";RSVP=FALSE:mailto:Eitan_Cohen@amat.com
+ATTENDEE;CN="Eitan Rotem";RSVP=FALSE:mailto:Eitan_Rotem@amat.com
+ATTENDEE;CN="Elad Benbenisty";RSVP=FALSE:mailto:Elad_Benbenisty@amat.com
+ATTENDEE;CN="Elad Cohen";RSVP=FALSE:mailto:Elad_Cohen@amat.com
+ATTENDEE;CN="Elad Corcos";RSVP=FALSE:mailto:Elad_Corcos@amat.com
+ATTENDEE;CN="Elad Eizner";RSVP=FALSE:mailto:Elad_Eizner@amat.com
+ATTENDEE;CN="Elad Levi";RSVP=FALSE:mailto:Elad_Levi@amat.com
+ATTENDEE;CN="Elad Peretz";RSVP=FALSE:mailto:Elad_Peretz@amat.com
+ATTENDEE;CN="Elad Sommer";RSVP=FALSE:mailto:Elad_Sommer@amat.com
+ATTENDEE;CN="Elakkiya Vaithilingam";RSVP=FALSE:mailto:Elakkiya_Vaithilingam
+	@amat.com
+ATTENDEE;CN="Elazar Neeman";RSVP=FALSE:mailto:Elazar_Neeman@amat.com
+ATTENDEE;CN="Elchanan Levi Sery";RSVP=FALSE:mailto:Elchanan_LeviSery@amat.c
+	om
+ATTENDEE;CN="Elchanan Samuel";RSVP=FALSE:mailto:Elchanan_Samuel@amat.com
+ATTENDEE;CN="Eli Ben-Hamo";RSVP=FALSE:mailto:Eli_BenHamo@amat.com
+ATTENDEE;CN="Eli Ben-Yehuda";RSVP=FALSE:mailto:Eli_Ben-Yehuda@amat.com
+ATTENDEE;CN="Eli Buchman";RSVP=FALSE:mailto:Eli_Buchman@amat.com
+ATTENDEE;CN="Eli Fradkin";RSVP=FALSE:mailto:Eli_Fradkin@amat.com
+ATTENDEE;CN="Eli Peretz";RSVP=FALSE:mailto:Eli_Peretz@amat.com
+ATTENDEE;CN="Eli Zarka";RSVP=FALSE:mailto:Eli_Zarka@amat.com
+ATTENDEE;CN="Eliav Cohen";RSVP=FALSE:mailto:Eliav_Cohen@amat.com
+ATTENDEE;CN="Eliran Naimi";RSVP=FALSE:mailto:Eliran_Naimi@amat.com
+ATTENDEE;CN="Eliran Yeger";RSVP=FALSE:mailto:Eliran_Yeger@amat.com
+ATTENDEE;CN="Eliraz Busi";RSVP=FALSE:mailto:Eliraz_Busi@amat.com
+ATTENDEE;CN="Elizabeth Reyes";RSVP=FALSE:mailto:Elizabeth_Reyes@amat.com
+ATTENDEE;CN="Elodie Houchens";RSVP=FALSE:mailto:Elodie_Houchens@amat.com
+ATTENDEE;CN="Eran Bagi";RSVP=FALSE:mailto:Eran_Bagi@amat.com
+ATTENDEE;CN="Eran Blum";RSVP=FALSE:mailto:Eran_Blum@amat.com
+ATTENDEE;CN="Eran Dvir";RSVP=FALSE:mailto:Eran_Dvir@amat.com
+ATTENDEE;CN="Eran Gal";RSVP=FALSE:mailto:Eran_Gal@amat.com
+ATTENDEE;CN="Eran Rabiner";RSVP=FALSE:mailto:Eran_Rabiner@amat.com
+ATTENDEE;CN="Erez Admoni";RSVP=FALSE:mailto:Erez_Admoni@amat.com
+ATTENDEE;CN="Erez Lidor";RSVP=FALSE:mailto:Erez_Lidor@amat.com
+ATTENDEE;CN="Erez Peretz";RSVP=FALSE:mailto:Erez_Peretz@amat.com
+ATTENDEE;CN="Erez Warsha";RSVP=FALSE:mailto:Erez_Warsha@amat.com
+ATTENDEE;CN="Esther Brookhim";RSVP=FALSE:mailto:Esther_Brookhim@amat.com
+ATTENDEE;CN="Ethan Baratz";RSVP=FALSE:mailto:Ethan_Baratz@amat.com
+ATTENDEE;CN="Eti Elazar";RSVP=FALSE:mailto:Eti_Elazar@amat.com
+ATTENDEE;CN="Etty Elisadeh";RSVP=FALSE:mailto:Etty_Elisadeh@amat.com
+ATTENDEE;CN="Eugene Bullock";RSVP=FALSE:mailto:Eugene_Bullock@amat.com
+ATTENDEE;CN="Eve Nishri-Sulimany";RSVP=FALSE:mailto:Eve_Nishri-Sulimany@ama
+	t.com
+ATTENDEE;CN="Evgeny Bal";RSVP=FALSE:mailto:Evgeny_Bal@amat.com
+ATTENDEE;CN="Evgeny Gulchin";RSVP=FALSE:mailto:Evgeny_Gulchin@amat.com
+ATTENDEE;CN="Eyal Angel";RSVP=FALSE:mailto:Eyal_Angel@amat.com
+ATTENDEE;CN="Eyal Barad";RSVP=FALSE:mailto:Eyal_Barad@amat.com
+ATTENDEE;CN="Eyal Bassa";RSVP=FALSE:mailto:Eyal_Bassa@amat.com
+ATTENDEE;CN="Eyal Katz";RSVP=FALSE:mailto:Eyal_Katz@amat.com
+ATTENDEE;CN="Eyal Levi";RSVP=FALSE:mailto:Eyal_Levi@amat.com
+ATTENDEE;CN="Eyal Nahum";RSVP=FALSE:mailto:Eyal_Nahum@amat.com
+ATTENDEE;CN="Eyal Peretz";RSVP=FALSE:mailto:Eyal_Peretz@amat.com
+ATTENDEE;CN="Eyal Rot";RSVP=FALSE:mailto:Eyal_Rot@amat.com
+ATTENDEE;CN="Eytan Papushado";RSVP=FALSE:mailto:Eytan_Papushado@amat.com
+ATTENDEE;CN="Faina Faktorovich";RSVP=FALSE:mailto:Faina_Faktorovich@amat.co
+	m
+ATTENDEE;CN="Gabi Sonnenwirth";RSVP=FALSE:mailto:Gabi_Sonnenwirth@amat.com
+ATTENDEE;CN="Gadi Greenberg";RSVP=FALSE:mailto:Gadi_Greenberg@amat.com
+ATTENDEE;CN="Gadi Oron";RSVP=FALSE:mailto:Gadi_Oron@amat.com
+ATTENDEE;CN="Gagandeep Narang";RSVP=FALSE:mailto:Gagandeep_Narang@amat.com
+ATTENDEE;CN="Gal Bicovsky";RSVP=FALSE:mailto:Gal_Bicovsky@amat.com
+ATTENDEE;CN="Gal Keidar";RSVP=FALSE:mailto:Gal_Keidar@amat.com
+ATTENDEE;CN="Gal Popovich";RSVP=FALSE:mailto:Gal_Popovich@amat.com
+ATTENDEE;CN="Gal Porat";RSVP=FALSE:mailto:Gal_Porat@amat.com
+ATTENDEE;CN="Gali Azaria Shefer";RSVP=FALSE:mailto:Gali_AzariaShefer@amat.c
+	om
+ATTENDEE;CN="Gali Brafman";RSVP=FALSE:mailto:Gali_Brafman@amat.com
+ATTENDEE;CN="Ganesh Gavali";RSVP=FALSE:mailto:Ganesh_Gavali@amat.com
+ATTENDEE;CN="Ganesh Kumar M R";RSVP=FALSE:mailto:ganesh_mr@amat.com
+ATTENDEE;CN="Gangadhar Ramapur";RSVP=FALSE:mailto:Gangadhar_Ramapur@amat.co
+	m
+ATTENDEE;CN="Gaurav Mahendru";RSVP=FALSE:mailto:Gaurav_Mahendru@amat.com
+ATTENDEE;CN="Gautam Yadav";RSVP=FALSE:mailto:Gautam_Yadav@amat.com
+ATTENDEE;CN="Genady Komisarchik";RSVP=FALSE:mailto:Genady_Komisarchik@amat.
+	com
+ATTENDEE;CN="Georg Redka";RSVP=FALSE:mailto:Georg_Redka@amat.com
+ATTENDEE;CN="Gil Krumgant";RSVP=FALSE:mailto:Gil_Krumgant@amat.com
+ATTENDEE;CN="Gilad Vered";RSVP=FALSE:mailto:Gilad_Vered@amat.com
+ATTENDEE;CN="Girish Kumar Ajmera";RSVP=FALSE:mailto:GirishKumar_Ajmera@amat
+	.com
+ATTENDEE;CN="Gokul Ganesan";RSVP=FALSE:mailto:Gokul_Ganesan@amat.com
+ATTENDEE;CN="Gonen Nissim";RSVP=FALSE:mailto:Gonen_Nissim@amat.com
+ATTENDEE;CN="Govinda Soni";RSVP=FALSE:mailto:Govinda_Soni@amat.com
+ATTENDEE;CN="Gregory Mezentsev";RSVP=FALSE:mailto:Gregory_Mezentsev@amat.co
+	m
+ATTENDEE;CN="Grigory Klebanov";RSVP=FALSE:mailto:Grigory_Klebanov@amat.com
+ATTENDEE;CN="Gurjeet Singh";RSVP=FALSE:mailto:Gurjeet_Singh@amat.com
+ATTENDEE;CN="Guy Berliner";RSVP=FALSE:mailto:Guy_Berliner@amat.com
+ATTENDEE;CN="Guy Burstein";RSVP=FALSE:mailto:Guy_Burstein@amat.com
+ATTENDEE;CN="Guy Danieli";RSVP=FALSE:mailto:Guy_Danieli@amat.com
+ATTENDEE;CN="Guy Eytan";RSVP=FALSE:mailto:Guy_Eytan@amat.com
+ATTENDEE;CN="Guy Gichon";RSVP=FALSE:mailto:Guy_Gichon@amat.com
+ATTENDEE;CN="Guy Israel";RSVP=FALSE:mailto:Guy_Israel@amat.com
+ATTENDEE;CN="Guy Kerer";RSVP=FALSE:mailto:Guy_Kerer@amat.com
+ATTENDEE;CN="Guy Kremer";RSVP=FALSE:mailto:Guy_Kremer@amat.com
+ATTENDEE;CN="Guy Krumer";RSVP=FALSE:mailto:Guy_Krumer@amat.com
+ATTENDEE;CN="Guy Levin";RSVP=FALSE:mailto:Guy_Levin@amat.com
+ATTENDEE;CN="Guy Moshkovitz";RSVP=FALSE:mailto:Guy_Moshkovitz@amat.com
+ATTENDEE;CN="Guy Naveh";RSVP=FALSE:mailto:Guy_Naveh@amat.com
+ATTENDEE;CN="Guy Oved";RSVP=FALSE:mailto:Guy_Oved@amat.com
+ATTENDEE;CN="Guy Peleg";RSVP=FALSE:mailto:Guy_Peleg@amat.com
+ATTENDEE;CN="Guy Shwartz";RSVP=FALSE:mailto:Guy_Shwartz@amat.com
+ATTENDEE;CN="Hadar Mazaki";RSVP=FALSE:mailto:Hadar_Mazaki@amat.com
+ATTENDEE;CN="Hadar Nisankoren";RSVP=FALSE:mailto:Hadar_Nisankoren@amat.com
+ATTENDEE;CN="Hadar Shlomai";RSVP=FALSE:mailto:Hadar_Shlomai@amat.com
+ATTENDEE;CN="Hadar Sultan";RSVP=FALSE:mailto:Hadar_Sultan@amat.com
+ATTENDEE;CN="Hadas Amit";RSVP=FALSE:mailto:Hadas_Amit@amat.com
+ATTENDEE;CN="Hagay Nachmany";RSVP=FALSE:mailto:Hagay_Nachmany@amat.com
+ATTENDEE;CN="Hagay Silvera";RSVP=FALSE:mailto:Hagay_Silvera@amat.com
+ATTENDEE;CN="Hanan Kavitz";RSVP=FALSE:mailto:Hanan_Kavitz@amat.com
+ATTENDEE;CN="Hani Harel";RSVP=FALSE:mailto:Hani_Harel@amat.com
+ATTENDEE;CN="Hanna Budnik";RSVP=FALSE:mailto:Hanna_Budnik@amat.com
+ATTENDEE;CN="Hansjoerg Kranz";RSVP=FALSE:mailto:Hansjoerg_Kranz@amat.com
+ATTENDEE;CN="Harel Azulay";RSVP=FALSE:mailto:Harel_Azulay@amat.com
+ATTENDEE;CN="Harel Ilan";RSVP=FALSE:mailto:Harel_Ilan@amat.com
+ATTENDEE;CN="Harry Kleinschmidt";RSVP=FALSE:mailto:Harry_Kleinschmidt@amat.
+	com
+ATTENDEE;CN="Harry Su";RSVP=FALSE:mailto:Harry_Su@amat.com
+ATTENDEE;CN="Harsha Deshpande";RSVP=FALSE:mailto:Harsha_Deshpande@amat.com
+ATTENDEE;CN="Harvey Fan --TR";RSVP=FALSE:mailto:Harvey_Fan@amat.com
+ATTENDEE;CN="Hava Ben Yosef";RSVP=FALSE:mailto:Hava_BenYosef@amat.com
+ATTENDEE;CN="Hen Gorin";RSVP=FALSE:mailto:Hen_Gorin@amat.com
+ATTENDEE;CN="Henry Youn";RSVP=FALSE:mailto:Henry_Youn@amat.com
+ATTENDEE;CN="Hila Kohane";RSVP=FALSE:mailto:Hila_Kohane@amat.com
+ATTENDEE;CN="Hillel Zalcman";RSVP=FALSE:mailto:Hillel_Zalcman@amat.com
+ATTENDEE;CN="Horacio Ickowicz";RSVP=FALSE:mailto:Horacio_Ickowicz@amat.com
+ATTENDEE;CN="Howard Lee";RSVP=FALSE:mailto:Howard_Lee@amat.com
+ATTENDEE;CN="Howard Schiffmiller";RSVP=FALSE:mailto:Howard_Schiffmiller@ama
+	t.com
+ATTENDEE;CN="Idan Hamawi";RSVP=FALSE:mailto:Idan_Hamawi@amat.com
+ATTENDEE;CN="Idan Shapira";RSVP=FALSE:mailto:Idan_Shapira@amat.com
+ATTENDEE;CN="Idan Shimoni";RSVP=FALSE:mailto:Idan_Shimoni@amat.com
+ATTENDEE;CN="Idith Varon";RSVP=FALSE:mailto:Idith_Varon@amat.com
+ATTENDEE;CN="Ido Almog";RSVP=FALSE:mailto:Ido_Almog@amat.com
+ATTENDEE;CN="Ido Ben Noon";RSVP=FALSE:mailto:Ido_BenNoon@amat.com
+ATTENDEE;CN="Ido Blutman";RSVP=FALSE:mailto:Ido_Blutman@amat.com
+ATTENDEE;CN="Ido Dueiv";RSVP=FALSE:mailto:Ido_Dueiv@amat.com
+ATTENDEE;CN="Ido Kofler";RSVP=FALSE:mailto:Ido_Kofler@amat.com
+ATTENDEE;CN="Ido Weinberg";RSVP=FALSE:mailto:Ido_Weinberg@amat.com
+ATTENDEE;CN="Ifat Neuberger";RSVP=FALSE:mailto:Ifat_Neuberger@amat.com
+ATTENDEE;CN="Igor Gidkov";RSVP=FALSE:mailto:Igor_Gidkov@amat.com
+ATTENDEE;CN="Igor Krayvitz";RSVP=FALSE:mailto:Igor_Krayvitz@amat.com
+ATTENDEE;CN="Ilan Ben-Harush";RSVP=FALSE:mailto:Ilan_BenHarush@amat.com
+ATTENDEE;CN="Ilan Zaken";RSVP=FALSE:mailto:Ilan_Zaken@amat.com
+ATTENDEE;CN="Ilanit Fridman";RSVP=FALSE:mailto:Ilanit_Fridman@amat.com
+ATTENDEE;CN="Ilya Sidorenko";RSVP=FALSE:mailto:Ilya_Sidorenko@amat.com
+ATTENDEE;CN="Ilya Sivolenko";RSVP=FALSE:mailto:Ilya_Sivolenko@amat.com
+ATTENDEE;CN="Inbal Aharonson";RSVP=FALSE:mailto:Inbal_Aharonson@amat.com
+ATTENDEE;CN="Inbal Greenberg";RSVP=FALSE:mailto:Inbal_Greenberg@amat.com
+ATTENDEE;CN="Inbal Mishol";RSVP=FALSE:mailto:Inbal_Mishol@amat.com
+ATTENDEE;CN="Inbar Shupak";RSVP=FALSE:mailto:Inbar_Shupak@amat.com
+ATTENDEE;CN="Indraneel Biswas";RSVP=FALSE:mailto:Indraneel_Biswas@amat.com
+ATTENDEE;CN="Ingo Appelt";RSVP=FALSE:mailto:Ingo_Appelt@amat.com
+ATTENDEE;CN="Irit Koll";RSVP=FALSE:mailto:Irit_Koll@amat.com
+ATTENDEE;CN="Irit Ruach Nir";RSVP=FALSE:mailto:Irit_Ruach_Nir@amat.com
+ATTENDEE;CN="Irit Shaaya-Segal";RSVP=FALSE:mailto:Irit_ShaayaSegal@amat.com
+ATTENDEE;CN="Irving Zhao --TR";RSVP=FALSE:mailto:Irving_Zhao@amat.com
+ATTENDEE;CN="Isaac Habib";RSVP=FALSE:mailto:Isaac_Habib@amat.com
+ATTENDEE;CN="Ishay Shteinmetz";RSVP=FALSE:mailto:Ishay_Shteinmetz@amat.com
+ATTENDEE;CN="Israel Gabay";RSVP=FALSE:mailto:Israel_Gabay@amat.com
+ATTENDEE;CN="Israel Halevi";RSVP=FALSE:mailto:Israel_Halevi@amat.com
+ATTENDEE;CN="Itamar Bocher";RSVP=FALSE:mailto:Itamar_Bocher@amat.com
+ATTENDEE;CN="Itamar Cohen";RSVP=FALSE:mailto:Itamar_Cohen@amat.com
+ATTENDEE;CN="Itamar Malka";RSVP=FALSE:mailto:Itamar_Malka@amat.com
+ATTENDEE;CN="Itamar Rain";RSVP=FALSE:mailto:Itamar_Rain@amat.com
+ATTENDEE;CN="Itamar Orenbuch";RSVP=FALSE:mailto:Itamar_Rorenbuch@amat.com
+ATTENDEE;CN="Itamar Saada";RSVP=FALSE:mailto:Itamar_Saada@amat.com
+ATTENDEE;CN="Itamar Shani";RSVP=FALSE:mailto:Itamar_Shani@amat.com
+ATTENDEE;CN="Itay Asulin";RSVP=FALSE:mailto:Itay_Asulin@amat.com
+ATTENDEE;CN="Itay Bondy";RSVP=FALSE:mailto:Itay_Bondy@amat.com
+ATTENDEE;CN="Itay Harel";RSVP=FALSE:mailto:Itay_Harel@amat.com
+ATTENDEE;CN="Itay Langstadter";RSVP=FALSE:mailto:Itay_Langstadter@amat.com
+ATTENDEE;CN="Itay Mangshe";RSVP=FALSE:mailto:Itay_Mangshe@amat.com
+ATTENDEE;CN="Itay Suissa";RSVP=FALSE:mailto:Itay_Suissa@amat.com
+ATTENDEE;CN="Itay Zecharia";RSVP=FALSE:mailto:Itay_Zecharia@amat.com
+ATTENDEE;CN="Ittamar Levy";RSVP=FALSE:mailto:Ittamar_Levy@amat.com
+ATTENDEE;CN="Itzik Duanis";RSVP=FALSE:mailto:Itzik_Duanis@amat.com
+ATTENDEE;CN="Itzik Rubin";RSVP=FALSE:mailto:Itzik_Rubin@amat.com
+ATTENDEE;CN="Ivgeni Simkin";RSVP=FALSE:mailto:Ivgeni_Simkin@amat.com
+ATTENDEE;CN="Ivo Liska";RSVP=FALSE:mailto:Ivo_Liska@amat.com
+ATTENDEE;CN="Jacob Koch";RSVP=FALSE:mailto:Jacob_Koch@amat.com
+ATTENDEE;CN="Jacob Levin";RSVP=FALSE:mailto:Jacob_Levin@amat.com
+ATTENDEE;CN="Jaidev Bhattacharjee";RSVP=FALSE:mailto:Jaidev_Bhattacharjee@a
+	mat.com
+ATTENDEE;CN="Jair Padilha";RSVP=FALSE:mailto:Jair_Padilha@amat.com
+ATTENDEE;CN="Jannelle Geva";RSVP=FALSE:mailto:Jannelle_Geva@amat.com
+ATTENDEE;CN="Jayprakash Bhosale";RSVP=FALSE:mailto:Jayprakash_Bhosale@amat.
+	com
+ATTENDEE;CN="Jenny Ke --TR";RSVP=FALSE:mailto:Jenny_Ke@amat.com
+ATTENDEE;CN="Jenny Lerner Genish";RSVP=FALSE:mailto:Jenny_LernerGenish@amat
+	.com
+ATTENDEE;CN="Jigar Rajesh Desai";RSVP=FALSE:mailto:jigar_rajesh_desai@amat.
+	com
+ATTENDEE;CN="Jimmy J Liu";RSVP=FALSE:mailto:Jimmy_J_Liu@amat.com
+ATTENDEE;CN="Jolly Anna Thomas";RSVP=FALSE:mailto:JollyAnna_Thomas@amat.com
+ATTENDEE;CN="Jonathan Dunayevsky";RSVP=FALSE:mailto:Jonathan_Dunayevsky@ama
+	t.com
+ATTENDEE;CN="Jonathan Levy";RSVP=FALSE:mailto:Jonathan_Levy@amat.com
+ATTENDEE;CN="Jorge Fernandez";RSVP=FALSE:mailto:Jorge_Fernandez@amat.com
+ATTENDEE;CN="Kamalesh  Narayan Nair";RSVP=FALSE:mailto:KamaleshNarayan_Nair
+	@amat.com
+ATTENDEE;CN="Karen Pomeranz";RSVP=FALSE:mailto:Karen_Pomeranz@amat.com
+ATTENDEE;CN="Karin Elbaz";RSVP=FALSE:mailto:Karin_Elbaz@amat.com
+ATTENDEE;CN="Kartik Venkataraman";RSVP=FALSE:mailto:Kartik_Venkataraman@ama
+	t.com
+ATTENDEE;CN="Kavitha .";RSVP=FALSE:mailto:Kavitha_90@amat.com
+ATTENDEE;CN="Keren Shachar";RSVP=FALSE:mailto:Keren_Shachar@amat.com
+ATTENDEE;CN="Kevin Houchens";RSVP=FALSE:mailto:Kevin_Houchens@amat.com
+ATTENDEE;CN="Kfir Ben-Zikri";RSVP=FALSE:mailto:Kfir_BenZikri@amat.com
+ATTENDEE;CN="Kfir Dotan";RSVP=FALSE:mailto:Kfir_Dotan@amat.com
+ATTENDEE;CN="Kirana Boomarahally Thammegowda";RSVP=FALSE:mailto:Kirana_Boom
+	arahallyThammegowda@amat.com
+ATTENDEE;CN="Kisufit Bandach";RSVP=FALSE:mailto:Kisufit_Bandach@amat.com
+ATTENDEE;CN="Kobi Alfandari";RSVP=FALSE:mailto:Kobi_Alfandari@amat.com
+ATTENDEE;CN="Kobi Elkayam";RSVP=FALSE:mailto:Kobi_Elkayam@amat.com
+ATTENDEE;CN="Kobi Pimat";RSVP=FALSE:mailto:Kobi_Pimat@amat.com
+ATTENDEE;CN="Kobi Rozental";RSVP=FALSE:mailto:Kobi_Rozental@amat.com
+ATTENDEE;CN="Koby Dahan";RSVP=FALSE:mailto:Koby_Dahan@amat.com
+ATTENDEE;CN="Konstantin Chirko";RSVP=FALSE:mailto:Konstantin_Chirko@amat.co
+	m
+ATTENDEE;CN="Krishna K Kumar";RSVP=FALSE:mailto:Krishna_K_Kumar@amat.com
+ATTENDEE;CN="Laurent Avenel";RSVP=FALSE:mailto:Laurent_Avenel@amat.com
+ATTENDEE;CN="Lavy Shavit";RSVP=FALSE:mailto:Lavy_Shavit@amat.com
+ATTENDEE;CN="Lee Rubinstein";RSVP=FALSE:mailto:Lee_Rubinstein@amat.com
+ATTENDEE;CN="Lee Tovbin";RSVP=FALSE:mailto:Lee_Tovbin@amat.com
+ATTENDEE;CN="Lena Ashrin";RSVP=FALSE:mailto:Lena_Ashrin@amat.com
+ATTENDEE;CN="Lena Krak";RSVP=FALSE:mailto:Lena_Krak@amat.com
+ATTENDEE;CN="Lena Solodkin";RSVP=FALSE:mailto:Lena_Solodkin@amat.com
+ATTENDEE;CN="Leon Karanovich";RSVP=FALSE:mailto:Leon_Karanovich@amat.com
+ATTENDEE;CN="Leon Liu --TR";RSVP=FALSE:mailto:Leon_Liu@amat.com
+ATTENDEE;CN="Leonid Gilovoy";RSVP=FALSE:mailto:Leonid_Gilovoy@amat.com
+ATTENDEE;CN="Leonid Pilch";RSVP=FALSE:mailto:Leonid_Pilch@amat.com
+ATTENDEE;CN="Lev Kofman";RSVP=FALSE:mailto:Lev_Kofman@amat.com
+ATTENDEE;CN="Lev Koushnir";RSVP=FALSE:mailto:Lev_Koushnir@amat.com
+ATTENDEE;CN="Lee Zhang --TR";RSVP=FALSE:mailto:Li_L_ZHANG@amat.com
+ATTENDEE;CN="Liat Shalom Mermelstein";RSVP=FALSE:mailto:liat_mermelstein@am
+	at.com
+ATTENDEE;CN="Lichen Sun --TR";RSVP=FALSE:mailto:Lichen_Sun@amat.com
+ATTENDEE;CN="Lilach Erez";RSVP=FALSE:mailto:Lilach_Erez@amat.com
+ATTENDEE;CN="Limor Alon";RSVP=FALSE:mailto:Limor_Alon@amat.com
+ATTENDEE;CN="Limor Driham";RSVP=FALSE:mailto:Limor_Driham@amat.com
+ATTENDEE;CN="Limor Drori";RSVP=FALSE:mailto:Limor_Drori@amat.com
+ATTENDEE;CN="Limor Issacharoff Sabbah";RSVP=FALSE:mailto:Limor_Issacharoff@
+	amat.com
+ATTENDEE;CN="Lina Yaakobovich";RSVP=FALSE:mailto:Lina_Yaakobovich@amat.com
+ATTENDEE;CN="Lior Akerman";RSVP=FALSE:mailto:Lior_Akerman@amat.com
+ATTENDEE;CN="Lior Ben-Shmuel";RSVP=FALSE:mailto:Lior_BenShmuel@amat.com
+ATTENDEE;CN="Lior Dotan";RSVP=FALSE:mailto:Lior_Dotan@amat.com
+ATTENDEE;CN="Lior Givon";RSVP=FALSE:mailto:Lior_Givon@amat.com
+ATTENDEE;CN="Lior Katz";RSVP=FALSE:mailto:Lior_Katz@amat.com
+ATTENDEE;CN="Lior Koren";RSVP=FALSE:mailto:Lior_Koren@amat.com
+ATTENDEE;CN="Lior Levy";RSVP=FALSE:mailto:Lior_Levy@amat.com
+ATTENDEE;CN="Lior Raz";RSVP=FALSE:mailto:Lior_Raz@amat.com
+ATTENDEE;CN="Lior Sarig";RSVP=FALSE:mailto:Lior_Sarig@amat.com
+ATTENDEE;CN="Lior Yaacov";RSVP=FALSE:mailto:Lior_Yaacov@amat.com
+ATTENDEE;CN="Liora Weinstock";RSVP=FALSE:mailto:Liora_Weinstock@amat.com
+ATTENDEE;CN="Liran Ben Mouyal";RSVP=FALSE:mailto:Liran_Ben_Mouyal@amat.com
+ATTENDEE;CN="Liraz Gershtein";RSVP=FALSE:mailto:Liraz_Gershtein@amat.com
+ATTENDEE;CN="Liron Feldman";RSVP=FALSE:mailto:Liron_Feldman@amat.com
+ATTENDEE;CN="Livnat Truman";RSVP=FALSE:mailto:Livnat_Truman@amat.com
+ATTENDEE;CN="Lubava Maslenikov";RSVP=FALSE:mailto:Lubava_Maslenikov@amat.co
+	m
+ATTENDEE;CN="Lucy Pavlenko";RSVP=FALSE:mailto:Lucy_Pavlenko@amat.com
+ATTENDEE;CN="Maayan Bar-Zvi";RSVP=FALSE:mailto:Maayan_Bar-Zvi@amat.com
+ATTENDEE;CN="Maayan Elimelech";RSVP=FALSE:mailto:Maayan_Elimelech@amat.com
+ATTENDEE;CN="Madhusudan Singh";RSVP=FALSE:mailto:Madhusudan_Singh@amat.com
+ATTENDEE;CN="Magen Schulman";RSVP=FALSE:mailto:Magen_Schulman@amat.com
+ATTENDEE;CN="Mahesh Kumar S";RSVP=FALSE:mailto:Maheshkumar_Shanmugasubraman
+	i@amat.com
+ATTENDEE;CN="Maik Lange";RSVP=FALSE:mailto:Maik_Lange@amat.com
+ATTENDEE;CN="Malachi Goldman";RSVP=FALSE:mailto:Malachi_Goldman@amat.com
+ATTENDEE;CN="Manoj Kumar Dayyala";RSVP=FALSE:mailto:ManojKumar_Dayyala@amat
+	.com
+ATTENDEE;CN="Manoj Kumar Yadav";RSVP=FALSE:mailto:ManojKumar_Yadav@amat.com
+ATTENDEE;CN="Manor Sasportas";RSVP=FALSE:mailto:Manor_Sasportas@amat.com
+ATTENDEE;CN="Manvendra Singh";RSVP=FALSE:mailto:Manvendra_Singh@amat.com
+ATTENDEE;CN="Maor Saada";RSVP=FALSE:mailto:Maor_Saada@amat.com
+ATTENDEE;CN="Margalit Alkobi";RSVP=FALSE:mailto:Margalit_Alkobi@amat.com
+ATTENDEE;CN="Margaret Reznikov";RSVP=FALSE:mailto:Margaret_Reznikov@amat.co
+	m
+ATTENDEE;CN="Marina Pugach";RSVP=FALSE:mailto:Marina_Pugach@amat.com
+ATTENDEE;CN="Mark Markov";RSVP=FALSE:mailto:Mark_Markov@amat.com
+ATTENDEE;CN="Markus Thomann";RSVP=FALSE:mailto:Markus_Thomann@amat.com
+ATTENDEE;CN="Marshall Samson Rajasing";RSVP=FALSE:mailto:MarshallSamson_Raj
+	asing@amat.com
+ATTENDEE;CN="Martin Brunner";RSVP=FALSE:mailto:Martin_Brunner@amat.com
+ATTENDEE;CN="Martin Harel";RSVP=FALSE:mailto:Martin_Harel@amat.com
+ATTENDEE;CN="Martin Heiler";RSVP=FALSE:mailto:Martin_Heiler@amat.com
+ATTENDEE;CN="Martin Mannion";RSVP=FALSE:mailto:Martin_Mannion@amat.com
+ATTENDEE;CN="Masami Himeji";RSVP=FALSE:mailto:Masami_Himeji@amat.com
+ATTENDEE;CN="Matan Arbiv";RSVP=FALSE:mailto:Matan_Arbiv@amat.com
+ATTENDEE;CN="Matan Shteiman";RSVP=FALSE:mailto:Matan_Shteiman@amat.com
+ATTENDEE;CN="Maxim Kurilas";RSVP=FALSE:mailto:Maxim_Kurilas@amat.com
+ATTENDEE;CN="Maya Danenburg";RSVP=FALSE:mailto:Maya_Danenburg@amat.com
+ATTENDEE;CN="Maya Gottlieb Shemesh";RSVP=FALSE:mailto:Maya_GottliebShemesh@
+	amat.com
+ATTENDEE;CN="Mayan Salomon";RSVP=FALSE:mailto:Mayan_Salomon@amat.com
+ATTENDEE;CN="Meir Debi";RSVP=FALSE:mailto:Meir_Debi@amat.com
+ATTENDEE;CN="Meir Fleish";RSVP=FALSE:mailto:Meir_Fleish@amat.com
+ATTENDEE;CN="Meir Itzhaki";RSVP=FALSE:mailto:Meir_Itzhaki@amat.com
+ATTENDEE;CN="Meir Levi";RSVP=FALSE:mailto:Meir_Levi@amat.com
+ATTENDEE;CN="Meir Vengrover";RSVP=FALSE:mailto:Meir_Vengrover@amat.com
+ATTENDEE;CN="Merav Artzi";RSVP=FALSE:mailto:Merav_Artzi@amat.com
+ATTENDEE;CN="Merav Toledano";RSVP=FALSE:mailto:Merav_Toledano@amat.com
+ATTENDEE;CN="Merav Yaakov";RSVP=FALSE:mailto:Merav_Yaakov@amat.com
+ATTENDEE;CN="Meytal Conforty Liba";RSVP=FALSE:mailto:Meytal_ConfortyLiba@am
+	at.com
+ATTENDEE;CN="Micha Nixon";RSVP=FALSE:mailto:Micha_Nixon@amat.com
+ATTENDEE;CN="Michael Chemama";RSVP=FALSE:mailto:Michael_Chemama@amat.com
+ATTENDEE;CN="Michael Grasser";RSVP=FALSE:mailto:Michael_Grasser@amat.com
+ATTENDEE;CN="Michael Green";RSVP=FALSE:mailto:Michael_Green@amat.com
+ATTENDEE;CN="Michael Guri";RSVP=FALSE:mailto:Michael_Guri@amat.com
+ATTENDEE;CN="Michael Gutin";RSVP=FALSE:mailto:Michael_Gutin@amat.com
+ATTENDEE;CN="Michael Kotlyar";RSVP=FALSE:mailto:Michael_Kotlyar@amat.com
+ATTENDEE;CN="Michael Polishuk";RSVP=FALSE:mailto:Michael_Polishuk@amat.com
+ATTENDEE;CN="Michael Rudman";RSVP=FALSE:mailto:Michael_Rudman@amat.com
+ATTENDEE;CN="Michael Seherlis";RSVP=FALSE:mailto:Michael_Seherlis@amat.com
+ATTENDEE;CN="Michael Yudchak";RSVP=FALSE:mailto:Michael_Yudchak@amat.com
+ATTENDEE;CN="Michael Zerbib";RSVP=FALSE:mailto:Michael_Zerbib@amat.com
+ATTENDEE;CN="Michal Avinun-Kalish";RSVP=FALSE:mailto:Michal_Avinun-Kalish@a
+	mat.com
+ATTENDEE;CN="Michal Ben Simon";RSVP=FALSE:mailto:Michal_BenSimon@amat.com
+ATTENDEE;CN="Michal Dishon";RSVP=FALSE:mailto:Michal_Dishon@amat.com
+ATTENDEE;CN="Michal Eilon";RSVP=FALSE:mailto:Michal_Eilon@amat.com
+ATTENDEE;CN="Michal Fisher";RSVP=FALSE:mailto:Michal_Fisher@amat.com
+ATTENDEE;CN="Michal Kamin";RSVP=FALSE:mailto:Michal_Kolka@amat.com
+ATTENDEE;CN="Michal Mor Yosef";RSVP=FALSE:mailto:Michal_MorYosef@amat.com
+ATTENDEE;CN="Michel Keselbrener";RSVP=FALSE:mailto:Michel_Keselbrener@amat.
+	com
+ATTENDEE;CN="Michelle Lavie Cohen";RSVP=FALSE:mailto:Michelle_Lavie@amat.co
+	m
+ATTENDEE;CN="Mike Shain";RSVP=FALSE:mailto:Mike_Shain@amat.com
+ATTENDEE;CN="Miki Gruber";RSVP=FALSE:mailto:Miki_Gruber@amat.com
+ATTENDEE;CN="Milan S Shet";RSVP=FALSE:mailto:Milan_Shet@amat.com
+ATTENDEE;CN="Milan Snabl";RSVP=FALSE:mailto:Milan_Snabl@amat.com
+ATTENDEE;CN="Milana Arad";RSVP=FALSE:mailto:Milana_Arad@amat.com
+ATTENDEE;CN="Minghui Du --TR";RSVP=FALSE:mailto:Minghui_Du@amat.com
+ATTENDEE;CN="Miriam Brook";RSVP=FALSE:mailto:Miriam_Brook@amat.com
+ATTENDEE;CN="Mohd. Shoaib Ansari";RSVP=FALSE:mailto:MohdShoaib_Ansari@amat.
+	com
+ATTENDEE;CN="Monali Monalisa";RSVP=FALSE:mailto:Monali_Monalisa@amat.com
+ATTENDEE;CN="Monika Taneja";RSVP=FALSE:mailto:Monika_Taneja@amat.com
+ATTENDEE;CN="Mor Ami";RSVP=FALSE:mailto:Mor_Ami@amat.com
+ATTENDEE;CN="Mor Baram";RSVP=FALSE:mailto:Mor_Baram@amat.com
+ATTENDEE;CN="Mor Battat";RSVP=FALSE:mailto:Mor_Battat@amat.com
+ATTENDEE;CN="Mor Keshet";RSVP=FALSE:mailto:Mor_Keshet@amat.com
+ATTENDEE;CN="Mor Shushan";RSVP=FALSE:mailto:Mor_Shushan@amat.com
+ATTENDEE;CN="Moran Altmark";RSVP=FALSE:mailto:Moran_Altmark@amat.com
+ATTENDEE;CN="Moran Braude";RSVP=FALSE:mailto:Moran_Braude@amat.com
+ATTENDEE;CN="Moran Finish";RSVP=FALSE:mailto:Moran_Finish@amat.com
+ATTENDEE;CN="Moran Smutko";RSVP=FALSE:mailto:Moran_Smutko@amat.com
+ATTENDEE;CN="Moritz Lanio";RSVP=FALSE:mailto:Moritz_Lanio@amat.com
+ATTENDEE;CN="Moriya Malka";RSVP=FALSE:mailto:Moriya_Malka@amat.com
+ATTENDEE;CN="Moshe Basher";RSVP=FALSE:mailto:Moshe_Basher@amat.com
+ATTENDEE;CN="Moshe Bootz";RSVP=FALSE:mailto:Moshe_Bootz@amat.com
+ATTENDEE;CN="Moshe Donel";RSVP=FALSE:mailto:Moshe_Donel@amat.com
+ATTENDEE;CN="Moshe Herskovits";RSVP=FALSE:mailto:Moshe_Herskovits@amat.com
+ATTENDEE;CN="Moshe Holcberg";RSVP=FALSE:mailto:Moshe_Holcberg@amat.com
+ATTENDEE;CN="Moshe Rozentsvige";RSVP=FALSE:mailto:Moshe_Rozentsvige@amat.co
+	m
+ATTENDEE;CN="Moshe Sadeh";RSVP=FALSE:mailto:Moshe_Sadeh@amat.com
+ATTENDEE;CN="Moshe Shetrit";RSVP=FALSE:mailto:Moshe_Shetrit@amat.com
+ATTENDEE;CN="Moti Rosen";RSVP=FALSE:mailto:Moti_Rosen@amat.com
+ATTENDEE;CN="Moti Sivan";RSVP=FALSE:mailto:Moti_Sivan@amat.com
+ATTENDEE;CN="Murali Venkatesan";RSVP=FALSE:mailto:Murali_Venkatesan@amat.co
+	m
+ATTENDEE;CN="Nadav Bahat";RSVP=FALSE:mailto:Nadav_Bahat@amat.com
+ATTENDEE;CN="Naomi Elekleonoff";RSVP=FALSE:mailto:Naomi_Elekleonoff@amat.co
+	m
+ATTENDEE;CN="Naor Alfassi";RSVP=FALSE:mailto:Naor_Alfassi@amat.com
+ATTENDEE;CN="Natali Bistrizer";RSVP=FALSE:mailto:Natali_Bistrizer@amat.com
+ATTENDEE;CN="Natan Krihely";RSVP=FALSE:mailto:Natan_Krihely@amat.com
+ATTENDEE;CN="Natan Pavis";RSVP=FALSE:mailto:Natan_Pavis@amat.com
+ATTENDEE;CN="Natan Schlimoff";RSVP=FALSE:mailto:Natan_Schlimoff@amat.com
+ATTENDEE;CN="Natan-Haim Kalson";RSVP=FALSE:mailto:NatanHaim_Kalson@amat.com
+ATTENDEE;CN="Natasha Prasad";RSVP=FALSE:mailto:Natasha_Prasad@amat.com
+ATTENDEE;CN="Netanel Alon";RSVP=FALSE:mailto:Nati_Alon@amat.com
+ATTENDEE;CN="Neta Caspi";RSVP=FALSE:mailto:Neta_Caspi@amat.com
+ATTENDEE;CN="Netanel Ovadia";RSVP=FALSE:mailto:Netanel_Ovadia@amat.com
+ATTENDEE;CN="Nikita Jain";RSVP=FALSE:mailto:Nikita_Jain@amat.com
+ATTENDEE;CN="Nili Avnit";RSVP=FALSE:mailto:Nili_Avnit@amat.com
+ATTENDEE;CN="Nimisha Nimisha";RSVP=FALSE:mailto:Nimisha_Nimisha@amat.com
+ATTENDEE;CN="Nimrod Cohen";RSVP=FALSE:mailto:Nimrod_Cohen@amat.com
+ATTENDEE;CN="Nina Verzun";RSVP=FALSE:mailto:Nina_Verzun@amat.com
+ATTENDEE;CN="Nir Baram";RSVP=FALSE:mailto:Nir_Baram@amat.com
+ATTENDEE;CN="Nir Elbaz";RSVP=FALSE:mailto:Nir_Elbaz@amat.com
+ATTENDEE;CN="Nir Gvaram";RSVP=FALSE:mailto:Nir_Gvaram@amat.com
+ATTENDEE;CN="Nir Kozlowsky";RSVP=FALSE:mailto:Nir_Kozlowsky@amat.com
+ATTENDEE;CN="Nir Libler --TR";RSVP=FALSE:mailto:Nir_Libler@amat.com
+ATTENDEE;CN="Nir Sagiv";RSVP=FALSE:mailto:Nir_Sagiv@amat.com
+ATTENDEE;CN="Nir Shwartz";RSVP=FALSE:mailto:Nir_Shwartz@amat.com
+ATTENDEE;CN="Niranjan Khasgiwale";RSVP=FALSE:mailto:Niranjan_Khasgiwale@ama
+	t.com
+ATTENDEE;CN="Nisha Sahu";RSVP=FALSE:mailto:Nisha_Sahu@amat.com
+ATTENDEE;CN="Nissim Varon";RSVP=FALSE:mailto:Nissim_Varon@amat.com
+ATTENDEE;CN="Nitin Singh Malik";RSVP=FALSE:mailto:Nitin_singh_Malik@amat.co
+	m
+ATTENDEE;CN="Nitzan Meyuhas";RSVP=FALSE:mailto:Nitzan_Meyuhas@amat.com
+ATTENDEE;CN="Nitzan Sadot";RSVP=FALSE:mailto:Nitzan_Sadot@amat.com
+ATTENDEE;CN="Nitzan Toboul";RSVP=FALSE:mailto:Nitzan_Toboul@amat.com
+ATTENDEE;CN="Noa Ben-Halevy";RSVP=FALSE:mailto:Noa_Ben-Halevy@amat.com
+ATTENDEE;CN="Noa Giladi";RSVP=FALSE:mailto:Noa_Giladi@amat.com
+ATTENDEE;CN="Noa Gur";RSVP=FALSE:mailto:Noa_Gur@amat.com
+ATTENDEE;CN="Noa Marom";RSVP=FALSE:mailto:Noa_Marom@amat.com
+ATTENDEE;CN="Noam Amit";RSVP=FALSE:mailto:Noam_Amit@amat.com
+ATTENDEE;CN="Noam Binyamin";RSVP=FALSE:mailto:Noam_Binyamin@amat.com
+ATTENDEE;CN="Noam Cohen";RSVP=FALSE:mailto:Noam_Cohen@amat.com
+ATTENDEE;CN="Noam Dori";RSVP=FALSE:mailto:Noam_Dori@amat.com
+ATTENDEE;CN="Noam Giladi";RSVP=FALSE:mailto:Noam_Giladi@amat.com
+ATTENDEE;CN="Noam Oved";RSVP=FALSE:mailto:Noam_Oved@amat.com
+ATTENDEE;CN="Noam Pachter";RSVP=FALSE:mailto:Noam_Pachter@amat.com
+ATTENDEE;CN="Noam Paz";RSVP=FALSE:mailto:Noam_Paz@amat.com
+ATTENDEE;CN="Noam Shachar";RSVP=FALSE:mailto:Noam_Shachar@amat.com
+ATTENDEE;CN="Noam Shaham";RSVP=FALSE:mailto:Noam_Shaham@amat.com
+ATTENDEE;CN="Noam Shintel";RSVP=FALSE:mailto:Noam_Shintel@amat.com
+ATTENDEE;CN="Noam Teomim";RSVP=FALSE:mailto:Noam_Teomim@amat.com
+ATTENDEE;CN="Noam Yerushalmi";RSVP=FALSE:mailto:Noam_Yerushalmi@amat.com
+ATTENDEE;CN="Nofar Shushan";RSVP=FALSE:mailto:Nofar_Shushan@amat.com
+ATTENDEE;CN="Noga Sabag";RSVP=FALSE:mailto:Noga_Sabag@amat.com
+ATTENDEE;CN="Oded Dassa";RSVP=FALSE:mailto:Oded_Dassa@amat.com
+ATTENDEE;CN="Oded Tagar";RSVP=FALSE:mailto:Oded_Tagar@amat.com
+ATTENDEE;CN="Ofer Adan";RSVP=FALSE:mailto:Ofer_Adan@amat.com
+ATTENDEE;CN="Ofer Aharoni";RSVP=FALSE:mailto:Ofer_Aharoni@amat.com
+ATTENDEE;CN="Ofer Katz";RSVP=FALSE:mailto:Ofer_Katz@amat.com
+ATTENDEE;CN="Ofer Nakash";RSVP=FALSE:mailto:Ofer_Nakash@amat.com
+ATTENDEE;CN="Ofer Orenstein";RSVP=FALSE:mailto:Ofer_Orenstein@amat.com
+ATTENDEE;CN="Ofer Yuli";RSVP=FALSE:mailto:Ofer_Yuli@amat.com
+ATTENDEE;CN="Ofir Abutbul";RSVP=FALSE:mailto:Ofir_Abutbul@amat.com
+ATTENDEE;CN="Ofir Arzouan";RSVP=FALSE:mailto:Ofir_Arzouan@amat.com
+ATTENDEE;CN="Ofir Cohen";RSVP=FALSE:mailto:Ofir_Cohen@amat.com
+ATTENDEE;CN="Ofir Greenberg";RSVP=FALSE:mailto:Ofir_Greenberg@amat.com
+ATTENDEE;CN="Ofir Hubara";RSVP=FALSE:mailto:Ofir_Hubara@amat.com
+ATTENDEE;CN="Ofir Montal";RSVP=FALSE:mailto:Ofir_Montal@amat.com
+ATTENDEE;CN="Ofir O Cohen";RSVP=FALSE:mailto:Ofir_O_Cohen@amat.com
+ATTENDEE;CN="Ofira Daniel";RSVP=FALSE:mailto:Ofira_Daniel@amat.com
+ATTENDEE;CN="Ohad Rubin";RSVP=FALSE:mailto:Ohad_Rubin@amat.com
+ATTENDEE;CN="Ola Terniak";RSVP=FALSE:mailto:Ola_Terniak@amat.com
+ATTENDEE;CN="Oleg Nepomnyaschy";RSVP=FALSE:mailto:Oleg_Nepomnyashchiy@amat.
+	com
+ATTENDEE;CN="Olga Feldman";RSVP=FALSE:mailto:Olga_Feldman@amat.com
+ATTENDEE;CN="Olga Novak";RSVP=FALSE:mailto:Olga_Novak@amat.com
+ATTENDEE;CN="Omer Bonen";RSVP=FALSE:mailto:Omer_Bonen@amat.com
+ATTENDEE;CN="Omer Cohen";RSVP=FALSE:mailto:Omer_Cohen@amat.com
+ATTENDEE;CN="Omer Kahan";RSVP=FALSE:mailto:Omer_Kahan@amat.com
+ATTENDEE;CN="Omer Naor";RSVP=FALSE:mailto:Omer_Naor@amat.com
+ATTENDEE;CN="Omer Sela";RSVP=FALSE:mailto:Omer_Sela@amat.com
+ATTENDEE;CN="Omri Baum";RSVP=FALSE:mailto:Omri_Baum@amat.com
+ATTENDEE;CN="Omri Danka";RSVP=FALSE:mailto:Omri_Danka@amat.com
+ATTENDEE;CN="Or Navon";RSVP=FALSE:mailto:Or_Navon@amat.com
+ATTENDEE;CN="Or Raifman";RSVP=FALSE:mailto:Or_Raifman@amat.com
+ATTENDEE;CN="Or Shalom";RSVP=FALSE:mailto:Or_Shalom@amat.com
+ATTENDEE;CN="Oren Faigenzvaig";RSVP=FALSE:mailto:Oren_Faigenzvaig@amat.com
+ATTENDEE;CN="Oren Krakow";RSVP=FALSE:mailto:Oren_Krakow@amat.com
+ATTENDEE;CN="Oren Shua";RSVP=FALSE:mailto:Oren_Shua@amat.com
+ATTENDEE;CN="Oren Wass";RSVP=FALSE:mailto:oren_wass@amat.com
+ATTENDEE;CN="Oren Weil";RSVP=FALSE:mailto:Oren_Weil@amat.com
+ATTENDEE;CN="Ori David";RSVP=FALSE:mailto:Ori_David@amat.com
+ATTENDEE;CN="Ori Peri";RSVP=FALSE:mailto:Ori_Peri@amat.com
+ATTENDEE;CN="Ori Petel";RSVP=FALSE:mailto:Ori_Petel@amat.com
+ATTENDEE;CN="Ori Schek";RSVP=FALSE:mailto:Ori_Schek@amat.com
+ATTENDEE;CN="Ori Shoval";RSVP=FALSE:mailto:Ori_Shoval@amat.com
+ATTENDEE;CN="Orit Hershkovich";RSVP=FALSE:mailto:Orit_Hershkovich@amat.com
+ATTENDEE;CN="Oz Fox-Kahana";RSVP=FALSE:mailto:Oz_FoxKahana@amat.com
+ATTENDEE;CN="Padmini Nanjundaswamy";RSVP=FALSE:mailto:Padmini_Nanjundaswamy
+	@amat.com
+ATTENDEE;CN="Patrick Chou";RSVP=FALSE:mailto:Patrick_Chou@amat.com
+ATTENDEE;CN="Paul Rosenbaum";RSVP=FALSE:mailto:Paul_Rosenbaum@amat.com
+ATTENDEE;CN="Pavan Kumar Mannava";RSVP=FALSE:mailto:PavanKumar_Mannava@amat
+	.com
+ATTENDEE;CN="Pavel Adamec";RSVP=FALSE:mailto:Pavel_Adamec@amat.com
+ATTENDEE;CN="Pavel Komissarov";RSVP=FALSE:mailto:Pavel_Komissarov@amat.com
+ATTENDEE;CN="Pavel Margulis";RSVP=FALSE:mailto:Pavel_Margulis@amat.com
+ATTENDEE;CN="Peddi Yamini";RSVP=FALSE:mailto:Peddi_Yamini@amat.com
+ATTENDEE;CN="Penchala Narasimhulu Koyi";RSVP=FALSE:mailto:PenchalaNarasimhu
+	lu_Koyi@amat.com
+ATTENDEE;CN="Peter Guerster";RSVP=FALSE:mailto:Peter_Guerster@amat.com
+ATTENDEE;CN="Peter Karbe";RSVP=FALSE:mailto:Peter_Karbe@amat.com
+ATTENDEE;CN="Peter Mulder";RSVP=FALSE:mailto:Peter_Mulder@amat.com
+ATTENDEE;CN="Peter Schleich";RSVP=FALSE:mailto:Peter_Schleich@amat.com
+ATTENDEE;CN="Piyush Agrawal";RSVP=FALSE:mailto:Piyush_Agrawal@amat.com
+ATTENDEE;CN="Polina Usyskin";RSVP=FALSE:mailto:Polina_Usyskin@amat.com
+ATTENDEE;CN="Prabu Palraj";RSVP=FALSE:mailto:Prabu_Palraj@amat.com
+ATTENDEE;CN="Prachi Gupta";RSVP=FALSE:mailto:Prachi_Gupta@amat.com
+ATTENDEE;CN="Pradeepta Mishra";RSVP=FALSE:mailto:Pradeepta_Mishra@amat.com
+ATTENDEE;CN="Pradeep Vishnu Namboothiri";RSVP=FALSE:mailto:PradeepVishnu_Na
+	mboothiri@amat.com
+ATTENDEE;CN="Prakash Kumar";RSVP=FALSE:mailto:Prakash_AKumar@amat.com
+ATTENDEE;CN="Prakhar Nigam";RSVP=FALSE:mailto:Prakhar_Nigam@amat.com
+ATTENDEE;CN="Prashant Aji";RSVP=FALSE:mailto:Prashant_Aji@amat.com
+ATTENDEE;CN="Prashanth Krishna";RSVP=FALSE:mailto:Prashanth_Krishna@amat.co
+	m
+ATTENDEE;CN="Prashanth Reddy";RSVP=FALSE:mailto:Prashanth_Reddy@amat.com
+ATTENDEE;CN="Preethi Padaguru Nagesh";RSVP=FALSE:mailto:Preethi_PadaguruNag
+	esh@amat.com
+ATTENDEE;CN="Prince Kumar";RSVP=FALSE:mailto:Prince_Kumar@amat.com
+ATTENDEE;CN="Priyanka Mangal";RSVP=FALSE:mailto:Priyanka_Mangal@amat.com
+ATTENDEE;CN="Pund Tushar Shivaji";RSVP=FALSE:mailto:PundTushar_Shivaji@amat
+	.com
+ATTENDEE;CN="Punyabrahma Panda";RSVP=FALSE:mailto:Punyabrahma_Panda@amat.co
+	m
+ATTENDEE;CN="Rachel Pintel";RSVP=FALSE:mailto:Rachel_Pintel@amat.com
+ATTENDEE;CN="Radhika Bhat";RSVP=FALSE:mailto:Radhika_Bhat@amat.com
+ATTENDEE;CN="Rafi Benami";RSVP=FALSE:mailto:Rafi_Benami@amat.com
+ATTENDEE;CN="Rafi Bistritzer";RSVP=FALSE:mailto:Rafi_Bistritzer@amat.com
+ATTENDEE;CN="Rafi Krauz";RSVP=FALSE:mailto:Rafi_Krauz@amat.com
+ATTENDEE;CN="Rafi Uziel";RSVP=FALSE:mailto:Rafi_Uziel@amat.com
+ATTENDEE;CN="Raghavendra Sampath";RSVP=FALSE:mailto:Raghavendra_Sampath@ama
+	t.com
+ATTENDEE;CN="Raghvendra Singh";RSVP=FALSE:mailto:Raghvendra_Singh@amat.com
+ATTENDEE;CN="Rahul Kant";RSVP=FALSE:mailto:Rahul_Kant@amat.com
+ATTENDEE;CN="Rahul Suman";RSVP=FALSE:mailto:Rahul_Suman@amat.com
+ATTENDEE;CN="Rajarshi Roy";RSVP=FALSE:mailto:Rajarshi_Roy@amat.com
+ATTENDEE;CN="Rajendra Prasad Karanam";RSVP=FALSE:mailto:RajendraPrasad_Kara
+	nam@amat.com
+ATTENDEE;CN="Rajesh Dey";RSVP=FALSE:mailto:Rajesh_Dey@amat.com
+ATTENDEE;CN="Rajib Swain";RSVP=FALSE:mailto:Rajib_Swain@amat.com
+ATTENDEE;CN="Rakesh Kandothum Purathu";RSVP=FALSE:mailto:Rakesh_KandothumPu
+	rathu@amat.com
+ATTENDEE;CN="Ram Jaiswal";RSVP=FALSE:mailto:Ram_Jaiswal@amat.com
+ATTENDEE;CN="Ram Peltinov";RSVP=FALSE:mailto:Ram_Peltinov@amat.com
+ATTENDEE;CN="Ram Shokoohi";RSVP=FALSE:mailto:Ram_Shokoohi@amat.com
+ATTENDEE;CN="Rama Avnon";RSVP=FALSE:mailto:Rama_Avnon@amat.com
+ATTENDEE;CN="Rami Elichai";RSVP=FALSE:mailto:Rami_Elichai@amat.com
+ATTENDEE;CN="Ramiz Ahmad";RSVP=FALSE:mailto:Ramiz_Ahmad@amat.com
+ATTENDEE;CN="Ramkumar Chinthamani";RSVP=FALSE:mailto:Ramkumar_Chinthamani@a
+	mat.com
+ATTENDEE;CN="Ran Alkoken";RSVP=FALSE:mailto:Ran_Alkoken@amat.com
+ATTENDEE;CN="Ran Badanes";RSVP=FALSE:mailto:Ran_Badanes@amat.com
+ATTENDEE;CN="Ran Brikman";RSVP=FALSE:mailto:Ran_Brikman@amat.com
+ATTENDEE;CN="Ran Lahat";RSVP=FALSE:mailto:Ran_Lahat@amat.com
+ATTENDEE;CN="Ran Yacoby";RSVP=FALSE:mailto:Ran_Yacoby@amat.com
+ATTENDEE;CN="Rani Agarwal";RSVP=FALSE:mailto:Rani_Agarwal@amat.com
+ATTENDEE;CN="Raphael Matthews";RSVP=FALSE:mailto:Raphael_Matthews@amat.com
+ATTENDEE;CN="Raphael Piatek";RSVP=FALSE:mailto:Raphael_Piatek@amat.com
+ATTENDEE;CN="Rauf Ismail";RSVP=FALSE:mailto:Rauf_Ismail@amat.com
+ATTENDEE;CN="Raul Shimshon";RSVP=FALSE:mailto:Raul_Shimshon@amat.com
+ATTENDEE;CN="Ravit Hagai";RSVP=FALSE:mailto:Ravit_Hagai@amat.com
+ATTENDEE;CN="Raz Weinberger";RSVP=FALSE:mailto:Raz_Weinberger@amat.com
+ATTENDEE;CN="Renjing Zheng --TR";RSVP=FALSE:mailto:Renjing_Zheng@amat.com
+ATTENDEE;CN="Reshef Giladi";RSVP=FALSE:mailto:Reshef_Giladi@amat.com
+ATTENDEE;CN="Reut Ben Moshe";RSVP=FALSE:mailto:Reut_BenMoshe@amat.com
+ATTENDEE;CN="Reut Lavi";RSVP=FALSE:mailto:Reut_Lavi@amat.com
+ATTENDEE;CN="Reut Leibovich";RSVP=FALSE:mailto:Reut_Leibovich@amat.com
+ATTENDEE;CN="Reut Barash";RSVP=FALSE:mailto:Reut_Pery@amat.com
+ATTENDEE;CN="Reut Sadres";RSVP=FALSE:mailto:Reut_Sadres@amat.com
+ATTENDEE;CN="Revital Fanger";RSVP=FALSE:mailto:Revital_Fanger@amat.com
+ATTENDEE;CN="Rishibha Sood";RSVP=FALSE:mailto:Rishibha_Sood@amat.com
+ATTENDEE;CN="Rita Superfin";RSVP=FALSE:mailto:Rita_Superfin@amat.com
+ATTENDEE;CN="Riva Levit";RSVP=FALSE:mailto:Riva_Levit@amat.com
+ATTENDEE;CN="Rivka Tempelman";RSVP=FALSE:mailto:Rivka_Tempelman@amat.com
+ATTENDEE;CN="Riya Amvastava";RSVP=FALSE:mailto:Riya_Amvastava@amat.com
+ATTENDEE;CN="Rohit Bade";RSVP=FALSE:mailto:Rohit_Bade@amat.com
+ATTENDEE;CN="Rohit Goyal";RSVP=FALSE:mailto:Rohit_Goyal@amat.com
+ATTENDEE;CN="Rohit Kumar";RSVP=FALSE:mailto:Rohit_Kumar@amat.com
+ATTENDEE;CN="Rohit Phanse";RSVP=FALSE:mailto:Rohit_Phanse@amat.com
+ATTENDEE;CN="Rohit Kumar Singh";RSVP=FALSE:mailto:RohitKumar_Singh@amat.com
+ATTENDEE;CN="Roi Ben Basat";RSVP=FALSE:mailto:Roi_BenBasat@amat.com
+ATTENDEE;CN="Roi Even - Ari";RSVP=FALSE:mailto:Roi_EvenAri@amat.com
+ATTENDEE;CN="Roi Meir";RSVP=FALSE:mailto:Roi_Meir@amat.com
+ATTENDEE;CN="Roi Mizrahi";RSVP=FALSE:mailto:Roi_Mizrahi@amat.com
+ATTENDEE;CN="Roman Kris";RSVP=FALSE:mailto:Roman_Kris@amat.com
+ATTENDEE;CN="Roman Naidis";RSVP=FALSE:mailto:Roman_Naidis@amat.com
+ATTENDEE;CN="Ron Bar-Or";RSVP=FALSE:mailto:Ron_Bar-Or@amat.com
+ATTENDEE;CN="Ron Naftali";RSVP=FALSE:mailto:Ron_Naftali@amat.com
+ATTENDEE;CN="Ron Ritsner";RSVP=FALSE:mailto:Ron_Ritsner@amat.com
+ATTENDEE;CN="Ron Shakhnovich";RSVP=FALSE:mailto:Ron_Shakhnovich@amat.com
+ATTENDEE;CN="Ronen Atias";RSVP=FALSE:mailto:Ronen_Atias@amat.com
+ATTENDEE;CN="Ronen Barda";RSVP=FALSE:mailto:Ronen_Barda@amat.com
+ATTENDEE;CN="Ronen Madmon";RSVP=FALSE:mailto:Ronen_Madmon@amat.com
+ATTENDEE;CN="Ronen Mitrani";RSVP=FALSE:mailto:Ronen_Mitrani@amat.com
+ATTENDEE;CN="Ronen Sumazin";RSVP=FALSE:mailto:Ronen_Sumazin@amat.com
+ATTENDEE;CN="Ronen Tzadok";RSVP=FALSE:mailto:Ronen_Tzadok@amat.com
+ATTENDEE;CN="Roni Mishraki";RSVP=FALSE:mailto:Roni_Mishraki@amat.com
+ATTENDEE;CN="Roni Zehavi";RSVP=FALSE:mailto:Roni_Zehavi@amat.com
+ATTENDEE;CN="Ronit Kolani-Reuveni";RSVP=FALSE:mailto:Ronit_Kolani-Reuveni@a
+	mat.com
+ATTENDEE;CN="Ronnie Porat";RSVP=FALSE:mailto:Ronnie_Porat@amat.com
+ATTENDEE;CN="Ronny Barnea";RSVP=FALSE:mailto:Ronny_Barnea@amat.com
+ATTENDEE;CN="Rony Reuveni";RSVP=FALSE:mailto:Rony_Reuveni@amat.com
+ATTENDEE;CN="Rotem Gordon";RSVP=FALSE:mailto:Rotem_Gordon@amat.com
+ATTENDEE;CN="Rotem Mor Yosef";RSVP=FALSE:mailto:Rotem_MorYosef@amat.com
+ATTENDEE;CN="Roy Assulin";RSVP=FALSE:mailto:Roy_Assulin@amat.com
+ATTENDEE;CN="Roy Winter";RSVP=FALSE:mailto:Roy_Winter@amat.com
+ATTENDEE;CN="Ruthusena Mohan";RSVP=FALSE:mailto:Ruthusena_Mohan@amat.com
+ATTENDEE;CN="Ruthy Cohen-Koshizky";RSVP=FALSE:mailto:Ruthy_CohenKoshizky@am
+	at.com
+ATTENDEE;CN="Saar Ofir";RSVP=FALSE:mailto:Saar_Ofir@amat.com
+ATTENDEE;CN="Saar Shabtay";RSVP=FALSE:mailto:Saar_Shabtay@amat.com
+ATTENDEE;CN="Sachidananda Chinagudi Jagadeesha";RSVP=FALSE:mailto:Sachidana
+	nda_ChinagudiJagadeesha@amat.com
+ATTENDEE;CN="Sagi Abramov";RSVP=FALSE:mailto:Sagi_Abramov@amat.com
+ATTENDEE;CN="Sagi Ben David";RSVP=FALSE:mailto:Sagi_BenDavid@amat.com
+ATTENDEE;CN="Sahar Levin";RSVP=FALSE:mailto:Sahar_Levin@amat.com
+ATTENDEE;CN="Sahil Mehra";RSVP=FALSE:mailto:Sahil_Mehra@amat.com
+ATTENDEE;CN="Saiprasant Das";RSVP=FALSE:mailto:Saiprasant_Das@amat.com
+ATTENDEE;CN="Sambit Rout";RSVP=FALSE:mailto:Sambit_Rout@amat.com
+ATTENDEE;CN="Sami Amer";RSVP=FALSE:mailto:Sami_Amer@amat.com
+ATTENDEE;CN="Sandeep Menon";RSVP=FALSE:mailto:Sandeep_Menon@amat.com
+ATTENDEE;CN="Santhosh Kumar Chittipolu";RSVP=FALSE:mailto:SanthoshKumar_Chi
+	ttipolu@amat.com
+ATTENDEE;CN="Santosh Kumar Reddy";RSVP=FALSE:mailto:SantoshKumar_Reddy@amat
+	.com
+ATTENDEE;CN="Sapir Peleg";RSVP=FALSE:mailto:Sapir_Peleg@amat.com
+ATTENDEE;CN="Sarit Karkookly";RSVP=FALSE:mailto:Sarit_Karkookly@amat.com
+ATTENDEE;CN="Sasha Bronepolsky";RSVP=FALSE:mailto:Sasha_Bronepolsky@amat.co
+	m
+ATTENDEE;CN="Satyajit Kautkar";RSVP=FALSE:mailto:Satyajit_Kautkar@amat.com
+ATTENDEE;CN="Saurabh Jaiswal";RSVP=FALSE:mailto:Saurabh_Jaiswal@amat.com
+ATTENDEE;CN="SAURABH SRIVASTAVA";RSVP=FALSE:mailto:SAURABH_SRIVASTAVA@amat.
+	com
+ATTENDEE;CN="Scott Kang";RSVP=FALSE:mailto:Scott_Kang@amat.com
+ATTENDEE;CN="Sergey Khristo";RSVP=FALSE:mailto:Sergey_Khristo@amat.com
+ATTENDEE;CN="Sergey Zamansky";RSVP=FALSE:mailto:Sergey_Zamansky@amat.com
+ATTENDEE;CN="Shabna Thykkudathil Rasheed";RSVP=FALSE:mailto:Shabna_Thykkuda
+	thilRasheed@amat.com
+ATTENDEE;CN="Shachaf Tsafriri";RSVP=FALSE:mailto:Shachaf_Tsafriri@amat.com
+ATTENDEE;CN="Shachar Faigenblat";RSVP=FALSE:mailto:Shachar_Faigenblat@amat.
+	com
+ATTENDEE;CN="Shahar Arad";RSVP=FALSE:mailto:Shahar_Arad@amat.com
+ATTENDEE;CN="Shai Haklai";RSVP=FALSE:mailto:Shai_Haklai@amat.com
+ATTENDEE;CN="Shai Halperin";RSVP=FALSE:mailto:Shai_Halperin@amat.com
+ATTENDEE;CN="Shai Henya";RSVP=FALSE:mailto:Shai_Henya@amat.com
+ATTENDEE;CN="Shai Mamistvalov";RSVP=FALSE:mailto:Shai_Mamistvalov@amat.com
+ATTENDEE;CN="Shai Vanuk";RSVP=FALSE:mailto:Shai_Vanuk@amat.com
+ATTENDEE;CN="Shaked Golan";RSVP=FALSE:mailto:Shaked_Golan@amat.com
+ATTENDEE;CN="Shalev Tarrab";RSVP=FALSE:mailto:Shalev_Tarrab@amat.com
+ATTENDEE;CN="Shalini Chatla";RSVP=FALSE:mailto:Shalini_Chatla@amat.com
+ATTENDEE;CN="Shalom Elkayam";RSVP=FALSE:mailto:Shalom_Elkayam@amat.com
+ATTENDEE;CN="Shalom Hayut";RSVP=FALSE:mailto:Shalom_Hayut@amat.com
+ATTENDEE;CN="Shanavas Rafi Ahmed";RSVP=FALSE:mailto:Shanavas_RafiAhmed@amat
+	.com
+ATTENDEE;CN="Shani Berrebi";RSVP=FALSE:mailto:Shani_Berrebi@amat.com
+ATTENDEE;CN="Sharmistha Mohapatra";RSVP=FALSE:mailto:Sharmistha_Mohapatra@a
+	mat.com
+ATTENDEE;CN="Sharon Israel";RSVP=FALSE:mailto:Sharon_Israel@amat.com
+ATTENDEE;CN="Sharon Rinat";RSVP=FALSE:mailto:Sharon_Rinat@amat.com
+ATTENDEE;CN="Sharon Rozanovich";RSVP=FALSE:mailto:Sharon_Rozanovich@amat.co
+	m
+ATTENDEE;CN="Sharon Yogev";RSVP=FALSE:mailto:Sharon_Yogev@amat.com
+ATTENDEE;CN="Shashitej Gururaja";RSVP=FALSE:mailto:Shashitej_Gururaja@amat.
+	com
+ATTENDEE;CN="Shaul Cohen PDC";RSVP=FALSE:mailto:Shaul_Cohen@amat.com
+ATTENDEE;CN="Shaul Engler";RSVP=FALSE:mailto:Shaul_Engler@amat.com
+ATTENDEE;CN="Shavit Ratzon";RSVP=FALSE:mailto:Shavit_Ratzon@amat.com
+ATTENDEE;CN="Shay Attal";RSVP=FALSE:mailto:Shay_Attal@amat.com
+ATTENDEE;CN="Shay Barazovsky";RSVP=FALSE:mailto:Shay_Barazovsky@amat.com
+ATTENDEE;CN="Shay Kraus";RSVP=FALSE:mailto:Shay_Kraus@amat.com
+ATTENDEE;CN="Shay Moshe";RSVP=FALSE:mailto:Shay_Moshe@amat.com
+ATTENDEE;CN="Shay Pathov";RSVP=FALSE:mailto:Shay_Pathov@amat.com
+ATTENDEE;CN="Shay Yasharzade";RSVP=FALSE:mailto:Shay_Yasharzade@amat.com
+ATTENDEE;CN="Sheena Sahni";RSVP=FALSE:mailto:Sheena_Sahni@amat.com
+ATTENDEE;CN="Shimon Ganon";RSVP=FALSE:mailto:Shimon_Ganon@amat.com
+ATTENDEE;CN="Shimon Levi";RSVP=FALSE:mailto:Shimon_Levi@amat.com
+ATTENDEE;CN="Shimon Malul";RSVP=FALSE:mailto:Shimon_Malul@amat.com
+ATTENDEE;CN="Shipra Patel";RSVP=FALSE:mailto:Shipra_Patel@amat.com
+ATTENDEE;CN="Shir Shwartz";RSVP=FALSE:mailto:Shir_Shwartz@amat.com
+ATTENDEE;CN="Shiran Rabin Ashkenazi";RSVP=FALSE:mailto:shiran_Ashkenazi@ama
+	t.com
+ATTENDEE;CN="Shiran Maimon";RSVP=FALSE:mailto:Shiran_MaimonSarig@amat.com
+ATTENDEE;CN="Shiri Hirsch";RSVP=FALSE:mailto:Shiri_Hirsch@amat.com
+ATTENDEE;CN="Shirley Barda";RSVP=FALSE:mailto:Shirley_Barda@amat.com
+ATTENDEE;CN="Shishir Singh";RSVP=FALSE:mailto:Shishir_Singh@amat.com
+ATTENDEE;CN="Shlomi Lougassi";RSVP=FALSE:mailto:Shlomi_Lougassi@amat.com
+ATTENDEE;CN="Shlomi Malihi";RSVP=FALSE:mailto:Shlomi_Malihi@amat.com
+ATTENDEE;CN="Shlomit Hoz";RSVP=FALSE:mailto:Shlomit_Hoz@amat.com
+ATTENDEE;CN="Shlomy Tubul";RSVP=FALSE:mailto:Shlomy_Tubul@amat.com
+ATTENDEE;CN="Shmuel Mizrachi";RSVP=FALSE:mailto:Shmuel_Mizrachi@amat.com
+ATTENDEE;CN="Shmulik Nakash";RSVP=FALSE:mailto:Shmulik_Nakash@amat.com
+ATTENDEE;CN="Shradha Sahay";RSVP=FALSE:mailto:Shradha_Sahay@amat.com
+ATTENDEE;CN="Shuangfang Shao --TR";RSVP=FALSE:mailto:Shuangfang_Shao@amat.c
+	om
+ATTENDEE;CN="Shubham Jain";RSVP=FALSE:mailto:Shubham_Jain@amat.com
+ATTENDEE;CN="Shubham Mogal";RSVP=FALSE:mailto:Shubham_Mogal@amat.com
+ATTENDEE;CN="Shubham Jain";RSVP=FALSE:mailto:Shubham_S_Jain@amat.com
+ATTENDEE;CN="Shuki Cohen";RSVP=FALSE:mailto:Shuki_Cohen@amat.com
+ATTENDEE;CN="Shunit Petachia-Halely";RSVP=FALSE:mailto:Shunit_Halely@amat.c
+	om
+ATTENDEE;CN="Sidharth Maurya";RSVP=FALSE:mailto:Sidharth_Maurya@amat.com
+ATTENDEE;CN="Silviu Faicievici";RSVP=FALSE:mailto:Silviu_Faicievici@amat.co
+	m
+ATTENDEE;CN="Sivakumar Athur Venkatanarayanan";RSVP=FALSE:mailto:Sivakumar_
+	AthurVenkatanarayanan@amat.com
+ATTENDEE;CN="Sivan Fitoussi";RSVP=FALSE:mailto:Sivan_Fitoussi@amat.com
+ATTENDEE;CN="Solomon Ratner";RSVP=FALSE:mailto:Solomon_Ratner@amat.com
+ATTENDEE;CN="Sonalprakashchandra Kothari";RSVP=FALSE:mailto:Sonalprakashcha
+	ndra_Kothari@amat.com
+ATTENDEE;CN="Sonu Keshri";RSVP=FALSE:mailto:Sonu_Keshri@amat.com
+ATTENDEE;CN="Sooraj Mannangal";RSVP=FALSE:mailto:Sooraj_Mannagal@amat.com
+ATTENDEE;CN="Sophie Fainzilberg";RSVP=FALSE:mailto:Sophie_Fainzilberg@amat.
+	com
+ATTENDEE;CN="Sourav Badu";RSVP=FALSE:mailto:Sourav_Badu@amat.com
+ATTENDEE;CN="Sravan Nandakumar";RSVP=FALSE:mailto:Sravan_Nandakumar@amat.co
+	m
+ATTENDEE;CN="Sravan Puvvada";RSVP=FALSE:mailto:Sravan_Puvvada@amat.com
+ATTENDEE;CN="Sravya Matavalam";RSVP=FALSE:mailto:Sravya_Matavalam@amat.com
+ATTENDEE;CN="Sri Naga Basava Raja Ram Kiran Chevendra";RSVP=FALSE:mailto:Sr
+	iNagaBasavaRajaRamKiran_Chevendra@amat.com
+ATTENDEE;CN="Steffen Claussen";RSVP=FALSE:mailto:Steffen_Claussen@amat.com
+ATTENDEE;CN="Stephanie Chen";RSVP=FALSE:mailto:Stephanie_Chen@amat.com
+ATTENDEE;CN="Stephanie Ohayon";RSVP=FALSE:mailto:Stephanie_Ohayon@amat.com
+ATTENDEE;CN="Subhash Kumar";RSVP=FALSE:mailto:Subhash_Kumar@amat.com
+ATTENDEE;CN="Subhasish Bandyopadhyay";RSVP=FALSE:mailto:subhasish_bandy@ama
+	t.com
+ATTENDEE;CN="Sudarshan Kumar Mishra";RSVP=FALSE:mailto:SudarshanKumar_Mishr
+	a@amat.com
+ATTENDEE;CN="Surender Kumar";RSVP=FALSE:mailto:Surender_Kumar@amat.com
+ATTENDEE;CN="Surendrababu Innamuri";RSVP=FALSE:mailto:Surendrababu_Innamuri
+	@amat.com
+ATTENDEE;CN="Surendrareddy Kamanuru";RSVP=FALSE:mailto:Surendrareddy_Kamanu
+	ru@amat.com
+ATTENDEE;CN="Svetlana Paster";RSVP=FALSE:mailto:Svetlana_Paster@amat.com
+ATTENDEE;CN="Take Miyagi";RSVP=FALSE:mailto:Take_Miyagi@amat.com
+ATTENDEE;CN="Tal Ayzik";RSVP=FALSE:mailto:Tal_Ayzik@amat.com
+ATTENDEE;CN="Tal Ben- Shlomo";RSVP=FALSE:mailto:Tal_BenShlomo@amat.com
+ATTENDEE;CN="Tal Itzkovich";RSVP=FALSE:mailto:Tal_Itzkovich@amat.com
+ATTENDEE;CN="Tal Kuzniz";RSVP=FALSE:mailto:Tal_Kuzniz@amat.com
+ATTENDEE;CN="Tal Shoham";RSVP=FALSE:mailto:Tal_Shoham@amat.com
+ATTENDEE;CN="Tal Shamai T";RSVP=FALSE:mailto:Tal_T_Shamai@amat.com
+ATTENDEE;CN="Tali Azriel";RSVP=FALSE:mailto:Tali_Azriel@amat.com
+ATTENDEE;CN="Talia Rogov";RSVP=FALSE:mailto:Talia_Rogov@amat.com
+ATTENDEE;CN="Tamir Amid";RSVP=FALSE:mailto:Tamir_Amid@amat.com
+ATTENDEE;CN="Tamir Einy";RSVP=FALSE:mailto:Tamir_Einy@amat.com
+ATTENDEE;CN="Tamir Shabat";RSVP=FALSE:mailto:Tamir_Shabat@amat.com
+ATTENDEE;CN="Tapas kumar Nayak";RSVP=FALSE:mailto:Tapaskumar_Nayak@amat.com
+ATTENDEE;CN="Tarun Bisoriya";RSVP=FALSE:mailto:Tarun_Bisoriya@amat.com
+ATTENDEE;CN="Tatiana Gurevich";RSVP=FALSE:mailto:Tatiana_Gurevich@amat.com
+ATTENDEE;CN="Tausif Mohammad";RSVP=FALSE:mailto:Tausif_Mohammad@amat.com
+ATTENDEE;CN="Thomas Heiler";RSVP=FALSE:mailto:Thomas_Heiler@amat.com
+ATTENDEE;CN="Tiger Wang --TR";RSVP=FALSE:mailto:Tiger_Wang@amat.com
+ATTENDEE;CN="Tom Einhorn";RSVP=FALSE:mailto:Tom_Einhorn@amat.com
+ATTENDEE;CN="Tom Kim";RSVP=FALSE:mailto:Tom_Kim@amat.com
+ATTENDEE;CN="Tomer Almogy";RSVP=FALSE:mailto:Tomer_Almogy@amat.com
+ATTENDEE;CN="Tomer Menahem";RSVP=FALSE:mailto:Tomer_Menahem@amat.com
+ATTENDEE;CN="Tomer Peled";RSVP=FALSE:mailto:Tomer_Peled@amat.com
+ATTENDEE;CN="Tomer Schvartz";RSVP=FALSE:mailto:Tomer_Schvartz@amat.com
+ATTENDEE;CN="Tomer Yeminy";RSVP=FALSE:mailto:Tomer_Yeminy@amat.com
+ATTENDEE;CN="Tony Taboch";RSVP=FALSE:mailto:Tony_Taboch@amat.com
+ATTENDEE;CN="Tushar Borekar";RSVP=FALSE:mailto:Tushar_Borekar@amat.com
+ATTENDEE;CN="Tushar Ranjan Swain";RSVP=FALSE:mailto:TusharRanjan_Swain@amat
+	.com
+ATTENDEE;CN="Ubhay Kumar";RSVP=FALSE:mailto:Ubhay_Kumar@amat.com
+ATTENDEE;CN="Udi Abrahamov";RSVP=FALSE:mailto:Udi_Abrahamov@amat.com
+ATTENDEE;CN="Upendra Allu";RSVP=FALSE:mailto:Upendra_Allu@amat.com
+ATTENDEE;CN="Uri Lev";RSVP=FALSE:mailto:Uri_Lev@amat.com
+ATTENDEE;CN="Uriel Malul";RSVP=FALSE:mailto:Uriel_Malul@amat.com
+ATTENDEE;CN="Uriel Shavat";RSVP=FALSE:mailto:Uriel_Shavat@amat.com
+ATTENDEE;CN="Uriya Levi";RSVP=FALSE:mailto:Uriya_Levi@amat.com
+ATTENDEE;CN="Utkarsh Rawat";RSVP=FALSE:mailto:Utkarsh_Rawat@amat.com
+ATTENDEE;CN="Uzi Barazani";RSVP=FALSE:mailto:Uzi_Barazani@amat.com
+ATTENDEE;CN="Vadim Kuchik";RSVP=FALSE:mailto:Vadim_Kuchik@amat.com
+ATTENDEE;CN="Vadim Pulver";RSVP=FALSE:mailto:Vadim_Pulver@amat.com
+ATTENDEE;CN="Vadim Vereschagin";RSVP=FALSE:mailto:Vadim_Vereschagin@amat.co
+	m
+ATTENDEE;CN="Vadim Volovik";RSVP=FALSE:mailto:Vadim_Volovik@amat.com
+ATTENDEE;CN="Valentine Bainov";RSVP=FALSE:mailto:Valentine_Bainov@amat.com
+ATTENDEE;CN="Vasily Bondarenko";RSVP=FALSE:mailto:Vasily_Bondarenko@amat.co
+	m
+ATTENDEE;CN="Vera Gorodnitsky";RSVP=FALSE:mailto:Vera_Gorodnitsky@amat.com
+ATTENDEE;CN="Vibhav Sharma";RSVP=FALSE:mailto:Vibhav_Sharma@amat.com
+ATTENDEE;CN="Victor Egorov";RSVP=FALSE:mailto:Victor_Egorov@amat.com
+ATTENDEE;CN="Victor Seng-Keong Lim";RSVP=FALSE:mailto:Victor_Lim@amat.com
+ATTENDEE;CN="Victor Mirovoy";RSVP=FALSE:mailto:Victor_Mirovoy@amat.com
+ATTENDEE;CN="Victor Vigderovich";RSVP=FALSE:mailto:Victor_Vigderovich@amat.
+	com
+ATTENDEE;CN="Vidya Neelakantan";RSVP=FALSE:mailto:Vidya_Neelakantan@amat.co
+	m
+ATTENDEE;CN="Vikas Sharma";RSVP=FALSE:mailto:Vikas_Sharma@amat.com
+ATTENDEE;CN="Vikas Somashekhara";RSVP=FALSE:mailto:Vikas_Somashekhara@amat.
+	com
+ATTENDEE;CN="Viki Kagarlitsky";RSVP=FALSE:mailto:Viki_Kagarlitsky@amat.com
+ATTENDEE;CN="Vimal Tomar";RSVP=FALSE:mailto:Vimal_Tomar@amat.com
+ATTENDEE;CN="Vinay Gupta";RSVP=FALSE:mailto:Vinay_Gupta@amat.com
+ATTENDEE;CN="Vinay V Aggarwal";RSVP=FALSE:mailto:Vinay_V_Aggarwal@amat.com
+ATTENDEE;CN="Vinay Hegde";RSVP=FALSE:mailto:Vinay_V_Hegde@amat.com
+ATTENDEE;CN="Vinay Kumar Yadav";RSVP=FALSE:mailto:VinayKumar_Yadav@amat.com
+ATTENDEE;CN="Vincent Zhang --TR";RSVP=FALSE:mailto:Vincent_Zhang@amat.com
+ATTENDEE;CN="Vinoth Karunanithy";RSVP=FALSE:mailto:Vinoth_Karunanithy@amat.
+	com
+ATTENDEE;CN="Vitally Sushko";RSVP=FALSE:mailto:Vitally_Sushko@amat.com
+ATTENDEE;CN="Vitaly Gurel";RSVP=FALSE:mailto:Vitaly_Gurel@amat.com
+ATTENDEE;CN="Vitaly Kotlyarov";RSVP=FALSE:mailto:Vitaly_Kotlyarov@amat.com
+ATTENDEE;CN="Vlad Feldman";RSVP=FALSE:mailto:Vlad_Feldman@amat.com
+ATTENDEE;CN="Vlad Kudriashov";RSVP=FALSE:mailto:Vlad_Kudriashov@amat.com
+ATTENDEE;CN="Vladimir Ovechkin";RSVP=FALSE:mailto:Vladimir_Ovechkin@amat.co
+	m
+ATTENDEE;CN="Vladimir Pavlov";RSVP=FALSE:mailto:Vladimir_Pavlov@amat.com
+ATTENDEE;CN="Vladimir Stukalov";RSVP=FALSE:mailto:Vladimir_Stukalov@amat.co
+	m
+ATTENDEE;CN="Vladimir Tyomkin";RSVP=FALSE:mailto:Vladimir_Tyomkin@amat.com
+ATTENDEE;CN="Vladislav Kaplan";RSVP=FALSE:mailto:Vladislav_Kaplan@amat.com
+ATTENDEE;CN="Vova Bondarev";RSVP=FALSE:mailto:Vova_Bondarev@amat.com
+ATTENDEE;CN="Vysagh Thenga Muchi";RSVP=FALSE:mailto:Vysagh_ThengaMuchi@amat
+	.com
+ATTENDEE;CN="Waheb Bishara";RSVP=FALSE:mailto:Waheb_Bishara@amat.com
+ATTENDEE;CN="Walt Zhou --TR";RSVP=FALSE:mailto:Walt_Zhou@amat.com
+ATTENDEE;CN="Snow Lai";RSVP=FALSE:mailto:WanHsueh_LAI@amat.com
+ATTENDEE;CN="Weidong Shao --TR";RSVP=FALSE:mailto:Weidong_Shao@amat.com
+ATTENDEE;CN="William Bu --TR";RSVP=FALSE:mailto:William_bu@amat.com
+ATTENDEE;CN="Daniel XIAO --TR";RSVP=FALSE:mailto:XinHuo_XIAO@amat.com
+ATTENDEE;CN="Yaacov Zak";RSVP=FALSE:mailto:Yaacov_Zak@amat.com
+ATTENDEE;CN="Yaara Gilon";RSVP=FALSE:mailto:Yaara_Gilon@amat.com
+ATTENDEE;CN="Yael Haham";RSVP=FALSE:mailto:Yael_Haham@amat.com
+ATTENDEE;CN="Yael Moise";RSVP=FALSE:mailto:Yael_Moise@amat.com
+ATTENDEE;CN="Yahav Mendel";RSVP=FALSE:mailto:Yahav_Mendel@amat.com
+ATTENDEE;CN="Yahav Shirazi";RSVP=FALSE:mailto:Yahav_Shirazi@amat.com
+ATTENDEE;CN="Yair Elhadad";RSVP=FALSE:mailto:Yair_Elhadad@amat.com
+ATTENDEE;CN="Yair Israel";RSVP=FALSE:mailto:Yair_Israel@amat.com
+ATTENDEE;CN="Yan Avniel";RSVP=FALSE:mailto:yan_avniel@amat.com
+ATTENDEE;CN="Yanir Moskovitz";RSVP=FALSE:mailto:Yanir_Moskovitz@amat.com
+ATTENDEE;CN="Yaniv Ben shmuel";RSVP=FALSE:mailto:Yaniv_Benshmuel@amat.com
+ATTENDEE;CN="Yaniv Blinder";RSVP=FALSE:mailto:Yaniv_Blinder@amat.com
+ATTENDEE;CN="Yaniv Levi";RSVP=FALSE:mailto:Yaniv_Levi@amat.com
+ATTENDEE;CN="Yaniv Radomsky";RSVP=FALSE:mailto:Yaniv_Radomsky@amat.com
+ATTENDEE;CN="Yaniv Shiber";RSVP=FALSE:mailto:Yaniv_Shiber@amat.com
+ATTENDEE;CN="Yaniv Silbershtain";RSVP=FALSE:mailto:Yaniv_Silbershtain@amat.
+	com
+ATTENDEE;CN="Yarden Galili";RSVP=FALSE:mailto:Yarden_Galili@amat.com
+ATTENDEE;CN="Yarden Tzaba";RSVP=FALSE:mailto:Yarden_Tzaba@amat.com
+ATTENDEE;CN="Yariv Simovitch";RSVP=FALSE:mailto:Yariv_Simovitch@amat.com
+ATTENDEE;CN="Yaron Bar";RSVP=FALSE:mailto:Yaron_Bar@amat.com
+ATTENDEE;CN="Yaron Ben Shushan";RSVP=FALSE:mailto:Yaron_Ben_Shushan@amat.co
+	m
+ATTENDEE;CN="Yaron Grodman";RSVP=FALSE:mailto:Yaron_Grodman@amat.com
+ATTENDEE;CN="Yaron Weinstein";RSVP=FALSE:mailto:Yaron_Weinstein@amat.com
+ATTENDEE;CN="Yash Shukla";RSVP=FALSE:mailto:Yash_Shukla@amat.com
+ATTENDEE;CN="Yechiel Grossberg";RSVP=FALSE:mailto:Yechiel_Grossberg@amat.co
+	m
+ATTENDEE;CN="Yechiel Kapoano";RSVP=FALSE:mailto:Yechiel_Kapoano@amat.com
+ATTENDEE;CN="Yeheskel Hamershlak";RSVP=FALSE:mailto:Yeheskel_Hamershlak@ama
+	t.com
+ATTENDEE;CN="Yehonatan Mishaly";RSVP=FALSE:mailto:Yehonatan_Mishaly@amat.co
+	m
+ATTENDEE;CN="Yehuda Banano";RSVP=FALSE:mailto:Yehuda_Banano@amat.com
+ATTENDEE;CN="Yehuda Cohen";RSVP=FALSE:mailto:Yehuda_Cohen@amat.com
+ATTENDEE;CN="Yehuda Polak";RSVP=FALSE:mailto:Yehuda_Polak@amat.com
+ATTENDEE;CN="Yinnon Glickman";RSVP=FALSE:mailto:Yinnon_Glickman@amat.com
+ATTENDEE;CN="Yinon Dekel";RSVP=FALSE:mailto:Yinon_Dekel@amat.com
+ATTENDEE;CN="Yoav Amit";RSVP=FALSE:mailto:Yoav_Amit@amat.com
+ATTENDEE;CN="Yoav Feldman";RSVP=FALSE:mailto:Yoav_Feldman@amat.com
+ATTENDEE;CN="Yoav Harari";RSVP=FALSE:mailto:Yoav_Harari@amat.com
+ATTENDEE;CN="Yoav Malka";RSVP=FALSE:mailto:Yoav_Malka@amat.com
+ATTENDEE;CN="Yochay Naor";RSVP=FALSE:mailto:Yochay_Naor@amat.com
+ATTENDEE;CN="Yoel Berger";RSVP=FALSE:mailto:Yoel_Berger@amat.com
+ATTENDEE;CN="Yogev Mahazri";RSVP=FALSE:mailto:Yogev_Mahazri@amat.com
+ATTENDEE;CN="Yohana Bamnolker";RSVP=FALSE:mailto:Yohana_Bamnolker@amat.com
+ATTENDEE;CN="Yohanan Madmon";RSVP=FALSE:mailto:Yohanan_Madmon@amat.com
+ATTENDEE;CN="Yonatan Orr";RSVP=FALSE:mailto:Yonatan_Orr@amat.com
+ATTENDEE;CN="Yonathan David";RSVP=FALSE:mailto:Yonathan_David@amat.com
+ATTENDEE;CN="Yoram Cohen";RSVP=FALSE:mailto:Yoram_Cohen@amat.com
+ATTENDEE;CN="Yosi Basson";RSVP=FALSE:mailto:Yosi_Basson@amat.com
+ATTENDEE;CN="Yossi Gamliel";RSVP=FALSE:mailto:Yossi_Gamliel@amat.com
+ATTENDEE;CN="Yossi Tito";RSVP=FALSE:mailto:Yossi_Tito@amat.com
+ATTENDEE;CN="Yotam Ben-Shoshan";RSVP=FALSE:mailto:Yotam_BenShoshan@amat.com
+ATTENDEE;CN="Yotam Hess";RSVP=FALSE:mailto:Yotam_Hess@amat.com
+ATTENDEE;CN="You jin Kim";RSVP=FALSE:mailto:You_jin_Kim@amat.com
+ATTENDEE;CN="Roy Liu --TR";RSVP=FALSE:mailto:YuanYuan_LIU@amat.com
+ATTENDEE;CN="Yulia Brand";RSVP=FALSE:mailto:Yulia_Brand@amat.com
+ATTENDEE;CN="Yuri Belenky";RSVP=FALSE:mailto:Yuri_Belenky@amat.com
+ATTENDEE;CN="Yuri Kourlyand";RSVP=FALSE:mailto:Yuri_Kourlyand@amat.com
+ATTENDEE;CN="Yuri Rodin";RSVP=FALSE:mailto:Yuri_Rodin@amat.com
+ATTENDEE;CN="Yuval Dolev";RSVP=FALSE:mailto:Yuval_Dolev@amat.com
+ATTENDEE;CN="Yuval Minster";RSVP=FALSE:mailto:Yuval_Minster@amat.com
+ATTENDEE;CN="Yuval Sheizaf";RSVP=FALSE:mailto:Yuval_Sheizaf@amat.com
+ATTENDEE;CN="Yuval Shelef";RSVP=FALSE:mailto:Yuval_Shelef@amat.com
+ATTENDEE;CN="Yuval Yahav";RSVP=FALSE:mailto:Yuval_Yahav@amat.com
+ATTENDEE;CN="Yuval Yehiam";RSVP=FALSE:mailto:Yuval_Yehiam@amat.com
+ATTENDEE;CN="Zahi Elbaz";RSVP=FALSE:mailto:Zahi_Elbaz@amat.com
+ATTENDEE;CN="Zion Hadad";RSVP=FALSE:mailto:Zion_Hadad@amat.com
+ATTENDEE;CN="Ziv Parizat";RSVP=FALSE:mailto:Ziv_Parizat@amat.com
+ATTENDEE;CN="Ziv Shahar";RSVP=FALSE:mailto:Ziv_Shahar@amat.com
+ATTENDEE;CN="Ziv Zizov";RSVP=FALSE:mailto:Ziv_Zizov@amat.com
+ATTENDEE;CN="Zohar Montekyo";RSVP=FALSE:mailto:Zohar_Montekyo@amat.com
+ATTENDEE;CN="Tsvi Goren";RSVP=FALSE:mailto:Zvi_Goren@amat.com
+ATTENDEE;CN="Zvi Nir";RSVP=FALSE:mailto:Zvi_Nir@amat.com
+ATTENDEE;CN="Zviki Karov";RSVP=FALSE:mailto:Zviki_Karov@amat.com
+ATTENDEE;CN="Noga Hecht --TR-CNTR";ROLE=OPT-PARTICIPANT;RSVP=FALSE:mailto:N
+	oga_Hecht@contractor.amat.com
+CLASS:PUBLIC
+CREATED:20210115T204114Z
+DESCRIPTION:    Hello IPC Learner\,\n\n \n\n\n\n   Access your PATHWAY here
+	>>    <https://courses/pathway/> \n\n \n\n   PATHWAY Video>> <https://web.
+	microsoftstream.com/video/9c1227bd-b6d0-4346-ab39-bd5a6a3f7551?list=studio
+	>             How to Select your PATHWAY>> <https://web.microsoftstream.co
+	m/video/cb7d4452-22fa-4dd8-ada9-38badf2f9bb0?list=studio>                 
+	    View Skills Journeys>> <https://team.amat.com/sites/CorpEngrPathway/Si
+	tePages/Learning-Journeys.aspx?Mode=Edit> \n\n \n\n\n\n \n\nThe content of
+	 this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intend
+	ed recipient\, please notify me\, delete this email and do not use or dist
+	ribute this email. \n\n
+DTEND;TZID="Pacific Standard Time":20210118T063000
+DTSTAMP:20210115T204028Z
+DTSTART;TZID="Pacific Standard Time":20210118T060000
+LAST-MODIFIED:20210116T125000Z
+LOCATION:on your desktop
+ORGANIZER;CN="Appliedx Pathway":mailto:Appliedx_Pathway@amat.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY:Friendly reminder - Select your PATHWAY by Jan 31!
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000D09DAC9A3BEBD601000000000000000
+	0100000008BEFDA40E58E2D49BE103190D4857ACE
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:x="urn:schemas-microsoft-com:office:excel" x
+	mlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://ww
+	w.w3.org/TR/REC-html40"><head>\n<meta http-equiv="Content-Type" content="t
+	ext/html\; charset=us-ascii">\n<meta name="Generator" content="Microsoft W
+	ord 15 (filtered medium)">\n<!--[if !mso]><style>v\\:* {behavior:url(#defa
+	ult#VML)\;}\no\\:* {behavior:url(#default#VML)\;}\nw\\:* {behavior:url(#de
+	fault#VML)\;}\n.shape {behavior:url(#default#VML)\;}\n</style><![endif]-->
+	<style><!--\n/* Font Definitions */\n@font-face\n	{font-family:"Cambria Ma
+	th"\;\n	panose-1:2 4 5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri
+	\;\n	panose-1:2 15 5 2 2 2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI
+	"\;\n	panose-1:2 11 5 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNorm
+	al\, li.MsoNormal\, div.MsoNormal\n	{margin:0in\;\n	margin-bottom:.0001pt\
+	;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\na:link\, sp
+	an.MsoHyperlink\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-decora
+	tion:underline\;}\na:visited\, span.MsoHyperlinkFollowed\n	{mso-style-prio
+	rity:99\;\n	color:#954F72\;\n	text-decoration:underline\;}\np.msonormal0\,
+	 li.msonormal0\, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-margin
+	-top-alt:auto\;\n	margin-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	marg
+	in-left:0in\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;}\
+	nspan.EmailStyle18\n	{mso-style-type:personal-compose\;\n	font-family:"Cal
+	ibri"\,sans-serif\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-style-typ
+	e:export-only\;\n	font-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11
+	.0in\;\n	margin:1.0in 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordS
+	ection1\;}\n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="e
+	dit" spidmax="1026" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:sha
+	pelayout v:ext="edit">\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout
+	></xml><![endif]-->\n</head>\n<body lang="EN-US" link="#0563C1" vlink="#95
+	4F72">\n<div class="WordSection1">\n<p class="MsoNormal"><span style="font
+	-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif">&nbsp\;&nbsp
+	\;&nbsp\; Hello IPC Learner\,<o:p></o:p></span></p>\n<p class="MsoNormal">
+	<o:p>&nbsp\;</o:p></p>\n<p class="MsoNormal"><img width="631" height="166"
+	 style="width:6.5729in\;height:1.7291in" id="Picture_x0020_1" src="cid:ima
+	ge001.png@01D6EB3B.982381F0" alt="Diagram\, text\n\nDescription automatica
+	lly generated"><o:p></o:p></p>\n<p class="MsoNormal">&nbsp\;&nbsp\; <a hre
+	f="https://courses/pathway/">Access your PATHWAY here&gt\;&gt\;&nbsp\; &nb
+	sp\;</a><o:p></o:p></p>\n<p class="MsoNormal"><o:p>&nbsp\;</o:p></p>\n<p c
+	lass="MsoNormal">&nbsp\;&nbsp\; <a href="https://web.microsoftstream.com/v
+	ideo/9c1227bd-b6d0-4346-ab39-bd5a6a3f7551?list=studio">\nPATHWAY Video&gt\
+	;&gt\;</a>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; &nbsp\;&nbsp\;&nbsp\; &nbsp\
+	;&nbsp\;<a href="https://web.microsoftstream.com/video/cb7d4452-22fa-4dd8-
+	ada9-38badf2f9bb0?list=studio">How to Select your PATHWAY&gt\;&gt\;</a>&nb
+	sp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+	&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;\n<a href="https:/
+	/team.amat.com/sites/CorpEngrPathway/SitePages/Learning-Journeys.aspx?Mode
+	=Edit">\nView Skills Journeys&gt\;&gt\;</a><o:p></o:p></p>\n<p class="MsoN
+	ormal"><o:p>&nbsp\;</o:p></p>\n<p class="MsoNormal"><img border="0" width=
+	"664" height="196" style="width:6.9166in\;height:2.0416in" id="Picture_x00
+	20_3" src="cid:image002.png@01D6EB3B.982381F0" alt="Graphical user interfa
+	ce\, website\n\nDescription automatically generated"><o:p></o:p></p>\n<p c
+	lass="MsoNormal"><o:p>&nbsp\;</o:p></p>\n</div>\n<p><span style="font-size
+	: 11pt\; font-family: Calibri\, sans-serif\; color: #000000\;">The content
+	 of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the int
+	ended recipient\, please notify me\, delete this email and do not use or d
+	istribute this email.\n</span></p>\n</body>\n</html>\n
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
